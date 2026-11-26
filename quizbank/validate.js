@@ -4,6 +4,11 @@ for(const f of process.argv.slice(2)){
  const ctx={window:{}};vm.runInNewContext(fs.readFileSync(f,'utf8'),ctx);const B=ctx.window.QUIZ_BANK;
  const err=m=>{console.log(f+': '+m);bad++};
  if(!B)return err('no QUIZ_BANK');
+ const uid=new Set((B.units||[]).map(u=>u.id));
+ if(uid.size!==(B.units||[]).length)err('duplicate unit ids');
+ if(!B.units||!B.units.length)err('bank needs a units list');
+ B.topics.forEach(t=>{if(!t.unit||!uid.has(t.unit))err('topic '+t.id+' has missing/unknown unit '+t.unit)});
+ if(new Set(B.topics.map(t=>t.id)).size!==B.topics.length)err('duplicate topic ids');
  const tid=new Set(B.topics.map(t=>t.id)),ids=new Set(),seen=new Set(),dist=[0,0,0,0],cnt={},nfig={n:0};
  B.questions.forEach((q,i)=>{const w='q#'+i+' ('+q.id+')';
   if(!q.id||ids.has(q.id))err(w+' bad/dup id');ids.add(q.id);
@@ -17,7 +22,9 @@ for(const f of process.argv.slice(2)){
   if(/\b(19|20)\d\d\b/.test(all))err(w+' contains a year');
   if(/past paper|specimen|SQA|June|Paper \d|mark scheme|examiner|Section [AB]\b/i.test(all))err(w+' mentions exam source');
   if(seen.has(q.q))err(w+' duplicate question text');seen.add(q.q)});
- B.topics.forEach(t=>{if(!cnt[t.id])err('topic '+t.id+' has no questions')});
- console.log(f+': '+B.questions.length+' questions, '+B.topics.length+' topics, '+nfig.n+' with figures, answer dist '+dist.join('/')+' per topic '+JSON.stringify(cnt));
+ const empty=B.topics.filter(t=>!cnt[t.id]);
+ (B.units||[]).forEach(u=>{if(!B.topics.some(t=>t.unit===u.id))err('unit '+u.id+' has no topics')});
+ console.log(f+': '+B.questions.length+' questions, '+B.topics.length+' topics in '+(B.units||[]).length+' units, '+nfig.n+' with figures, answer dist '+dist.join('/')+' per topic '+JSON.stringify(cnt));
+ if(empty.length)console.log('   coverage gap (no questions yet, hidden from students): '+empty.map(t=>t.name).join(' | '));
 }
 process.exit(bad?1:0);

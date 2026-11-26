@@ -8,18 +8,26 @@ function shuffle(a){a=a.slice();for(var i=a.length-1;i>0;i--){var j=Math.floor(M
 var figEl=null;
 function ensureFig(){if(figEl)return figEl;var qt=$('#qtext');figEl=el('figure','fig hidden');var im=el('img');im.decoding='async';figEl.appendChild(im);figEl.appendChild(el('figcaption'));qt.parentNode.insertBefore(figEl,qt.nextSibling);return figEl}
 function topicName(id){for(var i=0;i<B.topics.length;i++)if(B.topics[i].id===id)return B.topics[i].name;return id}
-function pool(t){return B.questions.filter(function(q){return t==='all'||q.topic===t})}
+function unitOf(tid){for(var i=0;i<B.topics.length;i++)if(B.topics[i].id===tid)return B.topics[i].unit;return null}
+function pool(t){if(t==='all')return B.questions.slice();if(String(t).indexOf('u:')===0){var u=t.slice(2);return B.questions.filter(function(q){return unitOf(q.topic)===u})}return B.questions.filter(function(q){return q.topic===t})}
 document.title=B.title+' – Quiz Bank';
 $('#title').textContent=B.title;$('#sub').textContent=B.subtitle||'';
 var th=$('#theme');try{var sv=localStorage.getItem('qb-theme');if(sv)document.documentElement.dataset.theme=sv}catch(e){}
 th.onclick=function(){var d=document.documentElement,cur=d.dataset.theme||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');var n=cur==='dark'?'light':'dark';d.dataset.theme=n;try{localStorage.setItem('qb-theme',n)}catch(e){}};
 /* setup */
 var tbox=$('#topics');
+function tbtn(id,name,n,cls){var b=el('button','topic'+(cls?' '+cls:''));b.type='button';b.setAttribute('aria-pressed',String(state.topic===id));
+ b.appendChild(el('span','t',name));b.appendChild(el('span','n',n+' question'+(n===1?'':'s')));
+ b.onclick=function(){state.topic=id;drawTopics();drawCount()};return b}
 function drawTopics(){tbox.textContent='';
- var all=[{id:'all',name:'All topics (mixed)'}].concat(B.topics);
- all.forEach(function(t){var n=pool(t.id).length;var b=el('button','topic');b.type='button';b.setAttribute('aria-pressed',String(state.topic===t.id));
-  b.appendChild(el('span','t',t.name));b.appendChild(el('span','n',n+' question'+(n===1?'':'s')));
-  b.onclick=function(){state.topic=t.id;drawTopics();drawCount()};tbox.appendChild(b)})}
+ var grid=el('div','topics');grid.appendChild(tbtn('all','All topics (mixed)',pool('all').length,'allbtn'));tbox.appendChild(grid);
+ var units=B.units&&B.units.length?B.units:[{id:null,name:''}];var ul=B.unitLabel||'Unit';
+ units.forEach(function(u){
+  var ts=B.topics.filter(function(t){return (t.unit||null)===u.id&&pool(t.id).length>0});if(!ts.length)return;
+  var sec=el('section','unit');
+  if(u.id){var h=el('div','unithead');h.appendChild(el('h3',null,u.name));h.appendChild(el('span','ulab',ul));sec.appendChild(h);
+   if(ts.length>1)sec.appendChild(tbtn('u:'+u.id,'Whole '+ul.toLowerCase()+' (mixed)',pool('u:'+u.id).length,'wholeunit'))}
+  var g=el('div','topics');ts.forEach(function(t){g.appendChild(tbtn(t.id,t.name,pool(t.id).length))});sec.appendChild(g);tbox.appendChild(sec)})}
 var cbox=$('#counts');
 function drawCount(){cbox.textContent='';var n=pool(state.topic).length;
  [5,10,20,'All'].forEach(function(c){var v=c==='All'?n:c;if(c!=='All'&&v>=n&&c!==5)return;var b=el('button',null,c==='All'?'All ('+n+')':String(c));b.type='button';

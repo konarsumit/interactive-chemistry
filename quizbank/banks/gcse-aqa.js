@@ -1,17 +1,8 @@
 window.QUIZ_BANK={
  id:'gcse-aqa', title:'GCSE Chemistry (AQA)', subtitle:'Ten topics following the AQA GCSE Chemistry specification, from atomic structure to using resources, at Higher-tier level.',
- topics:[
-  {id:'atomic',name:'Atomic structure and the periodic table'},
-  {id:'bonding',name:'Bonding, structure and the properties of matter'},
-  {id:'quant',name:'Quantitative chemistry'},
-  {id:'changes',name:'Chemical changes'},
-  {id:'energy',name:'Energy changes'},
-  {id:'rate',name:'The rate and extent of chemical change'},
-  {id:'organic',name:'Organic chemistry'},
-  {id:'analysis',name:'Chemical analysis'},
-  {id:'atmosphere',name:'Chemistry of the atmosphere'},
-  {id:'resources',name:'Using resources'}
- ],
+unitLabel:"Paper", topicLabel:"Topic",
+ units:[{"id":"p1","name":"Paper 1"},{"id":"p2","name":"Paper 2"}],
+ topics:[{"id":"atomic","name":"4.1 Atomic structure and the periodic table","unit":"p1"},{"id":"bonding","name":"4.2 Bonding, structure, and the properties of matter","unit":"p1"},{"id":"quant","name":"4.3 Quantitative chemistry","unit":"p1"},{"id":"changes","name":"4.4 Chemical changes","unit":"p1"},{"id":"energy","name":"4.5 Energy changes","unit":"p1"},{"id":"rate","name":"4.6 The rate and extent of chemical change","unit":"p2"},{"id":"organic","name":"4.7 Organic chemistry","unit":"p2"},{"id":"analysis","name":"4.8 Chemical analysis","unit":"p2"},{"id":"atmosphere","name":"4.9 Chemistry of the atmosphere","unit":"p2"},{"id":"resources","name":"4.10 Using resources","unit":"p2"}],
  questions:[
   {id:'atomic-01',topic:'atomic',q:'Which row correctly describes a neutron?',options:['Relative mass 1, relative charge 0','Relative mass 1, relative charge +1','Relative mass 0, relative charge 0','Very small relative mass, relative charge −1'],answer:0,explanation:'A neutron has a relative mass of 1 and no charge. A proton has relative mass 1 and charge +1, while the electron is the particle with a very small mass and charge −1.'},
   {id:'atomic-02',topic:'atomic',q:'How many neutrons are there in one ion of ³⁷Cl⁻? (Chlorine has atomic number 17.)',options:['17','18','20','37'],answer:2,explanation:'Neutrons = mass number − atomic number = 37 − 17 = 20. The extra electron in the negative ion does not change the number of neutrons.'},

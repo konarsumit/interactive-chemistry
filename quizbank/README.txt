@@ -12,7 +12,13 @@ Add a question: open banks/<id>.js and add one more line inside "questions":[ ..
   {id:'bonding-07',topic:'bonding',q:'Question text?',options:['A','B','C','D'],answer:2,explanation:'Why it is right.'},
   - answer = position of the correct option, counting from 0 (0=A, 1=B, 2=C, 3=D). Options are shuffled for students.
   - topic must match a topic id in the "topics" list at the top of the same file.
-Add a topic: add {id:'newid',name:'Name shown'} to "topics", then add questions with topic:'newid'.
+
+Structure (matches each syllabus): every bank has  units:[{id,name}]  and  topics:[{id,name,unit}]
+  - unitLabel / topicLabel say what the levels are called on the page (Area, Paper, Topic, Section, Module, Storyline, Unit).
+  - Students see each unit as a heading with a "Whole unit (mixed)" button, then its topics underneath.
+  - A topic with no questions yet is hidden from students; validate.js lists it as a "coverage gap".
+Add a topic: add {id:'newid',name:'Name shown',unit:'<an existing unit id>'} to "topics", then add questions with topic:'newid'.
+Add a unit: add {id:'newunit',name:'Name shown'} to "units", then give at least one topic  unit:'newunit'.
 
 Check your edits:  node validate.js banks/<id>.js   (checks structure, 4 distinct options, topic ids, duplicates, and flags years / exam-source words)
 

@@ -2,48 +2,13 @@ window.QUIZ_BANK={
  "id": "ah",
  "title": "Advanced Higher Chemistry",
  "subtitle": "Electronic structure, transition metals, shapes and bonding, equilibrium, kinetics, thermodynamics, organic chemistry, instrumental analysis and researching chemistry.",
- "topics": [
-  {
-   "id": "elec",
-   "name": "Electronic structure and the periodic table"
-  },
-  {
-   "id": "tm",
-   "name": "Transition metals and complexes"
-  },
-  {
-   "id": "shapes",
-   "name": "Molecular shapes and bonding"
-  },
-  {
-   "id": "equil",
-   "name": "Chemical equilibrium"
-  },
-  {
-   "id": "kin",
-   "name": "Chemical kinetics"
-  },
-  {
-   "id": "thermo",
-   "name": "Thermodynamics"
-  },
-  {
-   "id": "org",
-   "name": "Organic chemistry and stereochemistry"
-  },
-  {
-   "id": "inst",
-   "name": "Instrumental analysis"
-  },
-  {
-   "id": "res",
-   "name": "Researching chemistry"
-  }
- ],
+unitLabel:"Unit", topicLabel:"Topic",
+ units:[{"id":"ip","name":"Inorganic and Physical Chemistry"},{"id":"oi","name":"Organic Chemistry and Instrumental Analysis"},{"id":"rc","name":"Researching Chemistry"}],
+ topics:[{"id":"spectra","name":"Electromagnetic radiation and atomic spectra","unit":"ip"},{"id":"orbitals","name":"Atomic orbitals and electronic configuration","unit":"ip"},{"id":"shapes","name":"Electron pair theory and molecular shape","unit":"ip"},{"id":"tm","name":"Transition metals","unit":"ip"},{"id":"equil","name":"Chemical equilibrium","unit":"ip"},{"id":"feasible","name":"Reaction feasibility (thermodynamics)","unit":"ip"},{"id":"kinetics","name":"Reaction kinetics","unit":"ip"},{"id":"structure","name":"Structure of organic compounds","unit":"oi"},{"id":"mechanisms","name":"Reaction types and mechanisms","unit":"oi"},{"id":"colour","name":"Origin of colour in organic compounds","unit":"oi"},{"id":"spectro","name":"Elemental analysis and spectroscopic techniques","unit":"oi"},{"id":"medicines","name":"Medicines and drug interactions","unit":"oi"},{"id":"stoich","name":"Stoichiometric calculations","unit":"rc"},{"id":"practical","name":"Practical techniques and calculations","unit":"rc"},{"id":"investigation","name":"Practical investigation","unit":"rc"},{"id":"articles","name":"Scientific articles","unit":"rc"}],
  "questions": [
   {
    "id": "elec-01",
-   "topic": "elec",
+   "topic": "orbitals",
    "q": "Which set of values for the quantum numbers l and mₗ is allowed for an electron in a d orbital?",
    "options": [
     "l = 1, mₗ = −2",
@@ -56,7 +21,7 @@ window.QUIZ_BANK={
   },
   {
    "id": "elec-02",
-   "topic": "elec",
+   "topic": "orbitals",
    "q": "Which is the ground state electron configuration of a chromium atom?",
    "options": [
     "[Ar] 3d⁵ 4s¹",
@@ -69,7 +34,7 @@ window.QUIZ_BANK={
   },
   {
    "id": "elec-03",
-   "topic": "elec",
+   "topic": "orbitals",
    "q": "What is the electron configuration of the Fe³⁺ ion?",
    "options": [
     "[Ar] 3d³ 4s²",
@@ -82,7 +47,7 @@ window.QUIZ_BANK={
   },
   {
    "id": "elec-04",
-   "topic": "elec",
+   "topic": "spectra",
    "q": "Light of wavelength 500 nm is absorbed by one mole of atoms, each atom absorbing one photon. Using E = Lhc/λ, what energy is absorbed per mole? (L = 6.02 × 10²³ mol⁻¹, h = 6.63 × 10⁻³⁴ J s, c = 3.00 × 10⁸ m s⁻¹)",
    "options": [
     "2.4 kJ mol⁻¹",
@@ -95,7 +60,7 @@ window.QUIZ_BANK={
   },
   {
    "id": "elec-05",
-   "topic": "elec",
+   "topic": "spectra",
    "q": "In the atomic emission spectrum of hydrogen, the lines within a series get closer together towards the high energy end. What is the explanation?",
    "options": [
     "The energy levels get closer together as n increases, converging at the ionisation limit",
@@ -108,7 +73,7 @@ window.QUIZ_BANK={
   },
   {
    "id": "elec-06",
-   "topic": "elec",
+   "topic": "orbitals",
    "q": "The first ionisation energy of aluminium is lower than that of magnesium. What is the best explanation?",
    "options": [
     "Aluminium has a smaller nuclear charge than magnesium",
@@ -355,7 +320,7 @@ window.QUIZ_BANK={
   },
   {
    "id": "kin-01",
-   "topic": "kin",
+   "topic": "kinetics",
    "q": "The initial rate of a reaction was measured for different concentrations of A and B at constant temperature.\nExp 1: [A] 0.10, [B] 0.10, rate 2.0 × 10⁻⁴\nExp 2: [A] 0.20, [B] 0.10, rate 4.0 × 10⁻⁴\nExp 3: [A] 0.20, [B] 0.20, rate 1.6 × 10⁻³\n(concentrations in mol L⁻¹, rate in mol L⁻¹ s⁻¹.) What is the rate equation?",
    "options": [
     "rate = k[A]²[B]",
@@ -368,7 +333,7 @@ window.QUIZ_BANK={
   },
   {
    "id": "kin-02",
-   "topic": "kin",
+   "topic": "kinetics",
    "q": "A reaction has the rate equation rate = k[A][B]². In an experiment, [A] = 0.10 mol L⁻¹, [B] = 0.10 mol L⁻¹ and the initial rate is 2.0 × 10⁻⁴ mol L⁻¹ s⁻¹. What is the value of k, including units?",
    "options": [
     "0.20 mol⁻² L² s⁻¹",
@@ -381,7 +346,7 @@ window.QUIZ_BANK={
   },
   {
    "id": "kin-03",
-   "topic": "kin",
+   "topic": "kinetics",
    "q": "What are the units of the rate constant for a reaction that is second order overall, with rate in mol L⁻¹ s⁻¹?",
    "options": [
     "s⁻¹",
@@ -394,7 +359,7 @@ window.QUIZ_BANK={
   },
   {
    "id": "kin-04",
-   "topic": "kin",
+   "topic": "kinetics",
    "q": "For a reaction with rate = k[A]²[B], the concentration of A is tripled and the concentration of B is divided by three at constant temperature. By what factor does the rate change?",
    "options": [
     "It is unchanged",
@@ -407,7 +372,7 @@ window.QUIZ_BANK={
   },
   {
    "id": "kin-05",
-   "topic": "kin",
+   "topic": "kinetics",
    "q": "A two-step mechanism for the reaction 2NO₂ + F₂ → 2NO₂F is proposed.\nStep 1 (slow): NO₂ + F₂ → NO₂F + F\nStep 2 (fast): NO₂ + F → NO₂F\nWhich rate equation is consistent with this mechanism?",
    "options": [
     "rate = k[NO₂][F₂]",
@@ -420,7 +385,7 @@ window.QUIZ_BANK={
   },
   {
    "id": "kin-06",
-   "topic": "kin",
+   "topic": "kinetics",
    "q": "A graph of ln k against 1/T for a reaction (T in kelvin) is a straight line with a gradient of −6.0 × 10³ K. What is the activation energy? (R = 8.31 J K⁻¹ mol⁻¹)",
    "options": [
     "6.0 kJ mol⁻¹",
@@ -433,7 +398,7 @@ window.QUIZ_BANK={
   },
   {
    "id": "thermo-01",
-   "topic": "thermo",
+   "topic": "feasible",
    "q": "Which reaction has the largest positive entropy change?",
    "options": [
     "H₂(g) + I₂(g) → 2HI(g)",
@@ -446,7 +411,7 @@ window.QUIZ_BANK={
   },
   {
    "id": "thermo-02",
-   "topic": "thermo",
+   "topic": "feasible",
    "q": "For the reaction A(g) + B(g) → C(g), the standard entropies are S°(A) = 200, S°(B) = 150 and S°(C) = 250 J K⁻¹ mol⁻¹. What is ΔS° for the reaction?",
    "options": [
     "+100 J K⁻¹ mol⁻¹",
@@ -459,7 +424,7 @@ window.QUIZ_BANK={
   },
   {
    "id": "thermo-03",
-   "topic": "thermo",
+   "topic": "feasible",
    "q": "A reaction has ΔH = +30 kJ mol⁻¹ and ΔS = +100 J K⁻¹ mol⁻¹. Above what temperature does it become feasible?",
    "options": [
     "300 K",
@@ -472,7 +437,7 @@ window.QUIZ_BANK={
   },
   {
    "id": "thermo-04",
-   "topic": "thermo",
+   "topic": "feasible",
    "q": "A reaction has ΔH = −100 kJ mol⁻¹ and ΔS = −200 J K⁻¹ mol⁻¹. What is ΔG at 400 K?",
    "options": [
     "−180 kJ mol⁻¹",
@@ -485,7 +450,7 @@ window.QUIZ_BANK={
   },
   {
    "id": "thermo-05",
-   "topic": "thermo",
+   "topic": "feasible",
    "q": "A reaction has a standard free energy change ΔG° = −5.7 kJ mol⁻¹ at 298 K. Using ΔG° = −RT ln K, what is the approximate value of K? (R = 8.31 J K⁻¹ mol⁻¹)",
    "options": [
     "2.3",
@@ -498,7 +463,7 @@ window.QUIZ_BANK={
   },
   {
    "id": "thermo-06",
-   "topic": "thermo",
+   "topic": "feasible",
    "q": "A reaction has both a negative ΔH and a negative ΔS. How does feasibility depend on temperature?",
    "options": [
     "It is feasible at all temperatures",
@@ -511,7 +476,7 @@ window.QUIZ_BANK={
   },
   {
    "id": "org-01",
-   "topic": "org",
+   "topic": "structure",
    "q": "Which compound is chiral?",
    "options": [
     "2-bromobutane",
@@ -524,7 +489,7 @@ window.QUIZ_BANK={
   },
   {
    "id": "org-02",
-   "topic": "org",
+   "topic": "mechanisms",
    "q": "2-bromo-2-methylbutane reacts with aqueous hydroxide mainly by an SN1 mechanism. Why is SN1 favoured for this halogenoalkane?",
    "options": [
     "Hydroxide ions attack the carbon from the side opposite to the bromine in a single step",
@@ -537,7 +502,7 @@ window.QUIZ_BANK={
   },
   {
    "id": "org-03",
-   "topic": "org",
+   "topic": "mechanisms",
    "q": "Optically pure (R)-2-bromobutane reacts with hydroxide ions by an SN2 mechanism. What is the product?",
    "options": [
     "(R)-butan-2-ol, with retention of configuration",
@@ -550,7 +515,7 @@ window.QUIZ_BANK={
   },
   {
    "id": "org-04",
-   "topic": "org",
+   "topic": "mechanisms",
    "q": "In the nitration of benzene, what is the electrophile and how is it formed?",
    "options": [
     "NO₃⁻, formed from nitric acid dissolving in water",
@@ -563,7 +528,7 @@ window.QUIZ_BANK={
   },
   {
    "id": "org-05",
-   "topic": "org",
+   "topic": "mechanisms",
    "q": "Which reagents convert benzene into methylbenzene in a Friedel–Crafts alkylation?",
    "options": [
     "CH₃OH with dilute sulfuric acid",
@@ -576,7 +541,7 @@ window.QUIZ_BANK={
   },
   {
    "id": "org-06",
-   "topic": "org",
+   "topic": "mechanisms",
    "q": "What is a suitable route from benzene to phenylamine?",
    "options": [
     "Nitration, then reduction of the nitro group with tin and concentrated hydrochloric acid",
@@ -589,7 +554,7 @@ window.QUIZ_BANK={
   },
   {
    "id": "inst-01",
-   "topic": "inst",
+   "topic": "spectro",
    "q": "In the mass spectrum of propanone, CH₃COCH₃ (molecular mass 58), there is a strong peak at m/z 43. Which fragment is responsible?",
    "options": [
     "CH₃⁺",
@@ -602,7 +567,7 @@ window.QUIZ_BANK={
   },
   {
    "id": "inst-02",
-   "topic": "inst",
+   "topic": "spectro",
    "q": "An infrared spectrum has a very broad absorption from 2500 to 3300 cm⁻¹ and a strong sharp absorption near 1710 cm⁻¹. Which functional group(s) are present?",
    "options": [
     "Alcohol only",
@@ -615,7 +580,7 @@ window.QUIZ_BANK={
   },
   {
    "id": "inst-03",
-   "topic": "inst",
+   "topic": "spectro",
    "q": "How many peaks, and in what intensity ratio, would be seen in the low-resolution ¹H NMR spectrum of ethyl ethanoate, CH₃COOCH₂CH₃?",
    "options": [
     "Two peaks in the ratio 3 : 5",
@@ -628,7 +593,7 @@ window.QUIZ_BANK={
   },
   {
    "id": "inst-04",
-   "topic": "inst",
+   "topic": "spectro",
    "q": "In the high-resolution ¹H NMR spectrum of propan-2-ol, (CH₃)₂CHOH, the signal for the six equivalent CH₃ hydrogens is a doublet. Why?",
    "options": [
     "The adjacent CH has one hydrogen on its carbon, so n + 1 = 2",
@@ -641,7 +606,7 @@ window.QUIZ_BANK={
   },
   {
    "id": "inst-05",
-   "topic": "inst",
+   "topic": "spectro",
    "q": "A solution of a coloured complex of concentration 2.0 × 10⁻⁴ mol L⁻¹ has an absorbance of 0.30 in a 1.0 cm cell. A solution of the same complex in the same cell has an absorbance of 0.45. Assuming Beer–Lambert behaviour, what is its concentration?",
    "options": [
     "1.3 × 10⁻⁴ mol L⁻¹",
@@ -654,7 +619,7 @@ window.QUIZ_BANK={
   },
   {
    "id": "inst-06",
-   "topic": "inst",
+   "topic": "spectro",
    "q": "A colorimeter is to be used to measure the concentration of a blue solution. Which colour of filter should be selected?",
    "options": [
     "Blue, the colour of the solution",
@@ -667,7 +632,7 @@ window.QUIZ_BANK={
   },
   {
    "id": "res-01",
-   "topic": "res",
+   "topic": "stoich",
    "q": "25.0 cm³ of an acidified solution of Fe²⁺ ions required 20.0 cm³ of 0.0200 mol L⁻¹ potassium manganate(VII) for complete reaction. (MnO₄⁻ + 8H⁺ + 5Fe²⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O.) What is the concentration of Fe²⁺?",
    "options": [
     "0.0800 mol L⁻¹",
@@ -680,7 +645,7 @@ window.QUIZ_BANK={
   },
   {
    "id": "res-02",
-   "topic": "res",
+   "topic": "practical",
    "q": "A burette reading has an uncertainty of ±0.05 cm³. A titre of 20.00 cm³ is obtained from an initial and a final reading. What is the percentage uncertainty in the titre?",
    "options": [
     "0.25 %",
@@ -693,7 +658,7 @@ window.QUIZ_BANK={
   },
   {
    "id": "res-03",
-   "topic": "res",
+   "topic": "practical",
    "q": "The partition coefficient of a solute between ether and water is 4.0 (concentration in ether ÷ concentration in water). A 100 cm³ aqueous solution contains 1.0 g of the solute and is shaken once with 100 cm³ of ether. What mass of solute is extracted into the ether?",
    "options": [
     "0.25 g",
@@ -706,7 +671,7 @@ window.QUIZ_BANK={
   },
   {
    "id": "res-04",
-   "topic": "res",
+   "topic": "practical",
    "q": "The partition coefficient of a solute between ether and water is 4.0 (concentration in ether ÷ concentration in water). 1.0 g of the solute in 100 cm³ of water is extracted with two successive 50 cm³ portions of ether instead of one 100 cm³ portion. What mass is extracted in total?",
    "options": [
     "0.80 g",
@@ -719,7 +684,7 @@ window.QUIZ_BANK={
   },
   {
    "id": "res-05",
-   "topic": "res",
+   "topic": "practical",
    "q": "In paper chromatography a spot has moved 3.0 cm while the solvent front has moved 7.5 cm. What is the Rf value?",
    "options": [
     "2.5",
@@ -732,7 +697,7 @@ window.QUIZ_BANK={
   },
   {
    "id": "res-06",
-   "topic": "res",
+   "topic": "practical",
    "q": "An excess of barium chloride was added to a sample containing sulfate ions, and 0.466 g of barium sulfate (gram formula mass 233 g) was obtained after washing and drying to constant mass. What mass of sulfate ions (gram formula mass 96 g) was in the sample?",
    "options": [
     "0.192 g",

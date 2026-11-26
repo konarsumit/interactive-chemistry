@@ -11,6 +11,7 @@ h1{font-size:1.7rem;line-height:1.2;margin:.2em 0 .15em}
 .sub{color:var(--muted);margin:0 0 20px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);padding:20px}
 .setup h2{font-size:1.05rem;margin:0 0 10px}
+#topics .topics{margin-bottom:10px}
 .topics{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px;margin-bottom:20px}
 .topic{display:flex;flex-direction:column;gap:2px;text-align:left;background:var(--card);color:var(--ink);border:2px solid var(--line);border-radius:12px;padding:12px 14px;cursor:pointer;font:inherit}
 .topic:hover{border-color:var(--accent)}
@@ -55,3 +56,8 @@ footer{margin-top:28px;color:var(--muted);font-size:.8rem;text-align:center}
 .back{color:var(--accent);font-weight:600;text-decoration:none}.back:hover{text-decoration:underline}.top{flex-wrap:wrap}
 
 .fig{margin:14px 0 18px;text-align:center}.fig img{background:#fff;border:1px solid var(--line);border-radius:10px;padding:12px;max-width:100%;height:auto}.fig figcaption{font-size:.82rem;color:var(--muted);margin-top:6px}.rvfig{display:block;background:#fff;border:1px solid var(--line);border-radius:8px;padding:8px;max-width:340px;width:100%;height:auto;margin:8px 0}
+
+.unit{margin:0 0 18px}.unithead{display:flex;align-items:baseline;gap:10px;margin:18px 0 8px;padding-bottom:6px;border-bottom:2px solid var(--line)}
+.unithead h3{margin:0;font-size:1.05rem}.unithead .ulab{font-size:.75rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.topic.wholeunit{margin-bottom:10px;border-style:dashed}.topic.allbtn{border-style:dashed}
+#topics.topics{display:block;margin-bottom:0}

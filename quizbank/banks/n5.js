@@ -1,6 +1,8 @@
 window.QUIZ_BANK={
  id:'n5', title:'National 5 Chemistry', subtitle:'Rates, bonding, quantities, energy, organic chemistry, acids, metals, the periodic table and everyday chemistry for SQA National 5.',
- topics:[{"id":"rates","name":"Rates of reaction"},{"id":"bonding","name":"Atomic structure and bonding"},{"id":"quantities","name":"Formulae and reaction quantities"},{"id":"energy","name":"Chemical energy"},{"id":"organic","name":"Hydrocarbons and organic chemistry"},{"id":"acids","name":"Acids and bases"},{"id":"metals","name":"Metals and reactivity"},{"id":"periodic","name":"Periodic table and nuclear chemistry"},{"id":"everyday","name":"Chemical analysis and everyday chemistry"}],
+unitLabel:"Area", topicLabel:"Topic",
+ units:[{"id":"ccs","name":"Chemical changes and structure"},{"id":"nc","name":"Nature's chemistry"},{"id":"cis","name":"Chemistry in society"}],
+ topics:[{"id":"rates","name":"Rates of reaction","unit":"ccs"},{"id":"bonding","name":"Atomic structure and bonding related to properties of materials","unit":"ccs"},{"id":"quantities","name":"Formulae and reacting quantities","unit":"ccs"},{"id":"acids","name":"Acids and bases","unit":"ccs"},{"id":"homologous","name":"Homologous series","unit":"nc"},{"id":"consumer","name":"Everyday consumer products","unit":"nc"},{"id":"fuels","name":"Energy from fuels","unit":"nc"},{"id":"metals","name":"Metals","unit":"cis"},{"id":"plastics","name":"Plastics","unit":"cis"},{"id":"fertilisers","name":"Fertilisers","unit":"cis"},{"id":"nuclear","name":"Nuclear chemistry","unit":"cis"},{"id":"analysis","name":"Chemical analysis","unit":"cis"}],
  questions:[
  {
   "id": "rates-01",
@@ -238,7 +240,7 @@ window.QUIZ_BANK={
  },
  {
   "id": "energy-01",
-  "topic": "energy",
+  "topic": "fuels",
   "q": "What happens in an exothermic reaction?",
   "options": [
    "Energy is taken in from the surroundings, so their temperature rises",
@@ -251,7 +253,7 @@ window.QUIZ_BANK={
  },
  {
   "id": "energy-02",
-  "topic": "energy",
+  "topic": "fuels",
   "q": "Which change is endothermic?",
   "options": [
    "Burning methane in air",
@@ -264,7 +266,7 @@ window.QUIZ_BANK={
  },
  {
   "id": "energy-03",
-  "topic": "energy",
+  "topic": "fuels",
   "q": "200 g of water is heated from 18 °C to 33 °C. How much energy is gained by the water? (c = 4.18 kJ kg⁻¹ °C⁻¹)",
   "options": [
    "27.6 kJ",
@@ -277,7 +279,7 @@ window.QUIZ_BANK={
  },
  {
   "id": "energy-04",
-  "topic": "energy",
+  "topic": "fuels",
   "q": "Which product shows that a hydrocarbon fuel has burned in a limited supply of air?",
   "options": [
    "Carbon monoxide",
@@ -290,7 +292,7 @@ window.QUIZ_BANK={
  },
  {
   "id": "energy-05",
-  "topic": "energy",
+  "topic": "fuels",
   "q": "In a school experiment, the energy released per mole of ethanol burned is found to be less than the data booklet value. What is the most likely reason?",
   "options": [
    "The ethanol burned with a higher activation energy than other alcohols",
@@ -303,7 +305,7 @@ window.QUIZ_BANK={
  },
  {
   "id": "energy-06",
-  "topic": "energy",
+  "topic": "fuels",
   "q": "Burning 0.05 mol of a fuel releases 60 kJ of energy. What is the enthalpy of combustion of the fuel?",
   "options": [
    "−3 kJ mol⁻¹",
@@ -316,7 +318,7 @@ window.QUIZ_BANK={
  },
  {
   "id": "organic-01",
-  "topic": "organic",
+  "topic": "homologous",
   "q": "Which molecular formula could represent an alkane?",
   "options": [
    "C₆H₁₂",
@@ -329,7 +331,7 @@ window.QUIZ_BANK={
  },
  {
   "id": "organic-02",
-  "topic": "organic",
+  "topic": "homologous",
   "q": "Which compound rapidly decolourises bromine water?",
   "options": [
    "Propane",
@@ -342,7 +344,7 @@ window.QUIZ_BANK={
  },
  {
   "id": "organic-03",
-  "topic": "organic",
+  "topic": "homologous",
   "q": "What is the product of the reaction between ethene and bromine?",
   "options": [
    "1,2-dibromoethane",
@@ -355,7 +357,7 @@ window.QUIZ_BANK={
  },
  {
   "id": "organic-04",
-  "topic": "organic",
+  "topic": "consumer",
   "q": "Ethanol reacts with propanoic acid to form an ester. What is the ester called?",
   "options": [
    "Propyl ethanoate",
@@ -368,7 +370,7 @@ window.QUIZ_BANK={
  },
  {
   "id": "organic-05",
-  "topic": "organic",
+  "topic": "consumer",
   "q": "How many hydrogen atoms are in one molecule of butanoic acid?",
   "options": [
    "6",
@@ -381,7 +383,7 @@ window.QUIZ_BANK={
  },
  {
   "id": "organic-06",
-  "topic": "organic",
+  "topic": "fuels",
   "q": "How do the properties of a fraction of long-chain hydrocarbons compare with a fraction of short-chain hydrocarbons?",
   "options": [
    "Lower boiling point, more viscous and less flammable",
@@ -420,7 +422,7 @@ window.QUIZ_BANK={
  },
  {
   "id": "acids-03",
-  "topic": "acids",
+  "topic": "analysis",
   "q": "In a titration, the volumes of acid added in four runs were 21.4, 20.6, 20.5 and 20.7 cm³. What average volume should be used?",
   "options": [
    "20.6 cm³",
@@ -433,7 +435,7 @@ window.QUIZ_BANK={
  },
  {
   "id": "acids-04",
-  "topic": "acids",
+  "topic": "analysis",
   "q": "20.0 cm³ of 0.10 mol l⁻¹ sodium hydroxide is neutralised by 25.0 cm³ of hydrochloric acid. What is the concentration of the acid?",
   "options": [
    "0.125 mol l⁻¹",
@@ -550,7 +552,7 @@ window.QUIZ_BANK={
  },
  {
   "id": "periodic-01",
-  "topic": "periodic",
+  "topic": "bonding",
   "q": "Why does reactivity increase going down the alkali metals?",
   "options": [
    "The outer electron is further from the nucleus and is lost more easily",
@@ -563,7 +565,7 @@ window.QUIZ_BANK={
  },
  {
   "id": "periodic-02",
-  "topic": "periodic",
+  "topic": "bonding",
   "q": "Which mixture would result in a reaction?",
   "options": [
    "Bromine and sodium chloride solution",
@@ -576,7 +578,7 @@ window.QUIZ_BANK={
  },
  {
   "id": "periodic-03",
-  "topic": "periodic",
+  "topic": "bonding",
   "q": "Why are the noble gases very unreactive?",
   "options": [
    "They have one electron in the outer shell",
@@ -589,7 +591,7 @@ window.QUIZ_BANK={
  },
  {
   "id": "periodic-04",
-  "topic": "periodic",
+  "topic": "nuclear",
   "q": "A sample of a radioisotope has a mass of 80 g and a half-life of 3 days. What mass is left after 12 days?",
   "options": [
    "10 g",
@@ -602,7 +604,7 @@ window.QUIZ_BANK={
  },
  {
   "id": "periodic-05",
-  "topic": "periodic",
+  "topic": "nuclear",
   "q": "A nucleus of polonium-210 (atomic number 84) emits an alpha particle. What are the mass number and atomic number of the nucleus formed?",
   "options": [
    "206 and 86",
@@ -615,7 +617,7 @@ window.QUIZ_BANK={
  },
  {
   "id": "periodic-06",
-  "topic": "periodic",
+  "topic": "bonding",
   "q": "Why does the atomic size decrease from sodium to chlorine across period 3?",
   "options": [
    "The nuclear charge increases while electrons are added to the same shell",
@@ -628,7 +630,7 @@ window.QUIZ_BANK={
  },
  {
   "id": "everyday-01",
-  "topic": "everyday",
+  "topic": "analysis",
   "q": "Why do the substances in a mixture separate during paper chromatography?",
   "options": [
    "They differ in attraction to the paper and solubility in the solvent",
@@ -641,7 +643,7 @@ window.QUIZ_BANK={
  },
  {
   "id": "everyday-02",
-  "topic": "everyday",
+  "topic": "fertilisers",
   "q": "Which pair of raw materials are used to make ammonia in the Haber process?",
   "options": [
    "Oxygen from the air and hydrogen from water",
@@ -654,7 +656,7 @@ window.QUIZ_BANK={
  },
  {
   "id": "everyday-03",
-  "topic": "everyday",
+  "topic": "plastics",
   "q": "An addition polymer has the repeating unit –CH₂–CH(CH₃)–. Which monomer was used?",
   "options": [
    "Ethene",
@@ -667,7 +669,7 @@ window.QUIZ_BANK={
  },
  {
   "id": "everyday-04",
-  "topic": "everyday",
+  "topic": "fertilisers",
   "q": "Why must a fertiliser be soluble in water?",
   "options": [
    "It lets the fertiliser react with oxygen in the soil to release nutrients",
@@ -680,7 +682,7 @@ window.QUIZ_BANK={
  },
  {
   "id": "everyday-05",
-  "topic": "everyday",
+  "topic": "analysis",
   "q": "A compound gives a lilac flame in a flame test. Which metal ion is present?",
   "options": [
    "Lithium",
@@ -693,7 +695,7 @@ window.QUIZ_BANK={
  },
  {
   "id": "everyday-06",
-  "topic": "everyday",
+  "topic": "analysis",
   "q": "Which pair of solutions forms a precipitate when mixed?",
   "options": [
    "Silver nitrate and sodium chloride",
@@ -859,7 +861,7 @@ window.QUIZ_BANK={
  },
  {
   "id": "organic-07",
-  "topic": "organic",
+  "topic": "homologous",
   "q": "Which formula represents an alkane containing seven carbon atoms?",
   "options": [
    "C₇H₁₂",
@@ -878,7 +880,7 @@ window.QUIZ_BANK={
  },
  {
   "id": "organic-08",
-  "topic": "organic",
+  "topic": "homologous",
   "q": "What is the systematic name of CH₃CH₂CH(CH₃)CH₂CH₂CH₃?",
   "options": [
    "3-methylhexane",
@@ -897,7 +899,7 @@ window.QUIZ_BANK={
  },
  {
   "id": "organic-09",
-  "topic": "organic",
+  "topic": "homologous",
   "q": "Which pair are structural isomers?",
   "options": [
    "C₂H₆ and C₃H₈",
@@ -916,7 +918,7 @@ window.QUIZ_BANK={
  },
  {
   "id": "organic-10",
-  "topic": "organic",
+  "topic": "homologous",
   "q": "A liquid hydrocarbon decolourises bromine solution in an addition reaction. Which feature allows this reaction?",
   "options": [
    "A carbon–carbon single bond only",
@@ -935,7 +937,7 @@ window.QUIZ_BANK={
  },
  {
   "id": "organic-11",
-  "topic": "organic",
+  "topic": "fuels",
   "q": "One molecule of C₁₂H₂₆ cracks to form one molecule of C₉H₂₀ and one molecule of X. What is X?",
   "options": [
    "C₃H₈",
@@ -954,7 +956,7 @@ window.QUIZ_BANK={
  },
  {
   "id": "organic-12",
-  "topic": "organic",
+  "topic": "consumer",
   "q": "What is the systematic name of CH₃CH₂CH₂CH₂OH?",
   "options": [
    "Butan-1-ol",
@@ -992,7 +994,7 @@ window.QUIZ_BANK={
  },
  {
   "id": "energy-07",
-  "topic": "energy",
+  "topic": "fuels",
   "q": "Burning a fuel heats 0.25 kg of water by 16 °C. Using c = 4.18 kJ kg⁻¹ °C⁻¹, how much energy does the water absorb?",
   "options": [
    "1.045 kJ",
@@ -1068,7 +1070,7 @@ window.QUIZ_BANK={
  },
  {
   "id": "everyday-07",
-  "topic": "everyday",
+  "topic": "fertilisers",
   "q": "What percentage by mass of ammonium sulfate, (NH₄)₂SO₄, is nitrogen? Use N = 14, H = 1, S = 32 and O = 16.",
   "options": [
    "10.6%",
@@ -1087,7 +1089,7 @@ window.QUIZ_BANK={
  },
  {
   "id": "periodic-07",
-  "topic": "periodic",
+  "topic": "nuclear",
   "q": "A radioactive isotope has a half-life of 5 hours. Initially 72 mg of that isotope is present. How much of the original radioactive isotope remains after 15 hours?",
   "options": [
    "36 mg",
@@ -1106,7 +1108,7 @@ window.QUIZ_BANK={
  },
  {
   "id": "periodic-08",
-  "topic": "periodic",
+  "topic": "nuclear",
   "q": "A nucleus emits an alpha particle. How do its mass number and atomic number change?",
   "options": [
    "Mass number decreases by 4; atomic number decreases by 2",
@@ -1125,7 +1127,7 @@ window.QUIZ_BANK={
  },
  {
   "id": "everyday-08",
-  "topic": "everyday",
+  "topic": "analysis",
   "q": "Two solutions are mixed and form an insoluble solid in water. Which method best collects a clean sample of the solid?",
   "options": [
    "Evaporate all the water without separating anything",
@@ -1145,7 +1147,7 @@ window.QUIZ_BANK={
  // figures batch 2026-11-26: 5 organic questions with displayed-formula diagrams
  {
   "id": "organic-13",
-  "topic": "organic",
+  "topic": "homologous",
   "q": "What is the name of the compound shown in the diagram?",
   "figure": {
    "src": "img/n5-organic-13.svg",
@@ -1162,7 +1164,7 @@ window.QUIZ_BANK={
  },
  {
   "id": "organic-14",
-  "topic": "organic",
+  "topic": "homologous",
   "q": "Three hydrocarbons are shown. Which of them would decolourise bromine water?",
   "figure": {
    "src": "img/n5-organic-14.svg",
@@ -1179,7 +1181,7 @@ window.QUIZ_BANK={
  },
  {
   "id": "organic-15",
-  "topic": "organic",
+  "topic": "homologous",
   "q": "Compounds X and Y are shown. Which statement about X and Y is correct?",
   "figure": {
    "src": "img/n5-organic-15.svg",
@@ -1196,7 +1198,7 @@ window.QUIZ_BANK={
  },
  {
   "id": "organic-16",
-  "topic": "organic",
+  "topic": "homologous",
   "q": "To which homologous series does the compound shown belong?",
   "figure": {
    "src": "img/n5-organic-16.svg",
@@ -1213,7 +1215,7 @@ window.QUIZ_BANK={
  },
  {
   "id": "organic-17",
-  "topic": "organic",
+  "topic": "consumer",
   "q": "What is the name of the ester shown in the diagram?",
   "figure": {
    "src": "img/n5-organic-17.svg",
