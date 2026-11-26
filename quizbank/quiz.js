@@ -5,6 +5,8 @@ var $=function(s){return document.querySelector(s)};
 var LET='ABCD', state={topic:'all',count:10,qs:[],i:0,score:0,log:[],answered:false};
 function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e}
 function shuffle(a){a=a.slice();for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=a[i];a[i]=a[j];a[j]=t}return a}
+var figEl=null;
+function ensureFig(){if(figEl)return figEl;var qt=$('#qtext');figEl=el('figure','fig hidden');var im=el('img');im.decoding='async';figEl.appendChild(im);figEl.appendChild(el('figcaption'));qt.parentNode.insertBefore(figEl,qt.nextSibling);return figEl}
 function topicName(id){for(var i=0;i<B.topics.length;i++)if(B.topics[i].id===id)return B.topics[i].name;return id}
 function pool(t){return B.questions.filter(function(q){return t==='all'||q.topic===t})}
 document.title=B.title+' – Quiz Bank';
@@ -32,6 +34,8 @@ $('#start').onclick=function(){var p=shuffle(pool(state.topic));start(p.slice(0,
 function render(){var q=state.qs[state.i];state.answered=false;
  $('#prog').textContent='Question '+(state.i+1)+' of '+state.qs.length;$('#bar').style.width=(state.i/state.qs.length*100)+'%';
  $('#qtopic').textContent=topicName(q.topic);$('#qtext').textContent=q.q;
+ var fg=ensureFig(),fim=fg.querySelector('img'),fcp=fg.querySelector('figcaption');
+ if(q.figure&&q.figure.src){fim.src=q.figure.src;fim.alt=q.figure.alt||'';fcp.textContent=q.figure.caption||'';fcp.classList.toggle('hidden',!q.figure.caption);fg.classList.remove('hidden')}else{fg.classList.add('hidden');fim.removeAttribute('src');fim.alt=''}
  var order=shuffle([0,1,2,3]);state.order=order;var ul=$('#opts');ul.textContent='';
  order.forEach(function(oi,k){var li=el('li');var b=el('button','opt');b.type='button';b.dataset.k=k;
   b.appendChild(el('span','l',LET[k]));b.appendChild(el('span','x',q.options[oi]));b.appendChild(el('span','m',''));
@@ -57,6 +61,7 @@ function finish(){show('result');var n=state.qs.length,p=Math.round(state.score/
  $('#msg').textContent=p>=80?'Excellent work.':p>=60?'Good progress – review the ones you missed.':'Keep practising – read each explanation, then try again.';
  var rv=$('#review');rv.textContent='';
  state.log.forEach(function(l){var d=el('div','rv'+(l.good?' ok':''));d.appendChild(el('p','q',(l.good?'✓ ':'✗ ')+l.q.q));
+  if(l.q.figure&&l.q.figure.src){var ri=el('img','rvfig');ri.src=l.q.figure.src;ri.alt=l.q.figure.alt||'';d.appendChild(ri)}
   d.appendChild(el('p','a',(l.good?'Your answer: ':'Your answer: '+l.chosen+' · Correct: ')+(l.good?l.chosen:l.q.options[l.q.answer])));
   if(!l.good)d.appendChild(el('p','a',l.q.explanation));rv.appendChild(d)});
  $('#retry').classList.toggle('hidden',state.log.every(function(l){return l.good}))}

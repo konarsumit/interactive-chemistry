@@ -15,3 +15,10 @@ Add a question: open banks/<id>.js and add one more line inside "questions":[ ..
 Add a topic: add {id:'newid',name:'Name shown'} to "topics", then add questions with topic:'newid'.
 
 Check your edits:  node validate.js banks/<id>.js   (checks structure, 4 distinct options, topic ids, duplicates, and flags years / exam-source words)
+
+Add a figure (diagram) to a question
+  1. Put the picture in the "img" folder (SVG is best; PNG/JPG also work). Name it after the question id, e.g. img/n5-organic-13.svg.
+  2. Add this after q:'...' in the question:  figure:{src:'img/n5-organic-13.svg',alt:'Describe what the picture shows, without giving away the answer.'}
+     Optional caption:  figure:{src:'...',alt:'...',caption:'Figure 1'}
+  3. node validate.js banks/<id>.js  checks the file exists and the alt text is present.
+  All figures must be original (drawn for this site), never copied from past papers or textbooks.

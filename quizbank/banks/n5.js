@@ -1141,6 +1141,92 @@ window.QUIZ_BANK={
    "The solid remains in the original vessel; the distillate does not collect the precipitate.",
    "The required product is insoluble, so this is not a suitable collection method."
   ]
+ },
+ // figures batch 2026-11-26: 5 organic questions with displayed-formula diagrams
+ {
+  "id": "organic-13",
+  "topic": "organic",
+  "q": "What is the name of the compound shown in the diagram?",
+  "figure": {
+   "src": "img/n5-organic-13.svg",
+   "alt": "Displayed formula of a hydrocarbon with a chain of three carbon atoms. There is a double bond between the second and third carbon atoms. Every other bond is a single bond and each carbon atom carries enough hydrogen atoms to make four bonds in total."
+  },
+  "options": [
+   "Propane",
+   "Propene",
+   "Ethene",
+   "Butene"
+  ],
+  "answer": 1,
+  "explanation": "The chain has three carbon atoms, so the name starts with prop-. The carbon–carbon double bond makes it an alkene, so the name ends in -ene: propene."
+ },
+ {
+  "id": "organic-14",
+  "topic": "organic",
+  "q": "Three hydrocarbons are shown. Which of them would decolourise bromine water?",
+  "figure": {
+   "src": "img/n5-organic-14.svg",
+   "alt": "Three displayed formulae labelled A, B and C. A has two carbon atoms joined by a double bond. B has two carbon atoms joined by a single bond. C has three carbon atoms in a chain, with a double bond between the second and third carbon atoms."
+  },
+  "options": [
+   "A only",
+   "B only",
+   "A and C",
+   "B and C"
+  ],
+  "answer": 2,
+  "explanation": "Bromine water is decolourised by unsaturated compounds, which contain a carbon–carbon double bond. A and C each have a C=C double bond. B has only single bonds, so it is saturated and does not react."
+ },
+ {
+  "id": "organic-15",
+  "topic": "organic",
+  "q": "Compounds X and Y are shown. Which statement about X and Y is correct?",
+  "figure": {
+   "src": "img/n5-organic-15.svg",
+   "alt": "Two displayed formulae labelled X and Y. X is a straight chain of four carbon atoms. Y is a chain of three carbon atoms with a one-carbon branch on the middle carbon. Both contain only single bonds."
+  },
+  "options": [
+   "They are isomers: the same molecular formula but different structures",
+   "They are the same compound drawn in two different ways",
+   "They are in the same homologous series but have different numbers of carbon atoms",
+   "One is saturated and the other is unsaturated"
+  ],
+  "answer": 0,
+  "explanation": "Both molecules contain four carbon atoms and ten hydrogen atoms (C₄H₁₀), but the atoms are joined differently: X is a straight chain and Y is branched. Compounds with the same molecular formula and different structures are isomers."
+ },
+ {
+  "id": "organic-16",
+  "topic": "organic",
+  "q": "To which homologous series does the compound shown belong?",
+  "figure": {
+   "src": "img/n5-organic-16.svg",
+   "alt": "Displayed formula of a molecule with two carbon atoms in a chain. The first carbon carries three hydrogen atoms. The second carbon is double-bonded to one oxygen atom and single-bonded to a second oxygen atom, which is bonded to a hydrogen atom."
+  },
+  "options": [
+   "Alkanes",
+   "Alcohols",
+   "Carboxylic acids",
+   "Esters"
+  ],
+  "answer": 2,
+  "explanation": "The molecule contains the –COOH group: a carbon atom double-bonded to one oxygen atom and single-bonded to an –OH group. This is the carboxyl group, found in carboxylic acids."
+ },
+ {
+  "id": "organic-17",
+  "topic": "organic",
+  "q": "What is the name of the ester shown in the diagram?",
+  "figure": {
+   "src": "img/n5-organic-17.svg",
+   "alt": "Displayed formula of a molecule drawn as one chain: a carbon carrying three hydrogen atoms, then a carbon double-bonded to an oxygen atom, then a single-bonded oxygen atom, then two more carbon atoms each carrying hydrogen atoms."
+  },
+  "options": [
+   "Methyl propanoate",
+   "Ethyl ethanoate",
+   "Ethyl methanoate",
+   "Propyl ethanoate"
+  ],
+  "answer": 1,
+  "explanation": "The first part of an ester name comes from the alcohol: the group on the single-bonded oxygen has two carbons, so it is ethyl. The second part comes from the acid: the carbon chain containing C=O has two carbons, so it is ethanoate. The ester is ethyl ethanoate."
  }
 ]
 };

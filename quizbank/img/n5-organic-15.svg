@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-24.0 -114.0 780.0 216.0" width="780" height="216" font-family="Arial,Helvetica,sans-serif" font-size="20" fill="#1b2430" stroke-linecap="round">
+<text x="0.0" y="0.0" text-anchor="middle" dy=".35em">H</text>
+<text x="72.0" y="0.0" text-anchor="middle" dy=".35em">C</text>
+<text x="72.0" y="-46.0" text-anchor="middle" dy=".35em">H</text>
+<text x="72.0" y="46.0" text-anchor="middle" dy=".35em">H</text>
+<text x="144.0" y="0.0" text-anchor="middle" dy=".35em">C</text>
+<text x="144.0" y="-46.0" text-anchor="middle" dy=".35em">H</text>
+<text x="144.0" y="46.0" text-anchor="middle" dy=".35em">H</text>
+<text x="216.0" y="0.0" text-anchor="middle" dy=".35em">C</text>
+<text x="216.0" y="-46.0" text-anchor="middle" dy=".35em">H</text>
+<text x="216.0" y="46.0" text-anchor="middle" dy=".35em">H</text>
+<text x="288.0" y="0.0" text-anchor="middle" dy=".35em">C</text>
+<text x="288.0" y="-46.0" text-anchor="middle" dy=".35em">H</text>
+<text x="288.0" y="46.0" text-anchor="middle" dy=".35em">H</text>
+<text x="360.0" y="0.0" text-anchor="middle" dy=".35em">H</text>
+<line x1="11.0" y1="0.0" x2="61.0" y2="0.0" stroke="#1b2430" stroke-width="1.8"/>
+<line x1="83.0" y1="0.0" x2="133.0" y2="0.0" stroke="#1b2430" stroke-width="1.8"/>
+<line x1="72.0" y1="-11.0" x2="72.0" y2="-35.0" stroke="#1b2430" stroke-width="1.8"/>
+<line x1="72.0" y1="11.0" x2="72.0" y2="35.0" stroke="#1b2430" stroke-width="1.8"/>
+<line x1="155.0" y1="0.0" x2="205.0" y2="0.0" stroke="#1b2430" stroke-width="1.8"/>
+<line x1="144.0" y1="-11.0" x2="144.0" y2="-35.0" stroke="#1b2430" stroke-width="1.8"/>
+<line x1="144.0" y1="11.0" x2="144.0" y2="35.0" stroke="#1b2430" stroke-width="1.8"/>
+<line x1="227.0" y1="0.0" x2="277.0" y2="0.0" stroke="#1b2430" stroke-width="1.8"/>
+<line x1="216.0" y1="-11.0" x2="216.0" y2="-35.0" stroke="#1b2430" stroke-width="1.8"/>
+<line x1="216.0" y1="11.0" x2="216.0" y2="35.0" stroke="#1b2430" stroke-width="1.8"/>
+<line x1="299.0" y1="0.0" x2="349.0" y2="0.0" stroke="#1b2430" stroke-width="1.8"/>
+<line x1="288.0" y1="-11.0" x2="288.0" y2="-35.0" stroke="#1b2430" stroke-width="1.8"/>
+<line x1="288.0" y1="11.0" x2="288.0" y2="35.0" stroke="#1b2430" stroke-width="1.8"/>
+<text x="444.0" y="0.0" text-anchor="middle" dy=".35em">H</text>
+<text x="516.0" y="0.0" text-anchor="middle" dy=".35em">C</text>
+<text x="516.0" y="-46.0" text-anchor="middle" dy=".35em">H</text>
+<text x="516.0" y="46.0" text-anchor="middle" dy=".35em">H</text>
+<text x="588.0" y="0.0" text-anchor="middle" dy=".35em">C</text>
+<text x="588.0" y="-46.0" text-anchor="middle" dy=".35em">C</text>
+<text x="588.0" y="-92.0" text-anchor="middle" dy=".35em">H</text>
+<text x="548.0" y="-46.0" text-anchor="middle" dy=".35em">H</text>
+<text x="628.0" y="-46.0" text-anchor="middle" dy=".35em">H</text>
+<text x="588.0" y="46.0" text-anchor="middle" dy=".35em">H</text>
+<text x="660.0" y="0.0" text-anchor="middle" dy=".35em">C</text>
+<text x="660.0" y="-46.0" text-anchor="middle" dy=".35em">H</text>
+<text x="660.0" y="46.0" text-anchor="middle" dy=".35em">H</text>
+<text x="732.0" y="0.0" text-anchor="middle" dy=".35em">H</text>
+<line x1="455.0" y1="0.0" x2="505.0" y2="0.0" stroke="#1b2430" stroke-width="1.8"/>
+<line x1="527.0" y1="0.0" x2="577.0" y2="0.0" stroke="#1b2430" stroke-width="1.8"/>
+<line x1="516.0" y1="-11.0" x2="516.0" y2="-35.0" stroke="#1b2430" stroke-width="1.8"/>
+<line x1="516.0" y1="11.0" x2="516.0" y2="35.0" stroke="#1b2430" stroke-width="1.8"/>
+<line x1="599.0" y1="0.0" x2="649.0" y2="0.0" stroke="#1b2430" stroke-width="1.8"/>
+<line x1="588.0" y1="-11.0" x2="588.0" y2="-35.0" stroke="#1b2430" stroke-width="1.8"/>
+<line x1="588.0" y1="-57.0" x2="588.0" y2="-81.0" stroke="#1b2430" stroke-width="1.8"/>
+<line x1="577.0" y1="-46.0" x2="559.0" y2="-46.0" stroke="#1b2430" stroke-width="1.8"/>
+<line x1="599.0" y1="-46.0" x2="617.0" y2="-46.0" stroke="#1b2430" stroke-width="1.8"/>
+<line x1="588.0" y1="11.0" x2="588.0" y2="35.0" stroke="#1b2430" stroke-width="1.8"/>
+<line x1="671.0" y1="0.0" x2="721.0" y2="0.0" stroke="#1b2430" stroke-width="1.8"/>
+<line x1="660.0" y1="-11.0" x2="660.0" y2="-35.0" stroke="#1b2430" stroke-width="1.8"/>
+<line x1="660.0" y1="11.0" x2="660.0" y2="35.0" stroke="#1b2430" stroke-width="1.8"/>
+<text x="180.0" y="90.0" text-anchor="middle" font-weight="bold" font-size="22">X</text>
+<text x="588.0" y="90.0" text-anchor="middle" font-weight="bold" font-size="22">Y</text>
+</svg>
