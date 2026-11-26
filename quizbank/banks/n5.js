@@ -703,6 +703,444 @@ window.QUIZ_BANK={
   ],
   "answer": 0,
   "explanation": "Silver chloride is insoluble, so a white precipitate forms. In the others, all of the possible products are soluble."
+ },
+ // batch 2026-11-26: 23 questions merged from a ChatGPT set (7 duplicates skipped)
+ {
+  "id": "rates-07",
+  "topic": "rates",
+  "q": "A reaction produces 42 cm³ of gas in the first 30 seconds. What is its average rate over this interval?",
+  "options": [
+   "0.71 cm³ s⁻¹",
+   "1.4 cm³ s⁻¹",
+   "12 cm³ s⁻¹",
+   "1260 cm³ s⁻¹"
+  ],
+  "answer": 1,
+  "explanation": "Correct: Average rate = 42 ÷ 30 = 1.4 cm³ s⁻¹.",
+  "why": [
+   "This reverses the division: 30 ÷ 42. Rate is volume divided by time.",
+   "Average rate = 42 ÷ 30 = 1.4 cm³ s⁻¹.",
+   "Subtracting time from volume does not give a rate and combines different units.",
+   "Multiplying volume by time does not give the required rate."
+  ]
+ },
+ {
+  "id": "rates-08",
+  "topic": "rates",
+  "q": "Equal masses of calcium carbonate react with identical excess acid. Which change increases the initial rate without changing the final amount of carbon dioxide?",
+  "options": [
+   "Use a smaller mass of carbonate",
+   "Use a larger mass of carbonate",
+   "Crush the carbonate into smaller pieces",
+   "Cool the reaction mixture"
+  ],
+  "answer": 2,
+  "explanation": "Smaller pieces expose a larger surface area. The same mass of carbonate still gives the same final amount of gas.",
+  "why": [
+   "A smaller mass gives less carbon dioxide when the acid is in excess.",
+   "A larger mass can produce more carbon dioxide, so the final amount changes.",
+   "Smaller pieces expose a larger surface area. The same mass of carbonate still gives the same final amount of gas.",
+   "Cooling normally decreases the initial rate."
+  ]
+ },
+ {
+  "id": "bonding-07",
+  "topic": "bonding",
+  "q": "An ion has atomic number 12, mass number 25 and charge 2+. Which row gives its numbers of protons, neutrons and electrons, in that order?",
+  "options": [
+   "12, 13, 10",
+   "12, 25, 10",
+   "10, 15, 12",
+   "12, 13, 14"
+  ],
+  "answer": 0,
+  "explanation": "Protons = 12; neutrons = 25 − 12 = 13; a 2+ charge means two electrons have been lost, leaving 10.",
+  "why": [
+   "Protons = 12; neutrons = 25 − 12 = 13; a 2+ charge means two electrons have been lost, leaving 10.",
+   "Mass number counts protons plus neutrons; it is not the neutron number.",
+   "Forming an ion changes electrons, not the atomic number or proton number.",
+   "Gaining two electrons would give a 2− ion, not a 2+ ion."
+  ]
+ },
+ {
+  "id": "bonding-08",
+  "topic": "bonding",
+  "q": "A substance has a very high melting point, does not dissolve in water and does not conduct electricity as a solid. Which structure best explains these properties?",
+  "options": [
+   "Covalent molecular",
+   "Metallic",
+   "Covalent network",
+   "A lattice of sodium and chloride ions"
+  ],
+  "answer": 2,
+  "explanation": "A covalent network has many strong bonds throughout a giant structure. Many such substances, such as silicon dioxide, are insoluble and do not conduct.",
+  "why": [
+   "Simple covalent molecular substances generally have low melting points because intermolecular attractions are relatively weak.",
+   "Metals conduct electricity as solids through delocalised electrons.",
+   "A covalent network has many strong bonds throughout a giant structure. Many such substances, such as silicon dioxide, are insoluble and do not conduct.",
+   "Sodium chloride has a high melting point and does not conduct as a solid, but it does dissolve in water."
+  ]
+ },
+ {
+  "id": "quantities-07",
+  "topic": "quantities",
+  "q": "What is the formula of aluminium sulfate? The ions are Al³⁺ and SO₄²⁻.",
+  "options": [
+   "AlSO₄",
+   "Al₃(SO₄)₂",
+   "Al₂SO₄",
+   "Al₂(SO₄)₃"
+  ],
+  "answer": 3,
+  "explanation": "Two Al³⁺ give +6 and three sulfate ions give −6. Brackets show three complete sulfate groups.",
+  "why": [
+   "One of each ion gives a net charge of +1, not zero.",
+   "Three Al³⁺ and two SO₄²⁻ ions give +9 − 4 = +5, not zero.",
+   "Two aluminium ions and one sulfate ion give +6 − 2 = +4.",
+   "Two Al³⁺ give +6 and three sulfate ions give −6. Brackets show three complete sulfate groups."
+  ]
+ },
+ {
+  "id": "quantities-08",
+  "topic": "quantities",
+  "q": "What mass of calcium carbonate contains 0.15 mol? Use a molar mass of 100 g mol⁻¹.",
+  "options": [
+   "15 g",
+   "0.0015 g",
+   "150 g",
+   "6.7 g"
+  ],
+  "answer": 0,
+  "explanation": "Mass = amount × molar mass = 0.15 × 100 = 15 g.",
+  "why": [
+   "Mass = amount × molar mass = 0.15 × 100 = 15 g.",
+   "Dividing the amount by the molar mass is not the correct relationship.",
+   "0.15 × 100 is 15, not 150; check the decimal place.",
+   "100 ÷ 15 is not the calculation required; use m = nM."
+  ]
+ },
+ {
+  "id": "acids-07",
+  "topic": "acids",
+  "q": "Water is added to an acidic solution of pH 3. Which statement describes dilution, assuming the solution remains acidic?",
+  "options": [
+   "Its pH falls because there are more hydrogen ions per litre",
+   "Its pH becomes exactly 7 immediately",
+   "Its pH rises because its hydrogen ion concentration decreases",
+   "Its hydrogen ion concentration increases while its pH stays constant"
+  ],
+  "answer": 2,
+  "explanation": "The hydrogen ions are spread through a larger volume, so their concentration falls and pH rises towards 7.",
+  "why": [
+   "Adding water lowers, rather than raises, the hydrogen ion concentration.",
+   "Dilution does not immediately neutralise the acid or make its pH exactly 7.",
+   "The hydrogen ions are spread through a larger volume, so their concentration falls and pH rises towards 7.",
+   "Dilution decreases hydrogen ion concentration; pH changes as that concentration changes."
+  ]
+ },
+ {
+  "id": "quantities-09",
+  "topic": "quantities",
+  "q": "A solution contains 0.060 mol of dissolved sodium hydroxide in a final volume of 200 cm³. What is its concentration?",
+  "options": [
+   "0.00030 mol l⁻¹",
+   "0.30 mol l⁻¹",
+   "3.3 mol l⁻¹",
+   "12 mol l⁻¹"
+  ],
+  "answer": 1,
+  "explanation": "200 cm³ = 0.200 l. Concentration = 0.060 ÷ 0.200 = 0.30 mol l⁻¹.",
+  "why": [
+   "This uses 200 without converting cm³ to litres.",
+   "200 cm³ = 0.200 l. Concentration = 0.060 ÷ 0.200 = 0.30 mol l⁻¹.",
+   "This approximately reverses the required division.",
+   "Multiplying 0.060 by 200 does not calculate concentration."
+  ]
+ },
+ {
+  "id": "organic-07",
+  "topic": "organic",
+  "q": "Which formula represents an alkane containing seven carbon atoms?",
+  "options": [
+   "C₇H₁₂",
+   "C₇H₁₄",
+   "C₇H₇",
+   "C₇H₁₆"
+  ],
+  "answer": 3,
+  "explanation": "Correct: Using CₙH₂ₙ₊₂ gives H = 2 × 7 + 2 = 16.",
+  "why": [
+   "Alkanes follow CₙH₂ₙ₊₂, so seven carbons require sixteen hydrogens.",
+   "C₇H₁₄ fits the general formula for an alkene with one double bond or a cycloalkane with one ring.",
+   "Hydrogen count is not generally equal to carbon count in an alkane.",
+   "Using CₙH₂ₙ₊₂ gives H = 2 × 7 + 2 = 16."
+  ]
+ },
+ {
+  "id": "organic-08",
+  "topic": "organic",
+  "q": "What is the systematic name of CH₃CH₂CH(CH₃)CH₂CH₂CH₃?",
+  "options": [
+   "3-methylhexane",
+   "4-methylhexane",
+   "3-ethylpentane",
+   "Heptane"
+  ],
+  "answer": 0,
+  "explanation": "The longest continuous chain has six carbons. Numbering from the nearer end puts the methyl branch on carbon 3.",
+  "why": [
+   "The longest continuous chain has six carbons. Numbering from the nearer end puts the methyl branch on carbon 3.",
+   "Numbering from the other end gives 4, but the lower branch number, 3, must be used.",
+   "Choose the longest continuous carbon chain, which contains six rather than five carbons.",
+   "There are seven carbons in total, but the structure is branched and its longest chain contains six."
+  ]
+ },
+ {
+  "id": "organic-09",
+  "topic": "organic",
+  "q": "Which pair are structural isomers?",
+  "options": [
+   "C₂H₆ and C₃H₈",
+   "CH₃CH₂OH and CH₃COOH",
+   "CH₃CH₂CH₂CH₃ and CH₃CH(CH₃)CH₃",
+   "CH₂=CH₂ and CH₃CH₃"
+  ],
+  "answer": 2,
+  "explanation": "Both have molecular formula C₄H₁₀, but one has a straight chain and the other a branched structure.",
+  "why": [
+   "They have different molecular formulae and are different members of the alkane series.",
+   "These have different molecular formulae: C₂H₆O and C₂H₄O₂.",
+   "Both have molecular formula C₄H₁₀, but one has a straight chain and the other a branched structure.",
+   "Ethene and ethane have different hydrogen counts, so they are not isomers."
+  ]
+ },
+ {
+  "id": "organic-10",
+  "topic": "organic",
+  "q": "A liquid hydrocarbon decolourises bromine solution in an addition reaction. Which feature allows this reaction?",
+  "options": [
+   "A carbon–carbon single bond only",
+   "A carbon–carbon double bond",
+   "The absence of carbon atoms",
+   "An ionic lattice"
+  ],
+  "answer": 1,
+  "explanation": "The C=C double bond can open, allowing bromine atoms to add across it.",
+  "why": [
+   "Saturated hydrocarbons containing only C–C single bonds do not give this addition test.",
+   "The C=C double bond can open, allowing bromine atoms to add across it.",
+   "A hydrocarbon must contain carbon and hydrogen.",
+   "Hydrocarbons are covalent substances, not ionic lattices."
+  ]
+ },
+ {
+  "id": "organic-11",
+  "topic": "organic",
+  "q": "One molecule of C₁₂H₂₆ cracks to form one molecule of C₉H₂₀ and one molecule of X. What is X?",
+  "options": [
+   "C₃H₈",
+   "C₂H₆",
+   "C₃H₄",
+   "C₃H₆"
+  ],
+  "answer": 3,
+  "explanation": "Conserve atoms: 12 − 9 = 3 carbons and 26 − 20 = 6 hydrogens. X is C₃H₆.",
+  "why": [
+   "This would give 28 hydrogens in total, exceeding the 26 in the reactant.",
+   "This leaves the products with only eleven carbons.",
+   "This leaves the products with only 24 hydrogens.",
+   "Conserve atoms: 12 − 9 = 3 carbons and 26 − 20 = 6 hydrogens. X is C₃H₆."
+  ]
+ },
+ {
+  "id": "organic-12",
+  "topic": "organic",
+  "q": "What is the systematic name of CH₃CH₂CH₂CH₂OH?",
+  "options": [
+   "Butan-1-ol",
+   "Butan-2-ol",
+   "Butanoic acid",
+   "Propan-1-ol"
+  ],
+  "answer": 0,
+  "explanation": "There are four carbons and the hydroxyl group is attached to carbon 1.",
+  "why": [
+   "There are four carbons and the hydroxyl group is attached to carbon 1.",
+   "The OH is on an end carbon, not the second carbon.",
+   "A carboxylic acid contains –COOH; this structure contains an alcohol –OH group.",
+   "Propan-1-ol has three carbons; this molecule has four."
+  ]
+ },
+ {
+  "id": "acids-08",
+  "topic": "acids",
+  "q": "Ethanoic acid reacts completely with potassium hydroxide. Which salt is formed?",
+  "options": [
+   "Potassium chloride",
+   "Potassium carbonate",
+   "Potassium ethanoate",
+   "Sodium ethanoate"
+  ],
+  "answer": 2,
+  "explanation": "Ethanoic acid forms ethanoate salts; potassium hydroxide supplies the potassium ions. Water also forms.",
+  "why": [
+   "No chloride ions are supplied by these reactants.",
+   "A carbonate salt is not formed in this neutralisation.",
+   "Ethanoic acid forms ethanoate salts; potassium hydroxide supplies the potassium ions. Water also forms.",
+   "The metal in the alkali is potassium, not sodium."
+  ]
+ },
+ {
+  "id": "energy-07",
+  "topic": "energy",
+  "q": "Burning a fuel heats 0.25 kg of water by 16 °C. Using c = 4.18 kJ kg⁻¹ °C⁻¹, how much energy does the water absorb?",
+  "options": [
+   "1.045 kJ",
+   "16.72 kJ",
+   "66.88 kJ",
+   "16720 kJ"
+  ],
+  "answer": 1,
+  "explanation": "Correct: E = cmΔT = 4.18 × 0.25 × 16 = 16.72 kJ.",
+  "why": [
+   "This multiplies c by mass but leaves out the temperature change.",
+   "E = cmΔT = 4.18 × 0.25 × 16 = 16.72 kJ.",
+   "This leaves out the water mass, 0.25 kg.",
+   "The given specific heat capacity uses kilograms, so use 0.25 kg, not 250."
+  ]
+ },
+ {
+  "id": "quantities-10",
+  "topic": "quantities",
+  "q": "What coefficient is needed before O₂ when this equation is balanced using the smallest whole numbers? C₄H₈ + O₂ → CO₂ + H₂O",
+  "options": [
+   "6",
+   "4",
+   "8",
+   "12"
+  ],
+  "answer": 0,
+  "explanation": "C₄H₈ + 6O₂ → 4CO₂ + 4H₂O. The products contain twelve oxygen atoms, requiring six O₂ molecules.",
+  "why": [
+   "C₄H₈ + 6O₂ → 4CO₂ + 4H₂O. The products contain twelve oxygen atoms, requiring six O₂ molecules.",
+   "Four O₂ provide only eight oxygen atoms; the balanced products need twelve.",
+   "Eight O₂ provide sixteen oxygen atoms, more than required.",
+   "Twelve is the number of oxygen atoms needed, not the number of O₂ molecules."
+  ]
+ },
+ {
+  "id": "metals-07",
+  "topic": "metals",
+  "q": "A zinc half-cell and a copper half-cell are connected by wires and an ion bridge. What is the role of the ion bridge?",
+  "options": [
+   "To carry electrons directly between the solutions",
+   "To stop all ions from moving",
+   "To supply extra copper atoms",
+   "To allow ion movement and complete the circuit"
+  ],
+  "answer": 3,
+  "explanation": "Movement of ions through the bridge completes the circuit between the half-cells.",
+  "why": [
+   "Electrons flow through the external wires. Ions carry charge through the bridge.",
+   "Ion movement is necessary for the cell circuit to operate.",
+   "The ion bridge is not a source of copper atoms.",
+   "Movement of ions through the bridge completes the circuit between the half-cells."
+  ]
+ },
+ {
+  "id": "metals-08",
+  "topic": "metals",
+  "q": "A scratched zinc coating can still protect the exposed iron beneath it. Why?",
+  "options": [
+   "Zinc is more reactive and oxidises in preference to iron",
+   "Zinc prevents oxygen existing in the air",
+   "Iron becomes a noble gas",
+   "Zinc is less reactive and cannot lose electrons"
+  ],
+  "answer": 0,
+  "explanation": "Zinc acts as a sacrificial metal. It loses electrons more readily, protecting the iron while sufficient zinc remains in electrical contact.",
+  "why": [
+   "Zinc acts as a sacrificial metal. It loses electrons more readily, protecting the iron while sufficient zinc remains in electrical contact.",
+   "A zinc coating does not remove oxygen from the air.",
+   "Iron remains a metal; coating it cannot change its element.",
+   "Zinc is more reactive than iron and can lose electrons more readily."
+  ]
+ },
+ {
+  "id": "everyday-07",
+  "topic": "everyday",
+  "q": "What percentage by mass of ammonium sulfate, (NH₄)₂SO₄, is nitrogen? Use N = 14, H = 1, S = 32 and O = 16.",
+  "options": [
+   "10.6%",
+   "21.2%",
+   "28.0%",
+   "42.4%"
+  ],
+  "answer": 1,
+  "explanation": "Formula mass = 2 × (14 + 4) + 32 + 4 × 16 = 132. Nitrogen contributes 28; 28 ÷ 132 × 100 = 21.2%.",
+  "why": [
+   "This counts only one nitrogen atom. The formula contains two.",
+   "Formula mass = 2 × (14 + 4) + 32 + 4 × 16 = 132. Nitrogen contributes 28; 28 ÷ 132 × 100 = 21.2%.",
+   "28 is the nitrogen mass contribution to the formula mass, not the percentage.",
+   "This doubles the correct percentage; there are two nitrogen atoms, not four."
+  ]
+ },
+ {
+  "id": "periodic-07",
+  "topic": "periodic",
+  "q": "A radioactive isotope has a half-life of 5 hours. Initially 72 mg of that isotope is present. How much of the original radioactive isotope remains after 15 hours?",
+  "options": [
+   "36 mg",
+   "24 mg",
+   "18 mg",
+   "9 mg"
+  ],
+  "answer": 3,
+  "explanation": "15 ÷ 5 = 3 half-lives: 72 → 36 → 18 → 9 mg of the original isotope remains.",
+  "why": [
+   "36 mg remains after one half-life, which is 5 hours.",
+   "Radioactive decay is not found by dividing the starting mass by the number of half-lives.",
+   "18 mg remains after two half-lives, which is 10 hours.",
+   "15 ÷ 5 = 3 half-lives: 72 → 36 → 18 → 9 mg of the original isotope remains."
+  ]
+ },
+ {
+  "id": "periodic-08",
+  "topic": "periodic",
+  "q": "A nucleus emits an alpha particle. How do its mass number and atomic number change?",
+  "options": [
+   "Mass number decreases by 4; atomic number decreases by 2",
+   "Mass number decreases by 2; atomic number decreases by 4",
+   "Mass number stays the same; atomic number increases by 1",
+   "Both numbers stay the same"
+  ],
+  "answer": 0,
+  "explanation": "An alpha particle contains two protons and two neutrons, so the nucleus loses four nucleons including two protons.",
+  "why": [
+   "An alpha particle contains two protons and two neutrons, so the nucleus loses four nucleons including two protons.",
+   "The changes are reversed: four nucleons but only two protons leave.",
+   "This describes beta-minus decay, not alpha decay.",
+   "Gamma emission leaves these numbers unchanged; alpha emission does not."
+  ]
+ },
+ {
+  "id": "everyday-08",
+  "topic": "everyday",
+  "q": "Two solutions are mixed and form an insoluble solid in water. Which method best collects a clean sample of the solid?",
+  "options": [
+   "Evaporate all the water without separating anything",
+   "Filter, wash the residue with a little distilled water, then dry it",
+   "Distil the mixture and keep only the distillate",
+   "Add more water until every substance dissolves"
+  ],
+  "answer": 1,
+  "explanation": "Filtration collects the insoluble solid. Washing removes soluble impurities, and drying removes remaining water.",
+  "why": [
+   "Evaporation leaves soluble impurities mixed with the solid.",
+   "Filtration collects the insoluble solid. Washing removes soluble impurities, and drying removes remaining water.",
+   "The solid remains in the original vessel; the distillate does not collect the precipitate.",
+   "The required product is insoluble, so this is not a suitable collection method."
+  ]
  }
 ]
 };
