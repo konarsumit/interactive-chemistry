@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GCSE Chemistry (AQA) – Quiz Bank</title>
+<link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+<div class="wrap">
+<header class="top"><span class="brand">Dr Sumit · Chemistry Quiz Bank</span><button class="theme" id="theme" type="button">Light / dark</button></header>
+<h1 id="title">GCSE Chemistry (AQA)</h1>
+<p class="sub" id="sub"></p>
+
+<section id="setup" class="card setup">
+<h2>1. Choose a topic</h2>
+<div class="topics" id="topics"></div>
+<h2>2. How many questions?</h2>
+<div class="row"><div class="seg" id="counts" role="group" aria-label="Number of questions"></div></div>
+<button class="btn" id="start" type="button">Start quiz</button>
+</section>
+
+<section id="quiz" class="card hidden" aria-live="polite">
+<div class="meta"><span id="prog"></span><span class="tag" id="qtopic"></span></div>
+<div class="bar"><i id="bar"></i></div>
+<p class="qtext" id="qtext"></p>
+<ul class="opts" id="opts"></ul>
+<div id="fb" class="fb hidden"></div>
+<div class="actions"><button class="btn ghost" id="quit" type="button">Exit quiz</button><button class="btn hidden" id="next" type="button">Next question</button></div>
+</section>
+
+<section id="result" class="card hidden">
+<div class="score" id="score"></div><p><b id="pct"></b> · <span id="msg"></span></p>
+<div class="row"><button class="btn" id="retry" type="button">Retry missed questions</button><button class="btn ghost" id="again" type="button">Try these again</button><button class="btn ghost" id="home" type="button">Choose another topic</button></div>
+<div class="review" id="review"></div>
+</section>
+<footer>Original practice questions written for revision. Not affiliated with any exam board.</footer>
+</div>
+<script src="banks/gcse-aqa.js"></script>
+<script src="quiz.js"></script>
+</body>
+</html>
