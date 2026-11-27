@@ -29,12 +29,16 @@ function drawTopics(){tbox.textContent='';
    if(ts.length>1)sec.appendChild(tbtn('u:'+u.id,'Whole '+ul.toLowerCase()+' (mixed)',pool('u:'+u.id).length,'wholeunit'))}
   var g=el('div','topics');ts.forEach(function(t){g.appendChild(tbtn(t.id,t.name,pool(t.id).length))});sec.appendChild(g);tbox.appendChild(sec)})}
 var cbox=$('#counts');
+var sbar=el('div','startbar'),sinfo=el('div','sbinfo'),sstart=$('#start'),crow=cbox.parentNode,setupEl=$('#setup'),h2s=setupEl.querySelectorAll('h2');
+if(h2s[1])h2s[1].classList.add('hidden');crow.classList.add('hidden');
+sbar.appendChild(sinfo);var sc=el('div','sbcount');sc.appendChild(el('span','sblab','Questions:'));sc.appendChild(cbox);sbar.appendChild(sc);sbar.appendChild(sstart);setupEl.appendChild(sbar);
+function selName(){var t=state.topic;if(t==='all')return 'All topics (mixed)';if(String(t).indexOf('u:')===0){var u=t.slice(2);for(var i=0;i<B.units.length;i++)if(B.units[i].id===u)return 'Whole '+(B.unitLabel||'unit').toLowerCase()+': '+B.units[i].name}return topicName(t)}
 function drawCount(){cbox.textContent='';var n=pool(state.topic).length;
  [5,10,20,'All'].forEach(function(c){var v=c==='All'?n:c;if(c!=='All'&&v>=n&&c!==5)return;var b=el('button',null,c==='All'?'All ('+n+')':String(c));b.type='button';
   var sel=(c==='All')?state.count===n&&state.countAll:state.count===c&&!state.countAll;b.setAttribute('aria-pressed',String(!!sel));
   b.onclick=function(){state.count=v;state.countAll=(c==='All');drawCount()};cbox.appendChild(b)});
  if(!cbox.querySelector('[aria-pressed=true]')&&cbox.firstChild){state.countAll=false;state.count=Math.min(5,n);cbox.firstChild.setAttribute('aria-pressed','true')}
- $('#start').disabled=n===0}
+ $('#start').disabled=n===0;sinfo.textContent='';sinfo.appendChild(el('span','sbl','Selected'));sinfo.appendChild(el('strong',null,selName()));sinfo.appendChild(el('span','sbn',n+' question'+(n===1?'':'s')))}
 function show(id){['setup','quiz','result'].forEach(function(s){$('#'+s).classList.toggle('hidden',s!==id)});window.scrollTo(0,0)}
 function start(list){state.qs=list;state.i=0;state.score=0;state.log=[];show('quiz');render()}
 $('#start').onclick=function(){var p=shuffle(pool(state.topic));start(p.slice(0,Math.min(state.count,p.length)))};
