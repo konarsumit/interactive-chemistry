@@ -3837,6 +3837,1141 @@ unitLabel:"Area", topicLabel:"Topic",
   ],
   "answer": 0,
   "explanation": "Carbon dioxide is a greenhouse gas formed when fuels burn."
+ },
+ {
+  "id": "metals-w01",
+  "topic": "metals",
+  "type": "written",
+  "marks": 3,
+  "q": "A student places pieces of four metals into copper(II) sulfate solution. Magnesium and zinc become coated in a brown solid. Iron also becomes coated but more slowly. Silver shows no change.\n(a) Name the brown solid. (1)\n(b) Put the four metals in order of reactivity, most reactive first. (1)\n(c) Why does silver not react? (1)",
+  "points": [
+   {
+    "t": "(a) Copper",
+    "m": 1
+   },
+   {
+    "t": "(b) Magnesium, zinc, iron, silver (accept if magnesium and zinc are ordered correctly using the electrochemical series)",
+    "m": 1
+   },
+   {
+    "t": "(c) Silver is less reactive than copper so cannot displace it from solution",
+    "m": 1
+   }
+  ],
+  "model": "(a) The brown solid is copper metal. (b) More reactive metals displace copper from its solution, so the order is magnesium, zinc, iron, then silver. (c) Silver is below copper in the reactivity series, so it cannot displace copper ions."
+ },
+ {
+  "id": "metals-w02",
+  "topic": "metals",
+  "type": "written",
+  "marks": 3,
+  "q": "A cell is made from a magnesium half-cell and a copper half-cell, connected by wires and an ion bridge.\n(a) In which direction do electrons flow through the wires? (1)\n(b) Write the ion-electron equation for the reaction at the magnesium electrode. (1)\n(c) What is the purpose of the ion bridge? (1)",
+  "points": [
+   {
+    "t": "(a) From magnesium to copper",
+    "m": 1
+   },
+   {
+    "t": "(b) Mg → Mg²⁺ + 2e⁻",
+    "m": 1
+   },
+   {
+    "t": "(c) It completes the circuit by allowing ions to move between the solutions",
+    "m": 1
+   }
+  ],
+  "model": "(a) Electrons flow from the more reactive metal (magnesium) to the less reactive metal (copper). (b) Magnesium atoms are oxidised: Mg → Mg²⁺ + 2e⁻. (c) The ion bridge lets ions move between half-cells, completing the circuit and keeping the solutions electrically neutral."
+ },
+ {
+  "id": "metals-w03",
+  "topic": "metals",
+  "type": "written",
+  "marks": 3,
+  "q": "Iron rusts when it is in contact with water and oxygen.\n(a) Describe an experiment, with three test tubes, to show that both water and oxygen are needed for rusting. (2)\n(b) State why rusting is a problem. (1)",
+  "points": [
+   {
+    "t": "(a) Tube 1: nail in water and air (rusts); Tube 2: nail in boiled water covered by oil (no oxygen), Tube 3: nail with a drying agent in dry air (no water)",
+    "m": 1
+   },
+   {
+    "t": "Only the nail in tube 1 (with both water and oxygen) rusts, showing that both are needed",
+    "m": 1
+   },
+   {
+    "t": "(b) Rust weakens iron structures (bridges, ships, cars), which costs money to repair or replace",
+    "m": 1
+   }
+  ],
+  "model": "(a) In a test tube with air and water the nail rusts. In boiled (oxygen-free) water under oil it does not, and with a drying agent (no water) it does not. This shows both are needed. (b) Rusting weakens iron and steel structures and costs a great deal to prevent and repair."
+ },
+ {
+  "id": "metals-w04",
+  "topic": "metals",
+  "type": "written",
+  "marks": 3,
+  "q": "A steel ship's hull is attached to blocks of zinc.\n(a) Name this method of protecting iron. (1)\n(b) Explain how the zinc protects the iron. (2)",
+  "points": [
+   {
+    "t": "(a) Sacrificial protection",
+    "m": 1
+   },
+   {
+    "t": "(b) Zinc is more reactive than iron so it loses electrons (is oxidised) in preference to iron",
+    "m": 1
+   },
+   {
+    "t": "The zinc corrodes instead and the iron is protected until the zinc is used up",
+    "m": 1
+   }
+  ],
+  "model": "(a) Attaching a more reactive metal is sacrificial protection. (b) Zinc is higher in the reactivity series than iron, so it is oxidised in preference. The zinc is sacrificed and has to be replaced, but the iron hull does not rust."
+ },
+ {
+  "id": "metals-w05",
+  "topic": "metals",
+  "type": "written",
+  "marks": 3,
+  "q": "Iron is extracted from iron(III) oxide in a blast furnace using carbon monoxide.\n(a) Write the word equation for the reaction. (1)\n(b) Why is the carbon monoxide described as a reducing agent? (1)\n(c) Why is aluminium not extracted from its ore in a blast furnace? (1)",
+  "points": [
+   {
+    "t": "(a) Iron(III) oxide + carbon monoxide → iron + carbon dioxide",
+    "m": 1
+   },
+   {
+    "t": "(b) It removes oxygen from the iron oxide (reduction)",
+    "m": 1
+   },
+   {
+    "t": "(c) Aluminium is too reactive; its oxide is too stable for carbon to remove the oxygen, so electrolysis is needed",
+    "m": 1
+   }
+  ],
+  "model": "(a) iron(III) oxide + carbon monoxide → iron + carbon dioxide. (b) Carbon monoxide removes oxygen from iron oxide, so it reduces it. (c) Aluminium is more reactive than carbon, so carbon cannot remove oxygen from aluminium oxide; electrolysis must be used."
+ },
+ {
+  "id": "metals-w06",
+  "topic": "metals",
+  "type": "written",
+  "marks": 2,
+  "q": "Explain why gold is found uncombined in the Earth's crust but sodium is not.",
+  "points": [
+   {
+    "t": "Gold is very unreactive so does not form compounds easily",
+    "m": 1
+   },
+   {
+    "t": "Sodium is very reactive and so is found only in compounds (such as sodium chloride)",
+    "m": 1
+   }
+  ],
+  "model": "Gold is at the bottom of the reactivity series and does not react with oxygen or water, so it occurs as the metal itself. Sodium is very reactive and is always found combined in compounds."
+ },
+ {
+  "id": "metals-w07",
+  "topic": "metals",
+  "type": "written",
+  "marks": 3,
+  "q": "Molten lead(II) bromide is electrolysed using carbon electrodes.\n(a) Name the product at each electrode. (2)\n(b) Why must the lead(II) bromide be molten? (1)",
+  "points": [
+   {
+    "t": "(a) Lead forms at the negative electrode",
+    "m": 1
+   },
+   {
+    "t": "Bromine forms at the positive electrode",
+    "m": 1
+   },
+   {
+    "t": "(b) The ions must be free to move (in a solid they are held in the lattice) so that current can flow",
+    "m": 1
+   }
+  ],
+  "model": "Positive lead ions move to the negative electrode and gain electrons to form lead; negative bromide ions move to the positive electrode and lose electrons to form bromine. The compound has to be molten so that the ions can move."
+ },
+ {
+  "id": "metals-w08",
+  "topic": "metals",
+  "type": "written",
+  "marks": 2,
+  "q": "Write the ion-electron equation for each of the following changes, stating whether it is oxidation or reduction.\n(a) Copper ions → copper atoms (1)\n(b) Zinc atoms → zinc ions (1)",
+  "points": [
+   {
+    "t": "(a) Cu²⁺ + 2e⁻ → Cu (reduction)",
+    "m": 1
+   },
+   {
+    "t": "(b) Zn → Zn²⁺ + 2e⁻ (oxidation)",
+    "m": 1
+   }
+  ],
+  "model": "Reduction is gain of electrons and oxidation is loss of electrons. Copper ions gain two electrons: Cu²⁺ + 2e⁻ → Cu. Zinc atoms lose two electrons: Zn → Zn²⁺ + 2e⁻."
+ },
+ {
+  "id": "metals-x01",
+  "topic": "metals",
+  "q": "Which metal would give the largest voltage when connected to copper in a cell?",
+  "options": [
+   "Magnesium",
+   "Zinc",
+   "Iron",
+   "Silver"
+  ],
+  "answer": 0,
+  "explanation": "The further apart two metals are in the electrochemical series, the larger the voltage. Magnesium is furthest from copper of these."
+ },
+ {
+  "id": "metals-x02",
+  "topic": "metals",
+  "q": "Which of these metals is extracted by heating its oxide alone?",
+  "options": [
+   "Iron",
+   "Aluminium",
+   "Mercury",
+   "Zinc"
+  ],
+  "answer": 2,
+  "explanation": "Mercury and other very unreactive metals have oxides that decompose with heat alone."
+ },
+ {
+  "id": "metals-x03",
+  "topic": "metals",
+  "q": "Which process is used to extract sodium from molten sodium chloride?",
+  "options": [
+   "Electrolysis",
+   "Reduction with carbon",
+   "Heating in air",
+   "Displacement by iron"
+  ],
+  "answer": 0,
+  "explanation": "Sodium is very reactive, so electrolysis is needed to provide enough energy to reduce sodium ions."
+ },
+ {
+  "id": "metals-x04",
+  "topic": "metals",
+  "q": "Which method protects an iron bucket by acting as a barrier and also sacrificially if scratched?",
+  "options": [
+   "Painting",
+   "Coating with tin",
+   "Galvanising with zinc",
+   "Greasing"
+  ],
+  "answer": 2,
+  "explanation": "Zinc forms a barrier layer and is more reactive than iron, so it protects the iron even when the surface is damaged."
+ },
+ {
+  "id": "metals-x05",
+  "topic": "metals",
+  "q": "Which of the following is an alloy?",
+  "options": [
+   "Steel",
+   "Copper",
+   "Aluminium",
+   "Iron"
+  ],
+  "answer": 0,
+  "explanation": "Steel is a mixture of iron with small amounts of carbon, an alloy. Copper, aluminium and iron are elements."
+ },
+ {
+  "id": "metals-x06",
+  "topic": "metals",
+  "q": "What is formed at the negative electrode in the electrolysis of molten aluminium oxide?",
+  "options": [
+   "Oxygen",
+   "Hydrogen",
+   "Aluminium",
+   "Aluminium oxide"
+  ],
+  "answer": 2,
+  "explanation": "Positive aluminium ions gain electrons at the negative electrode: Al³⁺ + 3e⁻ → Al."
+ },
+ {
+  "id": "metals-x07",
+  "topic": "metals",
+  "q": "What is the ion-electron equation for the oxidation of iron to iron(II) ions?",
+  "options": [
+   "Fe → Fe²⁺ + 2e⁻",
+   "Fe²⁺ + 2e⁻ → Fe",
+   "Fe → Fe³⁺ + 2e⁻",
+   "Fe → Fe²⁺ − 2e⁻"
+  ],
+  "answer": 0,
+  "explanation": "Oxidation is loss of electrons so electrons appear on the right: Fe → Fe²⁺ + 2e⁻."
+ },
+ {
+  "id": "metals-x08",
+  "topic": "metals",
+  "q": "In a cell, the electrons flow from X to Y. Which statement is correct?",
+  "options": [
+   "Y is the more reactive metal",
+   "X and Y are the same metal",
+   "X is the more reactive metal",
+   "The ion bridge carries electrons"
+  ],
+  "answer": 2,
+  "explanation": "Electrons flow from the more reactive metal, which loses electrons more readily, to the less reactive metal."
+ },
+ {
+  "id": "metals-x09",
+  "topic": "metals",
+  "q": "What is the purpose of the carbon used in a blast furnace?",
+  "options": [
+   "It burns to produce carbon monoxide that reduces the iron oxide",
+   "It is the ore of iron",
+   "It forms slag with impurities",
+   "It catalyses the reaction"
+  ],
+  "answer": 0,
+  "explanation": "Carbon burns to carbon dioxide, which reacts with more carbon to form carbon monoxide, the reducing agent."
+ },
+ {
+  "id": "metals-x10",
+  "topic": "metals",
+  "q": "Why are some metals alloyed?",
+  "options": [
+   "To make them lighter in colour",
+   "To increase their reactivity",
+   "To improve properties such as strength or hardness",
+   "To lower their density only"
+  ],
+  "answer": 2,
+  "explanation": "Alloys can be stronger, harder or more resistant to corrosion than pure metals."
+ },
+ {
+  "id": "metals-x11",
+  "topic": "metals",
+  "q": "Which metal will be displaced from solution by iron?",
+  "options": [
+   "Copper",
+   "Zinc",
+   "Magnesium",
+   "Aluminium"
+  ],
+  "answer": 0,
+  "explanation": "A metal can displace those below it in the reactivity series. Iron is more reactive than copper only."
+ },
+ {
+  "id": "plastics-w01",
+  "topic": "plastics",
+  "type": "written",
+  "marks": 3,
+  "q": "Ethene molecules join to form poly(ethene).\n(a) Name this type of polymerisation. (1)\n(b) Draw the repeating unit of poly(ethene). (1)\n(c) What feature of the ethene molecule allows it to polymerise? (1)",
+  "points": [
+   {
+    "t": "(a) Addition polymerisation",
+    "m": 1
+   },
+   {
+    "t": "(b) –CH₂–CH₂– (shown as a repeating unit with bonds extended each side)",
+    "m": 1
+   },
+   {
+    "t": "(c) It contains a C=C double bond, which opens up to join to other molecules",
+    "m": 1
+   }
+  ],
+  "model": "(a) Many small molecules (monomers) add together to form a long chain, so it is addition polymerisation. (b) The repeating unit is –CH₂–CH₂–. (c) The carbon-to-carbon double bond opens so each carbon can bond to a neighbouring monomer."
+ },
+ {
+  "id": "plastics-w02",
+  "topic": "plastics",
+  "type": "written",
+  "marks": 3,
+  "q": "Propene, CH₃CH=CH₂, is used to make poly(propene).\n(a) Draw the repeating unit of poly(propene). (2)\n(b) Name the monomer that would be used to make poly(chloroethene), PVC. (1)",
+  "points": [
+   {
+    "t": "(a) The repeating unit has a two-carbon backbone –CH₂–CH(CH₃)–",
+    "m": 1
+   },
+   {
+    "t": "with the bonds on the ends shown as extended",
+    "m": 1
+   },
+   {
+    "t": "(b) Chloroethene",
+    "m": 1
+   }
+  ],
+  "model": "(a) The double bond opens, leaving a two-carbon chain with a methyl side group: –CH₂–CH(CH₃)–. (b) PVC is made from chloroethene, CH₂=CHCl."
+ },
+ {
+  "id": "plastics-w03",
+  "topic": "plastics",
+  "type": "written",
+  "marks": 3,
+  "q": "Many plastics are made from crude oil and are not biodegradable.\n(a) Explain why disposal of such plastics is a problem. (1)\n(b) Describe two ways of dealing with waste plastics. (2)",
+  "points": [
+   {
+    "t": "(a) They do not rot, so waste builds up in landfill sites or in the environment",
+    "m": 1
+   },
+   {
+    "t": "(b) Recycle: melt and remould thermoplastics (or reuse)",
+    "m": 1
+   },
+   {
+    "t": "Burn them to release energy (although this can produce toxic gases such as hydrogen chloride from PVC)",
+    "m": 1
+   }
+  ],
+  "model": "(a) Non-biodegradable plastics are not broken down by microorganisms, so they remain in landfill and as litter for many years. (b) Plastics may be recycled by melting and remoulding, or burned to generate heat, though burning can release harmful gases."
+ },
+ {
+  "id": "plastics-w04",
+  "topic": "plastics",
+  "type": "written",
+  "marks": 2,
+  "q": "A thermoplastic softens when heated, but a thermosetting plastic does not. Explain why thermosetting plastics are used for plug sockets and kettle handles.",
+  "points": [
+   {
+    "t": "They do not soften or melt on heating, as they have strong cross-links / bonds between chains",
+    "m": 1
+   },
+   {
+    "t": "so they keep their shape and are safe when hot (they are also electrical insulators)",
+    "m": 1
+   }
+  ],
+  "model": "Thermosetting plastics have strong covalent cross-links between chains so they do not soften when heated and keep their shape. That makes them suitable for items that become hot."
+ },
+ {
+  "id": "plastics-x01",
+  "topic": "plastics",
+  "q": "What is the name of the monomer used to make poly(tetrafluoroethene), PTFE?",
+  "options": [
+   "Fluoroethane",
+   "Tetrafluoromethane",
+   "Tetrafluoroethene",
+   "Ethene"
+  ],
+  "answer": 2,
+  "explanation": "PTFE is made by addition polymerisation of tetrafluoroethene, CF₂=CF₂."
+ },
+ {
+  "id": "plastics-x02",
+  "topic": "plastics",
+  "q": "What is the name for the small molecules that join together to make a polymer?",
+  "options": [
+   "Monomers",
+   "Isomers",
+   "Isotopes",
+   "Esters"
+  ],
+  "answer": 0,
+  "explanation": "Many small monomer molecules join to form a polymer, a long chain molecule."
+ },
+ {
+  "id": "plastics-x03",
+  "topic": "plastics",
+  "q": "Which feature of a monomer is needed for addition polymerisation?",
+  "options": [
+   "A –OH group",
+   "A C≡C only",
+   "A C=C double bond",
+   "A benzene ring"
+  ],
+  "answer": 2,
+  "explanation": "The C=C bond opens up to allow monomers to link into long chains."
+ },
+ {
+  "id": "plastics-x04",
+  "topic": "plastics",
+  "q": "Which of these is made by addition polymerisation?",
+  "options": [
+   "Poly(ethene)",
+   "Protein",
+   "Starch",
+   "Nylon"
+  ],
+  "answer": 0,
+  "explanation": "Poly(ethene) is formed from ethene by addition. Proteins and starch form by condensation."
+ },
+ {
+  "id": "plastics-x05",
+  "topic": "plastics",
+  "q": "What is the main reason that thermoplastics can be recycled?",
+  "options": [
+   "They do not burn",
+   "They are made of metals",
+   "They soften on heating and can be remoulded",
+   "They are biodegradable"
+  ],
+  "answer": 2,
+  "explanation": "Thermoplastics soften when heated and can be shaped again; thermosetting plastics cannot."
+ },
+ {
+  "id": "fertilisers-w01",
+  "topic": "fertilisers",
+  "type": "written",
+  "marks": 3,
+  "q": "Ammonia is manufactured in the Haber process: nitrogen + hydrogen ⇌ ammonia.\n(a) Name the source of the nitrogen and the source of the hydrogen. (2)\n(b) What is the catalyst? (1)",
+  "points": [
+   {
+    "t": "(a) Nitrogen from the air",
+    "m": 1
+   },
+   {
+    "t": "Hydrogen from natural gas (methane) or water/steam reforming",
+    "m": 1
+   },
+   {
+    "t": "(b) Iron",
+    "m": 1
+   }
+  ],
+  "model": "(a) Nitrogen is obtained from the air and hydrogen from natural gas (methane) reacting with steam. (b) The catalyst is iron, which speeds up the reaction."
+ },
+ {
+  "id": "fertilisers-w02",
+  "topic": "fertilisers",
+  "type": "written",
+  "marks": 3,
+  "q": "The symbol ⇌ is used in the Haber process equation.\n(a) What does this symbol tell you about the reaction? (1)\n(b) What happens to the unreacted nitrogen and hydrogen? (1)\n(c) How is ammonia separated from the other gases? (1)",
+  "points": [
+   {
+    "t": "(a) The reaction is reversible: it can go in both directions",
+    "m": 1
+   },
+   {
+    "t": "(b) They are recycled back into the reactor",
+    "m": 1
+   },
+   {
+    "t": "(c) Ammonia is cooled and liquefies (it has a higher boiling point) while nitrogen and hydrogen stay gaseous",
+    "m": 1
+   }
+  ],
+  "model": "(a) ⇌ means the reaction is reversible. (b) Unreacted nitrogen and hydrogen are passed back into the reactor. (c) Ammonia condenses to a liquid when cooled, but nitrogen and hydrogen do not, so they can be separated."
+ },
+ {
+  "id": "fertilisers-w03",
+  "topic": "fertilisers",
+  "type": "written",
+  "marks": 3,
+  "q": "Calculate the percentage by mass of nitrogen in each of the following fertilisers. (Relative atomic masses: N = 14, H = 1, O = 16, C = 12)\n(a) Ammonium nitrate, NH₄NO₃ (GFM = 80) (1)\n(b) Urea, CO(NH₂)₂ (GFM = 60) (1)\n(c) Which of the two has the higher nitrogen content? (1)",
+  "points": [
+   {
+    "t": "(a) 28 ÷ 80 × 100 = 35.0 %",
+    "m": 1
+   },
+   {
+    "t": "(b) 28 ÷ 60 × 100 = 46.7 %",
+    "m": 1
+   },
+   {
+    "t": "(c) Urea has the higher percentage of nitrogen",
+    "m": 1
+   }
+  ],
+  "model": "(a) Ammonium nitrate has two nitrogen atoms (28 of the 80), so 28 ÷ 80 × 100 = 35.0 %. (b) Urea also has two nitrogen atoms (28 of 60): 28 ÷ 60 × 100 = 46.7 %. (c) Urea has the higher nitrogen content."
+ },
+ {
+  "id": "fertilisers-w04",
+  "topic": "fertilisers",
+  "type": "written",
+  "marks": 3,
+  "q": "A bag of fertiliser contains 50 kg of ammonium nitrate, NH₄NO₃ (GFM = 80). Calculate the mass of nitrogen in the bag.",
+  "points": [
+   {
+    "t": "Nitrogen in one formula unit: 2 × 14 = 28",
+    "m": 1
+   },
+   {
+    "t": "Fraction of nitrogen = 28 ÷ 80 = 0.35",
+    "m": 1
+   },
+   {
+    "t": "Mass of nitrogen = 0.35 × 50 = 17.5 kg",
+    "m": 1
+   }
+  ],
+  "model": "Ammonium nitrate contains two nitrogen atoms, mass 28 out of 80. So the mass of nitrogen = 28 ÷ 80 × 50 = 17.5 kg."
+ },
+ {
+  "id": "fertilisers-w05",
+  "topic": "fertilisers",
+  "type": "written",
+  "marks": 2,
+  "q": "Plants need nitrogen, phosphorus and potassium. Explain why farmers add fertilisers to soil.",
+  "points": [
+   {
+    "t": "Crops remove nutrients (N, P, K) from the soil as they grow",
+    "m": 1
+   },
+   {
+    "t": "Fertilisers replace the nutrients so that the soil stays fertile and crop yields are high",
+    "m": 1
+   }
+  ],
+  "model": "Plants take up nitrogen, phosphorus and potassium from the soil and these are removed when the crop is harvested. Fertilisers replace them so that the next crops grow well."
+ },
+ {
+  "id": "fertilisers-w06",
+  "topic": "fertilisers",
+  "type": "written",
+  "marks": 2,
+  "q": "Nitrates from fertilisers can end up in rivers. Suggest one problem this causes.",
+  "points": [
+   {
+    "t": "Nitrates (or phosphates) cause rapid growth of algae (eutrophication)",
+    "m": 1
+   },
+   {
+    "t": "When the algae die and decay, oxygen is used up and fish and other life die",
+    "m": 1
+   }
+  ],
+  "model": "Fertilisers washed into rivers cause algae to grow rapidly. When they die, bacteria that decompose them use up the oxygen, which harms aquatic life."
+ },
+ {
+  "id": "fertilisers-x01",
+  "topic": "fertilisers",
+  "q": "Which fertiliser is made by reacting ammonia with nitric acid?",
+  "options": [
+   "Ammonium nitrate",
+   "Ammonium sulfate",
+   "Urea",
+   "Potassium chloride"
+  ],
+  "answer": 0,
+  "explanation": "Ammonia (a base) neutralises nitric acid to produce the salt ammonium nitrate."
+ },
+ {
+  "id": "fertilisers-x02",
+  "topic": "fertilisers",
+  "q": "A fertiliser has the NPK ratio 20:10:10. What does this tell you?",
+  "options": [
+   "It contains 20 g of nitrogen in every kg of soil",
+   "It contains only nitrogen",
+   "It contains 20 % nitrogen, 10 % phosphorus compound and 10 % potassium compound",
+   "It is 20 % water"
+  ],
+  "answer": 2,
+  "explanation": "The NPK numbers give the percentage by mass of nitrogen, phosphorus and potassium compounds in the fertiliser."
+ },
+ {
+  "id": "fertilisers-x03",
+  "topic": "fertilisers",
+  "q": "What is the formula of ammonia?",
+  "options": [
+   "NH₃",
+   "N₂H",
+   "NH₄",
+   "N₃H"
+  ],
+  "answer": 0,
+  "explanation": "Ammonia is a compound of nitrogen and hydrogen with formula NH₃."
+ },
+ {
+  "id": "fertilisers-x04",
+  "topic": "fertilisers",
+  "q": "Which type of substance is used to neutralise acidic soil?",
+  "options": [
+   "Ammonium nitrate",
+   "Sulfuric acid",
+   "Lime (calcium hydroxide)",
+   "Sodium chloride"
+  ],
+  "answer": 2,
+  "explanation": "A base such as lime neutralises acidity in soil."
+ },
+ {
+  "id": "fertilisers-x05",
+  "topic": "fertilisers",
+  "q": "Which of the following is a source of nitrogen only in a fertiliser?",
+  "options": [
+   "Urea",
+   "Potassium chloride",
+   "Calcium phosphate",
+   "Sodium chloride"
+  ],
+  "answer": 0,
+  "explanation": "Urea contains nitrogen. Potassium chloride supplies potassium and calcium phosphate supplies phosphorus."
+ },
+ {
+  "id": "fertilisers-x06",
+  "topic": "fertilisers",
+  "q": "What is the percentage of nitrogen in ammonium sulfate, (NH₄)₂SO₄ (GFM = 132)?",
+  "options": [
+   "10.6 %",
+   "42.4 %",
+   "21.2 %",
+   "14 %"
+  ],
+  "answer": 2,
+  "explanation": "There are two nitrogen atoms (28) in a formula unit of mass 132: 28 ÷ 132 × 100 = 21.2 %."
+ },
+ {
+  "id": "nuclear-w01",
+  "topic": "nuclear",
+  "type": "written",
+  "marks": 4,
+  "q": "The graph shows how the mass of a radioisotope changes with time.\n(a) Use the graph to find the half-life of the radioisotope. (1)\n(b) What mass would remain after 16 days? (2)\n(c) What mass of the isotope would have decayed after 8 days? (1)",
+  "points": [
+   {
+    "t": "(a) The mass falls from 80 g to 40 g in 4 days, so half-life = 4 days",
+    "m": 1
+   },
+   {
+    "t": "(b) 16 days = 4 half-lives: 80 → 40 → 20 → 10 → 5",
+    "m": 1
+   },
+   {
+    "t": "Mass remaining = 5 g",
+    "m": 1
+   },
+   {
+    "t": "(c) After 8 days 20 g remain so 80 − 20 = 60 g has decayed",
+    "m": 1
+   }
+  ],
+  "model": "(a) The mass halves from 80 g to 40 g in 4 days, so the half-life is 4 days. (b) 16 days is four half-lives: 80 → 40 → 20 → 10 → 5, so 5 g remains. (c) After 8 days (two half-lives) 20 g remain, so 60 g has decayed.",
+  "figure": {
+   "src": "img/n5-decay-curve.svg",
+   "alt": "Graph of mass of radioisotope in grams against time in days, with a smooth curve starting at 80 g and falling steeply at first, then more slowly towards zero over 16 days.",
+   "caption": "Mass of radioisotope against time"
+  }
+ },
+ {
+  "id": "nuclear-w02",
+  "topic": "nuclear",
+  "type": "written",
+  "marks": 3,
+  "q": "Complete the nuclear equations by giving the missing symbol or numbers.\n(a) ²¹⁰₈₄Po → ⁴₂He + ?  (1)\n(b) ¹⁴₆C → ¹⁴₇N + ?  (1)\n(c) Name the type of radiation emitted in each case. (1)",
+  "points": [
+   {
+    "t": "(a) ²⁰⁶₈₂Pb (lead-206)",
+    "m": 1
+   },
+   {
+    "t": "(b) ⁰₋₁e (an electron / beta particle)",
+    "m": 1
+   },
+   {
+    "t": "(c) (a) alpha radiation, (b) beta radiation",
+    "m": 1
+   }
+  ],
+  "model": "(a) Mass numbers: 210 − 4 = 206; atomic numbers: 84 − 2 = 82, so the new nucleus is lead-206. (b) The mass number is unchanged and the atomic number rises by one, so a beta particle (electron) is emitted. (c) (a) is alpha decay and (b) is beta decay."
+ },
+ {
+  "id": "nuclear-w03",
+  "topic": "nuclear",
+  "type": "written",
+  "marks": 3,
+  "q": "Compare alpha, beta and gamma radiation in terms of what each consists of and what is needed to stop it.",
+  "points": [
+   {
+    "t": "Alpha: helium nuclei (2 protons and 2 neutrons), stopped by paper or skin",
+    "m": 1
+   },
+   {
+    "t": "Beta: high-speed electrons, stopped by a few millimetres of aluminium",
+    "m": 1
+   },
+   {
+    "t": "Gamma: high-energy electromagnetic radiation, reduced by thick lead or concrete",
+    "m": 1
+   }
+  ],
+  "model": "Alpha particles are helium nuclei and are stopped by a sheet of paper. Beta particles are fast electrons and are stopped by thin aluminium. Gamma rays are electromagnetic waves and only thick lead or concrete reduces them significantly."
+ },
+ {
+  "id": "nuclear-w04",
+  "topic": "nuclear",
+  "type": "written",
+  "marks": 3,
+  "q": "Technetium-99m is used as a medical tracer. Its half-life is 6 hours.\n(a) A patient is given 80 MBq of technetium-99m. Calculate the activity after 24 hours. (2)\n(b) Suggest why a short half-life is suitable for a medical tracer. (1)",
+  "points": [
+   {
+    "t": "(a) 24 hours = 4 half-lives",
+    "m": 1
+   },
+   {
+    "t": "80 → 40 → 20 → 10 → 5: activity = 5 MBq",
+    "m": 1
+   },
+   {
+    "t": "(b) It decays quickly so that the radiation exposure of the patient is short / little remains in the body after the scan",
+    "m": 1
+   }
+  ],
+  "model": "(a) 24 ÷ 6 = 4 half-lives, so the activity falls 80 → 40 → 20 → 10 → 5 MBq. (b) A short half-life means the isotope soon decays and the patient is exposed to radiation for a short time."
+ },
+ {
+  "id": "nuclear-w05",
+  "topic": "nuclear",
+  "type": "written",
+  "marks": 3,
+  "q": "A sample of iodine-131 has a mass of 12.0 g at the start. After 24 days, 1.50 g remains. Calculate the half-life of iodine-131.",
+  "points": [
+   {
+    "t": "12.0 → 6.0 → 3.0 → 1.5: 3 half-lives",
+    "m": 1
+   },
+   {
+    "t": "3 half-lives = 24 days",
+    "m": 1
+   },
+   {
+    "t": "Half-life = 24 ÷ 3 = 8 days",
+    "m": 1
+   }
+  ],
+  "model": "The mass has halved three times (12.0 → 6.0 → 3.0 → 1.5), so 24 days is three half-lives. One half-life = 24 ÷ 3 = 8 days."
+ },
+ {
+  "id": "nuclear-w06",
+  "topic": "nuclear",
+  "type": "written",
+  "marks": 2,
+  "q": "Describe one use of a radioisotope and explain why the particular isotope chosen is suitable.",
+  "points": [
+   {
+    "t": "Any valid use, e.g. smoke detectors use americium-241 which emits alpha radiation",
+    "m": 1
+   },
+   {
+    "t": "Reason linked to property, e.g. alpha radiation is stopped by smoke particles, with a long half-life so it lasts for years",
+    "m": 1
+   }
+  ],
+  "model": "In a smoke detector americium-241 emits alpha particles that ionise air; smoke absorbs them and the current falls, setting off the alarm. Its long half-life means the detector works for many years."
+ },
+ {
+  "id": "nuclear-x01",
+  "topic": "nuclear",
+  "q": "Which particle is emitted when a nucleus undergoes alpha decay?",
+  "options": [
+   "Helium nucleus",
+   "Electron",
+   "Neutron",
+   "Proton"
+  ],
+  "answer": 0,
+  "explanation": "An alpha particle consists of two protons and two neutrons, which is a helium nucleus."
+ },
+ {
+  "id": "nuclear-x02",
+  "topic": "nuclear",
+  "q": "How does the atomic number of a nucleus change in beta-minus decay?",
+  "options": [
+   "Decreases by 1",
+   "Decreases by 2",
+   "Increases by 1",
+   "Stays the same"
+  ],
+  "answer": 2,
+  "explanation": "A neutron turns into a proton, releasing an electron, so the atomic number goes up by one while the mass number is unchanged."
+ },
+ {
+  "id": "nuclear-x03",
+  "topic": "nuclear",
+  "q": "A radioisotope has a half-life of 10 days. What fraction of the original remains after 30 days?",
+  "options": [
+   "1/8",
+   "1/3",
+   "1/6",
+   "1/4"
+  ],
+  "answer": 0,
+  "explanation": "30 days is three half-lives: 1 → 1/2 → 1/4 → 1/8."
+ },
+ {
+  "id": "nuclear-x04",
+  "topic": "nuclear",
+  "q": "Which type of radiation is the most penetrating?",
+  "options": [
+   "Alpha",
+   "Beta",
+   "Gamma",
+   "All are equally penetrating"
+  ],
+  "answer": 2,
+  "explanation": "Gamma rays pass through most materials and need thick lead or concrete to absorb them."
+ },
+ {
+  "id": "nuclear-x05",
+  "topic": "nuclear",
+  "q": "A source of 64 g has a half-life of 2 hours. What mass remains after 6 hours?",
+  "options": [
+   "8 g",
+   "16 g",
+   "32 g",
+   "4 g"
+  ],
+  "answer": 0,
+  "explanation": "6 hours is three half-lives: 64 → 32 → 16 → 8 g."
+ },
+ {
+  "id": "nuclear-x06",
+  "topic": "nuclear",
+  "q": "Which of the following is used to kill cancer cells?",
+  "options": [
+   "Alpha radiation from americium",
+   "Radioactive sodium chloride",
+   "Gamma radiation from cobalt-60",
+   "Infrared radiation"
+  ],
+  "answer": 2,
+  "explanation": "Penetrating gamma rays can be focused on tumours to kill cancer cells."
+ },
+ {
+  "id": "analysis-w01",
+  "topic": "analysis",
+  "type": "written",
+  "marks": 4,
+  "q": "The chromatogram shows an ink separated, alongside three known dyes A, B and C.\n(a) Which dyes are present in the ink? (1)\n(b) How many substances are present in the ink? (1)\n(c) Calculate the Rf value of dye C, using the distances measured from the start line: the solvent front travelled 7.0 cm. (2)",
+  "points": [
+   {
+    "t": "(a) A and C",
+    "m": 1
+   },
+   {
+    "t": "(b) Two substances (two spots)",
+    "m": 1
+   },
+   {
+    "t": "(c) Distance moved by C = 5.5 cm (measured from the start line)",
+    "m": 1
+   },
+   {
+    "t": "Rf = 5.5 ÷ 7.0 = 0.79",
+    "m": 1
+   }
+  ],
+  "model": "(a) The ink spots are at the same heights as A and C. (b) The ink separates into two spots, so it contains two substances. (c) Dye C has moved 5.5 cm from the start line; Rf = distance moved by spot ÷ distance moved by solvent = 5.5 ÷ 7.0 = 0.79.",
+  "figure": {
+   "src": "img/n5-chromatogram.svg",
+   "alt": "Chromatography paper with a start line near the bottom, a dashed solvent front near the top, and four labelled lanes (A, B, C and Ink) with coloured spots at different heights. A scale shows the solvent front is 7.0 cm from the start line.",
+   "caption": "Chromatogram of ink and three known dyes"
+  }
+ },
+ {
+  "id": "analysis-w02",
+  "topic": "analysis",
+  "type": "written",
+  "marks": 3,
+  "q": "Describe how to carry out a flame test to identify a metal ion in a salt, and name the flame colour produced by (a) sodium ions and (b) potassium ions.",
+  "points": [
+   {
+    "t": "Dip a clean wire (or nichrome loop / splint) in the compound / moistened with acid and hold it in a roaring Bunsen flame",
+    "m": 1
+   },
+   {
+    "t": "Sodium ions give a yellow (orange) flame",
+    "m": 1
+   },
+   {
+    "t": "Potassium ions give a lilac flame",
+    "m": 1
+   }
+  ],
+  "model": "Clean a wire loop, dip it in the sample (moistened with acid) and hold it in a hot Bunsen flame. Each metal ion produces a characteristic colour: sodium gives yellow and potassium gives lilac."
+ },
+ {
+  "id": "analysis-w03",
+  "topic": "analysis",
+  "type": "written",
+  "marks": 3,
+  "q": "Barium chloride solution is added to a solution of sodium sulfate. A white solid forms.\n(a) Name the white solid. (1)\n(b) Name a method of separating the solid from the mixture. (1)\n(c) Write the word equation for the reaction. (1)",
+  "points": [
+   {
+    "t": "(a) Barium sulfate",
+    "m": 1
+   },
+   {
+    "t": "(b) Filtration",
+    "m": 1
+   },
+   {
+    "t": "(c) Barium chloride + sodium sulfate → barium sulfate + sodium chloride",
+    "m": 1
+   }
+  ],
+  "model": "(a) The insoluble product is barium sulfate. (b) It is separated by filtration. (c) barium chloride + sodium sulfate → barium sulfate + sodium chloride."
+ },
+ {
+  "id": "analysis-w04",
+  "topic": "analysis",
+  "type": "written",
+  "marks": 4,
+  "q": "25.0 cm³ of sodium hydroxide solution is neutralised by 20.0 cm³ of 0.10 mol l⁻¹ hydrochloric acid. (HCl + NaOH → NaCl + H₂O)\n(a) Calculate the number of moles of hydrochloric acid used. (2)\n(b) Calculate the concentration of the sodium hydroxide solution. (2)",
+  "points": [
+   {
+    "t": "(a) n = c × V = 0.10 × 0.0200",
+    "m": 1
+   },
+   {
+    "t": "n = 0.0020 mol",
+    "m": 1
+   },
+   {
+    "t": "(b) 1 : 1 reaction, so n(NaOH) = 0.0020 mol",
+    "m": 1
+   },
+   {
+    "t": "c = n ÷ V = 0.0020 ÷ 0.0250 = 0.08 mol l⁻¹",
+    "m": 1
+   }
+  ],
+  "model": "(a) Moles of acid = 0.10 × 0.0200 = 0.0020 mol. (b) The equation shows a 1 : 1 ratio, so 0.0020 mol of sodium hydroxide was present in 25.0 cm³. Concentration = 0.0020 ÷ 0.0250 = 0.08 mol l⁻¹."
+ },
+ {
+  "id": "analysis-w05",
+  "topic": "analysis",
+  "type": "written",
+  "marks": 3,
+  "q": "Describe how to separate a mixture of sand and salt, and recover both solids.",
+  "points": [
+   {
+    "t": "Add water to dissolve the salt, then filter: the sand is the residue",
+    "m": 1
+   },
+   {
+    "t": "Wash and dry the sand",
+    "m": 1
+   },
+   {
+    "t": "Evaporate the filtrate (salt solution) to obtain the salt",
+    "m": 1
+   }
+  ],
+  "model": "The salt dissolves in water but sand does not. Filtering leaves sand in the filter paper, which can be washed and dried. Heating the filtrate evaporates the water and leaves salt crystals."
+ },
+ {
+  "id": "analysis-w06",
+  "topic": "analysis",
+  "type": "written",
+  "marks": 2,
+  "q": "Explain how paper chromatography separates a mixture of dyes.",
+  "points": [
+   {
+    "t": "The solvent moves up the paper carrying the dyes with it",
+    "m": 1
+   },
+   {
+    "t": "Different dyes are attracted to the paper and dissolve in the solvent to different extents, so move different distances",
+    "m": 1
+   }
+  ],
+  "model": "As the solvent rises it carries the dyes with it. Dyes more soluble in the solvent and less attracted to the paper travel further, so the dyes separate."
+ },
+ {
+  "id": "analysis-x01",
+  "topic": "analysis",
+  "q": "Which metal ion gives a brick-red flame colour?",
+  "options": [
+   "Calcium",
+   "Sodium",
+   "Potassium",
+   "Copper"
+  ],
+  "answer": 0,
+  "explanation": "Calcium compounds give a brick-red flame; sodium is yellow, potassium is lilac and copper is blue-green."
+ },
+ {
+  "id": "analysis-x02",
+  "topic": "analysis",
+  "q": "What would you observe when silver nitrate is added to sodium chloride solution?",
+  "options": [
+   "A blue solution",
+   "Bubbles of gas",
+   "A white precipitate",
+   "No change"
+  ],
+  "answer": 2,
+  "explanation": "Silver ions react with chloride ions to form white insoluble silver chloride."
+ },
+ {
+  "id": "analysis-x03",
+  "topic": "analysis",
+  "q": "Which apparatus is used to add an acid dropwise to an alkali in a titration?",
+  "options": [
+   "Burette",
+   "Pipette",
+   "Measuring cylinder",
+   "Beaker"
+  ],
+  "answer": 0,
+  "explanation": "A burette delivers accurately measured volumes of liquid dropwise."
+ },
+ {
+  "id": "analysis-x04",
+  "topic": "analysis",
+  "q": "What is the Rf value of a spot that has moved 3.0 cm when the solvent has moved 6.0 cm?",
+  "options": [
+   "2.0",
+   "0.30",
+   "0.50",
+   "3.0"
+  ],
+  "answer": 2,
+  "explanation": "Rf = distance moved by spot ÷ distance moved by solvent front = 3.0 ÷ 6.0 = 0.50."
+ },
+ {
+  "id": "analysis-x05",
+  "topic": "analysis",
+  "q": "Which method is best for obtaining pure water from salt solution?",
+  "options": [
+   "Distillation",
+   "Filtration",
+   "Chromatography",
+   "Flame test"
+  ],
+  "answer": 0,
+  "explanation": "Water evaporates and is condensed again, leaving the salt behind."
+ },
+ {
+  "id": "analysis-x06",
+  "topic": "analysis",
+  "q": "Which of these is an end-point in a titration with phenolphthalein indicator added to the acid in the flask?",
+  "options": [
+   "The solution turning colourless",
+   "A white precipitate forming",
+   "The first permanent pink colour",
+   "The indicator disappearing completely"
+  ],
+  "answer": 2,
+  "explanation": "Phenolphthalein is colourless in acid and pink in alkali, so the first persistent pink indicates neutralisation."
+ },
+ {
+  "id": "analysis-x07",
+  "topic": "analysis",
+  "q": "Which of these is the best way to identify the gas given off when a metal carbonate reacts with acid?",
+  "options": [
+   "Bubble through limewater, which turns milky",
+   "Test with a lit splint for a squeaky pop",
+   "Test with a glowing splint",
+   "Test with damp litmus paper only"
+  ],
+  "answer": 0,
+  "explanation": "Carbon dioxide turns limewater cloudy because insoluble calcium carbonate forms."
+ },
+ {
+  "id": "analysis-x08",
+  "topic": "analysis",
+  "q": "Which flame colour is produced by copper compounds in a flame test?",
+  "options": [
+   "Lilac",
+   "Blue-green",
+   "Brick red",
+   "Yellow"
+  ],
+  "answer": 1,
+  "explanation": "Copper compounds colour a flame blue-green, unlike sodium (yellow), potassium (lilac) or calcium (brick red)."
+ },
+ {
+  "id": "analysis-x09",
+  "topic": "analysis",
+  "q": "Why is it important to use deionised water for rinsing a conical flask used in titrations?",
+  "options": [
+   "It does not add dissolved ions that could react",
+   "It speeds up the reaction",
+   "It changes the colour of the indicator",
+   "It lowers the pH to 1"
+  ],
+  "answer": 0,
+  "explanation": "Deionised water contains no dissolved substances which would otherwise affect the reaction or the results."
  }
  ]
 };

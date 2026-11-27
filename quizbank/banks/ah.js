@@ -2986,6 +2986,1594 @@ unitLabel:"Unit", topicLabel:"Topic",
    ],
    "answer": 3,
    "explanation": "The slowest (rate-determining) step controls how quickly the overall reaction can proceed."
+  },
+  {
+   "id": "structure-w01",
+   "topic": "structure",
+   "type": "written",
+   "marks": 3,
+   "q": "2,3-Dibromopentane, CH₃CHBrCHBrCH₂CH₃, contains two stereogenic (chiral) centres.\n(a) What is meant by a chiral centre? (1)\n(b) Identify the chiral carbon atoms by number. (1)\n(c) What is the maximum number of stereoisomers possible? (1)",
+   "points": [
+    {
+     "t": "(a) A carbon atom bonded to four different atoms or groups",
+     "m": 1
+    },
+    {
+     "t": "(b) Carbons 2 and 3",
+     "m": 1
+    },
+    {
+     "t": "(c) 4 stereoisomers (2² = 4: two pairs of enantiomers)",
+     "m": 1
+    }
+   ],
+   "model": "(a) A chiral centre is a carbon bonded to four different groups. (b) Carbon 2 (H, Br, CH₃, CHBrC₂H₅) and carbon 3 (H, Br, C₂H₅, CHBrCH₃) are each attached to four different groups. (c) With two chiral centres there are 2² = 4 stereoisomers."
+  },
+  {
+   "id": "structure-w02",
+   "topic": "structure",
+   "type": "written",
+   "marks": 3,
+   "q": "Explain what is meant by optical isomers (enantiomers) and describe how they differ in their physical properties and in their effect on plane-polarised light.",
+   "points": [
+    {
+     "t": "Enantiomers are non-superimposable mirror images of each other",
+     "m": 1
+    },
+    {
+     "t": "They have identical physical properties (melting point, density, etc.)",
+     "m": 1
+    },
+    {
+     "t": "They rotate the plane of polarised light by equal amounts in opposite directions",
+     "m": 1
+    }
+   ],
+   "model": "Enantiomers are mirror-image molecules that cannot be superimposed, arising from a chiral centre. Their physical properties are the same, but one rotates the plane of plane-polarised light clockwise and the other rotates it by the same angle anticlockwise."
+  },
+  {
+   "id": "structure-w03",
+   "topic": "structure",
+   "type": "written",
+   "marks": 3,
+   "q": "But-2-ene exists as two geometric isomers.\n(a) Draw the structural formula of each isomer and name them. (2)\n(b) State the structural requirement for geometric isomerism about a C=C bond. (1)",
+   "points": [
+    {
+     "t": "(a) cis-but-2-ene (Z): both CH₃ groups on the same side of the double bond",
+     "m": 1
+    },
+    {
+     "t": "trans-but-2-ene (E): the CH₃ groups on opposite sides of the double bond",
+     "m": 1
+    },
+    {
+     "t": "(b) Each carbon of the double bond must have two different groups attached, and rotation about C=C is restricted",
+     "m": 1
+    }
+   ],
+   "model": "(a) In the cis (Z) isomer the two methyl groups are on the same side of the C=C bond; in the trans (E) isomer they are on opposite sides. (b) Each carbon atom of the double bond must carry two different groups, and rotation about the double bond is not possible."
+  },
+  {
+   "id": "structure-w04",
+   "topic": "structure",
+   "type": "written",
+   "marks": 2,
+   "q": "Benzene is planar and all carbon–carbon bonds have the same length (0.140 nm), which is between the lengths of C–C and C=C. Explain this observation in terms of the bonding in benzene.",
+   "points": [
+    {
+     "t": "Each carbon uses its p electron to form a delocalised π system above and below the ring",
+     "m": 1
+    },
+    {
+     "t": "The six π electrons are shared equally between all six carbons, so all bonds are equivalent and of intermediate length",
+     "m": 1
+    }
+   ],
+   "model": "Each carbon contributes one p electron to a ring of delocalised π electrons above and below the plane. The electrons are shared equally around the ring, so there are no separate single and double bonds and all the bond lengths are equal."
+  },
+  {
+   "id": "structure-w05",
+   "topic": "structure",
+   "type": "written",
+   "marks": 2,
+   "q": "Benzene is more stable than hypothetical cyclohexa-1,3,5-triene. Using enthalpy data, the enthalpy of hydrogenation of benzene is −208 kJ mol⁻¹ and that of cyclohexene is −120 kJ mol⁻¹. Calculate the delocalisation (stabilisation) energy of benzene.",
+   "points": [
+    {
+     "t": "Expected for three isolated C=C bonds: 3 × (−120) = −360 kJ mol⁻¹",
+     "m": 1
+    },
+    {
+     "t": "Delocalisation energy = −208 − (−360) = 152 kJ mol⁻¹ (benzene is more stable by 152 kJ mol⁻¹)",
+     "m": 1
+    }
+   ],
+   "model": "If benzene had three localised double bonds, hydrogenation would release 3 × 120 = 360 kJ mol⁻¹. It releases only 208 kJ mol⁻¹, so benzene is more stable by 152 kJ mol⁻¹, the delocalisation energy."
+  },
+  {
+   "id": "structure-x01",
+   "topic": "structure",
+   "q": "Which type of isomerism is shown by CH₃CH(OH)COOH (lactic acid)?",
+   "options": [
+    "Geometric isomerism only",
+    "Optical isomerism",
+    "Positional isomerism only",
+    "No isomerism"
+   ],
+   "answer": 1,
+   "explanation": "The central carbon is attached to H, OH, CH₃ and COOH, four different groups, so it is chiral and has enantiomers."
+  },
+  {
+   "id": "structure-x02",
+   "topic": "structure",
+   "q": "What is a racemic mixture?",
+   "options": [
+    "A mixture of cis and trans isomers",
+    "A mixture of two structural isomers",
+    "A pure single enantiomer",
+    "An equimolar mixture of two enantiomers"
+   ],
+   "answer": 3,
+   "explanation": "The two enantiomers rotate plane-polarised light in opposite directions equally, so a 50:50 mixture shows no net rotation."
+  },
+  {
+   "id": "structure-x03",
+   "topic": "structure",
+   "q": "Which compound exhibits E/Z (geometric) isomerism?",
+   "options": [
+    "CH₃CH₂CH=CH₂",
+    "CH₃CH=CHCH₃",
+    "(CH₃)₂C=CH₂",
+    "CH₂=CH₂"
+   ],
+   "answer": 1,
+   "explanation": "Only but-2-ene has two different groups on each carbon of the double bond, so cis/trans isomers exist."
+  },
+  {
+   "id": "structure-x04",
+   "topic": "structure",
+   "q": "How many σ bonds and π bonds are there in a molecule of ethene, CH₂=CH₂?",
+   "options": [
+    "4 σ and 2 π",
+    "6 σ and 0 π",
+    "3 σ and 3 π",
+    "5 σ and 1 π"
+   ],
+   "answer": 3,
+   "explanation": "Four C–H bonds and one C–C σ bond make five σ bonds; the second bond of the double bond is the single π bond."
+  },
+  {
+   "id": "structure-x05",
+   "topic": "structure",
+   "q": "Which of the following molecules is planar?",
+   "options": [
+    "Cyclohexane",
+    "Benzene",
+    "Methane",
+    "2-methylbutane"
+   ],
+   "answer": 1,
+   "explanation": "All six carbon atoms in benzene are sp² hybridised and lie in one plane; cyclohexane is puckered."
+  },
+  {
+   "id": "structure-x06",
+   "topic": "structure",
+   "q": "What is the shape around each carbon atom in a benzene ring?",
+   "options": [
+    "Tetrahedral",
+    "Linear",
+    "Octahedral",
+    "Trigonal planar"
+   ],
+   "answer": 3,
+   "explanation": "Each carbon forms three σ bonds in the plane at 120°, with the remaining p electron in the delocalised π cloud."
+  },
+  {
+   "id": "mechanisms-w01",
+   "topic": "mechanisms",
+   "type": "written",
+   "marks": 4,
+   "q": "Propene reacts with hydrogen bromide to give mainly 2-bromopropane.\n(a) Name the mechanism. (1)\n(b) Describe the mechanism, including the formation of the intermediate. (2)\n(c) Explain why 2-bromopropane is the major product rather than 1-bromopropane. (1)",
+   "points": [
+    {
+     "t": "(a) Electrophilic addition",
+     "m": 1
+    },
+    {
+     "t": "(b) The polarised H–Br molecule is attacked by the π electrons of C=C; H⁺ adds to one carbon to form a carbocation",
+     "m": 1
+    },
+    {
+     "t": "Bromide ion then attacks the carbocation to form the product",
+     "m": 1
+    },
+    {
+     "t": "(c) The secondary carbocation is more stable than the primary one, because alkyl groups donate electrons (positive inductive effect)",
+     "m": 1
+    }
+   ],
+   "model": "(a) The alkene's π electrons attack the electrophile, so it is electrophilic addition. (b) The π bond attacks the δ+ hydrogen of HBr, forming a carbocation and Br⁻; the bromide ion then bonds to the carbocation. (c) The secondary carbocation (CH₃–C⁺H–CH₃) is stabilised by two electron-donating alkyl groups, so it forms in preference to the primary carbocation, giving 2-bromopropane."
+  },
+  {
+   "id": "mechanisms-w02",
+   "topic": "mechanisms",
+   "type": "written",
+   "marks": 4,
+   "q": "Benzene reacts with a mixture of concentrated nitric and concentrated sulfuric acids at about 50 °C.\n(a) Write an equation for the formation of the electrophile. (1)\n(b) Name the mechanism. (1)\n(c) Describe how the electrophile reacts with benzene and how the aromatic ring is restored. (2)",
+   "points": [
+    {
+     "t": "(a) HNO₃ + 2H₂SO₄ → NO₂⁺ + H₃O⁺ + 2HSO₄⁻ (or HNO₃ + H₂SO₄ → NO₂⁺ + H₂O + HSO₄⁻)",
+     "m": 1
+    },
+    {
+     "t": "(b) Electrophilic substitution",
+     "m": 1
+    },
+    {
+     "t": "(c) The NO₂⁺ is attacked by the delocalised π electrons of the ring, forming a positively charged intermediate",
+     "m": 1
+    },
+    {
+     "t": "A hydrogen ion is lost, restoring the stable delocalised ring and forming nitrobenzene",
+     "m": 1
+    }
+   ],
+   "model": "(a) Sulfuric acid protonates nitric acid, which loses water to give the nitronium ion, NO₂⁺. (b) The mechanism is electrophilic substitution. (c) The π electrons attack NO₂⁺ to form a carbocation intermediate; a proton is then lost, which returns the aromatic ring and gives nitrobenzene."
+  },
+  {
+   "id": "mechanisms-w03",
+   "topic": "mechanisms",
+   "type": "written",
+   "marks": 3,
+   "q": "2-bromo-2-methylpropane reacts with aqueous sodium hydroxide by an SN1 mechanism.\n(a) Describe the two steps in the mechanism. (2)\n(b) Explain why the tertiary halogenoalkane reacts by SN1 rather than SN2. (1)",
+   "points": [
+    {
+     "t": "(a) Slow step: C–Br bond breaks heterolytically to form a tertiary carbocation and a bromide ion",
+     "m": 1
+    },
+    {
+     "t": "Fast step: hydroxide ion (nucleophile) attacks the carbocation to form 2-methylpropan-2-ol",
+     "m": 1
+    },
+    {
+     "t": "(b) The tertiary carbocation is stabilised by three alkyl groups, and the bulky groups hinder backside attack required by SN2",
+     "m": 1
+    }
+   ],
+   "model": "(a) The C–Br bond breaks to give a tertiary carbocation (rate-determining step), which is then attacked by OH⁻. (b) The tertiary carbocation is relatively stable and the three methyl groups hinder approach of the nucleophile in an SN2 attack, so SN1 is preferred."
+  },
+  {
+   "id": "mechanisms-w04",
+   "topic": "mechanisms",
+   "type": "written",
+   "marks": 3,
+   "q": "Bromoethane reacts with hydroxide ions in a one-step SN2 reaction.\n(a) Describe how the nucleophile attacks. (1)\n(b) Describe the transition state. (1)\n(c) What would happen to the configuration at a chiral carbon in an SN2 reaction? (1)",
+   "points": [
+    {
+     "t": "(a) The OH⁻ ion approaches the carbon atom from the side opposite the bromine atom (backside attack)",
+     "m": 1
+    },
+    {
+     "t": "(b) Five groups around carbon: the carbon is partly bonded to both OH and Br",
+     "m": 1
+    },
+    {
+     "t": "(c) Inversion of configuration (a single enantiomer produces the opposite enantiomer)",
+     "m": 1
+    }
+   ],
+   "model": "(a) The nucleophile attacks from the side opposite the leaving group. (b) In the transition state the carbon is partly bonded to both the incoming OH and outgoing Br. (c) The three other groups flip like an umbrella, giving inversion of configuration."
+  },
+  {
+   "id": "mechanisms-w05",
+   "topic": "mechanisms",
+   "type": "written",
+   "marks": 3,
+   "q": "A pure sample of (R)-2-bromobutane is hydrolysed. In experiment 1 the product is optically active. In experiment 2 the product is a racemic mixture.\nWhich experiment is likely to involve an SN1 mechanism? Explain your choice.",
+   "points": [
+    {
+     "t": "Experiment 2",
+     "m": 1
+    },
+    {
+     "t": "An SN1 mechanism involves a planar carbocation intermediate",
+     "m": 1
+    },
+    {
+     "t": "The nucleophile can attack from either face equally, giving both enantiomers (racemic mixture); SN2 gives inversion and an optically active product",
+     "m": 1
+    }
+   ],
+   "model": "Experiment 2 corresponds to SN1. The carbocation formed is planar so hydroxide can attack from either side with equal probability, giving equal amounts of both enantiomers. An SN2 reaction gives complete inversion and an optically active product."
+  },
+  {
+   "id": "mechanisms-w06",
+   "topic": "mechanisms",
+   "type": "written",
+   "marks": 3,
+   "q": "Suggest a three-step route to convert bromoethane into propylamine (propan-1-amine). Give the reagents for each step and name the intermediates.",
+   "points": [
+    {
+     "t": "Step 1: bromoethane + KCN (ethanol/water, heat) → propanenitrile",
+     "m": 1
+    },
+    {
+     "t": "Step 2: reduce the nitrile using LiAlH₄ in dry ether (then dilute acid work-up) or H₂/Ni",
+     "m": 1
+    },
+    {
+     "t": "This gives propylamine (the carbon chain was extended by one carbon by the cyanide step)",
+     "m": 1
+    }
+   ],
+   "model": "Cyanide displaces bromide to give propanenitrile (CH₃CH₂CN), which extends the chain by one carbon. Reduction of the nitrile with lithium aluminium hydride gives propan-1-amine, CH₃CH₂CH₂NH₂."
+  },
+  {
+   "id": "mechanisms-w07",
+   "topic": "mechanisms",
+   "type": "written",
+   "marks": 2,
+   "q": "Ethanoyl chloride reacts vigorously with ethanol at room temperature. Name the organic product and the type of reaction.",
+   "points": [
+    {
+     "t": "Ethyl ethanoate",
+     "m": 1
+    },
+    {
+     "t": "Nucleophilic substitution / condensation (acylation, with loss of HCl)",
+     "m": 1
+    }
+   ],
+   "model": "The alcohol acts as a nucleophile and displaces chloride from the acyl chloride, giving ethyl ethanoate and hydrogen chloride. This is an acylation (esterification)."
+  },
+  {
+   "id": "mechanisms-x01",
+   "topic": "mechanisms",
+   "q": "Which reagent is used to reduce a ketone to a secondary alcohol?",
+   "options": [
+    "Acidified potassium dichromate",
+    "Concentrated sulfuric acid",
+    "Sodium hydroxide solution",
+    "LiAlH₄ in dry ether"
+   ],
+   "answer": 3,
+   "explanation": "Lithium aluminium hydride is a strong reducing agent that reduces ketones to secondary alcohols and aldehydes to primary alcohols."
+  },
+  {
+   "id": "mechanisms-x02",
+   "topic": "mechanisms",
+   "q": "Which species is the electrophile in the bromination of benzene catalysed by FeBr₃?",
+   "options": [
+    "Br⁻",
+    "Br⁺ (polarised Br–Br–FeBr₃)",
+    "FeBr₄⁻",
+    "Br₂ molecule with no polarity"
+   ],
+   "answer": 1,
+   "explanation": "The iron(III) bromide polarises bromine to generate a strongly electrophilic Br⁺ species that attacks the ring."
+  },
+  {
+   "id": "mechanisms-x03",
+   "topic": "mechanisms",
+   "q": "What type of reaction is the conversion of 2-bromopropane into propene using ethanolic potassium hydroxide?",
+   "options": [
+    "Addition",
+    "Substitution",
+    "Condensation",
+    "Elimination"
+   ],
+   "answer": 3,
+   "explanation": "Hot ethanolic KOH removes HBr from the halogenoalkane, forming a C=C bond."
+  },
+  {
+   "id": "mechanisms-x04",
+   "topic": "mechanisms",
+   "q": "Why is a tertiary halogenoalkane unlikely to react by SN2?",
+   "options": [
+    "There are no hydrogen atoms",
+    "The bulky alkyl groups hinder attack by the nucleophile",
+    "The C–Br bond is non-polar",
+    "A tertiary carbocation is unstable"
+   ],
+   "answer": 1,
+   "explanation": "Three alkyl groups around the carbon block the backside approach of the nucleophile."
+  },
+  {
+   "id": "mechanisms-x05",
+   "topic": "mechanisms",
+   "q": "In which step of the SN1 mechanism is the rate determined?",
+   "options": [
+    "Attack of the nucleophile on the halogenoalkane",
+    "Formation of a bond between two radicals",
+    "Loss of a proton from the product",
+    "Heterolytic cleavage of the C–X bond to form a carbocation"
+   ],
+   "answer": 3,
+   "explanation": "The slow step is formation of the carbocation, so the rate depends only on the concentration of the halogenoalkane."
+  },
+  {
+   "id": "mechanisms-x06",
+   "topic": "mechanisms",
+   "q": "What is the product when CH₃CH₂CH=CH₂ reacts with HBr according to Markovnikov's rule?",
+   "options": [
+    "1-bromobutane",
+    "2-bromobutane",
+    "1,2-dibromobutane",
+    "Butane"
+   ],
+   "answer": 1,
+   "explanation": "Hydrogen adds to the carbon with more hydrogens, giving the more stable secondary carbocation and hence 2-bromobutane."
+  },
+  {
+   "id": "mechanisms-x07",
+   "topic": "mechanisms",
+   "q": "Which of the following nucleophiles is neutral (has no overall charge)?",
+   "options": [
+    "OH⁻",
+    "CN⁻",
+    "Br⁻",
+    "NH₃"
+   ],
+   "answer": 3,
+   "explanation": "Ammonia has a lone pair on nitrogen and acts as a neutral nucleophile; the others are anions."
+  },
+  {
+   "id": "mechanisms-x08",
+   "topic": "mechanisms",
+   "q": "What is formed when ammonia (in excess) reacts with bromoethane?",
+   "options": [
+    "Ethanol",
+    "Ethylamine",
+    "Ethanenitrile",
+    "Ethene"
+   ],
+   "answer": 1,
+   "explanation": "Ammonia acts as a nucleophile and displaces bromide, forming ethylamine, CH₃CH₂NH₂."
+  },
+  {
+   "id": "colour-w01",
+   "topic": "colour",
+   "type": "written",
+   "marks": 3,
+   "q": "Many organic dyes contain extended conjugated systems.\n(a) What is meant by a chromophore? (1)\n(b) Explain why extending the conjugated system shifts the absorption to longer wavelengths. (2)",
+   "points": [
+    {
+     "t": "(a) The part of a molecule responsible for absorbing visible light (delocalised electron system)",
+     "m": 1
+    },
+    {
+     "t": "(b) A larger conjugated system has a smaller energy gap between the π orbitals (HOMO–LUMO gap)",
+     "m": 1
+    },
+    {
+     "t": "ΔE = hf, so a smaller ΔE means lower frequency and longer wavelength is absorbed",
+     "m": 1
+    }
+   ],
+   "model": "(a) A chromophore is the group of atoms, usually with delocalised electrons, that absorbs visible light. (b) As conjugation extends, the energy gap between occupied and unoccupied π orbitals narrows. Light of lower energy (longer wavelength) is then absorbed (ΔE = hf)."
+  },
+  {
+   "id": "colour-w02",
+   "topic": "colour",
+   "type": "written",
+   "marks": 4,
+   "q": "The graph shows the visible absorption spectrum of a coloured solution.\n(a) At what wavelength is the absorption greatest? (1)\n(b) Which colour of light is absorbed most strongly? (1)\n(c) What colour does the solution appear? Explain. (1)\n(d) Which colour of filter should be used in a colorimeter to measure its concentration? (1)",
+   "points": [
+    {
+     "t": "(a) 600 nm",
+     "m": 1
+    },
+    {
+     "t": "(b) Orange light",
+     "m": 1
+    },
+    {
+     "t": "(c) Blue (the complementary colour of orange): the colours not absorbed are transmitted",
+     "m": 1
+    },
+    {
+     "t": "(d) An orange filter, as this is the colour absorbed most strongly",
+     "m": 1
+    }
+   ],
+   "model": "(a) The maximum is at 600 nm. (b) Light of 600 nm is orange. (c) The solution absorbs orange and transmits the remainder, so it appears blue (the complementary colour). (d) An orange filter allows only the light which the solution absorbs most strongly to pass, giving the greatest sensitivity.",
+   "figure": {
+    "src": "img/ah-visible-spectrum.svg",
+    "alt": "Graph of absorbance against wavelength from 400 to 700 nanometres for a coloured solution, showing a single smooth absorption peak in the visible region and low absorbance either side of it.",
+    "caption": "Visible absorption spectrum of a coloured solution"
+   }
+  },
+  {
+   "id": "colour-w03",
+   "topic": "colour",
+   "type": "written",
+   "marks": 2,
+   "q": "Explain why transition-metal complexes are usually coloured but zinc(II) complexes are colourless.",
+   "points": [
+    {
+     "t": "In transition-metal complexes the d orbitals are split, and electrons absorb visible light to move between them (d–d transition)",
+     "m": 1
+    },
+    {
+     "t": "Zn²⁺ has a full 3d subshell (d¹⁰) so there are no vacant d orbitals for electron promotion",
+     "m": 1
+    }
+   ],
+   "model": "Ligands split the d orbitals into two sets; absorption of visible light promotes a d electron to the higher set. Zn²⁺ has a full d¹⁰ configuration so no such transition is possible and it is colourless."
+  },
+  {
+   "id": "colour-x01",
+   "topic": "colour",
+   "q": "A compound absorbs light of wavelength 450 nm (blue). What colour does it appear?",
+   "options": [
+    "Blue",
+    "Yellow/orange",
+    "Green",
+    "Violet"
+   ],
+   "answer": 1,
+   "explanation": "A solution appears in the colour complementary to the colour it absorbs; absorption of blue gives orange/yellow."
+  },
+  {
+   "id": "colour-x02",
+   "topic": "colour",
+   "q": "Which change in structure is most likely to shift absorption of an organic molecule from the UV into the visible region?",
+   "options": [
+    "Replacing C=C with C–C",
+    "Making the molecule saturated",
+    "Reducing the number of π electrons",
+    "Increasing the extent of conjugation"
+   ],
+   "answer": 3,
+   "explanation": "A longer conjugated system lowers the energy gap so lower energy (longer wavelength) light is absorbed."
+  },
+  {
+   "id": "colour-x03",
+   "topic": "colour",
+   "q": "What is a pH indicator such as methyl orange?",
+   "options": [
+    "A strong acid",
+    "A weak acid whose two forms are different colours",
+    "A reducing agent",
+    "An insoluble salt"
+   ],
+   "answer": 1,
+   "explanation": "The un-ionised and ionised forms of the indicator have different conjugated structures and therefore different colours."
+  },
+  {
+   "id": "spectro-w01",
+   "topic": "spectro",
+   "type": "written",
+   "marks": 4,
+   "q": "The mass spectrum of a compound with the formula C₄H₈O is shown.\n(a) What is the relative formula mass of the compound? (1)\n(b) Identify the fragment responsible for the peak at m/z 43. (1)\n(c) The IR spectrum shows a strong sharp absorption at 1715 cm⁻¹ and no broad absorption above 3000 cm⁻¹. Suggest a structure for the compound. (2)",
+   "points": [
+    {
+     "t": "(a) 72 (the molecular ion peak)",
+     "m": 1
+    },
+    {
+     "t": "(b) CH₃CO⁺ (an acylium ion, mass 43)",
+     "m": 1
+    },
+    {
+     "t": "(c) The 1715 cm⁻¹ peak shows a C=O group; no O–H, so it is not an alcohol or acid",
+     "m": 1
+    },
+    {
+     "t": "Butanone, CH₃COCH₂CH₃ (fragments at 43 (CH₃CO⁺), 57 (CH₃CH₂CO⁺) and 29 (CH₃CH₂⁺) fit)",
+     "m": 1
+    }
+   ],
+   "model": "(a) The molecular ion peak at m/z 72 gives the formula mass. (b) m/z 43 corresponds to CH₃CO⁺ (15 + 28). (c) A strong absorption near 1715 cm⁻¹ shows C=O, and no broad O–H band excludes an alcohol or acid; butanone (a ketone) fits, since it can fragment to CH₃CO⁺ (43), C₂H₅CO⁺ (57) and C₂H₅⁺ (29).",
+   "figure": {
+    "src": "img/ah-ms-ketone.svg",
+    "alt": "Mass spectrum showing relative abundance in percent against m/z from 0 to 85, with four labelled peaks of different heights and the tallest labelled at one of the lower m/z values.",
+    "caption": "Mass spectrum of a C₄H₈O compound"
+   }
+  },
+  {
+   "id": "spectro-w02",
+   "topic": "spectro",
+   "type": "written",
+   "marks": 4,
+   "q": "The high-resolution ¹H NMR spectrum of a compound with formula C₄H₈O₂ shows three signals: a triplet (3 H), a singlet (3 H) and a quartet (2 H).\n(a) Explain what the quartet tells you about the neighbouring protons. (1)\n(b) Identify the groups giving the singlet and the quartet. (2)\n(c) Name the compound. (1)",
+   "points": [
+    {
+     "t": "(a) The quartet shows that there are three protons on the adjacent carbon (n + 1 rule)",
+     "m": 1
+    },
+    {
+     "t": "(b) Singlet: CH₃ group with no adjacent H, next to C=O (CH₃CO–)",
+     "m": 1
+    },
+    {
+     "t": "Quartet: CH₂ attached to O and next to a CH₃ group (–OCH₂CH₃)",
+     "m": 1
+    },
+    {
+     "t": "(c) Ethyl ethanoate",
+     "m": 1
+    }
+   ],
+   "model": "(a) The n + 1 rule: a quartet means the CH₂ has three neighbouring protons. (b) The singlet (3 H) is a methyl group with no neighbouring H, in CH₃C=O; the quartet (2 H) is –OCH₂– next to a CH₃ (the triplet). (c) The compound is CH₃COOCH₂CH₃, ethyl ethanoate.",
+   "figure": {
+    "src": "img/ah-nmr-ester.svg",
+    "alt": "High-resolution proton NMR spectrum with chemical shift from 5 to 0 parts per million, showing three groups of peaks, one split into four lines, one a single line and one split into three lines, each labelled with a relative area.",
+    "caption": "¹H NMR spectrum of a C₄H₈O₂ compound"
+   }
+  },
+  {
+   "id": "spectro-w03",
+   "topic": "spectro",
+   "type": "written",
+   "marks": 3,
+   "q": "The IR spectrum of a compound with the formula C₃H₆O₂ is shown.\n(a) What do the features of the spectrum suggest about the functional group? (2)\n(b) Name the compound. (1)",
+   "points": [
+    {
+     "t": "(a) A very broad absorption in the 2500–3300 cm⁻¹ region is the O–H of a carboxylic acid",
+     "m": 1
+    },
+    {
+     "t": "The strong sharp absorption near 1710 cm⁻¹ is the C=O group",
+     "m": 1
+    },
+    {
+     "t": "(b) Propanoic acid",
+     "m": 1
+    }
+   ],
+   "model": "(a) The very broad absorption between about 2500 and 3300 cm⁻¹ is typical of the O–H stretch in a carboxylic acid, and the strong band near 1710 cm⁻¹ is C=O, so the compound is a carboxylic acid. (b) With three carbons the compound is propanoic acid, CH₃CH₂COOH.",
+   "figure": {
+    "src": "img/ah-ir-acid.svg",
+    "alt": "Infrared spectrum showing transmittance in percent against wavenumber from 4000 to 500 per centimetre, with one very wide absorption in the higher wavenumber region and several narrower absorptions at lower wavenumbers.",
+    "caption": "Infrared spectrum of a C₃H₆O₂ compound"
+   }
+  },
+  {
+   "id": "spectro-w04",
+   "topic": "spectro",
+   "type": "written",
+   "marks": 3,
+   "q": "The infrared spectrum shown belongs to an organic compound containing only carbon, hydrogen and oxygen.\n(a) Identify the functional group responsible for the strong, sharp absorption near 1715 cm⁻¹. (1)\n(b) Explain why the compound is not an alcohol or a carboxylic acid. (1)\n(c) Suggest two possible compound classes. (1)",
+   "points": [
+    {
+     "t": "(a) The carbonyl group, C=O",
+     "m": 1
+    },
+    {
+     "t": "(b) There is no broad O–H absorption between 2500 and 3600 cm⁻¹",
+     "m": 1
+    },
+    {
+     "t": "(c) An aldehyde or a ketone (ester also possible without the C–O stretch)",
+     "m": 1
+    }
+   ],
+   "model": "(a) A strong absorption at about 1715 cm⁻¹ is the C=O stretch. (b) Alcohols and acids both show a broad O–H absorption at higher wavenumber, which is absent here. (c) The compound could be an aldehyde or a ketone.",
+   "figure": {
+    "src": "img/ah-ir-ketone.svg",
+    "alt": "Infrared spectrum showing transmittance in percent against wavenumber from 4000 to 500 per centimetre, with a group of absorptions near 3000 per centimetre, a single very strong sharp absorption at lower wavenumber, and several weaker absorptions below it.",
+    "caption": "Infrared spectrum of an organic compound"
+   }
+  },
+  {
+   "id": "spectro-w05",
+   "topic": "spectro",
+   "type": "written",
+   "marks": 3,
+   "q": "The molecular ion of a bromoalkane shows two peaks of almost equal height at m/z 108 and 110.\n(a) Explain why there are two peaks. (1)\n(b) Deduce the formula of the compound. (2)",
+   "points": [
+    {
+     "t": "(a) Bromine has two isotopes (⁷⁹Br and ⁸¹Br) in about equal abundance",
+     "m": 1
+    },
+    {
+     "t": "(b) 108 − 79 = 29, which is C₂H₅",
+     "m": 1
+    },
+    {
+     "t": "The compound is bromoethane, C₂H₅Br",
+     "m": 1
+    }
+   ],
+   "model": "(a) The natural isotopes ⁷⁹Br and ⁸¹Br occur in a ratio of about 1:1, giving M and M+2 peaks of similar height. (b) m/z 108 corresponds to ⁷⁹Br plus a fragment of mass 29 (C₂H₅), so the compound is bromoethane."
+  },
+  {
+   "id": "spectro-w06",
+   "topic": "spectro",
+   "type": "written",
+   "marks": 3,
+   "q": "The following data are obtained for the colorimetric determination of a copper(II) complex: the absorbance of a solution is 0.33, and the calibration graph shows absorbance against concentration.\n(a) Use the graph to find the concentration of the solution. (1)\n(b) The solution was prepared by diluting 5.0 cm³ of a stock solution to 50.0 cm³. Calculate the concentration of the stock solution. (2)",
+   "points": [
+    {
+     "t": "(a) 0.60 mmol l⁻¹ (absorbance 0.33 on the graph)",
+     "m": 1
+    },
+    {
+     "t": "(b) Dilution factor = 50.0 ÷ 5.0 = 10",
+     "m": 1
+    },
+    {
+     "t": "Stock concentration = 0.60 × 10 = 6.0 mmol l⁻¹",
+     "m": 1
+    }
+   ],
+   "model": "(a) Reading across from an absorbance of 0.33 to the line and down gives 0.60 mmol l⁻¹. (b) The solution was diluted ten-fold, so the stock is ten times as concentrated: 0.60 × 10 = 6.0 mmol l⁻¹.",
+   "figure": {
+    "src": "img/ah-calibration.svg",
+    "alt": "Calibration graph of absorbance against concentration in millimoles per litre for a copper complex, showing six data points lying on a straight line through the origin.",
+    "caption": "Calibration graph for a copper(II) complex"
+   }
+  },
+  {
+   "id": "spectro-w07",
+   "topic": "spectro",
+   "type": "written",
+   "marks": 2,
+   "q": "The molar absorption coefficient is calculated from A = ε c l. A solution of concentration 2.2 × 10⁻⁴ mol l⁻¹ in a cell of path length 1.00 cm has absorbance 0.462. Calculate ε and state its units.",
+   "points": [
+    {
+     "t": "ε = A ÷ (c × l) = 0.462 ÷ (2.2 × 10⁻⁴ × 1.00) = 2100",
+     "m": 1
+    },
+    {
+     "t": "Units: l mol⁻¹ cm⁻¹",
+     "m": 1
+    }
+   ],
+   "model": "Rearranging A = ε c l gives ε = A ÷ (c l) = 0.462 ÷ (2.2 × 10⁻⁴ × 1.00) = 2100 l mol⁻¹ cm⁻¹."
+  },
+  {
+   "id": "spectro-x01",
+   "topic": "spectro",
+   "q": "In ¹H NMR, which signal would appear as a doublet?",
+   "options": [
+    "The CH₃ in CH₃Cl",
+    "The six protons of the two CH₃ groups in CH₃CH(Cl)CH₃",
+    "The CH₃ in CH₃CH₂Cl",
+    "The CH₂ in CH₃CH₂Cl"
+   ],
+   "answer": 1,
+   "explanation": "A methyl group next to a carbon bearing one hydrogen is split into n + 1 = 2 lines, a doublet."
+  },
+  {
+   "id": "spectro-x02",
+   "topic": "spectro",
+   "q": "What does the base peak in a mass spectrum represent?",
+   "options": [
+    "The molecular ion",
+    "The heaviest ion",
+    "The fragment with the highest charge",
+    "The most abundant ion"
+   ],
+   "answer": 3,
+   "explanation": "The base peak is the tallest peak, assigned 100 % relative abundance."
+  },
+  {
+   "id": "spectro-x03",
+   "topic": "spectro",
+   "q": "How many different proton environments are there in ethyl ethanoate, CH₃COOCH₂CH₃?",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "answer": 1,
+   "explanation": "The three environments are CH₃C=O, OCH₂ and the CH₃ of the ethyl group."
+  },
+  {
+   "id": "spectro-x04",
+   "topic": "spectro",
+   "q": "Which absorption in an infrared spectrum would indicate a nitrile (C≡N) group?",
+   "options": [
+    "About 1700 cm⁻¹",
+    "About 3300 cm⁻¹ (broad)",
+    "About 1000 cm⁻¹ only",
+    "About 2200–2260 cm⁻¹"
+   ],
+   "answer": 3,
+   "explanation": "The C≡N stretch absorbs in the 2200–2260 cm⁻¹ region, free from many other absorptions."
+  },
+  {
+   "id": "spectro-x05",
+   "topic": "spectro",
+   "q": "Why is tetramethylsilane (TMS) used as a reference in NMR?",
+   "options": [
+    "It dissolves all samples",
+    "Its 12 equivalent protons give a single sharp signal at δ = 0",
+    "It gives many signals",
+    "It absorbs infrared radiation"
+   ],
+   "answer": 1,
+   "explanation": "TMS gives one strong signal that is well away from the typical range of other protons, so is a convenient zero."
+  },
+  {
+   "id": "spectro-x06",
+   "topic": "spectro",
+   "q": "The integration trace of an NMR spectrum shows a ratio 3 : 2 : 1. What does this represent?",
+   "options": [
+    "The distance between peaks",
+    "The mass of each fragment",
+    "The relative abundance of isotopes",
+    "The relative numbers of protons in each environment"
+   ],
+   "answer": 3,
+   "explanation": "The area under each signal is proportional to the number of hydrogens in that environment."
+  },
+  {
+   "id": "spectro-x07",
+   "topic": "spectro",
+   "q": "Which wavelength region is used by a colorimeter?",
+   "options": [
+    "Microwave",
+    "Visible",
+    "Ultraviolet only",
+    "X-ray"
+   ],
+   "answer": 1,
+   "explanation": "Colorimeters measure absorption of visible light by coloured solutions."
+  },
+  {
+   "id": "spectro-x08",
+   "topic": "spectro",
+   "q": "A solution has an absorbance of 0.40 at a concentration of 0.20 mmol l⁻¹. What absorbance is expected at 0.50 mmol l⁻¹ under the same conditions?",
+   "options": [
+    "0.80",
+    "0.50",
+    "1.6",
+    "1.0"
+   ],
+   "answer": 3,
+   "explanation": "Absorbance is proportional to concentration (Beer–Lambert): 0.40 × 0.50 ÷ 0.20 = 1.0."
+  },
+  {
+   "id": "medicines-w01",
+   "topic": "medicines",
+   "type": "written",
+   "marks": 3,
+   "q": "A drug works by binding to a receptor on a cell.\n(a) What is meant by an agonist? (1)\n(b) What is meant by an antagonist? (1)\n(c) Give one type of interaction by which a drug may bind to a receptor. (1)",
+   "points": [
+    {
+     "t": "(a) An agonist binds to a receptor and activates it (producing a response)",
+     "m": 1
+    },
+    {
+     "t": "(b) An antagonist binds to a receptor but does not activate it, blocking the natural agonist",
+     "m": 1
+    },
+    {
+     "t": "(c) Hydrogen bonding, ionic interactions or van der Waals forces",
+     "m": 1
+    }
+   ],
+   "model": "An agonist mimics the natural messenger and triggers the receptor. An antagonist binds but produces no response and prevents the agonist from binding. Binding is by intermolecular interactions such as hydrogen bonds, ionic attractions or van der Waals forces."
+  },
+  {
+   "id": "medicines-w02",
+   "topic": "medicines",
+   "type": "written",
+   "marks": 3,
+   "q": "Enzyme inhibitors are often used as drugs.\n(a) Explain how a competitive inhibitor reduces the rate of an enzyme-catalysed reaction. (2)\n(b) Why can increasing the concentration of the substrate overcome competitive inhibition? (1)",
+   "points": [
+    {
+     "t": "(a) The inhibitor has a shape similar to the substrate and binds to the active site",
+     "m": 1
+    },
+    {
+     "t": "The substrate is blocked, so fewer enzyme–substrate complexes form and the reaction is slower",
+     "m": 1
+    },
+    {
+     "t": "(b) The substrate competes more effectively for the active sites",
+     "m": 1
+    }
+   ],
+   "model": "(a) The inhibitor resembles the substrate and occupies the active site, preventing the substrate from binding. (b) A higher substrate concentration increases the chance that the substrate rather than the inhibitor binds, restoring the rate."
+  },
+  {
+   "id": "medicines-w03",
+   "topic": "medicines",
+   "type": "written",
+   "marks": 2,
+   "q": "Explain what is meant by the pharmacophore of a drug molecule and why the other parts of the molecule may still be important.",
+   "points": [
+    {
+     "t": "The pharmacophore is the part of the molecule (the arrangement of functional groups) responsible for the biological activity / binding to the receptor",
+     "m": 1
+    },
+    {
+     "t": "The rest of the molecule affects properties such as solubility, absorption and how well the pharmacophore is held in the correct orientation",
+     "m": 1
+    }
+   ],
+   "model": "The pharmacophore is the specific arrangement of functional groups that interacts with the receptor. The remainder of the molecule influences solubility, transport and the position of the pharmacophore."
+  },
+  {
+   "id": "medicines-x01",
+   "topic": "medicines",
+   "q": "What is the effect of an antagonist at a receptor?",
+   "options": [
+    "It activates the receptor strongly",
+    "It destroys the receptor",
+    "It speeds up the natural agonist",
+    "It binds without activating the receptor and blocks the agonist"
+   ],
+   "answer": 3,
+   "explanation": "Antagonists occupy the binding site but do not produce a response, preventing the natural agonist from acting."
+  },
+  {
+   "id": "medicines-x02",
+   "topic": "medicines",
+   "q": "Which factor is most important in the ability of a drug to bind to a receptor?",
+   "options": [
+    "The colour of the drug",
+    "The shape and functional groups matching the binding site",
+    "The boiling point of the drug",
+    "The number of carbon atoms"
+   ],
+   "answer": 1,
+   "explanation": "A drug must fit the binding site and form intermolecular interactions with its groups."
+  },
+  {
+   "id": "medicines-x03",
+   "topic": "medicines",
+   "q": "Why might a drug molecule be converted into a salt, such as a hydrochloride?",
+   "options": [
+    "To decrease its melting point",
+    "To make it volatile",
+    "To make it chiral",
+    "To increase its solubility in water"
+   ],
+   "answer": 3,
+   "explanation": "Ionic salts of amines or acids are generally more soluble in water, which helps administration and absorption."
+  },
+  {
+   "id": "stoich-w01",
+   "topic": "stoich",
+   "type": "written",
+   "marks": 4,
+   "q": "A 0.500 g antacid tablet containing calcium carbonate was added to 50.0 cm³ of 0.200 mol l⁻¹ hydrochloric acid. The excess acid required 24.0 cm³ of 0.100 mol l⁻¹ sodium hydroxide for neutralisation.\n(a) Calculate the moles of hydrochloric acid added. (1)\n(b) Calculate the moles of acid in excess. (1)\n(c) Calculate the percentage of calcium carbonate (GFM = 100) in the tablet. (2)",
+   "points": [
+    {
+     "t": "(a) 0.200 × 0.0500 = 0.0100 mol",
+     "m": 1
+    },
+    {
+     "t": "(b) Excess HCl = moles NaOH = 0.100 × 0.0240 = 0.00240 mol",
+     "m": 1
+    },
+    {
+     "t": "(c) HCl reacted = 0.0100 − 0.00240 = 0.00760 mol; CaCO₃ + 2HCl, so CaCO₃ = 0.00380 mol",
+     "m": 1
+    },
+    {
+     "t": "Mass = 0.00380 × 100 = 0.380 g; % = 0.380 ÷ 0.500 × 100 = 76 %",
+     "m": 1
+    }
+   ],
+   "model": "(a) n(HCl) = 0.200 × 0.0500 = 0.0100 mol. (b) NaOH neutralises the excess: n = 0.100 × 0.0240 = 0.00240 mol. (c) HCl used by the tablet = 0.00760 mol; the equation CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂ gives 0.00380 mol CaCO₃ = 0.380 g, which is 76 % of the tablet."
+  },
+  {
+   "id": "stoich-w02",
+   "topic": "stoich",
+   "type": "written",
+   "marks": 4,
+   "q": "A 0.500 g sample of brass was dissolved and made up to 100.0 cm³. A 20.0 cm³ portion was treated with excess iodide: 2Cu²⁺ + 4I⁻ → 2CuI + I₂. The iodine liberated required 18.0 cm³ of 0.0500 mol l⁻¹ sodium thiosulfate: I₂ + 2S₂O₃²⁻ → 2I⁻ + S₄O₆²⁻.\nCalculate the percentage of copper (63.5) in the brass.",
+   "points": [
+    {
+     "t": "n(S₂O₃²⁻) = 0.0500 × 0.0180 = 9.00 × 10⁻⁴ mol",
+     "m": 1
+    },
+    {
+     "t": "Ratio Cu²⁺ : I₂ : S₂O₃²⁻ = 2 : 1 : 2, so n(Cu²⁺) = 9.00 × 10⁻⁴ mol in 20.0 cm³",
+     "m": 1
+    },
+    {
+     "t": "In 100.0 cm³: 4.50 × 10⁻³ mol, mass = 4.50 × 10⁻³ × 63.5 = 0.286 g",
+     "m": 1
+    },
+    {
+     "t": "% Cu = 0.286 ÷ 0.500 × 100 = 57.1 %",
+     "m": 1
+    }
+   ],
+   "model": "Moles of thiosulfate = 9.00 × 10⁻⁴ mol. Each mole of iodine releases 2 mol of thiosulfate and arises from 2 mol of Cu²⁺, so n(Cu²⁺) = n(S₂O₃²⁻) = 9.00 × 10⁻⁴ mol in the 20.0 cm³ portion. The whole sample contains 5 × this = 4.50 × 10⁻³ mol = 0.286 g, so the brass is 57.1 % copper."
+  },
+  {
+   "id": "stoich-w03",
+   "topic": "stoich",
+   "type": "written",
+   "marks": 3,
+   "q": "20.0 cm³ of a solution of chloride ions was treated with excess silver nitrate solution and the silver chloride precipitate was filtered, dried and weighed. The mass was 0.287 g (GFM AgCl = 143.5).\nCalculate the concentration of chloride ions in the original solution.",
+   "points": [
+    {
+     "t": "Moles of AgCl = 0.287 ÷ 143.5 = 2.00 × 10⁻³ mol",
+     "m": 1
+    },
+    {
+     "t": "1 : 1 ratio so moles of Cl⁻ = 2.00 × 10⁻³ mol",
+     "m": 1
+    },
+    {
+     "t": "Concentration = 2.00 × 10⁻³ ÷ 0.0200 = 0.10 mol l⁻¹",
+     "m": 1
+    }
+   ],
+   "model": "Ag⁺ + Cl⁻ → AgCl, a 1 : 1 ratio. n(AgCl) = 0.287 ÷ 143.5 = 2.00 × 10⁻³ mol, so there was 2.00 × 10⁻³ mol of chloride in 20.0 cm³. c = 2.00 × 10⁻³ ÷ 0.0200 = 0.10 mol l⁻¹."
+  },
+  {
+   "id": "stoich-w04",
+   "topic": "stoich",
+   "type": "written",
+   "marks": 3,
+   "q": "2.50 g of impure aspirin (C₉H₈O₄, GFM = 180) was prepared from 2.00 g of salicylic acid (C₇H₆O₃, GFM = 138). The equation is C₇H₆O₃ + (CH₃CO)₂O → C₉H₈O₄ + CH₃COOH.\nCalculate the percentage yield. (Assume the 2.50 g is pure aspirin.)",
+   "points": [
+    {
+     "t": "Moles of salicylic acid = 2.00 ÷ 138 = 0.01449 mol",
+     "m": 1
+    },
+    {
+     "t": "Theoretical mass of aspirin = 0.01449 × 180 = 2.61 g",
+     "m": 1
+    },
+    {
+     "t": "Percentage yield = 2.50 ÷ 2.61 × 100 = 96 %",
+     "m": 1
+    }
+   ],
+   "model": "The ratio is 1 : 1. n = 2.00 ÷ 138 = 0.01449 mol, giving a theoretical yield of 0.01449 × 180 = 2.61 g. % yield = 2.50 ÷ 2.61 × 100 = 96 %."
+  },
+  {
+   "id": "stoich-w05",
+   "topic": "stoich",
+   "type": "written",
+   "marks": 4,
+   "q": "Hydrated sodium carbonate, Na₂CO₃·xH₂O, has a mass of 2.86 g and is dissolved in water and made up to 250 cm³. A 25.0 cm³ portion is neutralised by 20.0 cm³ of 0.100 mol l⁻¹ hydrochloric acid (Na₂CO₃ + 2HCl → 2NaCl + H₂O + CO₂).\nCalculate the value of x. (GFM Na₂CO₃ = 106; H₂O = 18)",
+   "points": [
+    {
+     "t": "n(HCl) = 0.100 × 0.0200 = 2.00 × 10⁻³ mol",
+     "m": 1
+    },
+    {
+     "t": "n(Na₂CO₃) in 25.0 cm³ = 1.00 × 10⁻³ mol; in 250 cm³ = 1.00 × 10⁻² mol",
+     "m": 1
+    },
+    {
+     "t": "GFM of hydrated salt = 2.86 ÷ 0.0100 = 286",
+     "m": 1
+    },
+    {
+     "t": "286 − 106 = 180 = 10 × 18, so x = 10",
+     "m": 1
+    }
+   ],
+   "model": "From 2HCl : 1Na₂CO₃, n(Na₂CO₃) in the portion is 1.00 × 10⁻³ mol, so 1.00 × 10⁻² mol in 250 cm³. The GFM of the hydrate = 2.86 ÷ 0.0100 = 286. Water makes up 286 − 106 = 180, which is 10 × 18, so x = 10."
+  },
+  {
+   "id": "stoich-w06",
+   "topic": "stoich",
+   "type": "written",
+   "marks": 2,
+   "q": "Calculate the mass of anhydrous potassium dichromate(VI), K₂Cr₂O₇ (GFM = 294), required to prepare 500 cm³ of a standard solution of concentration 0.0200 mol l⁻¹.",
+   "points": [
+    {
+     "t": "Moles = 0.0200 × 0.500 = 0.0100 mol",
+     "m": 1
+    },
+    {
+     "t": "Mass = 0.0100 × 294 = 2.94 g",
+     "m": 1
+    }
+   ],
+   "model": "n = c × V = 0.0200 × 0.500 = 0.0100 mol and mass = 0.0100 × 294 = 2.94 g."
+  },
+  {
+   "id": "stoich-x01",
+   "topic": "stoich",
+   "q": "What is the concentration of a solution made by diluting 10.0 cm³ of 0.500 mol l⁻¹ solution to 250 cm³?",
+   "options": [
+    "0.0200 mol l⁻¹",
+    "0.0400 mol l⁻¹",
+    "0.200 mol l⁻¹",
+    "0.125 mol l⁻¹"
+   ],
+   "answer": 0,
+   "explanation": "c₁V₁ = c₂V₂: 0.500 × 10.0 = c₂ × 250, so c₂ = 0.0200 mol l⁻¹."
+  },
+  {
+   "id": "stoich-x02",
+   "topic": "stoich",
+   "q": "In a back titration, what is determined by the titration?",
+   "options": [
+    "The amount of substance initially present directly",
+    "The mass of the precipitate",
+    "The amount of excess reagent remaining",
+    "The volume of gas produced"
+   ],
+   "answer": 2,
+   "explanation": "An excess of reagent is added to the sample, and the excess is titrated to find how much was used up."
+  },
+  {
+   "id": "stoich-x03",
+   "topic": "stoich",
+   "q": "In the reaction MnO₄⁻ + 8H⁺ + 5Fe²⁺ → Mn²⁺ + 4H₂O + 5Fe³⁺, how many moles of Fe²⁺ react with 0.0010 mol of MnO₄⁻?",
+   "options": [
+    "0.0050 mol",
+    "0.0010 mol",
+    "0.0020 mol",
+    "0.0100 mol"
+   ],
+   "answer": 0,
+   "explanation": "The mole ratio is 1 : 5, so 0.0010 mol of permanganate oxidises 0.0050 mol of iron(II)."
+  },
+  {
+   "id": "stoich-x04",
+   "topic": "stoich",
+   "q": "What mass of silver chloride (GFM = 143.5) would be produced when 0.0100 mol of chloride ions is precipitated?",
+   "options": [
+    "14.35 g",
+    "0.1435 g",
+    "1.435 g",
+    "2.87 g"
+   ],
+   "answer": 2,
+   "explanation": "The 1 : 1 ratio gives 0.0100 mol AgCl, with mass 0.0100 × 143.5 = 1.435 g."
+  },
+  {
+   "id": "practical-w01",
+   "topic": "practical",
+   "type": "written",
+   "marks": 3,
+   "q": "A titration requires a burette with an uncertainty of ±0.05 cm³ per reading. The initial reading is 0.50 cm³ and the final reading is 20.50 cm³.\n(a) What is the titre? (1)\n(b) Calculate the absolute uncertainty in the titre. (1)\n(c) Calculate the percentage uncertainty in the titre. (1)",
+   "points": [
+    {
+     "t": "(a) 20.50 − 0.50 = 20.00 cm³",
+     "m": 1
+    },
+    {
+     "t": "(b) ±0.05 + ±0.05 = ±0.10 cm³",
+     "m": 1
+    },
+    {
+     "t": "(c) 0.10 ÷ 20.00 × 100 = 0.5 %",
+     "m": 1
+    }
+   ],
+   "model": "(a) Titre = 20.50 − 0.50 = 20.00 cm³. (b) Two readings were taken so the absolute uncertainties add: ±0.10 cm³. (c) Percentage uncertainty = 0.10 ÷ 20.00 × 100 = 0.5 %."
+  },
+  {
+   "id": "practical-w02",
+   "topic": "practical",
+   "type": "written",
+   "marks": 3,
+   "q": "A student prepared a standard solution by dissolving 1.325 g of sodium carbonate (±0.001 g) in a 250.0 cm³ volumetric flask (±0.3 cm³).\n(a) Calculate the percentage uncertainty in the mass. (1)\n(b) Calculate the percentage uncertainty in the volume. (1)\n(c) Estimate the percentage uncertainty in the concentration, and state which measurement contributes most. (1)",
+   "points": [
+    {
+     "t": "(a) 0.001 ÷ 1.325 × 100 = 0.08 %",
+     "m": 1
+    },
+    {
+     "t": "(b) 0.3 ÷ 250.0 × 100 = 0.12 %",
+     "m": 1
+    },
+    {
+     "t": "(c) Approximately 0.20 % (sum of percentage uncertainties); the volume contributes most",
+     "m": 1
+    }
+   ],
+   "model": "(a) 0.08 % for the mass. (b) 0.12 % for the volume. (c) Percentage uncertainties are added when quantities are multiplied or divided, so concentration (mass ÷ volume) has an uncertainty of about 0.20 %, with the flask volume contributing most."
+  },
+  {
+   "id": "practical-w03",
+   "topic": "practical",
+   "type": "written",
+   "marks": 3,
+   "q": "A solid is recrystallised from hot water.\n(a) Why is a minimum volume of hot solvent used? (1)\n(b) Why is the hot solution filtered before cooling? (1)\n(c) Why is the crystal collected by vacuum filtration and washed with a little cold solvent? (1)",
+   "points": [
+    {
+     "t": "(a) So the solution is saturated when hot and the maximum amount of solid crystallises on cooling",
+     "m": 1
+    },
+    {
+     "t": "(b) To remove insoluble impurities (filter while hot to avoid crystallising in the funnel)",
+     "m": 1
+    },
+    {
+     "t": "(c) Washing removes soluble impurities on the surface; cold solvent avoids dissolving the product",
+     "m": 1
+    }
+   ],
+   "model": "(a) A minimum volume of solvent means the solution is saturated and most solid crystallises when cooled. (b) Hot filtration removes insoluble impurities. (c) Washing with cold solvent removes soluble impurities from the crystal surfaces without dissolving much product."
+  },
+  {
+   "id": "practical-w04",
+   "topic": "practical",
+   "type": "written",
+   "marks": 3,
+   "q": "A student determines the melting point of an organic product obtained by recrystallisation.\n(a) How does the melting range of an impure sample compare with that of a pure sample? (1)\n(b) Describe how a mixed melting point could be used to confirm the identity of the product. (2)",
+   "points": [
+    {
+     "t": "(a) An impure sample melts over a wider range and at a lower temperature",
+     "m": 1
+    },
+    {
+     "t": "(b) Mix the product with an authentic sample of the suspected compound and measure the melting range",
+     "m": 1
+    },
+    {
+     "t": "If there is no depression (the melting point is sharp and unchanged) they are the same compound",
+     "m": 1
+    }
+   ],
+   "model": "(a) Impurities lower and broaden the melting range. (b) A mixture of the product with a pure sample of the suspected compound melts sharply at the same temperature if the compounds are identical; a different compound would depress and broaden the melting range."
+  },
+  {
+   "id": "practical-w05",
+   "topic": "practical",
+   "type": "written",
+   "marks": 3,
+   "q": "A compound distributes itself between ether and water. The partition coefficient K = [ether] ÷ [water] = 6.0. 100 cm³ of aqueous solution contains 3.0 g of the compound.\n(a) Calculate the mass of the compound extracted by one extraction with 100 cm³ of ether. (2)\n(b) Is it better to carry out one extraction with 100 cm³ or two extractions with 50 cm³? Explain. (1)",
+   "points": [
+    {
+     "t": "(a) Let x g be in ether: x/100 ÷ ((3.0 − x)/100) = 6.0, so x = 6.0(3.0 − x)",
+     "m": 1
+    },
+    {
+     "t": "x = 18 ÷ 7 = 2.57 g extracted",
+     "m": 1
+    },
+    {
+     "t": "(b) Two smaller portions extract more in total (so are more efficient)",
+     "m": 1
+    }
+   ],
+   "model": "(a) Volumes are equal so the ratio of masses equals K: x ÷ (3.0 − x) = 6.0 gives x = 18 ÷ 7 = 2.57 g. (b) For the same total volume, repeated extractions with smaller volumes remove more solute than a single extraction."
+  },
+  {
+   "id": "practical-w06",
+   "topic": "practical",
+   "type": "written",
+   "marks": 3,
+   "q": "A pure liquid is purified by distillation. Describe the apparatus and explain how pure liquid is obtained.",
+   "points": [
+    {
+     "t": "The impure liquid is heated in a flask with a thermometer at the still head, level with the side arm",
+     "m": 1
+    },
+    {
+     "t": "The vapour passes through a condenser (water flowing in at the bottom) and is collected as liquid",
+     "m": 1
+    },
+    {
+     "t": "Only the fraction distilling at the boiling point of the pure substance is collected; non-volatile impurities remain",
+     "m": 1
+    }
+   ],
+   "model": "Heat the flask so the liquid vaporises; the thermometer measures the temperature of the vapour entering the condenser. The condensed liquid is collected in a receiver, and the fraction at the correct boiling point is kept as the pure product while impurities with different boiling points are separated."
+  },
+  {
+   "id": "practical-w07",
+   "topic": "practical",
+   "type": "written",
+   "marks": 3,
+   "q": "A TLC plate is run for an unknown mixture and for two reference compounds. The solvent front travelled 8.0 cm. The unknown gave spots at 2.4 cm and 5.6 cm; reference X gave a spot at 5.6 cm and reference Y at 3.2 cm.\n(a) Calculate the Rf value of reference X. (1)\n(b) Which reference compound is present in the unknown? (1)\n(c) What can you say about the second spot in the unknown? (1)",
+   "points": [
+    {
+     "t": "(a) Rf = 5.6 ÷ 8.0 = 0.70",
+     "m": 1
+    },
+    {
+     "t": "(b) X (same distance moved, same Rf)",
+     "m": 1
+    },
+    {
+     "t": "(c) It is a different substance, not Y (its Rf of 0.30 differs from the 0.40 of Y)",
+     "m": 1
+    }
+   ],
+   "model": "(a) Rf (X) = 5.6 ÷ 8.0 = 0.70. (b) The unknown has a spot at the same height as X, so X is present. (c) The other spot has Rf = 2.4 ÷ 8.0 = 0.30; Y has Rf = 0.40. They differ, so the second spot is neither X nor Y."
+  },
+  {
+   "id": "practical-w08",
+   "topic": "practical",
+   "type": "written",
+   "marks": 2,
+   "q": "Explain the purpose of drying an organic liquid product with anhydrous magnesium sulfate before distillation.",
+   "points": [
+    {
+     "t": "Anhydrous magnesium sulfate absorbs traces of water from the organic liquid",
+     "m": 1
+    },
+    {
+     "t": "so that the product is not contaminated with water and does not form an azeotrope or hydrolyse",
+     "m": 1
+    }
+   ],
+   "model": "Anhydrous magnesium sulfate removes dissolved water from the organic layer, giving a dry product and preventing water interfering with distillation or further reaction."
+  },
+  {
+   "id": "practical-x01",
+   "topic": "practical",
+   "q": "Why is a vacuum filtration used for collecting crystals?",
+   "options": [
+    "It is faster and gives drier crystals",
+    "It purifies the crystals",
+    "It dissolves the crystals",
+    "It increases the melting point"
+   ],
+   "answer": 0,
+   "explanation": "The reduced pressure draws solvent through quickly, leaving a drier solid than gravity filtration."
+  },
+  {
+   "id": "practical-x02",
+   "topic": "practical",
+   "q": "A student calculates the percentage uncertainty in a volume of 25.00 cm³ delivered by a pipette with tolerance ±0.06 cm³. What is it?",
+   "options": [
+    "0.06 %",
+    "2.4 %",
+    "0.24 %",
+    "0.0024 %"
+   ],
+   "answer": 2,
+   "explanation": "Percentage uncertainty = 0.06 ÷ 25.00 × 100 = 0.24 %."
+  },
+  {
+   "id": "practical-x03",
+   "topic": "practical",
+   "q": "What is the purpose of a blank (reference) solution in colorimetry?",
+   "options": [
+    "To set the colorimeter reading to zero absorbance",
+    "To act as the standard of highest concentration",
+    "To increase the absorbance",
+    "To dilute the sample"
+   ],
+   "answer": 0,
+   "explanation": "A blank containing everything except the coloured substance corrects for light absorbed by solvent and cell."
+  },
+  {
+   "id": "practical-x04",
+   "topic": "practical",
+   "q": "What is a calibration curve used for?",
+   "options": [
+    "To measure the wavelength of light",
+    "To determine the mass of a precipitate",
+    "To find the concentration of an unknown from its measured absorbance",
+    "To find the boiling point"
+   ],
+   "answer": 2,
+   "explanation": "Absorbances of solutions of known concentration are plotted; the unknown's concentration is read from its absorbance."
+  },
+  {
+   "id": "practical-x05",
+   "topic": "practical",
+   "q": "In gravimetric analysis, why is the precipitate heated and weighed until constant mass?",
+   "options": [
+    "To ensure that all water has been removed",
+    "To increase the reaction rate",
+    "To increase the percentage yield",
+    "To calibrate the balance"
+   ],
+   "answer": 0,
+   "explanation": "Repeated heating and weighing until the mass no longer changes shows the sample is dry."
+  },
+  {
+   "id": "practical-x06",
+   "topic": "practical",
+   "q": "Which technique is used to separate two immiscible liquids?",
+   "options": [
+    "Filtration",
+    "Recrystallisation",
+    "Separating funnel",
+    "Titration"
+   ],
+   "answer": 2,
+   "explanation": "The denser layer is run off through the tap of a separating funnel."
+  },
+  {
+   "id": "investigation-w01",
+   "topic": "investigation",
+   "type": "written",
+   "marks": 3,
+   "q": "A student plans an investigation into how temperature affects the rate of the reaction between sodium thiosulfate and hydrochloric acid, timing the formation of sulfur.\n(a) Name the independent, dependent and one controlled variable. (2)\n(b) Suggest why the student carries out a trial run first. (1)",
+   "points": [
+    {
+     "t": "(a) Independent: temperature of the reaction mixture",
+     "m": 1
+    },
+    {
+     "t": "Dependent: time for the sulfur to obscure a cross; controlled: concentration/volume of reagents",
+     "m": 1
+    },
+    {
+     "t": "(b) To find a suitable range of temperatures, volumes and times, and to identify problems before the real experiment",
+     "m": 1
+    }
+   ],
+   "model": "(a) The independent variable is temperature, the dependent variable is the time taken for the mark to be hidden, and the concentration and volumes are kept constant. (b) A trial run checks that the quantities and measurements are suitable and allows the procedure to be refined."
+  },
+  {
+   "id": "investigation-w02",
+   "topic": "investigation",
+   "type": "written",
+   "marks": 3,
+   "q": "In an investigation, a student obtained five results which included one that did not fit the pattern.\n(a) What term is used for such a result? (1)\n(b) State two possible actions the student could take. (2)",
+   "points": [
+    {
+     "t": "(a) An outlier (anomalous result)",
+     "m": 1
+    },
+    {
+     "t": "(b) Repeat the measurement to check whether it was an error",
+     "m": 1
+    },
+    {
+     "t": "Exclude the outlier from the average, justifying why, and report it",
+     "m": 1
+    }
+   ],
+   "model": "(a) The result is an outlier or anomaly. (b) The student should repeat that measurement to see whether it was a mistake and, if the cause is identified, exclude it from the mean with an explanation."
+  },
+  {
+   "id": "investigation-w03",
+   "topic": "investigation",
+   "type": "written",
+   "marks": 3,
+   "q": "A student carries out a risk assessment before an experiment involving concentrated acid.\n(a) Identify one hazard and one control measure. (2)\n(b) Why must a risk assessment be completed before beginning practical work? (1)",
+   "points": [
+    {
+     "t": "(a) Hazard: concentrated acid is corrosive",
+     "m": 1
+    },
+    {
+     "t": "Control: wear goggles and gloves, work in a fume cupboard, and dilute carefully by adding acid to water",
+     "m": 1
+    },
+    {
+     "t": "(b) To identify possible harm and reduce the risk before it can happen",
+     "m": 1
+    }
+   ],
+   "model": "(a) Concentrated acid is corrosive; the risk is reduced by wearing eye protection and gloves and adding acid to water slowly. (b) Risk assessment identifies hazards in advance so that precautions can be put in place."
+  },
+  {
+   "id": "investigation-x01",
+   "topic": "investigation",
+   "q": "Why should an investigation include repeat measurements?",
+   "options": [
+    "To increase the rate of reaction",
+    "To reduce the percentage uncertainty in each reading to zero",
+    "To improve reliability and identify outliers",
+    "To avoid needing a control"
+   ],
+   "answer": 2,
+   "explanation": "Repeats allow a mean to be calculated and anomalies spotted, improving reliability."
+  },
+  {
+   "id": "investigation-x02",
+   "topic": "investigation",
+   "q": "Which variable is deliberately changed in an investigation?",
+   "options": [
+    "Independent variable",
+    "Dependent variable",
+    "Controlled variable",
+    "Systematic error"
+   ],
+   "answer": 0,
+   "explanation": "The independent variable is the one the experimenter changes to see its effect."
+  },
+  {
+   "id": "investigation-x03",
+   "topic": "investigation",
+   "q": "Which graph feature would suggest a systematic error in a calibration graph?",
+   "options": [
+    "The points scatter evenly about the line",
+    "The line is straight",
+    "The line of best fit not passing through zero absorbance when the concentration is zero",
+    "The axes are labelled"
+   ],
+   "answer": 2,
+   "explanation": "An offset at zero concentration suggests a constant error such as an uncorrected blank."
+  },
+  {
+   "id": "articles-w01",
+   "topic": "articles",
+   "type": "written",
+   "marks": 3,
+   "q": "A news article claims that a new compound in a skin cream removes wrinkles. It cites one study that used 12 volunteers and was paid for by the company selling the cream.\nSuggest three reasons why the claim should be treated with caution.",
+   "points": [
+    {
+     "t": "The sample size is small (12 volunteers), so results may not be representative",
+     "m": 1
+    },
+    {
+     "t": "The study was funded by the company, so there may be bias",
+     "m": 1
+    },
+    {
+     "t": "There is only one study with no independent repeat or peer review, and no control group is mentioned",
+     "m": 1
+    }
+   ],
+   "model": "A small sample, company funding and a lack of replication by independent researchers or peer review all reduce confidence in the claim, as does the absence of a control group."
+  },
+  {
+   "id": "articles-w02",
+   "topic": "articles",
+   "type": "written",
+   "marks": 3,
+   "q": "Explain what is meant by peer review and why it is important in scientific publishing.",
+   "points": [
+    {
+     "t": "Experts in the field independently check a research paper before it is published",
+     "m": 1
+    },
+    {
+     "t": "They check methods, results and conclusions for validity and errors",
+     "m": 1
+    },
+    {
+     "t": "This increases confidence that the published work is reliable",
+     "m": 1
+    }
+   ],
+   "model": "Peer review is the scrutiny of a manuscript by independent experts who assess whether the methods and conclusions are sound. It helps to maintain quality and credibility of the scientific literature."
+  },
+  {
+   "id": "articles-w03",
+   "topic": "articles",
+   "type": "written",
+   "marks": 2,
+   "q": "A graph in an article shows that ice-cream sales and sunburn cases both rise in summer. Explain why it would be wrong to conclude that ice cream causes sunburn.",
+   "points": [
+    {
+     "t": "Correlation does not prove causation",
+     "m": 1
+    },
+    {
+     "t": "A third factor (hot, sunny weather) causes both to increase",
+     "m": 1
+    }
+   ],
+   "model": "The two quantities rise together because both are caused by sunny weather. A correlation between variables does not show that one causes the other."
+  },
+  {
+   "id": "articles-x01",
+   "topic": "articles",
+   "q": "Which source of information is the most reliable for a scientific claim?",
+   "options": [
+    "An unnamed internet forum",
+    "An advertisement for the product",
+    "A peer-reviewed journal article reporting the method and data",
+    "A personal opinion blog"
+   ],
+   "answer": 2,
+   "explanation": "Peer-reviewed articles are checked by experts and report their methods and data so the claim can be evaluated."
+  },
+  {
+   "id": "articles-x02",
+   "topic": "articles",
+   "q": "Why is it useful to check whether a study has a control group?",
+   "options": [
+    "It shows whether the observed effect is due to the factor being tested",
+    "It makes the study cheaper",
+    "It guarantees the results are correct",
+    "It allows the sample to be smaller"
+   ],
+   "answer": 0,
+   "explanation": "Comparing with a control showing no treatment indicates what happens without the factor, so any effect can be attributed to it."
+  },
+  {
+   "id": "articles-x03",
+   "topic": "articles",
+   "q": "A study's conclusion is based on one experiment carried out once. What should be done to increase confidence?",
+   "options": [
+    "Publish it immediately",
+    "Use a bigger graph",
+    "Repeat the experiment independently and obtain similar results",
+    "Remove the data that do not fit"
+   ],
+   "answer": 2,
+   "explanation": "Independent replication is the best way to confirm a result."
   }
  ]
 };
