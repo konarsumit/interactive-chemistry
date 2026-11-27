@@ -28,3 +28,14 @@ Add a figure (diagram) to a question
      Optional caption:  figure:{src:'...',alt:'...',caption:'Figure 1'}
   3. node validate.js banks/<id>.js  checks the file exists and the alt text is present.
   All figures must be original (drawn for this site), never copied from past papers or textbooks.
+
+WRITTEN QUESTIONS (self-marked long answers)
+  A question with  type:'written'  shows a text box; the student then opens a marking guide, ticks the marks earned and sees a model answer.
+  {id:'energy-w01', topic:'energy', type:'written', marks:3,
+   q:'Question text. Use \n for new lines and (a), (b) parts with marks in brackets.',
+   points:[{t:'Marking point 1 text',m:1},{t:'Marking point 2 text',m:1},{t:'Marking point 3 text',m:1}],   // m values must add up to marks
+   model:'Full model answer / worked solution (REQUIRED for every written question).',
+   explanation:'Optional tip shown under the model answer.'}
+  - No options/answer fields. Marks 1-9. validate.js checks that the points add up to the marks and that a model answer exists.
+  - The setup page shows a "Question type" switch (All / Multiple choice / Written) when a bank contains both kinds.
+  - Results show marks (e.g. 14 / 18 marks) and, for written questions, the marking points missed plus the model answer.
