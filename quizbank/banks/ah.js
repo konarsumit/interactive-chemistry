@@ -1996,6 +1996,996 @@ unitLabel:"Unit", topicLabel:"Topic",
    ],
    "answer": 1,
    "explanation": "TLC has finite resolving and detection power. A single matching spot is useful evidence, but another substance may have the same Rf or fail to appear with the chosen visualisation."
+  },
+  {
+   "id": "spectra-w01",
+   "topic": "spectra",
+   "type": "written",
+   "marks": 4,
+   "q": "Sodium emits light of wavelength 589 nm.\n(a) Calculate the frequency of this light. (1)\n(b) Calculate the energy of one photon, in J. (1)\n(c) Calculate the energy emitted when one mole of these photons is produced, in kJ mol⁻¹. (2)\n(h = 6.63 × 10⁻³⁴ J s; c = 3.00 × 10⁸ m s⁻¹; L = 6.02 × 10²³ mol⁻¹)",
+   "points": [
+    {
+     "t": "(a) ν = c ÷ λ = 3.00 × 10⁸ ÷ 589 × 10⁻⁹ = 5.09e+14 Hz",
+     "m": 1
+    },
+    {
+     "t": "(b) E = hν = 6.63 × 10⁻³⁴ × 5.09e+14 = 3.38e-19 J",
+     "m": 1
+    },
+    {
+     "t": "(c) E = Lhν = 6.02 × 10²³ × 3.38e-19 = 2.033e+05 J mol⁻¹",
+     "m": 1
+    },
+    {
+     "t": "= 203 kJ mol⁻¹",
+     "m": 1
+    }
+   ],
+   "model": "(a) ν = c ÷ λ = (3.00 × 10⁸) ÷ (589 × 10⁻⁹) = 5.09e+14 s⁻¹. (b) E = hν = 6.63 × 10⁻³⁴ × 5.09e+14 = 3.38e-19 J per photon. (c) For one mole E = L h ν = 6.02 × 10²³ × 3.38e-19 = 2.033e+05 J mol⁻¹ = 203 kJ mol⁻¹.",
+   "explanation": "Convert wavelength from nm to m (× 10⁻⁹) before using c = νλ."
+  },
+  {
+   "id": "spectra-w02",
+   "topic": "spectra",
+   "type": "written",
+   "marks": 3,
+   "q": "Explain how an atomic emission spectrum of hydrogen is produced and why it consists of lines of particular frequencies.",
+   "points": [
+    {
+     "t": "Electrons are excited (by heat or electrical energy) to higher energy levels",
+     "m": 1
+    },
+    {
+     "t": "When they fall back to lower levels, energy is emitted as a photon (light)",
+     "m": 1
+    },
+    {
+     "t": "The energy levels are fixed (quantised), so the energy difference ΔE = hν has specific values, giving lines of definite frequency",
+     "m": 1
+    }
+   ],
+   "model": "Heating or passing a current through the gas promotes electrons to higher energy levels. These excited electrons fall back to lower levels and the energy difference is released as a photon with energy ΔE = hν. Because the energy levels are quantised, only certain energy differences, and so only certain frequencies, are possible, giving a line spectrum."
+  },
+  {
+   "id": "spectra-w03",
+   "topic": "spectra",
+   "type": "written",
+   "marks": 2,
+   "q": "State one difference between an atomic emission spectrum and an atomic absorption spectrum of the same element.",
+   "points": [
+    {
+     "t": "Emission spectrum: bright lines on a dark background (light emitted when electrons fall to lower levels)",
+     "m": 1
+    },
+    {
+     "t": "Absorption spectrum: dark lines on a continuous spectrum at the same frequencies (light absorbed when electrons are promoted)",
+     "m": 1
+    }
+   ],
+   "model": "In an emission spectrum, coloured lines appear against a dark background as excited electrons drop to lower levels. In an absorption spectrum, dark lines appear in a continuous spectrum at the same frequencies because those frequencies are absorbed as electrons are promoted."
+  },
+  {
+   "id": "spectra-x01",
+   "topic": "spectra",
+   "q": "Which expression gives the energy, in J mol⁻¹, of one mole of photons of frequency ν?",
+   "options": [
+    "E = h ν",
+    "E = h ÷ ν",
+    "E = L ÷ (h ν)",
+    "E = L h ν"
+   ],
+   "answer": 3,
+   "explanation": "One photon has energy hν; multiplying by the Avogadro constant L gives the energy of one mole of photons."
+  },
+  {
+   "id": "spectra-x02",
+   "topic": "spectra",
+   "q": "Which change in an atom gives rise to a line in its atomic emission spectrum?",
+   "options": [
+    "An electron is removed from the atom",
+    "An electron falls from a higher to a lower energy level",
+    "An electron moves into a higher energy level",
+    "A nucleus emits a photon"
+   ],
+   "answer": 1,
+   "explanation": "Photons are emitted when excited electrons fall to lower energy levels; the photon energy equals the difference in energy between the levels."
+  },
+  {
+   "id": "orbitals-w01",
+   "topic": "orbitals",
+   "type": "written",
+   "marks": 4,
+   "q": "(a) Write the electron configuration of an iron atom using the notation 1s² 2s² … (2)\n(b) Write the electron configuration of the Fe³⁺ ion using [Ar] notation. (1)\n(c) Explain why the Fe³⁺ ion is relatively stable. (1)",
+   "points": [
+    {
+     "t": "(a) 1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁶ 4s²  (accept 3d⁶ 4s² written in either order)",
+     "m": 2
+    },
+    {
+     "t": "(b) [Ar] 3d⁵",
+     "m": 1
+    },
+    {
+     "t": "(c) The 3d subshell is exactly half full, which is a relatively stable arrangement",
+     "m": 1
+    }
+   ],
+   "model": "(a) Iron has 26 electrons: 1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁶ 4s². (b) The 4s electrons are lost first, followed by one 3d electron: Fe³⁺ is [Ar] 3d⁵. (c) A half-filled d subshell, with one electron in each orbital, is particularly stable."
+  },
+  {
+   "id": "orbitals-w02",
+   "topic": "orbitals",
+   "type": "written",
+   "marks": 2,
+   "q": "The electron configuration of chromium is [Ar] 3d⁵ 4s¹, not [Ar] 3d⁴ 4s². Explain why.",
+   "points": [
+    {
+     "t": "Half-filled 3d and 4s subshells are particularly stable",
+     "m": 1
+    },
+    {
+     "t": "The extra stability gained (less electron repulsion with each orbital singly occupied) outweighs the energy needed to promote a 4s electron into the 3d subshell",
+     "m": 1
+    }
+   ],
+   "model": "Having one electron in each of the five 3d orbitals and one in 4s gives a half-filled subshell arrangement with minimal electron–electron repulsion and extra stability. This is more favourable than 3d⁴ 4s², so one 4s electron moves into the 3d subshell."
+  },
+  {
+   "id": "orbitals-w03",
+   "topic": "orbitals",
+   "type": "written",
+   "marks": 3,
+   "q": "State (a) the Pauli exclusion principle, (b) Hund's rule and (c) the Aufbau principle.",
+   "points": [
+    {
+     "t": "(a) An orbital can hold a maximum of two electrons, which must have opposite spins",
+     "m": 1
+    },
+    {
+     "t": "(b) Electrons occupy degenerate orbitals singly, with parallel spins, before pairing",
+     "m": 1
+    },
+    {
+     "t": "(c) Electrons fill the lowest energy orbitals first (building up the configuration)",
+     "m": 1
+    }
+   ],
+   "model": "(a) Each orbital holds at most two electrons and they must have opposite spins. (b) Orbitals of equal energy are filled singly with parallel spins before any are doubly occupied. (c) Electrons occupy orbitals in order of increasing energy."
+  },
+  {
+   "id": "orbitals-w04",
+   "topic": "orbitals",
+   "type": "written",
+   "marks": 3,
+   "q": "In transition metals the 4s orbital fills before the 3d, but when a transition metal atom forms an ion the 4s electrons are lost first. Explain this apparent contradiction.",
+   "points": [
+    {
+     "t": "For neutral atoms the 4s orbital is lower in energy than the 3d, so it is filled first",
+     "m": 1
+    },
+    {
+     "t": "Once the 3d orbitals contain electrons, they become lower in energy than 4s (because of electron repulsion / the changed nuclear attraction)",
+     "m": 1
+    },
+    {
+     "t": "So the 4s electrons are the highest-energy electrons and are removed first",
+     "m": 1
+    }
+   ],
+   "model": "In the neutral atoms the 4s orbital is slightly lower in energy than 3d, so it fills first. As the 3d orbitals fill, they are stabilised more than 4s and so the 4s electrons end up at the higher energy level and are the first to be lost on ionisation."
+  },
+  {
+   "id": "orbitals-x01",
+   "topic": "orbitals",
+   "q": "How many orbitals are there in a d subshell?",
+   "options": [
+    "3",
+    "7",
+    "10",
+    "5"
+   ],
+   "answer": 3,
+   "explanation": "s has 1 orbital, p has 3, d has 5 and f has 7."
+  },
+  {
+   "id": "orbitals-x02",
+   "topic": "orbitals",
+   "q": "What is the electron configuration of a copper atom?",
+   "options": [
+    "[Ar] 3d⁹ 4s²",
+    "[Ar] 3d¹⁰ 4s¹",
+    "[Ar] 3d¹⁰ 4s²",
+    "[Ar] 3d⁸ 4s¹ 4p²"
+   ],
+   "answer": 1,
+   "explanation": "A full 3d subshell plus a half-full 4s gives extra stability, so one 4s electron is promoted."
+  },
+  {
+   "id": "orbitals-x03",
+   "topic": "orbitals",
+   "q": "Which ion has the electron configuration [Ar] 3d³?",
+   "options": [
+    "Fe²⁺",
+    "Mn²⁺",
+    "Ti⁴⁺",
+    "V²⁺"
+   ],
+   "answer": 3,
+   "explanation": "Vanadium is [Ar] 3d³ 4s²; losing the two 4s electrons gives V²⁺ with [Ar] 3d³. Fe²⁺ is 3d⁶, Mn²⁺ is 3d⁵ and Ti⁴⁺ is 3d⁰."
+  },
+  {
+   "id": "shapes-w01",
+   "topic": "shapes",
+   "type": "written",
+   "marks": 3,
+   "q": "Use electron pair repulsion theory to predict the shape of each of the following and state the approximate bond angle.\n(a) NH₃ (b) BF₃ (c) SF₆",
+   "points": [
+    {
+     "t": "(a) NH₃: 4 electron pairs (3 bonding, 1 lone pair): trigonal pyramidal, about 107°",
+     "m": 1
+    },
+    {
+     "t": "(b) BF₃: 3 bonding pairs, no lone pairs: trigonal planar, 120°",
+     "m": 1
+    },
+    {
+     "t": "(c) SF₆: 6 bonding pairs, no lone pairs: octahedral, 90°",
+     "m": 1
+    }
+   ],
+   "model": "(a) Nitrogen has four electron pairs, one of them a lone pair, giving a trigonal pyramidal shape; the lone pair repels the bonding pairs and reduces the angle to about 107°. (b) Boron has three bonding pairs, so the shape is trigonal planar with 120° angles. (c) Sulfur has six bonding pairs, giving an octahedral shape with 90° angles."
+  },
+  {
+   "id": "shapes-w02",
+   "topic": "shapes",
+   "type": "written",
+   "marks": 3,
+   "q": "The bond angle in methane (109.5°) is greater than the bond angle in water (104.5°). Explain this difference.",
+   "points": [
+    {
+     "t": "Both have four electron pairs arranged tetrahedrally",
+     "m": 1
+    },
+    {
+     "t": "Water has two lone pairs; methane has none",
+     "m": 1
+    },
+    {
+     "t": "Lone pairs repel bonding pairs more strongly than bonding pairs repel each other, so the angle is smaller in water",
+     "m": 1
+    }
+   ],
+   "model": "Both molecules have four electron pairs around the central atom, arranged in a tetrahedron. In methane they are all bonding pairs, giving 109.5°. Water has two lone pairs, and lone pair–bonding pair repulsion is stronger than bonding pair–bonding pair repulsion, which squeezes the H–O–H angle to 104.5°."
+  },
+  {
+   "id": "shapes-w03",
+   "topic": "shapes",
+   "type": "written",
+   "marks": 4,
+   "q": "Chlorine trifluoride, ClF₃, is a T-shaped molecule.\n(a) State the number of bonding pairs and lone pairs of electrons on the chlorine atom. (1)\n(b) Name the arrangement of the five electron pairs. (1)\n(c) Explain why the molecule is T-shaped rather than trigonal planar. (2)",
+   "points": [
+    {
+     "t": "(a) 3 bonding pairs and 2 lone pairs",
+     "m": 1
+    },
+    {
+     "t": "(b) Trigonal bipyramidal",
+     "m": 1
+    },
+    {
+     "t": "(c) The lone pairs occupy the equatorial positions (where they have the least repulsion with other pairs)",
+     "m": 1
+    },
+    {
+     "t": "This leaves the three fluorine atoms in a T shape",
+     "m": 1
+    }
+   ],
+   "model": "(a) Chlorine has seven outer electrons; three form bonds and the other four form two lone pairs. (b) Five electron pairs adopt a trigonal bipyramidal arrangement. (c) To minimise repulsion the two lone pairs go in the equatorial positions, 120° apart from each other, leaving the three bonded fluorines in a T-shaped arrangement (one axial pair and one equatorial)."
+  },
+  {
+   "id": "shapes-w04",
+   "topic": "shapes",
+   "type": "written",
+   "marks": 3,
+   "q": "Xenon tetrafluoride, XeF₄, is a square planar molecule. Explain, in terms of electron pairs, why it has this shape.",
+   "points": [
+    {
+     "t": "Xenon has 8 outer electrons: 4 form bonding pairs and 4 remain as 2 lone pairs",
+     "m": 1
+    },
+    {
+     "t": "The six electron pairs are arranged octahedrally",
+     "m": 1
+    },
+    {
+     "t": "The two lone pairs are on opposite sides (furthest apart), leaving the four fluorines in a square plane",
+     "m": 1
+    }
+   ],
+   "model": "Xenon has eight outer electrons; four are used in bonds with fluorine, leaving two lone pairs. The six electron pairs arrange themselves octahedrally. The two lone pairs sit opposite each other to minimise repulsion, so the four F atoms lie in one plane at 90° angles: square planar."
+  },
+  {
+   "id": "shapes-w05",
+   "topic": "shapes",
+   "type": "written",
+   "marks": 3,
+   "q": "State the shape of ICl₄⁻ and SF₄ and explain why they are different from the shape of CCl₄.",
+   "points": [
+    {
+     "t": "ICl₄⁻ is square planar and SF₄ is see-saw, whereas CCl₄ is tetrahedral",
+     "m": 1
+    },
+    {
+     "t": "CCl₄ has four bonding pairs and no lone pairs",
+     "m": 1
+    },
+    {
+     "t": "ICl₄⁻ and SF₄ have lone pairs on the central atom (two and one respectively), which change the shape",
+     "m": 1
+    }
+   ],
+   "model": "CCl₄ has four bonding pairs and no lone pairs, so it is tetrahedral. ICl₄⁻ has four bonding pairs and two lone pairs (six electron pairs, octahedral arrangement) giving a square planar shape. SF₄ has four bonding pairs and one lone pair (five electron pairs, trigonal bipyramidal arrangement) giving a see-saw shape."
+  },
+  {
+   "id": "shapes-x01",
+   "topic": "shapes",
+   "q": "What is the shape of a molecule with three bonding pairs and one lone pair around the central atom?",
+   "options": [
+    "Trigonal planar",
+    "Tetrahedral",
+    "Bent",
+    "Trigonal pyramidal"
+   ],
+   "answer": 3,
+   "explanation": "Four electron pairs are arranged tetrahedrally; with one lone pair the three atoms form a pyramid."
+  },
+  {
+   "id": "shapes-x02",
+   "topic": "shapes",
+   "q": "Which of the following molecules is linear?",
+   "options": [
+    "H₂O",
+    "XeF₂",
+    "SF₄",
+    "BF₃"
+   ],
+   "answer": 1,
+   "explanation": "XeF₂ has five electron pairs: two bonding and three lone pairs. The lone pairs sit equatorially so the F–Xe–F axis is linear."
+  },
+  {
+   "id": "shapes-x03",
+   "topic": "shapes",
+   "q": "What is the bond angle in an octahedral molecule such as SF₆?",
+   "options": [
+    "109.5°",
+    "120°",
+    "180°",
+    "90°"
+   ],
+   "answer": 3,
+   "explanation": "All F–S–F angles between adjacent fluorines in an octahedral molecule are 90°."
+  },
+  {
+   "id": "tm-w01",
+   "topic": "tm",
+   "type": "written",
+   "marks": 4,
+   "q": "A solution of a complex ion absorbs light most strongly at a wavelength of 600 nm.\n(a) Calculate the energy, in kJ mol⁻¹, of the light absorbed. (2)\n(b) Describe what this energy corresponds to in the complex ion. (1)\n(c) Why does a solution of a zinc(II) complex appear colourless? (1)\n(h = 6.63 × 10⁻³⁴ J s; c = 3.00 × 10⁸ m s⁻¹; L = 6.02 × 10²³ mol⁻¹)",
+   "points": [
+    {
+     "t": "(a) E = L h c ÷ λ = 6.02 × 10²³ × 6.63 × 10⁻³⁴ × 3.00 × 10⁸ ÷ 600 × 10⁻⁹",
+     "m": 1
+    },
+    {
+     "t": "= 2e+05 J mol⁻¹ = 200 kJ mol⁻¹",
+     "m": 1
+    },
+    {
+     "t": "(b) The energy gap between the split d orbitals (an electron is promoted from a lower to a higher d orbital)",
+     "m": 1
+    },
+    {
+     "t": "(c) Zn²⁺ has a full 3d subshell (3d¹⁰), so no d–d electron transitions are possible and no visible light is absorbed",
+     "m": 1
+    }
+   ],
+   "model": "(a) E = L h ν = L h c ÷ λ = 6.02 × 10²³ × 6.63 × 10⁻³⁴ × 3.00 × 10⁸ ÷ 6.00 × 10⁻⁷ = 2e+05 J mol⁻¹ = 200 kJ mol⁻¹. (b) The light absorbed promotes an electron between the two sets of d orbitals that were split in energy by the ligands, so it equals the energy gap ΔE. (c) Zinc(II) has a full 3d¹⁰ subshell, so no electron can be promoted within the d orbitals, no light in the visible region is absorbed and the complex is colourless."
+  },
+  {
+   "id": "tm-w02",
+   "topic": "tm",
+   "type": "written",
+   "marks": 3,
+   "q": "Explain why aqueous solutions of copper(II) sulfate are blue.",
+   "points": [
+    {
+     "t": "Ligands (water) split the 3d orbitals into two sets of different energy",
+     "m": 1
+    },
+    {
+     "t": "Light is absorbed (red/orange) when an electron is promoted to a higher d orbital (d–d transition)",
+     "m": 1
+    },
+    {
+     "t": "The remaining (complementary) colour, blue, is transmitted",
+     "m": 1
+    }
+   ],
+   "model": "In the hydrated copper(II) ion the water ligands split the d orbitals into two energy levels. Red–orange light has just the right energy to promote an electron to the upper level and is absorbed; the unabsorbed light, which looks blue, is transmitted."
+  },
+  {
+   "id": "tm-w03",
+   "topic": "tm",
+   "type": "written",
+   "marks": 3,
+   "q": "The complex ion [Co(NH₃)₆]³⁺ is formed when ammonia is added to a solution of cobalt(III) ions.\n(a) State the oxidation state of cobalt in the complex. (1)\n(b) State the coordination number of the cobalt ion. (1)\n(c) Explain why ammonia can act as a ligand. (1)",
+   "points": [
+    {
+     "t": "(a) The oxidation state of cobalt is +3",
+     "m": 1
+    },
+    {
+     "t": "(b) The coordination number is 6",
+     "m": 1
+    },
+    {
+     "t": "(c) Ammonia has a lone pair of electrons on the nitrogen atom which forms a dative covalent bond with the metal ion",
+     "m": 1
+    }
+   ],
+   "model": "(a) Ammonia is neutral, so the oxidation state of cobalt equals the charge on the complex: +3. (b) Six ammonia ligands are bonded to the cobalt, so the coordination number is 6. (c) Each ammonia molecule uses the lone pair of electrons on nitrogen to form a dative covalent bond to the cobalt ion."
+  },
+  {
+   "id": "tm-w04",
+   "topic": "tm",
+   "type": "written",
+   "marks": 5,
+   "q": "The iron(II) content of a solution is found by titration with potassium permanganate.\nMnO₄⁻ + 8H⁺ + 5Fe²⁺ → Mn²⁺ + 4H₂O + 5Fe³⁺\n25.0 cm³ of the iron(II) solution required 18.6 cm³ of potassium permanganate solution, concentration 0.0200 mol l⁻¹.\n(a) State the colour change at the end point. (1)\n(b) Calculate the concentration of iron(II) ions in the solution. (4)",
+   "points": [
+    {
+     "t": "(a) Colourless (very pale) to pale pink (permanganate acts as its own indicator)",
+     "m": 1
+    },
+    {
+     "t": "(b) Moles of MnO₄⁻ = 0.0200 × 0.0186 = 3.720e-04 mol",
+     "m": 1
+    },
+    {
+     "t": "Mole ratio MnO₄⁻ : Fe²⁺ = 1 : 5",
+     "m": 1
+    },
+    {
+     "t": "Moles of Fe²⁺ = 5 × 3.720e-04 = 1.860e-03 mol",
+     "m": 1
+    },
+    {
+     "t": "Concentration = 1.860e-03 ÷ 0.0250 = 0.074 mol l⁻¹",
+     "m": 1
+    }
+   ],
+   "model": "(a) The end point is the first permanent faint pink colour, since the purple permanganate is decolourised by the iron(II) until it is in slight excess. (b) n(MnO₄⁻) = c × V = 0.0200 × 0.0186 = 3.720e-04 mol. The equation shows 5 Fe²⁺ react with each MnO₄⁻, so n(Fe²⁺) = 5 × 3.720e-04 = 1.860e-03 mol in 25.0 cm³. c = n ÷ V = 1.860e-03 ÷ 0.0250 = 0.074 mol l⁻¹."
+  },
+  {
+   "id": "tm-w05",
+   "topic": "tm",
+   "type": "written",
+   "marks": 3,
+   "q": "Transition metals and their compounds are often good catalysts. Explain, with reference to variable oxidation states, how iron(III) ions can catalyse the reaction between iodide ions and peroxodisulfate ions.",
+   "points": [
+    {
+     "t": "Iron(III) is reduced to iron(II) by iodide ions (iodide is oxidised to iodine)",
+     "m": 1
+    },
+    {
+     "t": "Iron(II) is oxidised back to iron(III) by peroxodisulfate ions",
+     "m": 1
+    },
+    {
+     "t": "The catalyst is regenerated; the variable oxidation states provide an alternative lower activation energy pathway",
+     "m": 1
+    }
+   ],
+   "model": "Fe³⁺ oxidises I⁻ to I₂ and is reduced to Fe²⁺. The Fe²⁺ is then oxidised back to Fe³⁺ by S₂O₈²⁻. Because iron can easily change between the +2 and +3 oxidation states it provides an alternative pathway with a lower activation energy and is regenerated at the end."
+  },
+  {
+   "id": "tm-w06",
+   "topic": "tm",
+   "type": "written",
+   "marks": 3,
+   "q": "State the oxidation state of vanadium in each of these species and explain why they can be interconverted.\nVO₂⁺ VO²⁺ V³⁺ V²⁺",
+   "points": [
+    {
+     "t": "VO₂⁺: +5, VO²⁺: +4",
+     "m": 1
+    },
+    {
+     "t": "V³⁺: +3, V²⁺: +2",
+     "m": 1
+    },
+    {
+     "t": "Transition metals have several oxidation states because the 3d and 4s electrons are similar in energy, so different numbers of electrons can be lost; the changes are redox reactions",
+     "m": 1
+    }
+   ],
+   "model": "In VO₂⁺ the oxidation state is +5 (2 × O is −4; 5 − 4 = +1), in VO²⁺ it is +4, in V³⁺ +3 and in V²⁺ +2. Vanadium can form these because the 3d and 4s electrons have similar energies and various numbers of them can be lost. Moving between species involves gaining or losing electrons – redox reactions."
+  },
+  {
+   "id": "tm-x01",
+   "topic": "tm",
+   "q": "What is the coordination number of the complex ion [Cu(NH₃)₄(H₂O)₂]²⁺?",
+   "options": [
+    "2",
+    "6",
+    "4",
+    "2+"
+   ],
+   "answer": 1,
+   "explanation": "Coordination number is the total number of dative bonds from ligands: 4 + 2 = 6."
+  },
+  {
+   "id": "tm-x02",
+   "topic": "tm",
+   "q": "Why is a solution of Zn²⁺ ions colourless?",
+   "options": [
+    "Zn²⁺ ions do not absorb any radiation",
+    "Zn²⁺ ions have no electrons",
+    "Zinc is not a transition metal ion with ligands",
+    "The 3d subshell is full so no d–d transitions can occur"
+   ],
+   "answer": 3,
+   "explanation": "Colour in transition metal complexes arises from d–d transitions; Zn²⁺ has a full 3d¹⁰ subshell so there is no vacancy for an electron to be promoted into."
+  },
+  {
+   "id": "tm-x03",
+   "topic": "tm",
+   "q": "Which of the following is a bidentate ligand?",
+   "options": [
+    "Water",
+    "Ethane-1,2-diamine",
+    "Ammonia",
+    "Chloride ion"
+   ],
+   "answer": 1,
+   "explanation": "A bidentate ligand uses two atoms to form two dative bonds; ethane-1,2-diamine has two nitrogen atoms with lone pairs."
+  },
+  {
+   "id": "tm-x04",
+   "topic": "tm",
+   "q": "Which statement about heterogeneous catalysis is correct?",
+   "options": [
+    "The catalyst is in the same phase as the reactants",
+    "The catalyst is used up during the reaction",
+    "The catalyst changes the position of equilibrium",
+    "The catalyst is in a different phase from the reactants"
+   ],
+   "answer": 3,
+   "explanation": "In heterogeneous catalysis the catalyst (often a solid) is in a different phase from the reactants, such as iron in the Haber process."
+  },
+  {
+   "id": "equil-w01",
+   "topic": "equil",
+   "type": "written",
+   "marks": 5,
+   "q": "Ammonia is made by the Haber process.\nN₂(g) + 3H₂(g) ⇌ 2NH₃(g)\nAt equilibrium at 700 K the concentrations are: N₂ 0.30 mol l⁻¹, H₂ 0.60 mol l⁻¹, NH₃ 0.12 mol l⁻¹.\n(a) Write the expression for the equilibrium constant, Kc. (1)\n(b) Calculate the value of Kc and state its units. (3)\n(c) The forward reaction is exothermic. State the effect on Kc of increasing the temperature. (1)",
+   "points": [
+    {
+     "t": "(a) Kc = [NH₃]² ÷ ([N₂][H₂]³)",
+     "m": 1
+    },
+    {
+     "t": "(b) Kc = (0.12)² ÷ (0.30 × 0.60³)",
+     "m": 1
+    },
+    {
+     "t": "Kc = 0.222",
+     "m": 1
+    },
+    {
+     "t": "Units: l² mol⁻²",
+     "m": 1
+    },
+    {
+     "t": "(c) Kc decreases (the equilibrium shifts to the left, the endothermic direction)",
+     "m": 1
+    }
+   ],
+   "model": "(a) Kc = [NH₃]² ÷ ([N₂][H₂]³). (b) Kc = 0.12² ÷ (0.30 × 0.60³) = 0.0144 ÷ 0.0648 = 0.222. The units are (mol l⁻¹)² ÷ (mol l⁻¹)⁴ = l² mol⁻². (c) For an exothermic reaction, raising the temperature favours the reverse (endothermic) direction, so the equilibrium moves to the left and Kc falls."
+  },
+  {
+   "id": "equil-w02",
+   "topic": "equil",
+   "type": "written",
+   "marks": 5,
+   "q": "1.00 mol of hydrogen and 1.00 mol of iodine are placed in a 2.00 l container and allowed to reach equilibrium at 700 K.\nH₂(g) + I₂(g) ⇌ 2HI(g)\nAt equilibrium the mixture contains 1.56 mol of hydrogen iodide.\n(a) Calculate the number of moles of hydrogen and iodine at equilibrium. (2)\n(b) Calculate the equilibrium concentrations of all three substances. (1)\n(c) Calculate Kc. (2)",
+   "points": [
+    {
+     "t": "(a) Moles of H₂ used = 1.56 ÷ 2 = 0.78 mol",
+     "m": 1
+    },
+    {
+     "t": "Moles of H₂ = I₂ at equilibrium = 1.00 − 0.78 = 0.22 mol",
+     "m": 1
+    },
+    {
+     "t": "(b) [H₂] = [I₂] = 0.22 ÷ 2.00 = 0.110 mol l⁻¹; [HI] = 1.56 ÷ 2.00 = 0.78 mol l⁻¹",
+     "m": 1
+    },
+    {
+     "t": "(c) Kc = [HI]² ÷ ([H₂][I₂]) = 0.78² ÷ (0.110 × 0.110)",
+     "m": 1
+    },
+    {
+     "t": "Kc = 50.3 (no units)",
+     "m": 1
+    }
+   ],
+   "model": "(a) The 1 : 1 : 2 ratio means that forming 1.56 mol of HI uses 0.78 mol each of H₂ and I₂, so 0.22 mol of each remains. (b) Divide by the volume (2.00 l): [H₂] = [I₂] = 0.110 mol l⁻¹ and [HI] = 0.780 mol l⁻¹. (c) Kc = 0.780² ÷ (0.110 × 0.110) = 50.3. The units cancel, so Kc has no units."
+  },
+  {
+   "id": "equil-w03",
+   "topic": "equil",
+   "type": "written",
+   "marks": 3,
+   "q": "State and explain the effect on the value of Kc, and on the position of equilibrium, of (a) adding a catalyst and (b) increasing the pressure, for the equilibrium N₂(g) + 3H₂(g) ⇌ 2NH₃(g).",
+   "points": [
+    {
+     "t": "(a) Catalyst: no change in Kc or the position; both forward and reverse rates increase equally (equilibrium reached faster)",
+     "m": 1
+    },
+    {
+     "t": "(b) Higher pressure: Kc is unchanged (it depends only on temperature)",
+     "m": 1
+    },
+    {
+     "t": "The position shifts to the right (fewer moles of gas) to reduce the pressure",
+     "m": 1
+    }
+   ],
+   "model": "(a) A catalyst speeds up the forward and reverse reactions equally; it changes neither Kc nor the equilibrium position, only the time taken to reach equilibrium. (b) Kc depends only on temperature, so it is unchanged by pressure. The equilibrium position shifts to the right, the side with fewer gas molecules (2 against 4), partially counteracting the pressure increase."
+  },
+  {
+   "id": "equil-x01",
+   "topic": "equil",
+   "q": "For which change does the value of Kc change?",
+   "options": [
+    "Adding a catalyst",
+    "Increasing the pressure",
+    "Increasing the concentration of a reactant",
+    "A change in temperature"
+   ],
+   "answer": 3,
+   "explanation": "Kc depends only on temperature (for a given reaction)."
+  },
+  {
+   "id": "equil-x02",
+   "topic": "equil",
+   "q": "What are the units of Kc for the equilibrium 2SO₂(g) + O₂(g) ⇌ 2SO₃(g)?",
+   "options": [
+    "mol l⁻¹",
+    "l mol⁻¹",
+    "l² mol⁻²",
+    "There are no units"
+   ],
+   "answer": 1,
+   "explanation": "Kc = [SO₃]² ÷ ([SO₂]²[O₂]) has units (mol l⁻¹)² ÷ (mol l⁻¹)³ = l mol⁻¹."
+  },
+  {
+   "id": "feasible-w01",
+   "topic": "feasible",
+   "type": "written",
+   "marks": 5,
+   "q": "Ammonia is made from nitrogen and hydrogen.\nN₂(g) + 3H₂(g) → 2NH₃(g)   ΔH° = −92.4 kJ mol⁻¹\nStandard entropies, S°/J K⁻¹ mol⁻¹: N₂ 191.6; H₂ 130.6; NH₃ 192.5\n(a) Calculate ΔS° for the reaction. (2)\n(b) Calculate ΔG° at 298 K, in kJ mol⁻¹. (2)\n(c) Calculate the temperature above which the reaction is no longer feasible. (1)",
+   "points": [
+    {
+     "t": "(a) ΔS° = ΣS°(products) − ΣS°(reactants) = (2 × 192.5) − (191.6 + 3 × 130.6)",
+     "m": 1
+    },
+    {
+     "t": "= -198.4 J K⁻¹ mol⁻¹",
+     "m": 1
+    },
+    {
+     "t": "(b) ΔG° = ΔH° − TΔS° = −92.4 − (298 × -0.1984)",
+     "m": 1
+    },
+    {
+     "t": "= -33.3 kJ mol⁻¹",
+     "m": 1
+    },
+    {
+     "t": "(c) T = ΔH° ÷ ΔS° = −92.4 ÷ -0.1984 = 466 K",
+     "m": 1
+    }
+   ],
+   "model": "(a) ΔS° = (2 × 192.5) − (191.6 + 3 × 130.6) = 385.0 − 583.4 = -198.4 J K⁻¹ mol⁻¹ (entropy decreases because four moles of gas become two). (b) ΔS° = -0.1984 kJ K⁻¹ mol⁻¹, so ΔG° = −92.4 − 298 × (-0.1984) = -33.3 kJ mol⁻¹: feasible at 298 K. (c) The reaction stops being feasible when ΔG° = 0: T = ΔH° ÷ ΔS° = 466 K.",
+   "explanation": "Remember to convert ΔS° from J K⁻¹ mol⁻¹ to kJ K⁻¹ mol⁻¹ before combining with ΔH° in kJ."
+  },
+  {
+   "id": "feasible-w02",
+   "topic": "feasible",
+   "type": "written",
+   "marks": 5,
+   "q": "Calcium carbonate decomposes on heating.\nCaCO₃(s) → CaO(s) + CO₂(g)\nStandard enthalpies of formation, ΔHf°/kJ mol⁻¹: CaCO₃ −1207; CaO −635; CO₂ −394\nStandard entropies, S°/J K⁻¹ mol⁻¹: CaCO₃ 92.9; CaO 39.8; CO₂ 213.8\n(a) Calculate ΔH° for the decomposition. (1)\n(b) Calculate ΔS° for the decomposition. (1)\n(c) Calculate the minimum temperature at which the decomposition becomes feasible. (2)\n(d) Explain why ΔS° is positive. (1)",
+   "points": [
+    {
+     "t": "(a) ΔH° = (−635 − 394) − (−1207) = +178 kJ mol⁻¹",
+     "m": 1
+    },
+    {
+     "t": "(b) ΔS° = (39.8 + 213.8) − 92.9 = +160.7 J K⁻¹ mol⁻¹",
+     "m": 1
+    },
+    {
+     "t": "(c) Feasible when ΔG° < 0: T > ΔH° ÷ ΔS° = 178 ÷ 0.1607",
+     "m": 1
+    },
+    {
+     "t": "= 1108 K",
+     "m": 1
+    },
+    {
+     "t": "(d) A gas is produced from a solid, so there is a large increase in disorder (dispersal of energy)",
+     "m": 1
+    }
+   ],
+   "model": "(a) ΔH° = ΣΔHf°(products) − ΣΔHf°(reactants) = (−635 − 394) − (−1207) = +178 kJ mol⁻¹. (b) ΔS° = (39.8 + 213.8) − 92.9 = 160.7 J K⁻¹ mol⁻¹. (c) ΔG° = ΔH° − TΔS° < 0 when T > ΔH° ÷ ΔS° = 178 ÷ 0.1607 = 1108 K. (d) The reaction produces a gas from a solid, so the products are much more disordered than the reactant."
+  },
+  {
+   "id": "feasible-w03",
+   "topic": "feasible",
+   "type": "written",
+   "marks": 4,
+   "q": "The graph shows how ΔG° varies with temperature for a reaction.\n(a) Use the graph to state the value of ΔH° for the reaction. (1)\n(b) Calculate the value of ΔS° in kJ K⁻¹ mol⁻¹. (2)\n(c) At what temperature does the reaction become feasible? (1)",
+   "points": [
+    {
+     "t": "(a) ΔH° = +90 kJ mol⁻¹ (the value of ΔG° at T = 0 K, where TΔS° = 0)",
+     "m": 1
+    },
+    {
+     "t": "(b) The slope of the line equals −ΔS°: slope = (−90 − 90) ÷ 1000 = −0.18",
+     "m": 1
+    },
+    {
+     "t": "ΔS° = +0.18 kJ K⁻¹ mol⁻¹",
+     "m": 1
+    },
+    {
+     "t": "(c) 500 K (where the line crosses ΔG° = 0)",
+     "m": 1
+    }
+   ],
+   "model": "(a) At T = 0 K the term TΔS° is zero, so ΔG° = ΔH° = +90 kJ mol⁻¹. (b) ΔG° = ΔH° − TΔS°, so the gradient of the line is −ΔS°. Between 0 and 1000 K, ΔG° falls from +90 to −90 kJ mol⁻¹: gradient = −180 ÷ 1000 = −0.18 kJ K⁻¹ mol⁻¹, so ΔS° = +0.18 kJ K⁻¹ mol⁻¹. (c) The reaction is feasible when ΔG° is negative, which occurs above the temperature where the line crosses zero, 500 K (check: 90 ÷ 0.18 = 500).",
+   "figure": {
+    "src": "img/ah-dg-t.svg",
+    "alt": "Straight line graph of standard Gibbs free energy change in kilojoules per mole against temperature in kelvin from 0 to 1000. The line slopes downward from a positive value at 0 K and crosses the zero line part-way across.",
+    "caption": "ΔG° against temperature"
+   }
+  },
+  {
+   "id": "feasible-w04",
+   "topic": "feasible",
+   "type": "written",
+   "marks": 4,
+   "q": "For a reaction, ΔG° = −12.0 kJ mol⁻¹ at 298 K.\n(a) Calculate the equilibrium constant, K, for the reaction at this temperature. (3)\n(b) State what the value of K indicates about the position of equilibrium. (1)\n(R = 8.31 J K⁻¹ mol⁻¹)",
+   "points": [
+    {
+     "t": "(a) ΔG° = −RT ln K, so ln K = 12000 ÷ (8.31 × 298)",
+     "m": 1
+    },
+    {
+     "t": "ln K = 4.85",
+     "m": 1
+    },
+    {
+     "t": "Equilibrium constant K = 127",
+     "m": 1
+    },
+    {
+     "t": "(b) K is greater than 1, so the position of equilibrium lies to the right (favours products)",
+     "m": 1
+    }
+   ],
+   "model": "(a) ΔG° = −RT ln K, so ln K = −ΔG° ÷ RT = 12000 ÷ (8.31 × 298) = 4.85, and K = e^4.85 = 127. (b) K is much greater than 1, so at equilibrium the mixture contains mostly products.",
+   "explanation": "Convert ΔG° to J mol⁻¹ when using R = 8.31 J K⁻¹ mol⁻¹."
+  },
+  {
+   "id": "feasible-w05",
+   "topic": "feasible",
+   "type": "written",
+   "marks": 2,
+   "q": "Explain why the entropy of a system increases when ice melts to form water.",
+   "points": [
+    {
+     "t": "The particles in the solid are held in a regular, fixed arrangement; in the liquid they are free to move",
+     "m": 1
+    },
+    {
+     "t": "This means the liquid has more disorder (more ways of arranging the particles/energy), so entropy increases",
+     "m": 1
+    }
+   ],
+   "model": "In ice the water molecules are fixed in a regular lattice, whereas in liquid water they can move around and are arranged more randomly. The greater disorder means a higher entropy."
+  },
+  {
+   "id": "feasible-x01",
+   "topic": "feasible",
+   "q": "Under which conditions is a reaction feasible at all temperatures?",
+   "options": [
+    "ΔH is positive and ΔS is negative",
+    "ΔH is negative and ΔS is positive",
+    "ΔH is negative and ΔS is negative",
+    "ΔH is positive and ΔS is positive"
+   ],
+   "answer": 1,
+   "explanation": "If ΔH < 0 and ΔS > 0 then ΔG = ΔH − TΔS is negative at every temperature."
+  },
+  {
+   "id": "feasible-x02",
+   "topic": "feasible",
+   "q": "What is the relationship between ΔG° and the equilibrium constant K?",
+   "options": [
+    "ΔG° = RT ln K",
+    "ΔG° = −R ln K ÷ T",
+    "ΔG° = ΔH° ln K",
+    "ΔG° = −RT ln K"
+   ],
+   "answer": 3,
+   "explanation": "A negative ΔG° corresponds to K > 1, which requires the minus sign."
+  },
+  {
+   "id": "feasible-x03",
+   "topic": "feasible",
+   "q": "Which change would lead to a decrease in entropy?",
+   "options": [
+    "Dissolving salt in water",
+    "Condensation of steam to water",
+    "Boiling ethanol",
+    "Thermal decomposition of calcium carbonate to produce CO₂"
+   ],
+   "answer": 1,
+   "explanation": "Gas to liquid reduces disorder, so entropy decreases. The others increase disorder."
+  },
+  {
+   "id": "kinetics-w01",
+   "topic": "kinetics",
+   "type": "written",
+   "marks": 5,
+   "q": "The initial rate of the reaction A + B → products was measured in three experiments.\nExperiment 1: [A] 0.10 mol l⁻¹, [B] 0.10 mol l⁻¹, rate 2.0 × 10⁻³ mol l⁻¹ s⁻¹\nExperiment 2: [A] 0.20 mol l⁻¹, [B] 0.10 mol l⁻¹, rate 4.0 × 10⁻³ mol l⁻¹ s⁻¹\nExperiment 3: [A] 0.10 mol l⁻¹, [B] 0.20 mol l⁻¹, rate 8.0 × 10⁻³ mol l⁻¹ s⁻¹\n(a) Deduce the order of reaction with respect to A and to B. (2)\n(b) Write the rate equation. (1)\n(c) Calculate the rate constant, k, with units. (2)",
+   "points": [
+    {
+     "t": "(a) A: doubling [A] doubles the rate (experiments 1 and 2), so first order",
+     "m": 1
+    },
+    {
+     "t": "B: doubling [B] quadruples the rate (experiments 1 and 3), so second order",
+     "m": 1
+    },
+    {
+     "t": "(b) rate = k[A][B]²",
+     "m": 1
+    },
+    {
+     "t": "(c) k = rate ÷ ([A][B]²) = 2.0 × 10⁻³ ÷ (0.10 × 0.10²) = 2.0",
+     "m": 1
+    },
+    {
+     "t": "Units: l² mol⁻² s⁻¹",
+     "m": 1
+    }
+   ],
+   "model": "(a) Experiment 2 doubles [A] and the rate doubles, so the reaction is first order in A. Experiment 3 doubles [B] and the rate increases four times, so it is second order in B. (b) rate = k[A][B]². (c) Using experiment 1, k = 2.0 × 10⁻³ ÷ (0.10 × 0.10²) = 2.0. Units: (mol l⁻¹ s⁻¹) ÷ (mol l⁻¹)³ = l² mol⁻² s⁻¹.",
+   "explanation": "Compare two experiments in which only one concentration changes."
+  },
+  {
+   "id": "kinetics-w02",
+   "topic": "kinetics",
+   "type": "written",
+   "marks": 3,
+   "q": "A reaction A + 2B → P has the following mechanism.\nStep 1 (slow): A + B → X\nStep 2 (fast): X + B → P\n(a) Write the rate equation consistent with this mechanism. (1)\n(b) State the order of reaction with respect to B and the overall order. (1)\n(c) Explain why the stoichiometry of the overall equation does not determine the rate equation. (1)",
+   "points": [
+    {
+     "t": "(a) rate = k[A][B]",
+     "m": 1
+    },
+    {
+     "t": "(b) First order in B; overall second order",
+     "m": 1
+    },
+    {
+     "t": "(c) The rate depends only on the species involved in the slow (rate-determining) step, not on the overall equation",
+     "m": 1
+    }
+   ],
+   "model": "(a) The rate-determining step is the slow step, which involves one A and one B, so rate = k[A][B]. (b) B is first order; the overall order is 2. (c) The overall equation shows 2B reacting, but only one B takes part in the slow step, so the orders cannot be read from the overall equation: they have to be found experimentally."
+  },
+  {
+   "id": "kinetics-w03",
+   "topic": "kinetics",
+   "type": "written",
+   "marks": 4,
+   "q": "The graph shows how the initial rate varies with the concentration of the reactant for three reactions P, Q and R.\n(a) State the order of reaction with respect to the reactant for each of P, Q and R. (3)\n(b) The concentration of the reactant is doubled in each reaction. State the effect on the rate for the reaction with the highest order. (1)",
+   "points": [
+    {
+     "t": "(a) P: zero order (the rate is independent of concentration — a horizontal line)",
+     "m": 1
+    },
+    {
+     "t": "Q: first order (rate directly proportional to concentration — a straight line through the origin)",
+     "m": 1
+    },
+    {
+     "t": "R: second order (the rate increases as the square of the concentration — a curve through the origin)",
+     "m": 1
+    },
+    {
+     "t": "(b) For R, doubling the concentration makes the rate four times as great",
+     "m": 1
+    }
+   ],
+   "model": "(a) P is a horizontal line, so the rate does not depend on concentration: zero order. Q is a straight line through the origin, so rate ∝ [reactant]: first order. R is a curve through the origin that steepens, so rate ∝ [reactant]²: second order. (b) The highest order is second (R), so doubling the concentration increases the rate by a factor of 2² = 4.",
+   "figure": {
+    "src": "img/ah-rate-conc.svg",
+    "alt": "Graph of initial rate in moles per litre per second against concentration of reactant, showing three lines: a horizontal line P, a straight sloping line Q from the origin, and an upward curving line R from the origin.",
+    "caption": "Initial rate against concentration"
+   }
+  },
+  {
+   "id": "kinetics-w04",
+   "topic": "kinetics",
+   "type": "written",
+   "marks": 2,
+   "q": "The rate constant k for a reaction increases when the temperature is increased. Explain why.",
+   "points": [
+    {
+     "t": "At a higher temperature a greater proportion of molecules have energy equal to or greater than the activation energy",
+     "m": 1
+    },
+    {
+     "t": "So the frequency of successful collisions increases, which is reflected in a larger k",
+     "m": 1
+    }
+   ],
+   "model": "Raising the temperature increases the kinetic energy of the molecules, so a greater proportion exceed the activation energy. More collisions are successful each second, so the rate at given concentrations is greater and k is larger."
+  },
+  {
+   "id": "kinetics-x01",
+   "topic": "kinetics",
+   "q": "What are the units of the rate constant for a reaction that is second order overall?",
+   "options": [
+    "s⁻¹",
+    "mol l⁻¹ s⁻¹",
+    "l² mol⁻² s⁻¹",
+    "l mol⁻¹ s⁻¹"
+   ],
+   "answer": 3,
+   "explanation": "For second order, rate = k[X]² so k = rate ÷ conc² has units mol l⁻¹ s⁻¹ ÷ (mol l⁻¹)² = l mol⁻¹ s⁻¹."
+  },
+  {
+   "id": "kinetics-x02",
+   "topic": "kinetics",
+   "q": "A reaction is first order in A. If [A] is tripled with all else constant, the rate",
+   "options": [
+    "increases by a factor of 9",
+    "increases by a factor of 3",
+    "does not change",
+    "increases by a factor of 6"
+   ],
+   "answer": 1,
+   "explanation": "For a first-order reaction the rate is directly proportional to the concentration."
+  },
+  {
+   "id": "kinetics-x03",
+   "topic": "kinetics",
+   "q": "Which step in a mechanism determines the overall rate equation?",
+   "options": [
+    "The first step",
+    "The fastest step",
+    "The final step",
+    "The slowest step"
+   ],
+   "answer": 3,
+   "explanation": "The slowest (rate-determining) step controls how quickly the overall reaction can proceed."
   }
  ]
 };

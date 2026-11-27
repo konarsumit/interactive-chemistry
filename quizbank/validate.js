@@ -27,7 +27,7 @@ for(const f of process.argv.slice(2)){
   if(!q.explanation||q.explanation.length<40)err(w+' explanation too short')}
   if(q.figure){if(!q.figure.src||!/\.(svg|png|jpe?g|webp)$/i.test(q.figure.src))err(w+' figure.src must be an .svg/.png/.jpg/.webp path');else if(!fs.existsSync(path.join(__dirname,q.figure.src)))err(w+' figure file not found: '+q.figure.src);if(!q.figure.alt||q.figure.alt.length<30)err(w+' figure needs alt text (30+ characters) that describes it without naming the answer');else nfig.n++}
   const all=[q.q,q.explanation||'',q.model||'',...(q.options||[]),...((q.points||[]).map(p=>p&&p.t||''))].join(' ');
-  if(/\b(19|20)\d\d\b/.test(all))err(w+' contains a year');
+  if(/(?<![.\d])\b(19|20)\d\d\b(?![.,]?\d)/.test(all))err(w+' contains a year');
   if(/past paper|specimen|SQA|June|Paper \d|mark scheme|examiner|Section [AB]\b/i.test(all))err(w+' mentions exam source');
   if(seen.has(q.q))err(w+' duplicate question text');seen.add(q.q)});
  const empty=B.topics.filter(t=>!cnt[t.id]);

@@ -39,3 +39,8 @@ WRITTEN QUESTIONS (self-marked long answers)
   - No options/answer fields. Marks 1-9. validate.js checks that the points add up to the marks and that a model answer exists.
   - The setup page shows a "Question type" switch (All / Multiple choice / Written) when a bank contains both kinds.
   - Results show marks (e.g. 14 / 18 marks) and, for written questions, the marking points missed plus the model answer.
+
+FIGURES IN WRITTEN QUESTIONS
+Written questions accept the same optional figure field as multiple choice:
+  figure:{src:'img/name.svg', alt:'30+ characters describing the picture without giving the answer', caption:'optional'}
+Draw graphs/diagrams yourself (never copy from exam papers); put the file in img/.

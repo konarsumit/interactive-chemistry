@@ -2479,6 +2479,1364 @@ unitLabel:"Area", topicLabel:"Topic",
   ],
   "answer": 1,
   "explanation": "Scale the mass by the volume ratio: 2.0 × 350/100 = 7.0 g. The concentration stays the same while the total amount increases with volume."
+ },
+ {
+  "id": "rates-w01",
+  "topic": "rates",
+  "type": "written",
+  "marks": 3,
+  "q": "Marble chips (calcium carbonate) react with dilute hydrochloric acid.\nSuggest three changes that would make the reaction faster.",
+  "points": [
+   {
+    "t": "Use smaller pieces of marble (powder), which have a larger surface area",
+    "m": 1
+   },
+   {
+    "t": "Increase the temperature of the acid",
+    "m": 1
+   },
+   {
+    "t": "Use more concentrated acid",
+    "m": 1
+   }
+  ],
+  "model": "Three ways to speed the reaction up are: use smaller lumps or powdered marble (larger surface area), warm the acid (higher temperature) and use a higher concentration of acid."
+ },
+ {
+  "id": "rates-w02",
+  "topic": "rates",
+  "type": "written",
+  "marks": 2,
+  "q": "Explain, in terms of collisions between particles, why increasing the concentration of an acid increases the rate of a reaction.",
+  "points": [
+   {
+    "t": "There are more particles in the same volume (closer together)",
+    "m": 1
+   },
+   {
+    "t": "So there are more frequent collisions (more collisions per second) and more successful collisions",
+    "m": 1
+   }
+  ],
+  "model": "A more concentrated acid has more reactant particles in the same volume. The particles collide more often, so more successful collisions occur each second and the reaction is faster."
+ },
+ {
+  "id": "rates-w03",
+  "topic": "rates",
+  "type": "written",
+  "marks": 2,
+  "q": "Powdered calcium carbonate reacts faster with acid than large lumps of the same mass. Explain why.",
+  "points": [
+   {
+    "t": "Powder has a larger surface area (more particles exposed)",
+    "m": 1
+   },
+   {
+    "t": "So there are more collisions per second between the acid particles and the carbonate",
+    "m": 1
+   }
+  ],
+  "model": "Breaking a solid into powder exposes many more particles on its surface. More acid particles can collide with the solid each second, so the rate increases."
+ },
+ {
+  "id": "rates-w04",
+  "topic": "rates",
+  "type": "written",
+  "marks": 2,
+  "q": "Explain why a rise in temperature makes a reaction faster.",
+  "points": [
+   {
+    "t": "The particles have more energy and move faster, so collide more often",
+    "m": 1
+   },
+   {
+    "t": "More of the collisions have enough energy to react (successful collisions)",
+    "m": 1
+   }
+  ],
+  "model": "At a higher temperature the particles have more kinetic energy and move faster. They collide more frequently, and a greater fraction of the collisions have enough energy to cause a reaction."
+ },
+ {
+  "id": "rates-w05",
+  "topic": "rates",
+  "type": "written",
+  "marks": 2,
+  "q": "What is a catalyst? State one example of a catalyst and the reaction it speeds up.",
+  "points": [
+   {
+    "t": "A catalyst speeds up a reaction without being used up",
+    "m": 1
+   },
+   {
+    "t": "Example: manganese dioxide for the decomposition of hydrogen peroxide (accept another correct example, e.g. platinum in catalytic converters)",
+    "m": 1
+   }
+  ],
+  "model": "A catalyst increases the rate of a reaction but is not used up. Manganese dioxide catalyses the decomposition of hydrogen peroxide into water and oxygen."
+ },
+ {
+  "id": "rates-w06",
+  "topic": "rates",
+  "type": "written",
+  "marks": 4,
+  "q": "Calcium carbonate reacts with excess dilute hydrochloric acid in an open flask on a balance. The graph shows the mass of carbon dioxide lost in two experiments, X and Y. The only difference between the experiments was the size of the calcium carbonate pieces.\n(a) Which experiment used the smaller pieces? Explain your choice. (1)\n(b) Calculate the average rate of reaction in experiment X over the first 20 seconds, in g s⁻¹. (2)\n(c) Why do both curves become horizontal? (1)",
+  "points": [
+   {
+    "t": "(a) X: the curve is steeper (faster reaction), as smaller pieces have a larger surface area",
+    "m": 1
+   },
+   {
+    "t": "(b) Mass lost in 20 s = 0.80 g (read from the graph)",
+    "m": 1
+   },
+   {
+    "t": "Average rate = 0.80 ÷ 20 = 0.040 g s⁻¹",
+    "m": 1
+   },
+   {
+    "t": "(c) The limiting reactant (calcium carbonate) has been used up, so no more gas is produced",
+    "m": 1
+   }
+  ],
+  "model": "(a) The steeper curve means a faster reaction, so X used the smaller pieces with the larger surface area. (b) At 20 s the graph reads 0.80 g, so the average rate = change in mass ÷ time = 0.80 ÷ 20 = 0.040 g s⁻¹. (c) The curves level off when one of the reactants has been used up; the reaction has finished and no more carbon dioxide is lost.",
+  "figure": {
+   "src": "img/n5-co2-mass.svg",
+   "alt": "Line graph of mass of carbon dioxide lost in grams against time in seconds for experiments X and Y. Both curves start at zero and level off at the same mass, but X rises more steeply than Y.",
+   "caption": "Mass of CO₂ lost against time"
+  }
+ },
+ {
+  "id": "rates-w07",
+  "topic": "rates",
+  "type": "written",
+  "marks": 3,
+  "q": "In a reaction, 54 cm³ of hydrogen gas was collected in the first 90 s.\n(a) Calculate the average rate of reaction in cm³ s⁻¹. (1)\n(b) Over the next 90 s a further 18 cm³ of gas was collected. Calculate the average rate for this second period. (1)\n(c) Why is the rate lower in the second period? (1)",
+  "points": [
+   {
+    "t": "(a) 54 ÷ 90 = 0.60 cm³ s⁻¹",
+    "m": 1
+   },
+   {
+    "t": "(b) 18 ÷ 90 = 0.20 cm³ s⁻¹",
+    "m": 1
+   },
+   {
+    "t": "(c) The reactants are being used up, so their concentration falls and there are fewer collisions per second",
+    "m": 1
+   }
+  ],
+  "model": "(a) Average rate = volume ÷ time = 54 ÷ 90 = 0.60 cm³ s⁻¹. (b) 18 ÷ 90 = 0.20 cm³ s⁻¹. (c) As the reaction proceeds the reactants are used up, so the concentration falls, collisions are less frequent and the rate decreases."
+ },
+ {
+  "id": "rates-x01",
+  "topic": "rates",
+  "q": "Which of the following will not increase the rate of reaction between zinc and dilute sulfuric acid?",
+  "options": [
+   "Using a larger volume of the same acid",
+   "Using zinc powder instead of zinc granules",
+   "Increasing the temperature",
+   "Using a more concentrated acid"
+  ],
+  "answer": 0,
+  "explanation": "The rate depends on the concentration of the acid, not its volume. The other changes increase either the collision frequency or the number of successful collisions."
+ },
+ {
+  "id": "rates-x02",
+  "topic": "rates",
+  "q": "The mass of a reactant falls from 8.0 g to 5.0 g in 60 s. What is the average rate of reaction?",
+  "options": [
+   "0.13 g s⁻¹",
+   "0.50 g s⁻¹",
+   "0.05 g s⁻¹",
+   "180 g s⁻¹"
+  ],
+  "answer": 2,
+  "explanation": "Average rate = change in mass ÷ time = (8.0 − 5.0) ÷ 60 = 0.05 g s⁻¹."
+ },
+ {
+  "id": "rates-x03",
+  "topic": "rates",
+  "q": "What is the effect of a catalyst on a chemical reaction?",
+  "options": [
+   "It increases the rate without being used up",
+   "It increases the rate and is used up",
+   "It increases the yield of product",
+   "It decreases the activation energy and is used up"
+  ],
+  "answer": 0,
+  "explanation": "A catalyst provides a faster route for the reaction and can be recovered unchanged at the end."
+ },
+ {
+  "id": "rates-x04",
+  "topic": "rates",
+  "q": "On a graph of mass lost against time, which feature shows that a reaction has finished?",
+  "options": [
+   "The line is steepest",
+   "The line starts at the origin",
+   "The line becomes horizontal",
+   "The line becomes straight and sloping upwards"
+  ],
+  "answer": 2,
+  "explanation": "When no more mass is lost (or no more product forms) the graph becomes horizontal because one reactant has been completely used up."
+ },
+ {
+  "id": "bonding-w01",
+  "topic": "bonding",
+  "type": "written",
+  "marks": 3,
+  "q": "An atom has atomic number 15 and mass number 31.\nState the number of protons, neutrons and electrons in the atom.",
+  "points": [
+   {
+    "t": "Protons = 15",
+    "m": 1
+   },
+   {
+    "t": "Neutrons = 31 − 15 = 16",
+    "m": 1
+   },
+   {
+    "t": "Electrons = 15",
+    "m": 1
+   }
+  ],
+  "model": "The atomic number is the number of protons, so there are 15 protons. A neutral atom has the same number of electrons, so 15 electrons. Neutrons = mass number − atomic number = 31 − 15 = 16."
+ },
+ {
+  "id": "bonding-w02",
+  "topic": "bonding",
+  "type": "written",
+  "marks": 3,
+  "q": "Chlorine consists of two isotopes: 75 % is chlorine-35 and 25 % is chlorine-37.\n(a) What is meant by the term isotopes? (1)\n(b) Calculate the relative atomic mass of chlorine. (2)",
+  "points": [
+   {
+    "t": "(a) Atoms of the same element (same atomic number) with different mass numbers (different numbers of neutrons)",
+    "m": 1
+   },
+   {
+    "t": "(b) (75 × 35 + 25 × 37) ÷ 100  (or 0.75 × 35 + 0.25 × 37)",
+    "m": 1
+   },
+   {
+    "t": "Relative atomic mass = 35.5",
+    "m": 1
+   }
+  ],
+  "model": "(a) Isotopes are atoms of the same element with the same number of protons but different numbers of neutrons. (b) Relative atomic mass = (75 × 35 + 25 × 37) ÷ 100 = (2625 + 925) ÷ 100 = 35.5."
+ },
+ {
+  "id": "bonding-w03",
+  "topic": "bonding",
+  "type": "written",
+  "marks": 2,
+  "q": "A calcium atom has the electron arrangement 2,8,8,2. Describe how a calcium atom forms a calcium ion and state the electron arrangement and charge of the ion.",
+  "points": [
+   {
+    "t": "The atom loses two electrons from its outer shell",
+    "m": 1
+   },
+   {
+    "t": "Ca²⁺ with electron arrangement 2,8,8 (a full outer shell); the ion has 20 protons and 18 electrons so the charge is 2+",
+    "m": 1
+   }
+  ],
+  "model": "A calcium atom loses its two outer electrons to achieve a full outer shell. The ion, Ca²⁺, has the electron arrangement 2,8,8; it has 20 protons but only 18 electrons, so it has a charge of 2+."
+ },
+ {
+  "id": "bonding-w04",
+  "topic": "bonding",
+  "type": "written",
+  "marks": 3,
+  "q": "Sodium chloride does not conduct electricity when solid but does conduct when molten or dissolved in water. Explain why.",
+  "points": [
+   {
+    "t": "In the solid, the ions are held in fixed positions in the lattice (they cannot move)",
+    "m": 1
+   },
+   {
+    "t": "When molten or dissolved, the ions are free to move",
+    "m": 1
+   },
+   {
+    "t": "The moving ions carry the electric charge",
+    "m": 1
+   }
+  ],
+  "model": "In solid sodium chloride the ions are held tightly in the ionic lattice and cannot move, so there is no current. When it is melted or dissolved the lattice breaks down and the ions become free to move; the moving charged ions carry the current."
+ },
+ {
+  "id": "bonding-w05",
+  "topic": "bonding",
+  "type": "written",
+  "marks": 3,
+  "q": "Water has a much lower melting point than sodium chloride. Explain this in terms of the structure and bonding of each substance.",
+  "points": [
+   {
+    "t": "Water is a covalent molecular substance: only weak forces between molecules are broken on melting",
+    "m": 1
+   },
+   {
+    "t": "Sodium chloride is an ionic lattice with strong ionic bonds between oppositely charged ions",
+    "m": 1
+   },
+   {
+    "t": "Much more energy is needed to break the strong ionic bonds, so sodium chloride has the higher melting point",
+    "m": 1
+   }
+  ],
+  "model": "Water consists of small covalent molecules held together by weak forces between the molecules; little energy is needed to separate them. Sodium chloride is a lattice of ions held by strong ionic bonds, so a lot more energy is needed to melt it."
+ },
+ {
+  "id": "bonding-w06",
+  "topic": "bonding",
+  "type": "written",
+  "marks": 2,
+  "q": "What is a covalent bond? Explain how it holds two atoms together.",
+  "points": [
+   {
+    "t": "A covalent bond is a shared pair of electrons",
+    "m": 1
+   },
+   {
+    "t": "The positive nuclei of both atoms are attracted to the shared pair of electrons",
+    "m": 1
+   }
+  ],
+  "model": "A covalent bond is a pair of electrons shared between two atoms. The positively charged nuclei of both atoms attract the shared electrons, which holds the atoms together."
+ },
+ {
+  "id": "bonding-w07",
+  "topic": "bonding",
+  "type": "written",
+  "marks": 2,
+  "q": "Metals such as copper conduct electricity. Explain why.",
+  "points": [
+   {
+    "t": "A metal contains delocalised (free) electrons",
+    "m": 1
+   },
+   {
+    "t": "These electrons can move through the structure, carrying charge",
+    "m": 1
+   }
+  ],
+  "model": "Metal structures contain a lattice of positive ions in a sea of delocalised electrons. These electrons are free to move and carry the electric current."
+ },
+ {
+  "id": "bonding-w08",
+  "topic": "bonding",
+  "type": "written",
+  "marks": 2,
+  "q": "Silicon dioxide has a very high melting point. Explain why.",
+  "points": [
+   {
+    "t": "Silicon dioxide is a covalent network",
+    "m": 1
+   },
+   {
+    "t": "Strong covalent bonds throughout the structure must be broken, requiring a lot of energy",
+    "m": 1
+   }
+  ],
+  "model": "Silicon dioxide is a covalent network, a giant structure of atoms joined by strong covalent bonds. Melting needs these bonds to be broken, so the melting point is very high."
+ },
+ {
+  "id": "bonding-w09",
+  "topic": "bonding",
+  "type": "written",
+  "marks": 3,
+  "q": "Aluminium forms an ion with charge 3+ and oxygen forms an ion with charge 2−.\n(a) State the formula of aluminium oxide. (1)\n(b) Explain how you worked out the formula. (2)",
+  "points": [
+   {
+    "t": "(a) Al₂O₃",
+    "m": 1
+   },
+   {
+    "t": "(b) The total positive charge must equal the total negative charge",
+    "m": 1
+   },
+   {
+    "t": "2 Al³⁺ (6+) balance 3 O²⁻ (6−)",
+    "m": 1
+   }
+  ],
+  "model": "(a) Al₂O₃. (b) In an ionic compound the charges must balance. Two Al³⁺ ions give 6+ and three O²⁻ ions give 6−, so the ratio of aluminium to oxygen ions is 2 : 3."
+ },
+ {
+  "id": "bonding-x01",
+  "topic": "bonding",
+  "q": "What is the electron arrangement of a sodium ion, Na⁺?",
+  "options": [
+   "2,8,1",
+   "2,8,8",
+   "2,8",
+   "2,8,2"
+  ],
+  "answer": 2,
+  "explanation": "Sodium (2,8,1) loses one electron to form Na⁺ with the arrangement 2,8."
+ },
+ {
+  "id": "bonding-x02",
+  "topic": "bonding",
+  "q": "Which of the following substances has a covalent network structure?",
+  "options": [
+   "Silicon dioxide",
+   "Carbon dioxide",
+   "Sodium chloride",
+   "Copper"
+  ],
+  "answer": 0,
+  "explanation": "Silicon dioxide is a giant structure of covalently bonded atoms. Carbon dioxide is made of small molecules, sodium chloride is ionic and copper is metallic."
+ },
+ {
+  "id": "bonding-x03",
+  "topic": "bonding",
+  "q": "A particle has 17 protons, 18 neutrons and 18 electrons. What is it?",
+  "options": [
+   "A chlorine atom",
+   "A potassium ion",
+   "A chloride ion, Cl⁻",
+   "An argon atom"
+  ],
+  "answer": 2,
+  "explanation": "17 protons identifies chlorine; 18 electrons is one more than the protons so the ion has a charge of 1−."
+ },
+ {
+  "id": "bonding-x04",
+  "topic": "bonding",
+  "q": "Which pair of elements will form an ionic compound?",
+  "options": [
+   "Magnesium and chlorine",
+   "Carbon and oxygen",
+   "Nitrogen and hydrogen",
+   "Sulfur and oxygen"
+  ],
+  "answer": 0,
+  "explanation": "Ionic compounds are formed when a metal reacts with a non-metal."
+ },
+ {
+  "id": "bonding-x05",
+  "topic": "bonding",
+  "q": "What is the number of neutrons in an atom of ⁴⁰₂₀Ca?",
+  "options": [
+   "40",
+   "60",
+   "20",
+   "10"
+  ],
+  "answer": 2,
+  "explanation": "Neutrons = mass number − atomic number = 40 − 20 = 20."
+ },
+ {
+  "id": "quantities-w01",
+  "topic": "quantities",
+  "type": "written",
+  "marks": 2,
+  "q": "Calculate the gram formula mass of calcium nitrate, Ca(NO₃)₂. (Relative atomic masses: Ca = 40; N = 14; O = 16)",
+  "points": [
+   {
+    "t": "Ca(NO₃)₂ contains 1 Ca, 2 N and 6 O",
+    "m": 1
+   },
+   {
+    "t": "GFM = 40 + (2 × 14) + (6 × 16) = 164 g",
+    "m": 1
+   }
+  ],
+  "model": "Ca(NO₃)₂ has 1 Ca, 2 N and 6 O. GFM = 40 + 28 + 96 = 164 g."
+ },
+ {
+  "id": "quantities-w02",
+  "topic": "quantities",
+  "type": "written",
+  "marks": 3,
+  "q": "(a) Calculate the number of moles in 5.30 g of sodium carbonate, Na₂CO₃ (GFM = 106 g). (1)\n(b) Calculate the mass of 0.250 mol of sodium chloride (GFM = 58.5 g). (1)\n(c) Calculate the number of moles in 4.5 g of water (GFM = 18 g). (1)",
+  "points": [
+   {
+    "t": "(a) n = 5.30 ÷ 106 = 0.050 mol",
+    "m": 1
+   },
+   {
+    "t": "(b) m = 0.250 × 58.5 = 14.62 g",
+    "m": 1
+   },
+   {
+    "t": "(c) n = 4.5 ÷ 18 = 0.25 mol",
+    "m": 1
+   }
+  ],
+  "model": "Use n = mass ÷ GFM. (a) 5.30 ÷ 106 = 0.050 mol. (b) mass = n × GFM = 0.250 × 58.5 = 14.62 g. (c) 4.5 ÷ 18 = 0.25 mol."
+ },
+ {
+  "id": "quantities-w03",
+  "topic": "quantities",
+  "type": "written",
+  "marks": 4,
+  "q": "Calcium carbonate decomposes when heated.\nCaCO₃ → CaO + CO₂\nCalculate the mass of calcium oxide that can be produced from 25.0 g of calcium carbonate. (GFMs: CaCO₃ = 100 g; CaO = 56 g)",
+  "points": [
+   {
+    "t": "100 g of CaCO₃ gives 56 g of CaO (from the balanced equation)",
+    "m": 1
+   },
+   {
+    "t": "25.0 g of CaCO₃ is 0.25 mol",
+    "m": 1
+   },
+   {
+    "t": "Mass of CaO = 25.0 ÷ 100 × 56 = 14.0 g",
+    "m": 2
+   }
+  ],
+  "model": "From the equation, 1 mol (100 g) of CaCO₃ gives 1 mol (56 g) of CaO. Moles of CaCO₃ = 25.0 ÷ 100 = 0.250 mol, so 0.250 mol of CaO forms. Mass = 0.250 × 56 = 14.0 g."
+ },
+ {
+  "id": "quantities-w04",
+  "topic": "quantities",
+  "type": "written",
+  "marks": 3,
+  "q": "Calculate the mass of sodium hydroxide (GFM = 40 g) needed to make 250 cm³ of a solution with concentration 0.40 mol l⁻¹.",
+  "points": [
+   {
+    "t": "Volume = 0.250 l",
+    "m": 1
+   },
+   {
+    "t": "Moles = 0.40 × 0.250 = 0.10 mol",
+    "m": 1
+   },
+   {
+    "t": "Mass = 0.10 × 40 = 4.0 g",
+    "m": 1
+   }
+  ],
+  "model": "n = c × V = 0.40 × 0.250 = 0.10 mol. Mass = n × GFM = 0.10 × 40 = 4.0 g."
+ },
+ {
+  "id": "quantities-w05",
+  "topic": "quantities",
+  "type": "written",
+  "marks": 3,
+  "q": "Ammonium nitrate, NH₄NO₃, is used as a fertiliser. Calculate the percentage by mass of nitrogen in ammonium nitrate. (Relative atomic masses: N = 14; H = 1; O = 16)",
+  "points": [
+   {
+    "t": "GFM of NH₄NO₃ = 28 + 4 + 48 = 80 g",
+    "m": 1
+   },
+   {
+    "t": "Mass of nitrogen in one formula unit = 2 × 14 = 28 g",
+    "m": 1
+   },
+   {
+    "t": "Percentage = 28 ÷ 80 × 100 = 35 %",
+    "m": 1
+   }
+  ],
+  "model": "GFM = 2 × 14 + 4 × 1 + 3 × 16 = 80 g. There are two nitrogen atoms, 28 g. Percentage nitrogen = 28 ÷ 80 × 100 = 35 %."
+ },
+ {
+  "id": "quantities-w06",
+  "topic": "quantities",
+  "type": "written",
+  "marks": 2,
+  "q": "Balance the equation: Fe + O₂ → Fe₂O₃",
+  "points": [
+   {
+    "t": "The correct formulae must be kept the same",
+    "m": 1
+   },
+   {
+    "t": "4Fe + 3O₂ → 2Fe₂O₃",
+    "m": 1
+   }
+  ],
+  "model": "Balancing: Fe₂O₃ contains 2 Fe and 3 O. Use 3O₂ and 2Fe₂O₃ so that there are six O atoms on each side, then 4Fe to balance iron: 4Fe + 3O₂ → 2Fe₂O₃."
+ },
+ {
+  "id": "quantities-w07",
+  "topic": "quantities",
+  "type": "written",
+  "marks": 2,
+  "q": "Balance the equation: C₂H₆ + O₂ → CO₂ + H₂O",
+  "points": [
+   {
+    "t": "Balance carbon and hydrogen: 2CO₂ and 3H₂O",
+    "m": 1
+   },
+   {
+    "t": "2C₂H₆ + 7O₂ → 4CO₂ + 6H₂O",
+    "m": 1
+   }
+  ],
+  "model": "C₂H₆ gives 2CO₂ and 3H₂O, which needs 3.5 O₂; double everything to avoid fractions: 2C₂H₆ + 7O₂ → 4CO₂ + 6H₂O."
+ },
+ {
+  "id": "quantities-x01",
+  "topic": "quantities",
+  "q": "What is the gram formula mass of magnesium nitrate, Mg(NO₃)₂? (Mg = 24; N = 14; O = 16)",
+  "options": [
+   "102 g",
+   "86 g",
+   "148 g",
+   "74 g"
+  ],
+  "answer": 2,
+  "explanation": "24 + 2 × (14 + 3 × 16) = 24 + 124 = 148 g."
+ },
+ {
+  "id": "quantities-x02",
+  "topic": "quantities",
+  "q": "How many moles are there in 36 g of water (GFM = 18 g)?",
+  "options": [
+   "2",
+   "0.5",
+   "18",
+   "648"
+  ],
+  "answer": 0,
+  "explanation": "Moles = mass ÷ GFM, so 36 ÷ 18 = 2 mol of water."
+ },
+ {
+  "id": "quantities-x03",
+  "topic": "quantities",
+  "q": "What is the concentration of a solution containing 0.50 mol of solute in 250 cm³?",
+  "options": [
+   "0.50 mol l⁻¹",
+   "0.125 mol l⁻¹",
+   "2.0 mol l⁻¹",
+   "125 mol l⁻¹"
+  ],
+  "answer": 2,
+  "explanation": "Concentration = n ÷ V = 0.50 ÷ 0.250 = 2.0 mol l⁻¹."
+ },
+ {
+  "id": "acids-w01",
+  "topic": "acids",
+  "type": "written",
+  "marks": 2,
+  "q": "Hydrochloric acid and ethanoic acid have the same concentration, 0.1 mol l⁻¹. The pH of hydrochloric acid is 1 and the pH of ethanoic acid is 3. Explain this difference.",
+  "points": [
+   {
+    "t": "Hydrochloric acid is a strong acid: it is completely ionised (dissociated) in water",
+    "m": 1
+   },
+   {
+    "t": "Ethanoic acid is a weak acid: only partly ionised, so the concentration of H⁺ ions is lower and the pH is higher",
+    "m": 1
+   }
+  ],
+  "model": "Hydrochloric acid is a strong acid and ionises completely, giving a high concentration of hydrogen ions and a low pH. Ethanoic acid is weak and only partly ionises, so its solution has fewer hydrogen ions and a higher pH."
+ },
+ {
+  "id": "acids-w02",
+  "topic": "acids",
+  "type": "written",
+  "marks": 2,
+  "q": "A solution of hydrochloric acid has a pH of 2. It is diluted by adding a large volume of water. State what happens to the pH and explain why.",
+  "points": [
+   {
+    "t": "The pH increases (towards 7)",
+    "m": 1
+   },
+   {
+    "t": "The concentration of hydrogen ions decreases",
+    "m": 1
+   }
+  ],
+  "model": "Adding water dilutes the acid, so the concentration of hydrogen ions falls and the pH rises towards 7."
+ },
+ {
+  "id": "acids-w03",
+  "topic": "acids",
+  "type": "written",
+  "marks": 3,
+  "q": "Sulfuric acid reacts with sodium hydroxide.\n(a) Name the salt formed. (1)\n(b) Write a balanced equation for the reaction. (2)",
+  "points": [
+   {
+    "t": "(a) Sodium sulfate",
+    "m": 1
+   },
+   {
+    "t": "(b) H₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O  (correct formulae)",
+    "m": 1
+   },
+   {
+    "t": "Balanced correctly",
+    "m": 1
+   }
+  ],
+  "model": "(a) Sodium sulfate. (b) H₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O. Two NaOH are needed to neutralise the two hydrogen ions in H₂SO₄."
+ },
+ {
+  "id": "acids-w04",
+  "topic": "acids",
+  "type": "written",
+  "marks": 3,
+  "q": "Describe how you would prepare dry crystals of copper(II) sulfate from copper(II) oxide and dilute sulfuric acid.",
+  "points": [
+   {
+    "t": "Add copper(II) oxide to warm sulfuric acid until no more dissolves (excess oxide)",
+    "m": 1
+   },
+   {
+    "t": "Filter to remove the unreacted oxide",
+    "m": 1
+   },
+   {
+    "t": "Heat the filtrate to evaporate some water, then leave to crystallise; dry the crystals",
+    "m": 1
+   }
+  ],
+  "model": "Add the black copper(II) oxide to warm dilute sulfuric acid, stirring, until some oxide remains undissolved so that all the acid has reacted. Filter off the excess solid. Heat the blue filtrate to evaporate part of the water and leave it to crystallise, then separate and dry the crystals."
+ },
+ {
+  "id": "acids-w05",
+  "topic": "acids",
+  "type": "written",
+  "marks": 4,
+  "q": "25.0 cm³ of sodium hydroxide solution was exactly neutralised by 20.0 cm³ of hydrochloric acid of concentration 0.100 mol l⁻¹.\nNaOH + HCl → NaCl + H₂O\nCalculate the concentration of the sodium hydroxide solution.",
+  "points": [
+   {
+    "t": "Moles of HCl = 0.100 × 0.0200 = 0.00200 mol",
+    "m": 1
+   },
+   {
+    "t": "Mole ratio is 1 : 1 so moles of NaOH = 0.00200 mol",
+    "m": 1
+   },
+   {
+    "t": "Concentration = 0.00200 ÷ 0.0250 = 0.080 mol l⁻¹",
+    "m": 2
+   }
+  ],
+  "model": "n(HCl) = c × V = 0.100 × 0.0200 = 0.00200 mol. The equation shows a 1 : 1 ratio, so n(NaOH) = 0.00200 mol. c = n ÷ V = 0.00200 ÷ 0.0250 = 0.080 mol l⁻¹."
+ },
+ {
+  "id": "acids-w06",
+  "topic": "acids",
+  "type": "written",
+  "marks": 2,
+  "q": "Carbon dioxide dissolves in rainwater, making it slightly acidic. Name the type of oxide that gives an acidic solution and give the oxide of a different element, produced from burning fossil fuels, that causes acid rain.",
+  "points": [
+   {
+    "t": "Non-metal oxides form acidic solutions",
+    "m": 1
+   },
+   {
+    "t": "Sulfur dioxide (or nitrogen oxides) causes acid rain",
+    "m": 1
+   }
+  ],
+  "model": "Oxides of non-metals dissolve in water to form acidic solutions. Sulfur dioxide, from burning sulfur-containing fuels, and nitrogen oxides are the main causes of acid rain."
+ },
+ {
+  "id": "acids-x01",
+  "topic": "acids",
+  "q": "Which of the following solutions has the highest concentration of hydrogen ions?",
+  "options": [
+   "pH 2",
+   "pH 5",
+   "pH 7",
+   "pH 12"
+  ],
+  "answer": 0,
+  "explanation": "The lower the pH, the higher the concentration of hydrogen ions."
+ },
+ {
+  "id": "acids-x02",
+  "topic": "acids",
+  "q": "Which ion is present in all alkaline solutions?",
+  "options": [
+   "H⁺",
+   "Cl⁻",
+   "OH⁻",
+   "Na⁺"
+  ],
+  "answer": 2,
+  "explanation": "Alkalis contain an excess of hydroxide ions (OH⁻)."
+ },
+ {
+  "id": "acids-x03",
+  "topic": "acids",
+  "q": "Which salt is formed when zinc oxide reacts with dilute nitric acid?",
+  "options": [
+   "Zinc nitrate",
+   "Zinc nitrite",
+   "Zinc sulfate",
+   "Zinc chloride"
+  ],
+  "answer": 0,
+  "explanation": "Metal oxide + acid → salt + water. The salt takes its name from the metal and the acid: nitric acid gives a nitrate."
+ },
+ {
+  "id": "acids-x04",
+  "topic": "acids",
+  "q": "What is the pH of a neutral solution at 25 °C?",
+  "options": [
+   "0",
+   "1",
+   "7",
+   "14"
+  ],
+  "answer": 2,
+  "explanation": "Water and neutral solutions have equal concentrations of H⁺ and OH⁻ ions and a pH of 7."
+ },
+ {
+  "id": "acids-x05",
+  "topic": "acids",
+  "q": "Which gas is produced when magnesium reacts with dilute hydrochloric acid?",
+  "options": [
+   "Hydrogen",
+   "Oxygen",
+   "Carbon dioxide",
+   "Chlorine"
+  ],
+  "answer": 0,
+  "explanation": "Metal + acid → salt + hydrogen. The gas burns with a squeaky pop."
+ },
+ {
+  "id": "homologous-w01",
+  "topic": "homologous",
+  "type": "written",
+  "marks": 2,
+  "q": "Alkenes are described as unsaturated. Explain what this means and state the general formula of alkenes.",
+  "points": [
+   {
+    "t": "Unsaturated: the molecule contains a carbon-to-carbon double bond (so it can add more atoms)",
+    "m": 1
+   },
+   {
+    "t": "General formula CₙH₂ₙ",
+    "m": 1
+   }
+  ],
+  "model": "Alkenes contain a C=C double bond, so they are unsaturated: they have fewer hydrogen atoms than the alkane with the same number of carbons and can undergo addition reactions. The general formula is CₙH₂ₙ."
+ },
+ {
+  "id": "homologous-w02",
+  "topic": "homologous",
+  "type": "written",
+  "marks": 2,
+  "q": "Describe how bromine solution can be used to distinguish between hexane and hexene.",
+  "points": [
+   {
+    "t": "Add bromine solution to each and shake",
+    "m": 1
+   },
+   {
+    "t": "Hexene decolourises the bromine solution (orange to colourless); hexane does not (stays orange)",
+    "m": 1
+   }
+  ],
+  "model": "Add a few drops of bromine solution to each liquid and shake. Hexene, an alkene, reacts by addition and the bromine solution is decolourised quickly. Hexane is saturated and there is no colour change."
+ },
+ {
+  "id": "homologous-w03",
+  "topic": "homologous",
+  "type": "written",
+  "marks": 3,
+  "q": "What is meant by the term isomers? Name two isomers with the molecular formula C₄H₁₀.",
+  "points": [
+   {
+    "t": "Isomers have the same molecular formula but different structural formulae",
+    "m": 1
+   },
+   {
+    "t": "Butane (CH₃CH₂CH₂CH₃)",
+    "m": 1
+   },
+   {
+    "t": "2-methylpropane (CH₃CH(CH₃)CH₃)",
+    "m": 1
+   }
+  ],
+  "model": "Isomers are compounds with the same molecular formula but different structures. Two isomers of C₄H₁₀ are butane (CH₃CH₂CH₂CH₃) and 2-methylpropane (CH₃CH(CH₃)CH₃)."
+ },
+ {
+  "id": "homologous-w04",
+  "topic": "homologous",
+  "type": "written",
+  "marks": 3,
+  "q": "Propane burns completely in oxygen.\n(a) Name the two products. (1)\n(b) Write a balanced equation for the reaction. (2)",
+  "points": [
+   {
+    "t": "(a) Carbon dioxide and water",
+    "m": 1
+   },
+   {
+    "t": "(b) C₃H₈ + 5O₂ → 3CO₂ + 4H₂O  (correct formulae)",
+    "m": 1
+   },
+   {
+    "t": "Balanced correctly",
+    "m": 1
+   }
+  ],
+  "model": "(a) Complete combustion of a hydrocarbon gives carbon dioxide and water. (b) C₃H₈ + 5O₂ → 3CO₂ + 4H₂O: three carbons give 3CO₂, eight hydrogens give 4H₂O, so 3×2 + 4 = 10 oxygen atoms, 5O₂."
+ },
+ {
+  "id": "homologous-w05",
+  "topic": "homologous",
+  "type": "written",
+  "marks": 2,
+  "q": "Ethene reacts with bromine to form 1,2-dibromoethane.\n(a) What type of reaction is this? (1)\n(b) Explain why the reaction is possible for ethene but not for ethane. (1)",
+  "points": [
+   {
+    "t": "(a) Addition",
+    "m": 1
+   },
+   {
+    "t": "(b) Ethene has a C=C double bond which opens up to allow the bromine atoms to add; ethane is saturated",
+    "m": 1
+   }
+  ],
+  "model": "(a) Addition reaction. (b) The double bond in ethene can open, allowing one bromine atom to attach to each carbon. Ethane has only single bonds and no spare bonding capacity."
+ },
+ {
+  "id": "homologous-w06",
+  "topic": "homologous",
+  "type": "written",
+  "marks": 3,
+  "q": "Decane (C₁₀H₂₂) can be cracked to make octane (C₈H₁₈) and one other hydrocarbon.\n(a) Name the other hydrocarbon. (1)\n(b) Give one reason why cracking is carried out in industry. (1)\n(c) Write an equation for the cracking. (1)",
+  "points": [
+   {
+    "t": "(a) Ethene (C₂H₄)",
+    "m": 1
+   },
+   {
+    "t": "(b) To produce smaller, more useful molecules (e.g. petrol) and alkenes for making plastics",
+    "m": 1
+   },
+   {
+    "t": "(c) C₁₀H₂₂ → C₈H₁₈ + C₂H₄",
+    "m": 1
+   }
+  ],
+  "model": "(a) Subtracting C₈H₁₈ from C₁₀H₂₂ leaves C₂H₄, which is ethene. (b) Cracking turns long, less useful hydrocarbons into smaller molecules that are in greater demand, including alkenes used to make plastics. (c) C₁₀H₂₂ → C₈H₁₈ + C₂H₄."
+ },
+ {
+  "id": "homologous-w07",
+  "topic": "homologous",
+  "type": "written",
+  "marks": 2,
+  "q": "Cyclohexane has the formula C₆H₁₂. Explain why it is a saturated hydrocarbon even though it has the same general formula as an alkene.",
+  "points": [
+   {
+    "t": "Cyclohexane has only single carbon–carbon bonds (it is a ring)",
+    "m": 1
+   },
+   {
+    "t": "It has no C=C double bond, so it will not decolourise bromine solution",
+    "m": 1
+   }
+  ],
+  "model": "In cyclohexane the carbon atoms are joined in a ring using only single bonds. The reduced number of hydrogen atoms is because of the ring, not a double bond, so it is saturated."
+ },
+ {
+  "id": "homologous-x01",
+  "topic": "homologous",
+  "q": "What is the name of the compound CH₃CH(CH₃)CH₂CH₃?",
+  "options": [
+   "2-methylbutane",
+   "3-methylbutane",
+   "pentane",
+   "2-methylpropane"
+  ],
+  "answer": 0,
+  "explanation": "The longest chain has four carbons (butane) with a methyl group on carbon 2."
+ },
+ {
+  "id": "homologous-x02",
+  "topic": "homologous",
+  "q": "Which of the following is an alkene?",
+  "options": [
+   "C₅H₁₂",
+   "C₄H₁₀",
+   "C₅H₁₀ (not a ring)",
+   "C₆H₁₄"
+  ],
+  "answer": 2,
+  "explanation": "Alkenes have the general formula CₙH₂ₙ. C₅H₁₀ fits; the others fit CₙH₂ₙ₊₂ (alkanes)."
+ },
+ {
+  "id": "homologous-x03",
+  "topic": "homologous",
+  "q": "What is the product of the reaction between propene and hydrogen?",
+  "options": [
+   "Propane",
+   "Propyne",
+   "Propanol",
+   "Cyclopropane"
+  ],
+  "answer": 0,
+  "explanation": "Addition of hydrogen across the double bond converts the alkene into the alkane with the same number of carbon atoms."
+ },
+ {
+  "id": "homologous-x04",
+  "topic": "homologous",
+  "q": "Which statement about alkanes is correct?",
+  "options": [
+   "They have a C=C double bond",
+   "They decolourise bromine solution quickly",
+   "They are saturated hydrocarbons",
+   "They have the general formula CₙH₂ₙ"
+  ],
+  "answer": 2,
+  "explanation": "Alkanes contain only single bonds, are saturated and have the general formula CₙH₂ₙ₊₂."
+ },
+ {
+  "id": "homologous-x05",
+  "topic": "homologous",
+  "q": "What is the molecular formula of the alkane with 7 carbon atoms?",
+  "options": [
+   "C₇H₁₆",
+   "C₇H₁₄",
+   "C₇H₁₅",
+   "C₇H₁₈"
+  ],
+  "answer": 0,
+  "explanation": "Alkanes follow CₙH₂ₙ₊₂, so n = 7 gives C₇H₁₆."
+ },
+ {
+  "id": "consumer-w01",
+  "topic": "consumer",
+  "type": "written",
+  "marks": 3,
+  "q": "Ethanol can be made by the fermentation of glucose.\nState three conditions needed for fermentation.",
+  "points": [
+   {
+    "t": "Yeast (enzymes) present",
+    "m": 1
+   },
+   {
+    "t": "A warm temperature (about 30–40 °C, not too hot)",
+    "m": 1
+   },
+   {
+    "t": "No oxygen (absence of air)",
+    "m": 1
+   }
+  ],
+  "model": "Fermentation needs yeast, which contains the enzymes that catalyse the reaction; a warm temperature of around 30–40 °C (too hot destroys the enzymes); and an oxygen-free environment so that ethanol rather than ethanoic acid is made."
+ },
+ {
+  "id": "consumer-w02",
+  "topic": "consumer",
+  "type": "written",
+  "marks": 3,
+  "q": "Methanol reacts with propanoic acid to form an ester.\n(a) Name the ester formed. (1)\n(b) Name the other product. (1)\n(c) What name is given to this type of reaction? (1)",
+  "points": [
+   {
+    "t": "(a) Methyl propanoate",
+    "m": 1
+   },
+   {
+    "t": "(b) Water",
+    "m": 1
+   },
+   {
+    "t": "(c) Condensation (esterification)",
+    "m": 1
+   }
+  ],
+  "model": "(a) The alcohol gives the first part of the name and the acid the second: methyl propanoate. (b) Water is also formed. (c) Two molecules join with the loss of a small molecule, so this is a condensation (esterification) reaction."
+ },
+ {
+  "id": "consumer-w03",
+  "topic": "consumer",
+  "type": "written",
+  "marks": 3,
+  "q": "Ethanoic acid reacts with magnesium.\n(a) Name the salt formed. (1)\n(b) Name the gas formed and describe a test for it. (2)",
+  "points": [
+   {
+    "t": "(a) Magnesium ethanoate",
+    "m": 1
+   },
+   {
+    "t": "(b) Hydrogen",
+    "m": 1
+   },
+   {
+    "t": "A lighted splint gives a squeaky pop",
+    "m": 1
+   }
+  ],
+  "model": "(a) Metal + acid → salt + hydrogen; the salt of ethanoic acid is an ethanoate, so magnesium ethanoate. (b) Hydrogen gas, which burns with a squeaky pop when a lighted splint is held at the mouth of the test tube."
+ },
+ {
+  "id": "consumer-w04",
+  "topic": "consumer",
+  "type": "written",
+  "marks": 2,
+  "q": "State two uses of esters.",
+  "points": [
+   {
+    "t": "Flavourings / food additives",
+    "m": 1
+   },
+   {
+    "t": "Perfumes (fragrances) or solvents",
+    "m": 1
+   }
+  ],
+  "model": "Esters have pleasant, fruity smells so they are used as flavourings in foods and as fragrances in perfumes; they are also used as solvents (for example in nail varnish remover)."
+ },
+ {
+  "id": "consumer-w05",
+  "topic": "consumer",
+  "type": "written",
+  "marks": 2,
+  "q": "Ethanol burns completely in air. Write a balanced equation for the reaction.",
+  "points": [
+   {
+    "t": "C₂H₅OH + 3O₂ → 2CO₂ + 3H₂O (correct formulae)",
+    "m": 1
+   },
+   {
+    "t": "Balanced correctly",
+    "m": 1
+   }
+  ],
+  "model": "Complete combustion of ethanol gives carbon dioxide and water: C₂H₅OH + 3O₂ → 2CO₂ + 3H₂O."
+ },
+ {
+  "id": "consumer-w06",
+  "topic": "consumer",
+  "type": "written",
+  "marks": 3,
+  "q": "Ethanol can be oxidised to ethanoic acid.\n(a) Name a substance that can be used as an oxidising agent for this change. (1)\n(b) Why does wine left open to the air turn sour? (2)",
+  "points": [
+   {
+    "t": "(a) Acidified potassium dichromate (or acidified potassium permanganate)",
+    "m": 1
+   },
+   {
+    "t": "(b) Oxygen from the air oxidises the ethanol in the wine",
+    "m": 1
+   },
+   {
+    "t": "Ethanoic acid (vinegar) forms, which tastes sour",
+    "m": 1
+   }
+  ],
+  "model": "(a) Acidified dichromate solution (which changes from orange to green). (b) Oxygen in the air, helped by bacteria, oxidises the ethanol in the wine to ethanoic acid, which tastes sour."
+ },
+ {
+  "id": "consumer-x01",
+  "topic": "consumer",
+  "q": "Which of the following is the functional group of an alcohol?",
+  "options": [
+   "–COOH",
+   "–COO–",
+   "–OH",
+   "C=C"
+  ],
+  "answer": 2,
+  "explanation": "Alcohols contain the hydroxyl group –OH. The carboxyl group is –COOH and an ester link is –COO–."
+ },
+ {
+  "id": "consumer-x02",
+  "topic": "consumer",
+  "q": "What is the name of the ester formed from ethanol and ethanoic acid?",
+  "options": [
+   "Ethyl ethanoate",
+   "Ethanoyl ethanol",
+   "Ethanol ethanoate",
+   "Ethyl ethanol"
+  ],
+  "answer": 0,
+  "explanation": "The alcohol gives the first part (ethyl) and the acid gives the second (ethanoate)."
+ },
+ {
+  "id": "consumer-x03",
+  "topic": "consumer",
+  "q": "What is the name of the compound CH₃CH₂CH₂COOH?",
+  "options": [
+   "Butanol",
+   "Propanoic acid",
+   "Butanoic acid",
+   "Butyl ethanoate"
+  ],
+  "answer": 2,
+  "explanation": "The –COOH group indicates a carboxylic acid; the chain has four carbons, including the carboxyl carbon."
+ },
+ {
+  "id": "consumer-x04",
+  "topic": "consumer",
+  "q": "Which of the following is produced when glucose is fermented?",
+  "options": [
+   "Ethanol and carbon dioxide",
+   "Ethanoic acid and water",
+   "Methanol and carbon dioxide",
+   "Ethanol and oxygen"
+  ],
+  "answer": 0,
+  "explanation": "C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂ is catalysed by enzymes in yeast."
+ },
+ {
+  "id": "consumer-x05",
+  "topic": "consumer",
+  "q": "Ethanoic acid turns universal indicator which colour?",
+  "options": [
+   "Blue",
+   "Purple",
+   "Red/orange",
+   "Green"
+  ],
+  "answer": 2,
+  "explanation": "Carboxylic acids are weak acids with a pH of about 3, so universal indicator turns orange/red."
+ },
+ {
+  "id": "fuels-w01",
+  "topic": "fuels",
+  "type": "written",
+  "marks": 3,
+  "q": "In an experiment, a burner raised the temperature of 200 g of water by 18 °C.\n(a) Calculate the energy transferred to the water using Eh = c m ΔT, in kJ. (c = 4.18 kJ kg⁻¹ °C⁻¹) (2)\n(b) The burner used 0.50 g of fuel. Calculate the energy released per gram of fuel, assuming no heat loss. (1)",
+  "points": [
+   {
+    "t": "(a) Mass of water = 0.200 kg",
+    "m": 1
+   },
+   {
+    "t": "Eh = 4.18 × 0.200 × 18 = 15.0 kJ",
+    "m": 1
+   },
+   {
+    "t": "(b) Energy per gram = 15.0 ÷ 0.50 = 30 kJ g⁻¹",
+    "m": 1
+   }
+  ],
+  "model": "(a) m = 200 g = 0.200 kg. Eh = c m ΔT = 4.18 × 0.200 × 18 = 15.0 kJ. (b) 15.0 kJ were transferred by 0.50 g of fuel, so the energy per gram = 15.0 ÷ 0.50 = 30 kJ g⁻¹."
+ },
+ {
+  "id": "fuels-w02",
+  "topic": "fuels",
+  "type": "written",
+  "marks": 2,
+  "q": "The enthalpy of combustion of ethanol is −1367 kJ mol⁻¹. Calculate the energy released when 0.20 mol of ethanol burns completely.",
+  "points": [
+   {
+    "t": "Energy = number of moles × enthalpy of combustion",
+    "m": 1
+   },
+   {
+    "t": "= 0.20 × 1367 = 273.4 kJ released",
+    "m": 1
+   }
+  ],
+  "model": "Energy released = n × ΔHc = 0.20 × 1367 = 273.4 kJ."
+ },
+ {
+  "id": "fuels-w03",
+  "topic": "fuels",
+  "type": "written",
+  "marks": 3,
+  "q": "A student measures the enthalpy of combustion of a fuel by burning it under a beaker of water. The value obtained is lower than the data booklet value. Suggest three ways of improving the experiment.",
+  "points": [
+   {
+    "t": "Use a lid on the beaker (or a draught shield) to reduce heat loss",
+    "m": 1
+   },
+   {
+    "t": "Insulate the container (e.g. use a copper can with lagging) and move the flame close to the can",
+    "m": 1
+   },
+   {
+    "t": "Stir the water and ensure complete combustion with plenty of air",
+    "m": 1
+   }
+  ],
+  "model": "The experimental value is lower because heat is lost to the surroundings and the fuel may burn incompletely. Heat loss can be reduced by using a lid or draught shield, insulating the beaker and placing the flame close to the base. Stirring ensures an even temperature and a good air supply helps complete combustion."
+ },
+ {
+  "id": "fuels-w04",
+  "topic": "fuels",
+  "type": "written",
+  "marks": 3,
+  "q": "Incomplete combustion of a hydrocarbon fuel can produce carbon monoxide.\n(a) Why is carbon monoxide dangerous? (1)\n(b) Name another product that can be formed in incomplete combustion. (1)\n(c) State one condition that leads to incomplete combustion. (1)",
+  "points": [
+   {
+    "t": "(a) It is toxic: it combines with haemoglobin and stops the blood from carrying oxygen",
+    "m": 1
+   },
+   {
+    "t": "(b) Carbon (soot)",
+    "m": 1
+   },
+   {
+    "t": "(c) A limited supply of oxygen (air)",
+    "m": 1
+   }
+  ],
+  "model": "(a) Carbon monoxide is a poisonous gas that binds to haemoglobin in the blood, preventing it from carrying oxygen. (b) Soot (carbon) can also form. (c) Incomplete combustion occurs when there is not enough oxygen."
+ },
+ {
+  "id": "fuels-w05",
+  "topic": "fuels",
+  "type": "written",
+  "marks": 2,
+  "q": "Crude oil is separated into fractions in a fractionating column. Explain how the separation works.",
+  "points": [
+   {
+    "t": "Crude oil is heated and the vapours rise up the column",
+    "m": 1
+   },
+   {
+    "t": "Each fraction condenses at a different height according to its boiling point; fractions with different chain lengths have different boiling points",
+    "m": 1
+   }
+  ],
+  "model": "Crude oil is a mixture of hydrocarbons with different boiling points. It is vaporised and rises up the column, which is hotter at the bottom than the top. Each hydrocarbon condenses where the temperature falls below its boiling point, so the molecules are separated into fractions."
+ },
+ {
+  "id": "fuels-x01",
+  "topic": "fuels",
+  "q": "What is the unit of enthalpy of combustion?",
+  "options": [
+   "kJ",
+   "g mol⁻¹",
+   "kJ mol⁻¹",
+   "kJ g"
+  ],
+  "answer": 2,
+  "explanation": "Enthalpy of combustion is the energy released when one mole of a substance burns completely, so is measured in kJ mol⁻¹."
+ },
+ {
+  "id": "fuels-x02",
+  "topic": "fuels",
+  "q": "Which of the following is a fossil fuel?",
+  "options": [
+   "Natural gas",
+   "Hydrogen",
+   "Ethanol",
+   "Wood"
+  ],
+  "answer": 0,
+  "explanation": "Fossil fuels – coal, oil and natural gas – formed from the remains of living things over millions of years."
+ },
+ {
+  "id": "fuels-x03",
+  "topic": "fuels",
+  "q": "What is the effect on the boiling point as the number of carbon atoms in an alkane increases?",
+  "options": [
+   "It decreases",
+   "It stays the same",
+   "It increases",
+   "It increases then decreases"
+  ],
+  "answer": 2,
+  "explanation": "Larger molecules have stronger forces between them, so more energy is needed to separate them."
+ },
+ {
+  "id": "fuels-x04",
+  "topic": "fuels",
+  "q": "Which of these contributes to global warming?",
+  "options": [
+   "Carbon dioxide",
+   "Oxygen",
+   "Nitrogen",
+   "Argon"
+  ],
+  "answer": 0,
+  "explanation": "Carbon dioxide is a greenhouse gas formed when fuels burn."
  }
  ]
 };
