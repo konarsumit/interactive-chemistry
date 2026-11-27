@@ -4972,6 +4972,663 @@ unitLabel:"Area", topicLabel:"Topic",
   ],
   "answer": 0,
   "explanation": "Deionised water contains no dissolved substances which would otherwise affect the reaction or the results."
+ },
+ {
+  "id": "fuels-w06",
+  "topic": "fuels",
+  "type": "written",
+  "marks": 3,
+  "q": "A burner heats 100 g of water from 20 °C to 45 °C. (c = 4.18 kJ kg⁻¹ °C⁻¹)\n(a) Write the relationship used to calculate the energy gained by the water. (1)\n(b) Calculate the energy gained by the water in kJ. (2)",
+  "points": [
+   {
+    "t": "(a) Eh = c m ΔT (energy = specific heat capacity × mass × temperature change)",
+    "m": 1
+   },
+   {
+    "t": "(b) Mass = 0.100 kg and ΔT = 25 °C",
+    "m": 1
+   },
+   {
+    "t": "Eh = 4.18 × 0.100 × 25 = 10.45 kJ (10.45 kJ)",
+    "m": 1
+   }
+  ],
+  "model": "(a) Eh = c m ΔT. (b) The mass must be in kg, so 100 g = 0.100 kg, and the temperature rise is 45 − 20 = 25 °C. Eh = 4.18 × 0.100 × 25 = 10.45 kJ."
+ },
+ {
+  "id": "fuels-w07",
+  "topic": "fuels",
+  "type": "written",
+  "marks": 4,
+  "q": "0.46 g of ethanol (C₂H₅OH, GFM = 46) is burned under a beaker containing 200 g of water. The temperature of the water rises by 9.8 °C. (c = 4.18 kJ kg⁻¹ °C⁻¹)\n(a) Calculate the energy gained by the water. (1)\n(b) Calculate the number of moles of ethanol burned. (1)\n(c) Calculate the enthalpy of combustion of ethanol from this experiment, in kJ mol⁻¹. (1)\n(d) The data booklet value is −1367 kJ mol⁻¹. Give one reason why the experimental value is lower. (1)",
+  "points": [
+   {
+    "t": "(a) Eh = 4.18 × 0.200 × 9.8 = 8.2 kJ",
+    "m": 1
+   },
+   {
+    "t": "(b) n = 0.46 ÷ 46 = 0.010 mol",
+    "m": 1
+   },
+   {
+    "t": "(c) ΔH = 8.19 ÷ 0.010 = 819 kJ mol⁻¹ (about −819 kJ mol⁻¹)",
+    "m": 1
+   },
+   {
+    "t": "(d) Heat is lost to the surroundings (the beaker, the air), so not all the energy reaches the water",
+    "m": 1
+   }
+  ],
+  "model": "(a) Eh = 4.18 × 0.200 × 9.8 = 8.2 kJ. (b) 0.46 ÷ 46 = 0.010 mol. (c) Energy per mole = 8.2 ÷ 0.010 = 819 kJ mol⁻¹. (d) Some heat escapes to the surroundings, so the measured value is smaller than the true value."
+ },
+ {
+  "id": "fuels-w08",
+  "topic": "fuels",
+  "type": "written",
+  "marks": 3,
+  "q": "The enthalpy of combustion of methane is −891 kJ mol⁻¹.\nCalculate the energy released when 8.0 g of methane (CH₄, GFM = 16) burns completely.",
+  "points": [
+   {
+    "t": "Moles of methane = 8.0 ÷ 16 = 0.50 mol",
+    "m": 1
+   },
+   {
+    "t": "Energy per mole = 891 kJ",
+    "m": 1
+   },
+   {
+    "t": "Energy released = 0.50 × 891 = 445.5 kJ",
+    "m": 1
+   }
+  ],
+  "model": "Moles = mass ÷ GFM = 8.0 ÷ 16 = 0.50 mol. Each mole releases 891 kJ, so energy = 0.50 × 891 = 445.5 kJ."
+ },
+ {
+  "id": "fuels-w09",
+  "topic": "fuels",
+  "type": "written",
+  "marks": 3,
+  "q": "Propane burns completely in oxygen.\n(a) Write a balanced equation for the reaction. (1)\n(b) Calculate the mass of carbon dioxide formed when 4.4 g of propane (GFM = 44) burns completely. (CO₂ GFM = 44) (2)",
+  "points": [
+   {
+    "t": "(a) C₃H₈ + 5O₂ → 3CO₂ + 4H₂O",
+    "m": 1
+   },
+   {
+    "t": "(b) Moles of propane = 4.4 ÷ 44 = 0.10 mol, giving 0.30 mol CO₂ (1 : 3 ratio)",
+    "m": 1
+   },
+   {
+    "t": "Mass of CO₂ = 0.30 × 44 = 13.2 g",
+    "m": 1
+   }
+  ],
+  "model": "(a) C₃H₈ + 5O₂ → 3CO₂ + 4H₂O. (b) 4.4 ÷ 44 = 0.10 mol propane; the equation shows 1 mol propane gives 3 mol CO₂, so 0.30 mol is formed, mass = 0.30 × 44 = 13.2 g."
+ },
+ {
+  "id": "fuels-w10",
+  "topic": "fuels",
+  "type": "written",
+  "marks": 3,
+  "q": "Crude oil is separated into fractions by fractional distillation. Compare a fraction taken from the top of the column with one taken from the bottom in terms of (a) the size of the molecules, (b) boiling point and (c) how easily they burn.",
+  "points": [
+   {
+    "t": "(a) Top: small molecules (short chains); bottom: large molecules (long chains)",
+    "m": 1
+   },
+   {
+    "t": "(b) Top: low boiling points; bottom: high boiling points",
+    "m": 1
+   },
+   {
+    "t": "(c) Top: ignite easily / burn readily and are less viscous; bottom: hard to ignite and viscous",
+    "m": 1
+   }
+  ],
+  "model": "Small molecules have weaker forces between them, so they boil at lower temperatures, rise further up the column, are runny and ignite easily. Large molecules have higher boiling points, stay near the bottom, are thick and difficult to ignite."
+ },
+ {
+  "id": "fuels-w11",
+  "topic": "fuels",
+  "type": "written",
+  "marks": 3,
+  "q": "Octane, C₈H₁₈, can be made by cracking a larger hydrocarbon, C₁₂H₂₆.\n(a) Complete the equation: C₁₂H₂₆ → C₈H₁₈ + ?  (1)\n(b) Explain why cracking is carried out. (1)\n(c) How could you show that the second product is unsaturated? (1)",
+  "points": [
+   {
+    "t": "(a) C₄H₈ (butene)",
+    "m": 1
+   },
+   {
+    "t": "(b) Long-chain hydrocarbons are less in demand; cracking makes shorter, more useful molecules (for petrol) and alkenes for plastics",
+    "m": 1
+   },
+   {
+    "t": "(c) It decolourises bromine solution quickly",
+    "m": 1
+   }
+  ],
+  "model": "(a) Atoms must balance: 12 − 8 = 4 carbons and 26 − 18 = 8 hydrogens, so C₄H₈, an alkene. (b) Larger molecules are in less demand than smaller ones, so cracking turns them into more useful fuels and starting materials. (c) Alkenes are unsaturated and decolourise bromine solution."
+ },
+ {
+  "id": "fuels-w12",
+  "topic": "fuels",
+  "type": "written",
+  "marks": 2,
+  "q": "Hydrogen is described as a clean fuel. Explain why, and state one disadvantage of using hydrogen as a fuel in cars.",
+  "points": [
+   {
+    "t": "It burns to form only water (no carbon dioxide or pollutants)",
+    "m": 1
+   },
+   {
+    "t": "Disadvantage e.g. it is a gas that is difficult to store (needs high pressure/low temperature) or flammable/explosive, and is mostly made from fossil fuels",
+    "m": 1
+   }
+  ],
+  "model": "Hydrogen burns in oxygen to give only water, so no carbon dioxide is released. However, it is difficult to store and transport safely, and much hydrogen is currently made from natural gas."
+ },
+ {
+  "id": "fuels-w13",
+  "topic": "fuels",
+  "type": "written",
+  "marks": 3,
+  "q": "A student burned two fuels, P and Q, to heat water. Fuel P (1.0 g) raised the temperature of 100 g of water by 12 °C. Fuel Q (1.0 g) raised the temperature of 100 g of water by 9 °C.\n(a) Which fuel releases more energy per gram? (1)\n(b) Calculate the energy transferred to the water by fuel P. (c = 4.18 kJ kg⁻¹ °C⁻¹) (2)",
+  "points": [
+   {
+    "t": "(a) Fuel P",
+    "m": 1
+   },
+   {
+    "t": "(b) Eh = c m ΔT = 4.18 × 0.100 × 12",
+    "m": 1
+   },
+   {
+    "t": "Eh = 5.02 kJ (5.0 kJ)",
+    "m": 1
+   }
+  ],
+  "model": "(a) The larger temperature rise from the same mass of fuel shows P releases more energy. (b) Eh = 4.18 × 0.100 × 12 = 5.02 kJ."
+ },
+ {
+  "id": "fuels-x05",
+  "topic": "fuels",
+  "q": "Which is the balanced equation for the complete combustion of ethanol?",
+  "options": [
+   "C₂H₅OH + O₂ → 2CO₂ + 3H₂O",
+   "C₂H₅OH + 2O₂ → CO₂ + H₂O",
+   "2C₂H₅OH + 3O₂ → 2CO₂ + 3H₂O",
+   "C₂H₅OH + 3O₂ → 2CO₂ + 3H₂O"
+  ],
+  "answer": 3,
+  "explanation": "Right-hand side has 7 oxygen atoms (4 in 2CO₂ and 3 in 3H₂O). One comes from the ethanol, so 6 are needed from 3O₂, giving C₂H₅OH + 3O₂ → 2CO₂ + 3H₂O."
+ },
+ {
+  "id": "fuels-x06",
+  "topic": "fuels",
+  "q": "Which of these fuels is renewable?",
+  "options": [
+   "Natural gas",
+   "Bioethanol made from sugar cane",
+   "Coal",
+   "Petrol"
+  ],
+  "answer": 1,
+  "explanation": "Crops can be regrown, so ethanol from sugar cane is renewable, unlike fossil fuels that take millions of years to form."
+ },
+ {
+  "id": "fuels-x07",
+  "topic": "fuels",
+  "q": "What is the enthalpy change for the reaction when 2.0 mol of methane burns? (ΔH = −891 kJ mol⁻¹)",
+  "options": [
+   "891 kJ released",
+   "445 kJ released",
+   "1782 kJ absorbed",
+   "1782 kJ released"
+  ],
+  "answer": 3,
+  "explanation": "Energy released = moles × 891 = 2.0 × 891 = 1782 kJ. Combustion is exothermic, so the energy is released."
+ },
+ {
+  "id": "fuels-x08",
+  "topic": "fuels",
+  "q": "Which fraction of crude oil has the highest boiling point?",
+  "options": [
+   "Petrol",
+   "Bitumen",
+   "Kerosene",
+   "Refinery gas"
+  ],
+  "answer": 1,
+  "explanation": "Bitumen has the longest molecules, so the strongest forces between them and the highest boiling point."
+ },
+ {
+  "id": "fuels-x09",
+  "topic": "fuels",
+  "q": "Which gas formed by burning fossil fuels causes acid rain?",
+  "options": [
+   "Nitrogen",
+   "Argon",
+   "Hydrogen",
+   "Sulfur dioxide"
+  ],
+  "answer": 3,
+  "explanation": "Sulfur impurities burn to give sulfur dioxide, which dissolves in rainwater to form acid rain."
+ },
+ {
+  "id": "fuels-x10",
+  "topic": "fuels",
+  "q": "A reaction releases 25 kJ when 0.50 mol of a fuel burns. What is the enthalpy of combustion?",
+  "options": [
+   "−12.5 kJ mol⁻¹",
+   "−50 kJ mol⁻¹",
+   "−25 kJ mol⁻¹",
+   "+50 kJ mol⁻¹"
+  ],
+  "answer": 1,
+  "explanation": "Energy per mole = 25 ÷ 0.50 = 50 kJ mol⁻¹, with a negative sign since the reaction is exothermic."
+ },
+ {
+  "id": "fuels-x11",
+  "topic": "fuels",
+  "q": "In a calorimetry experiment, why is the specific heat capacity of water used?",
+  "options": [
+   "It gives the boiling point of water",
+   "It measures the mass of fuel burned",
+   "It shows the speed of reaction",
+   "It tells how much energy is needed to raise 1 kg of water by 1 °C"
+  ],
+  "answer": 3,
+  "explanation": "c = 4.18 kJ kg⁻¹ °C⁻¹ is the energy needed to warm 1 kg of water by 1 °C."
+ },
+ {
+  "id": "fuels-x12",
+  "topic": "fuels",
+  "q": "Which hydrocarbon would be the most flammable?",
+  "options": [
+   "Octane",
+   "Methane",
+   "Decane",
+   "Hexadecane"
+  ],
+  "answer": 1,
+  "explanation": "Short-chain hydrocarbons have weak forces between molecules, evaporate easily and so ignite readily."
+ },
+ {
+  "id": "homologous-w08",
+  "topic": "homologous",
+  "type": "written",
+  "marks": 3,
+  "q": "Name the following hydrocarbons.\n(a) CH₃CH₂CH₂CH₂CH₃ (1)\n(b) CH₃CH(CH₃)CH₂CH₃ (1)\n(c) CH₃CH=CHCH₃ (1)",
+  "points": [
+   {
+    "t": "(a) Pentane",
+    "m": 1
+   },
+   {
+    "t": "(b) 2-methylbutane",
+    "m": 1
+   },
+   {
+    "t": "(c) But-2-ene",
+    "m": 1
+   }
+  ],
+  "model": "(a) Five carbons in a straight chain with single bonds: pentane. (b) A four-carbon chain with a methyl branch on carbon 2: 2-methylbutane. (c) A four-carbon chain with a double bond between carbons 2 and 3: but-2-ene."
+ },
+ {
+  "id": "homologous-w09",
+  "topic": "homologous",
+  "type": "written",
+  "marks": 3,
+  "q": "Butane and methylpropane both have the molecular formula C₄H₁₀.\n(a) What name is given to compounds with the same molecular formula but different structures? (1)\n(b) Draw the full structural formula of each. (2)",
+  "points": [
+   {
+    "t": "(a) Isomers",
+    "m": 1
+   },
+   {
+    "t": "(b) Butane: four carbons in a straight chain, CH₃CH₂CH₂CH₃",
+    "m": 1
+   },
+   {
+    "t": "Methylpropane: a three-carbon chain with a CH₃ branch on the middle carbon, CH₃CH(CH₃)CH₃",
+    "m": 1
+   }
+  ],
+  "model": "(a) Isomers have the same molecular formula but different structural formulae. (b) Butane is the straight chain; methylpropane has a methyl group on the central carbon of a three-carbon chain."
+ },
+ {
+  "id": "homologous-w10",
+  "topic": "homologous",
+  "type": "written",
+  "marks": 3,
+  "q": "Complete the table for the first three alkenes by giving the name and molecular formula of each: two carbons, three carbons and four carbons.",
+  "points": [
+   {
+    "t": "Ethene, C₂H₄",
+    "m": 1
+   },
+   {
+    "t": "Propene, C₃H₆",
+    "m": 1
+   },
+   {
+    "t": "Butene, C₄H₈ (general formula CₙH₂ₙ)",
+    "m": 1
+   }
+  ],
+  "model": "Alkenes have the general formula CₙH₂ₙ: ethene C₂H₄, propene C₃H₆ and butene C₄H₈."
+ },
+ {
+  "id": "homologous-w11",
+  "topic": "homologous",
+  "type": "written",
+  "marks": 3,
+  "q": "Cyclopentane has the molecular formula C₅H₁₀, the same as pent-1-ene.\n(a) Explain why cyclopentane does not decolourise bromine solution. (2)\n(b) What is the molecular formula of cyclohexane? (1)",
+  "points": [
+   {
+    "t": "(a) Cyclopentane is saturated: all the carbon–carbon bonds are single bonds",
+    "m": 1
+   },
+   {
+    "t": "There is no C=C double bond for bromine to add across",
+    "m": 1
+   },
+   {
+    "t": "(b) C₆H₁₂",
+    "m": 1
+   }
+  ],
+  "model": "(a) Although it has the same formula as an alkene, cyclopentane's carbon atoms are joined in a ring by single bonds. Bromine cannot add so it is not decolourised. (b) Cycloalkanes have the formula CₙH₂ₙ, so six carbons give C₆H₁₂."
+ },
+ {
+  "id": "homologous-w12",
+  "topic": "homologous",
+  "type": "written",
+  "marks": 2,
+  "q": "Describe the trend in boiling points of the alkanes methane, ethane, propane and butane, and explain the trend.",
+  "points": [
+   {
+    "t": "The boiling point increases as the number of carbons (molecular size) increases",
+    "m": 1
+   },
+   {
+    "t": "Larger molecules have stronger forces between molecules, so more energy is needed to separate them",
+    "m": 1
+   }
+  ],
+  "model": "As the chain gets longer the forces between molecules become stronger, so more energy is needed to overcome them and the boiling points increase."
+ },
+ {
+  "id": "homologous-x06",
+  "topic": "homologous",
+  "q": "What is the general formula for the alkanes?",
+  "options": [
+   "CₙH₂ₙ",
+   "CₙH₂ₙ₊₂",
+   "CₙH₂ₙ₋₂",
+   "CₙHₙ"
+  ],
+  "answer": 1,
+  "explanation": "Alkanes are saturated and each carbon is bonded to as many hydrogens as possible, giving CₙH₂ₙ₊₂."
+ },
+ {
+  "id": "homologous-x07",
+  "topic": "homologous",
+  "q": "Which compound is an alkene?",
+  "options": [
+   "C₅H₁₂",
+   "C₅H₁₄",
+   "C₅H₈ only",
+   "C₅H₁₀"
+  ],
+  "answer": 3,
+  "explanation": "C₅H₁₀ fits the formula CₙH₂ₙ for alkenes, although a cycloalkane could also have this formula."
+ },
+ {
+  "id": "homologous-x08",
+  "topic": "homologous",
+  "q": "Which is the name for C₇H₁₆?",
+  "options": [
+   "Hexane",
+   "Heptane",
+   "Octane",
+   "Heptene"
+  ],
+  "answer": 1,
+  "explanation": "Seven carbons gives hept-; the formula CₙH₂ₙ₊₂ shows an alkane, so heptane."
+ },
+ {
+  "id": "homologous-x09",
+  "topic": "homologous",
+  "q": "A molecule contains a carbon–carbon double bond. What type of hydrocarbon is it?",
+  "options": [
+   "Saturated",
+   "Cyclic only",
+   "Aromatic only",
+   "Unsaturated"
+  ],
+  "answer": 3,
+  "explanation": "Unsaturated hydrocarbons contain a C=C double bond."
+ },
+ {
+  "id": "homologous-x10",
+  "topic": "homologous",
+  "q": "Which pair are isomers?",
+  "options": [
+   "Ethane and ethene",
+   "Pentane and 2-methylbutane",
+   "Propane and butane",
+   "Methane and methanol"
+  ],
+  "answer": 1,
+  "explanation": "Both are C₅H₁₂ but with different arrangements of atoms."
+ },
+ {
+  "id": "homologous-x11",
+  "topic": "homologous",
+  "q": "When ethene reacts with hydrogen, what is the product?",
+  "options": [
+   "Ethanol",
+   "Ethyne",
+   "Poly(ethene)",
+   "Ethane"
+  ],
+  "answer": 3,
+  "explanation": "Hydrogen adds across the double bond, giving the saturated alkane ethane."
+ },
+ {
+  "id": "consumer-w07",
+  "topic": "consumer",
+  "type": "written",
+  "marks": 3,
+  "q": "Ethanol is produced by fermentation of sugar in the presence of yeast.\n(a) Name the two products of fermentation. (1)\n(b) State two conditions needed for fermentation. (1)\n(c) Describe how a concentrated ethanol solution can be separated from the fermentation mixture. (1)",
+  "points": [
+   {
+    "t": "(a) Ethanol and carbon dioxide",
+    "m": 1
+   },
+   {
+    "t": "(b) Any two of: absence of oxygen, warm temperature (around 30–40 °C), yeast (enzymes), water",
+    "m": 1
+   },
+   {
+    "t": "(c) Distillation",
+    "m": 1
+   }
+  ],
+  "model": "(a) Glucose → ethanol + carbon dioxide. (b) Yeast needs a warm temperature and no air. (c) Ethanol has a lower boiling point than water, so distillation separates a more concentrated solution."
+ },
+ {
+  "id": "consumer-w08",
+  "topic": "consumer",
+  "type": "written",
+  "marks": 3,
+  "q": "Propanoic acid reacts with ethanol to form an ester.\n(a) Name the ester. (1)\n(b) Name the type of reaction. (1)\n(c) Why are esters used in perfumes and food flavourings? (1)",
+  "points": [
+   {
+    "t": "(a) Ethyl propanoate",
+    "m": 1
+   },
+   {
+    "t": "(b) Condensation (esterification)",
+    "m": 1
+   },
+   {
+    "t": "(c) They have pleasant fruity smells and are volatile",
+    "m": 1
+   }
+  ],
+  "model": "(a) The alcohol gives the first part of the name (ethyl) and the acid gives the second (propanoate). (b) Water is lost when the acid and alcohol join, a condensation reaction. (c) Many esters have pleasant fruity smells."
+ },
+ {
+  "id": "consumer-w09",
+  "topic": "consumer",
+  "type": "written",
+  "marks": 2,
+  "q": "Ethanoic acid is a carboxylic acid. Describe two chemical properties of ethanoic acid.",
+  "points": [
+   {
+    "t": "It is acidic: has a pH below 7 (turns universal indicator red/orange)",
+    "m": 1
+   },
+   {
+    "t": "It reacts with carbonates to give a salt, water and carbon dioxide (or with metals to give hydrogen / with alkalis)",
+    "m": 1
+   }
+  ],
+  "model": "Ethanoic acid forms a solution with pH below 7, and reacts like other acids: with carbonates to give carbon dioxide, with reactive metals to give hydrogen and with alkalis to form salts."
+ },
+ {
+  "id": "consumer-w10",
+  "topic": "consumer",
+  "type": "written",
+  "marks": 3,
+  "q": "Ethanoic acid reacts with sodium carbonate solution.\n(a) Name the three products. (2)\n(b) Describe a test for the gas. (1)",
+  "points": [
+   {
+    "t": "(a) Sodium ethanoate",
+    "m": 1
+   },
+   {
+    "t": "Water and carbon dioxide",
+    "m": 1
+   },
+   {
+    "t": "(b) Bubble the gas through limewater; it turns milky (cloudy)",
+    "m": 1
+   }
+  ],
+  "model": "(a) The reaction gives the salt sodium ethanoate plus water and carbon dioxide. (b) Carbon dioxide turns limewater milky."
+ },
+ {
+  "id": "consumer-w11",
+  "topic": "consumer",
+  "type": "written",
+  "marks": 2,
+  "q": "Methanol, ethanol and propan-1-ol belong to the alcohol homologous series. State the functional group and describe a use of ethanol.",
+  "points": [
+   {
+    "t": "The functional group is the hydroxyl group (–OH)",
+    "m": 1
+   },
+   {
+    "t": "Any use of ethanol: fuel, solvent, alcoholic drinks, antiseptic",
+    "m": 1
+   }
+  ],
+  "model": "All alcohols contain the –OH (hydroxyl) group. Ethanol is used as a solvent, a fuel (biofuel) and in drinks."
+ },
+ {
+  "id": "consumer-x06",
+  "topic": "consumer",
+  "q": "What is the functional group of a carboxylic acid?",
+  "options": [
+   "–OH",
+   "–COO–",
+   "–CHO",
+   "–COOH"
+  ],
+  "answer": 3,
+  "explanation": "Carboxylic acids contain the carboxyl group –COOH."
+ },
+ {
+  "id": "consumer-x07",
+  "topic": "consumer",
+  "q": "Which pair of reactants forms the ester propyl ethanoate?",
+  "options": [
+   "Propanoic acid and ethanol",
+   "Ethanoic acid and propan-1-ol",
+   "Propanoic acid and propanol",
+   "Ethanol and propan-1-ol"
+  ],
+  "answer": 1,
+  "explanation": "The name propyl ethanoate comes from propan-1-ol (propyl) and ethanoic acid (ethanoate)."
+ },
+ {
+  "id": "consumer-x08",
+  "topic": "consumer",
+  "q": "What is the formula of ethanol?",
+  "options": [
+   "CH₃COOH",
+   "C₂H₆",
+   "CH₃OH",
+   "C₂H₅OH"
+  ],
+  "answer": 3,
+  "explanation": "Ethanol has two carbons and one –OH group, giving C₂H₅OH."
+ },
+ {
+  "id": "consumer-x09",
+  "topic": "consumer",
+  "q": "Which of these can be used to oxidise ethanol to ethanoic acid?",
+  "options": [
+   "Limewater",
+   "Acidified potassium dichromate solution",
+   "Bromine solution",
+   "Sodium chloride solution"
+  ],
+  "answer": 1,
+  "explanation": "The orange dichromate ion turns green as ethanol is oxidised to ethanoic acid."
+ },
+ {
+  "id": "consumer-x10",
+  "topic": "consumer",
+  "q": "Which statement about ethanol is correct?",
+  "options": [
+   "It is insoluble in water",
+   "It is a gas at room temperature",
+   "It is a hydrocarbon",
+   "It is soluble in water"
+  ],
+  "answer": 3,
+  "explanation": "The polar –OH group allows ethanol to mix with water."
+ },
+ {
+  "id": "consumer-x11",
+  "topic": "consumer",
+  "q": "What is the name of the compound CH₃CH₂CH₂OH?",
+  "options": [
+   "Propanoic acid",
+   "Propan-1-ol",
+   "Propane",
+   "Propanal"
+  ],
+  "answer": 1,
+  "explanation": "Three carbons and an –OH group on the end carbon: propan-1-ol."
+ },
+ {
+  "id": "consumer-x12",
+  "topic": "consumer",
+  "q": "Which acid is found in vinegar?",
+  "options": [
+   "Hydrochloric acid",
+   "Methanoic acid",
+   "Sulfuric acid",
+   "Ethanoic acid"
+  ],
+  "answer": 3,
+  "explanation": "Vinegar is a dilute solution of ethanoic acid."
  }
  ]
 };

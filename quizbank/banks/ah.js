@@ -4574,6 +4574,255 @@ unitLabel:"Unit", topicLabel:"Topic",
    ],
    "answer": 2,
    "explanation": "Independent replication is the best way to confirm a result."
+  },
+  {
+   "id": "kinetics-w05",
+   "topic": "kinetics",
+   "type": "written",
+   "marks": 4,
+   "q": "The initial rates of reaction between A and B were measured at constant temperature.\nExperiment 1: [A] = 0.10, [B] = 0.10 mol l⁻¹, rate = 2.0 × 10⁻³ mol l⁻¹ s⁻¹\nExperiment 2: [A] = 0.20, [B] = 0.10 mol l⁻¹, rate = 8.0 × 10⁻³ mol l⁻¹ s⁻¹\nExperiment 3: [A] = 0.10, [B] = 0.20 mol l⁻¹, rate = 4.0 × 10⁻³ mol l⁻¹ s⁻¹\n(a) Deduce the order with respect to A and to B. (2)\n(b) Write the rate equation. (1)\n(c) Calculate the rate constant and state its units. (1)",
+   "points": [
+    {
+     "t": "(a) Doubling [A] (experiments 1 → 2) quadruples the rate, so second order in A",
+     "m": 1
+    },
+    {
+     "t": "Doubling [B] (1 → 3) doubles the rate, so first order in B",
+     "m": 1
+    },
+    {
+     "t": "(b) Rate = k[A]²[B]",
+     "m": 1
+    },
+    {
+     "t": "(c) k = 2.0 × 10⁻³ ÷ (0.10² × 0.10) = 2.0 l² mol⁻² s⁻¹",
+     "m": 1
+    }
+   ],
+   "model": "(a) Rate quadruples when [A] doubles, so order 2 in A; it doubles when [B] doubles, so order 1 in B. (b) Rate = k[A]²[B]. (c) Rearranging with experiment 1: k = 2.0 × 10⁻³ ÷ (0.010 × 0.10) = 2.0 l² mol⁻² s⁻¹."
+  },
+  {
+   "id": "equil-w04",
+   "topic": "equil",
+   "type": "written",
+   "marks": 3,
+   "q": "1.00 mol of hydrogen and 1.00 mol of iodine are heated in a 1.00 l vessel: H₂ + I₂ ⇌ 2HI. At equilibrium 1.56 mol of hydrogen iodide are present.\n(a) Calculate the equilibrium concentrations of H₂ and I₂. (1)\n(b) Calculate the equilibrium constant, Kc. (2)",
+   "points": [
+    {
+     "t": "(a) 0.78 mol of each reacted (2 HI per H₂): [H₂] = [I₂] = 1.00 − 0.78 = 0.22 mol l⁻¹",
+     "m": 1
+    },
+    {
+     "t": "(b) Kc = [HI]² ÷ ([H₂][I₂])",
+     "m": 1
+    },
+    {
+     "t": "Kc = 1.56² ÷ (0.22 × 0.22) = 50",
+     "m": 1
+    }
+   ],
+   "model": "(a) The 1.56 mol HI came from 0.78 mol of each reactant, leaving 0.22 mol l⁻¹. (b) Kc = 1.56² ÷ 0.22² = 50 (no units, as the concentration terms cancel)."
+  },
+  {
+   "id": "equil-w05",
+   "topic": "equil",
+   "type": "written",
+   "marks": 3,
+   "q": "The equilibrium N₂O₄(g) ⇌ 2NO₂(g) has [N₂O₄] = 0.040 mol l⁻¹ and [NO₂] = 0.12 mol l⁻¹ at a certain temperature.\n(a) Write the expression for Kc and calculate its value, with units. (2)\n(b) The temperature is raised and Kc increases. What does this show about the enthalpy change for the forward reaction? (1)",
+   "points": [
+    {
+     "t": "(a) Kc = [NO₂]² ÷ [N₂O₄]",
+     "m": 1
+    },
+    {
+     "t": "Kc = 0.12² ÷ 0.040 = 0.36 mol l⁻¹",
+     "m": 1
+    },
+    {
+     "t": "(b) Kc increases with temperature, so the forward reaction is endothermic (ΔH positive)",
+     "m": 1
+    }
+   ],
+   "model": "(a) Kc = [NO₂]²/[N₂O₄] = 0.0144 ÷ 0.040 = 0.36 mol l⁻¹. (b) A higher temperature shifts equilibrium in the endothermic direction, so the forward reaction is endothermic."
+  },
+  {
+   "id": "equil-w06",
+   "topic": "equil",
+   "type": "written",
+   "marks": 3,
+   "q": "A buffer solution contains 0.10 mol l⁻¹ ethanoic acid and 0.20 mol l⁻¹ sodium ethanoate. (pKa of ethanoic acid = 4.76)\n(a) Calculate the pH of the buffer. (2)\n(b) Explain how the buffer resists a change in pH when a small amount of acid is added. (1)",
+   "points": [
+    {
+     "t": "(a) pH = pKa + log([salt] ÷ [acid])",
+     "m": 1
+    },
+    {
+     "t": "pH = 4.76 + log(0.20 ÷ 0.10) = 4.76 + 0.30 = 5.06",
+     "m": 1
+    },
+    {
+     "t": "(b) The ethanoate ions react with the added H⁺ to form ethanoic acid, so [H⁺] is hardly changed",
+     "m": 1
+    }
+   ],
+   "model": "(a) pH = 4.76 + log 2 = 5.06. (b) The conjugate base (ethanoate) removes added H⁺ by forming undissociated ethanoic acid, keeping the pH almost constant."
+  },
+  {
+   "id": "equil-w07",
+   "topic": "equil",
+   "type": "written",
+   "marks": 3,
+   "q": "Ethanoic acid has Ka = 1.74 × 10⁻⁵ mol l⁻¹. Calculate the pH of a 0.100 mol l⁻¹ solution of ethanoic acid, stating any assumption made.",
+   "points": [
+    {
+     "t": "Ka = [H⁺]² ÷ [CH₃COOH], so [H⁺]² = 1.74 × 10⁻⁵ × 0.100",
+     "m": 1
+    },
+    {
+     "t": "[H⁺] = 1.32e-03 mol l⁻¹, pH = 2.88",
+     "m": 1
+    },
+    {
+     "t": "Assumption: [H⁺] is small so [CH₃COOH] ≈ 0.100 mol l⁻¹ (and [H⁺] = [CH₃COO⁻], water ionisation ignored)",
+     "m": 1
+    }
+   ],
+   "model": "[H⁺] = √(Ka × c) = √(1.74 × 10⁻⁶) = 1.32e-03 mol l⁻¹, so pH = 2.88. This assumes that very little acid is ionised."
+  },
+  {
+   "id": "feasible-w06",
+   "topic": "feasible",
+   "type": "written",
+   "marks": 4,
+   "q": "Calcium carbonate decomposes: CaCO₃(s) → CaO(s) + CO₂(g), ΔH° = +178 kJ mol⁻¹ and ΔS° = +161 J K⁻¹ mol⁻¹.\n(a) Calculate ΔG° at 1000 K. (2)\n(b) Is the reaction feasible at 1000 K? (1)\n(c) Calculate the minimum temperature at which the reaction becomes feasible. (1)",
+   "points": [
+    {
+     "t": "(a) ΔG = ΔH − TΔS, with ΔS = 0.161 kJ K⁻¹ mol⁻¹",
+     "m": 1
+    },
+    {
+     "t": "ΔG = 178 − (1000 × 0.161) = +17 kJ mol⁻¹",
+     "m": 1
+    },
+    {
+     "t": "(b) No: ΔG is positive, so not feasible at 1000 K",
+     "m": 1
+    },
+    {
+     "t": "(c) ΔG = 0 when T = 178 ÷ 0.161 = 1106 K (about 1105 K)",
+     "m": 1
+    }
+   ],
+   "model": "(a) ΔG° = 178 − 1000 × 0.161 = +17 kJ mol⁻¹. (b) A positive ΔG° means the reaction is not feasible. (c) At the changeover ΔG° = 0, so T = ΔH ÷ ΔS = 178 ÷ 0.161 = 1106 K."
+  },
+  {
+   "id": "feasible-w07",
+   "topic": "feasible",
+   "type": "written",
+   "marks": 4,
+   "q": "For N₂(g) + 3H₂(g) → 2NH₃(g), ΔH° = −92 kJ and the standard entropies are: N₂ 192, H₂ 131 and NH₃ 193 J K⁻¹ mol⁻¹.\n(a) Calculate ΔS° for the reaction. (2)\n(b) Calculate ΔG° at 298 K. (2)",
+   "points": [
+    {
+     "t": "(a) ΔS° = Σ S°(products) − Σ S°(reactants)",
+     "m": 1
+    },
+    {
+     "t": "= 2 × 193 − (192 + 3 × 131) = 386 − 585 = −199 J K⁻¹",
+     "m": 1
+    },
+    {
+     "t": "(b) ΔG° = ΔH° − TΔS° = −92 − 298 × (−0.199)",
+     "m": 1
+    },
+    {
+     "t": "ΔG° = −92 + 59.3 = -32.7 kJ",
+     "m": 1
+    }
+   ],
+   "model": "(a) ΔS° = 386 − 585 = −199 J K⁻¹ (gas moles decrease, so entropy decreases). (b) ΔG° = −92 + 298 × 0.199 = -32.7 kJ, negative, so the reaction is feasible at 298 K."
+  },
+  {
+   "id": "feasible-w08",
+   "topic": "feasible",
+   "type": "written",
+   "marks": 3,
+   "q": "ΔG° for a reaction at 298 K is −32.7 kJ mol⁻¹. Calculate the equilibrium constant K at this temperature using ΔG° = −RT ln K. (R = 8.31 J K⁻¹ mol⁻¹)",
+   "points": [
+    {
+     "t": "ln K = −ΔG° ÷ RT = 32700 ÷ (8.31 × 298)",
+     "m": 1
+    },
+    {
+     "t": "ln K = 13.2",
+     "m": 1
+    },
+    {
+     "t": "K = e^13.2 = 5.4e+05 (about 5 × 10⁵)",
+     "m": 1
+    }
+   ],
+   "model": "Rearranging gives ln K = 32700 ÷ (8.31 × 298) = 13.2, so K = e^13.2 = 5.4e+05. A large K shows that products are strongly favoured."
+  },
+  {
+   "id": "feasible-w09",
+   "topic": "feasible",
+   "type": "written",
+   "marks": 3,
+   "q": "The standard cell potential for a zinc/copper cell is E° = +1.10 V (n = 2). Calculate ΔG° for the cell reaction in kJ mol⁻¹. (F = 96 500 C mol⁻¹)",
+   "points": [
+    {
+     "t": "ΔG° = −nFE°",
+     "m": 1
+    },
+    {
+     "t": "= −2 × 96 500 × 1.10 = -212300 J mol⁻¹",
+     "m": 1
+    },
+    {
+     "t": "ΔG° = -212.3 kJ mol⁻¹ (negative so spontaneous)",
+     "m": 1
+    }
+   ],
+   "model": "ΔG° = −nFE° = −2 × 96 500 × 1.10 = -212300 J mol⁻¹ = -212.3 kJ mol⁻¹. The negative sign shows the reaction is feasible."
+  },
+  {
+   "id": "kinetics-x04",
+   "topic": "kinetics",
+   "q": "A reaction is second order in X and zero order in Y. What happens to the rate when [X] is doubled and [Y] is tripled?",
+   "options": [
+    "It increases by a factor of 6",
+    "It increases by a factor of 12",
+    "It increases by a factor of 4",
+    "It increases by a factor of 2"
+   ],
+   "answer": 2,
+   "explanation": "Rate ∝ [X]²: doubling gives 2² = 4. Zero order in Y means changing [Y] has no effect."
+  },
+  {
+   "id": "equil-x03",
+   "topic": "equil",
+   "q": "For the equilibrium A + B ⇌ 2C with Kc = 4.0, what is Kc for 2C ⇌ A + B?",
+   "options": [
+    "0.25",
+    "4.0",
+    "8.0",
+    "16"
+   ],
+   "answer": 0,
+   "explanation": "Reversing the equation gives the reciprocal of the original constant: 1 ÷ 4.0 = 0.25."
+  },
+  {
+   "id": "feasible-x04",
+   "topic": "feasible",
+   "q": "A reaction has ΔH positive and ΔS positive. When will it be feasible?",
+   "options": [
+    "At all temperatures",
+    "At no temperature",
+    "At high temperatures",
+    "Only at low temperatures"
+   ],
+   "answer": 2,
+   "explanation": "ΔG = ΔH − TΔS becomes negative when TΔS exceeds ΔH, which happens at higher temperatures."
   }
  ]
 };
