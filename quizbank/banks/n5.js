@@ -1229,6 +1229,98 @@ unitLabel:"Area", topicLabel:"Topic",
   ],
   "answer": 1,
   "explanation": "The first part of an ester name comes from the alcohol: the group on the single-bonded oxygen has two carbons, so it is ethyl. The second part comes from the acid: the carbon chain containing C=O has two carbons, so it is ethanoate. The ester is ethyl ethanoate."
+ },
+ // batch Gemini 2026-11-27 (7 questions)
+ {
+  "id": "plastics-01",
+  "topic": "plastics",
+  "q": "Which statement correctly describes how an addition polymer such as poly(ethene) is formed?",
+  "options": [
+   "Many small unsaturated monomer molecules join together when their C=C double bonds open, with no other product formed",
+   "Saturated alkane molecules join together and release hydrogen gas as a by-product",
+   "Carboxylic acid and alcohol monomers join together and release water",
+   "Ionic monomers attract each other to form a giant ionic lattice"
+  ],
+  "answer": 0,
+  "explanation": "Addition polymerisation occurs when unsaturated monomers containing C=C double bonds join into a long chain without losing any atoms."
+ },
+ {
+  "id": "plastics-02",
+  "topic": "plastics",
+  "q": "The repeating unit of a polymer is –CH₂–CHCl–. What is the name of the monomer used to make this polymer?",
+  "options": [
+   "Chloroethane",
+   "1,2-dichloroethene",
+   "Chloroethene",
+   "Dichloromethane"
+  ],
+  "answer": 2,
+  "explanation": "Restoring the double bond between the two carbons of the repeating unit gives CH₂=CHCl, which is chloroethene."
+ },
+ {
+  "id": "plastics-03",
+  "topic": "plastics",
+  "q": "Why are many synthetic addition polymers slow to break down when buried in landfill sites?",
+  "options": [
+   "Their strong non-polar C–C and C–H bonds are not easily broken down by microorganisms",
+   "They dissolve rapidly in rainwater and evaporate into the atmosphere",
+   "They react violently with oxygen at room temperature",
+   "They are made from metals that do not corrode"
+  ],
+  "answer": 0,
+  "explanation": "Addition polymers have long chains of strong C–C single bonds that bacteria and fungi cannot readily digest, making them non-biodegradable."
+ },
+ {
+  "id": "fertilisers-01",
+  "topic": "fertilisers",
+  "q": "Which three essential elements are supplied by most commercial NPK fertilisers to promote healthy plant growth?",
+  "options": [
+   "Sodium, phosphorus and potassium",
+   "Nitrogen, platinum and krypton",
+   "Nitrogen, phosphorus and potassium",
+   "Nickel, phosphorus and calcium"
+  ],
+  "answer": 2,
+  "explanation": "NPK fertilisers supply compounds containing nitrogen (N), phosphorus (P) and potassium (K), which plants absorb through their roots."
+ },
+ {
+  "id": "consumer-01",
+  "topic": "consumer",
+  "q": "Which functional group is present in all alcohols such as ethanol and propan-1-ol?",
+  "options": [
+   "Carboxyl group (–COOH)",
+   "Hydroxyl group (–OH)",
+   "Carbon–carbon double bond (C=C)",
+   "Amine group (–NH₂)"
+  ],
+  "answer": 1,
+  "explanation": "Alcohols are identified by the hydroxyl functional group (–OH) attached to a saturated carbon atom."
+ },
+ {
+  "id": "nuclear-01",
+  "topic": "nuclear",
+  "q": "Which type of nuclear radiation consists of two protons and two neutrons and is stopped by a sheet of paper?",
+  "options": [
+   "Beta (β) radiation",
+   "Gamma (γ) radiation",
+   "Ultraviolet radiation",
+   "Alpha (α) radiation"
+  ],
+  "answer": 3,
+  "explanation": "An alpha particle is identical to a helium-4 nucleus (2 protons and 2 neutrons). Because of its relatively large mass and +2 charge, it has low penetrating power and is stopped by paper or a few centimetres of air."
+ },
+ {
+  "id": "acids-09",
+  "topic": "acids",
+  "q": "When dilute hydrochloric acid reacts with solid calcium carbonate, which gas is produced?",
+  "options": [
+   "Hydrogen",
+   "Carbon dioxide",
+   "Oxygen",
+   "Chlorine"
+  ],
+  "answer": 1,
+  "explanation": "Acid + metal carbonate → salt + water + carbon dioxide. The gas turns limewater milky."
  }
-]
+ ]
 };

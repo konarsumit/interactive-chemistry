@@ -707,6 +707,124 @@ unitLabel:"Unit", topicLabel:"Topic",
    ],
    "answer": 0,
    "explanation": "Moles BaSO₄ = 0.466 ÷ 233 = 2.00 × 10⁻³ mol, and each mole contains one mole of SO₄²⁻. Mass = 2.00 × 10⁻³ × 96 = 0.192 g. Heating to constant mass ensures that the precipitate is dry."
+  },
+ // batch Gemini 2026-11-27 (9 questions)
+  {
+   "id": "colour-01",
+   "topic": "colour",
+   "q": "Which structural feature is most characteristic of organic compounds that absorb visible light and appear coloured, such as β-carotene?",
+   "options": [
+    "An extended system of alternating single and double carbon–carbon bonds (conjugation)",
+    "A single isolated carbon–chlorine bond",
+    "A saturated alkane chain with no pi bonds",
+    "An ionic lattice of carboxylate anions"
+   ],
+   "answer": 0,
+   "explanation": "Extended conjugated systems create delocalised pi molecular orbitals with a smaller energy gap (ΔE) between the HOMO and LUMO, allowing absorption in the visible region."
+  },
+  {
+   "id": "colour-02",
+   "topic": "colour",
+   "q": "Extending the conjugated π-system in a polyene chain generally affects the energy gap (ΔE) between the HOMO and LUMO by:",
+   "options": [
+    "Increasing ΔE so shorter wavelengths are absorbed",
+    "Eliminating all electron transitions",
+    "Decreasing ΔE so longer wavelengths (lower energy) can be absorbed",
+    "Making the molecule ionic"
+   ],
+   "answer": 2,
+   "explanation": "Greater delocalisation across a longer conjugated system reduces the HOMO–LUMO energy gap ΔE, shifting absorption toward longer wavelengths."
+  },
+  {
+   "id": "colour-03",
+   "topic": "colour",
+   "q": "If an organic dye absorbs light predominantly in the blue region of the visible spectrum, what colour does it typically appear to an observer?",
+   "options": [
+    "Orange",
+    "Blue",
+    "Ultraviolet",
+    "Colourless"
+   ],
+   "answer": 0,
+   "explanation": "A substance that absorbs visible light of one colour transmits or reflects the complementary colour; absorption in the blue region corresponds roughly to an orange appearance."
+  },
+  {
+   "id": "medicines-01",
+   "topic": "medicines",
+   "q": "What is the role of an antagonist drug when it interacts with a cellular receptor?",
+   "options": [
+    "It binds to the receptor and triggers the same maximum biological response as the natural ligand",
+    "It permanently destroys the covalent peptide bonds of all enzymes in the cell",
+    "It binds to the receptor without activating it, blocking the natural ligand from binding",
+    "It converts the receptor into a carbohydrate"
+   ],
+   "answer": 2,
+   "explanation": "An antagonist binds to a receptor site without eliciting a biological response, thereby inhibiting the action of an agonist or natural chemical messenger."
+  },
+  {
+   "id": "medicines-02",
+   "topic": "medicines",
+   "q": "Why are functional groups such as –OH, –NH₂ or –COOH often important in the pharmacophore of a medicine?",
+   "options": [
+    "They allow the drug to form hydrogen bonds or ionic interactions with complementary groups on the target receptor or enzyme",
+    "They make the drug completely insoluble in aqueous body fluids",
+    "They increase the atomic mass of carbon atoms in the ring",
+    "They prevent the drug from ever reaching a binding site"
+   ],
+   "answer": 0,
+   "explanation": "Specific functional groups enable directional intermolecular attractions (such as hydrogen bonding and dipole/ionic interactions) that hold the drug in the active or receptor site."
+  },
+  {
+   "id": "structure-01",
+   "topic": "structure",
+   "q": "How many sigma (σ) and pi (π) bonds are present in a molecule of ethyne (H–C≡C–H)?",
+   "options": [
+    "5 sigma bonds and 0 pi bonds",
+    "2 sigma bonds and 3 pi bonds",
+    "3 sigma bonds and 2 pi bonds",
+    "4 sigma bonds and 1 pi bond"
+   ],
+   "answer": 2,
+   "explanation": "Each C–H single bond is 1 σ bond (2 in total), and the C≡C triple bond consists of 1 σ bond and 2 π bonds, giving 3 σ and 2 π bonds altogether."
+  },
+  {
+   "id": "stoich-01",
+   "topic": "stoich",
+   "q": "In a gravimetric analysis, 1.435 g of dry silver chloride precipitate (GFM = 143.5 g) was obtained from a sample containing chloride ions. How many moles of chloride ions were present in the sample?",
+   "options": [
+    "0.0100 mol",
+    "0.100 mol",
+    "0.0200 mol",
+    "1.00 mol"
+   ],
+   "answer": 0,
+   "explanation": "Moles of AgCl = 1.435 ÷ 143.5 = 0.0100 mol. Since each formula unit of AgCl contains one Cl⁻ ion, 0.0100 mol of Cl⁻ was present."
+  },
+  {
+   "id": "investigation-01",
+   "topic": "investigation",
+   "q": "When planning an Advanced Higher chemistry investigation, why is it good practice to carry out a preliminary trial before collecting final results?",
+   "options": [
+    "To avoid having to write an aim or hypothesis",
+    "To ensure no hazardous chemicals are ever used in chemistry",
+    "To check that chosen concentrations, volumes and reaction times give measurable, reliable readings",
+    "To replace the need for repeating measurements"
+   ],
+   "answer": 2,
+   "explanation": "Preliminary experiments test whether the method works under the chosen conditions and help refine concentrations, temperatures or timescales before full data collection."
+  },
+  {
+   "id": "articles-01",
+   "topic": "articles",
+   "q": "When evaluating a scientific article for Advanced Higher Chemistry, which feature most strengthens the credibility of its experimental claims?",
+   "options": [
+    "Clear description of methodology, error/uncertainty analysis and peer-reviewed supporting data",
+    "Use of emotive headlines without numerical data",
+    "Omission of control experiments so results look cleaner",
+    "Reliance on a single unrepeated observation"
+   ],
+   "answer": 0,
+   "explanation": "Scientific validity relies on reproducible methods, appropriate controls, transparent data and proper consideration of experimental uncertainty."
   }
  ]
 };
