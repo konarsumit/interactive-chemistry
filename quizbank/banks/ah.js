@@ -825,6 +825,1177 @@ unitLabel:"Unit", topicLabel:"Topic",
    ],
    "answer": 0,
    "explanation": "Scientific validity relies on reproducible methods, appropriate controls, transparent data and proper consideration of experimental uncertainty."
+  },
+ // batch SQA additions b01 (90 questions)
+  {
+   "id": "ah-expand-b01-001",
+   "topic": "spectra",
+   "q": "A photon has frequency 7.50 × 10¹⁴ Hz. What is its energy? Use h = 6.63 × 10⁻³⁴ J s.",
+   "options": [
+    "4.97 × 10⁻¹⁹ J",
+    "8.84 × 10⁻⁴⁹ J",
+    "1.13 × 10⁴⁸ J",
+    "4.97 × 10⁻²⁰ J"
+   ],
+   "answer": 0,
+   "explanation": "E = hf = 6.63 × 10⁻³⁴ × 7.50 × 10¹⁴ = 4.9725 × 10⁻¹⁹ J. The frequency is multiplied by Planck’s constant, not divided by it."
+  },
+  {
+   "id": "ah-expand-b01-002",
+   "topic": "spectra",
+   "q": "What wavelength corresponds to frequency 6.00 × 10¹⁴ Hz? Use c = 3.00 × 10⁸ m s⁻¹.",
+   "options": [
+    "200 nm",
+    "500 nm",
+    "5.00 nm",
+    "2.00 × 10³ nm"
+   ],
+   "answer": 1,
+   "explanation": "λ = c/f = 3.00 × 10⁸/(6.00 × 10¹⁴) = 5.00 × 10⁻⁷ m = 500 nm. Converting metres to nanometres requires multiplying by 10⁹."
+  },
+  {
+   "id": "ah-expand-b01-003",
+   "topic": "spectra",
+   "q": "An electron falls from energy −2.0 × 10⁻¹⁹ J to −5.0 × 10⁻¹⁹ J. What photon energy is emitted?",
+   "options": [
+    "−3.0 × 10⁻¹⁹ J",
+    "7.0 × 10⁻¹⁹ J",
+    "3.0 × 10⁻¹⁹ J",
+    "−7.0 × 10⁻¹⁹ J"
+   ],
+   "answer": 2,
+   "explanation": "The atom loses 3.0 × 10⁻¹⁹ J, so the emitted photon carries positive energy of that magnitude. Photon energy is the gap, not the sum of the levels."
+  },
+  {
+   "id": "ah-expand-b01-004",
+   "topic": "orbitals",
+   "q": "How many orbitals are present in a complete p subshell?",
+   "options": [
+    "2",
+    "6",
+    "9",
+    "3"
+   ],
+   "answer": 3,
+   "explanation": "A p subshell contains three orbitals with different spatial orientations. Each can hold two electrons, so six is its electron capacity rather than its orbital count."
+  },
+  {
+   "id": "ah-expand-b01-005",
+   "topic": "orbitals",
+   "q": "Which occupation follows Hund’s rule for three electrons in three degenerate p orbitals?",
+   "options": [
+    "One electron in each orbital with parallel spins",
+    "A pair in one orbital and one electron in a second",
+    "Three electrons in the same orbital",
+    "One electron in each orbital with all possible spins forced to alternate"
+   ],
+   "answer": 0,
+   "explanation": "Electrons singly occupy degenerate orbitals with parallel spins before pairing. Three electrons therefore occupy all three p orbitals individually."
+  },
+  {
+   "id": "ah-expand-b01-006",
+   "topic": "orbitals",
+   "q": "What is the maximum number of electrons in a single atomic orbital?",
+   "options": [
+    "2, with identical spins",
+    "2, with opposite spins",
+    "3, with any spins",
+    "6, with identical spins"
+   ],
+   "answer": 1,
+   "explanation": "The Pauli exclusion principle allows two electrons in an orbital only when their spins are opposite. Subshell capacities should not be confused with orbital capacity."
+  },
+  {
+   "id": "ah-expand-b01-007",
+   "topic": "orbitals",
+   "q": "What is the ground-state electron configuration of Cu⁺? Use Cu = [Ar]3d¹⁰4s¹.",
+   "options": [
+    "[Ar]3d⁹4s¹",
+    "[Ar]3d⁸4s²",
+    "[Ar]3d¹⁰",
+    "[Ar]3d¹⁰4s²"
+   ],
+   "answer": 2,
+   "explanation": "The 4s electron is removed when Cu forms Cu⁺, leaving a filled 3d subshell. Do not remove a 3d electron first from the neutral copper configuration given."
+  },
+  {
+   "id": "ah-expand-b01-008",
+   "topic": "orbitals",
+   "q": "Why is the first ionisation energy of sulfur slightly lower than that of phosphorus?",
+   "options": [
+    "Sulfur has fewer protons than phosphorus",
+    "Sulfur’s outer electron occupies a new principal shell",
+    "Phosphorus has a completely filled 3p subshell",
+    "Pairing in a sulfur 3p orbital adds electron–electron repulsion"
+   ],
+   "answer": 3,
+   "explanation": "Phosphorus has 3p³ with singly occupied orbitals; sulfur has 3p⁴ with one paired orbital. Repulsion within that pair makes one electron slightly easier to remove."
+  },
+  {
+   "id": "ah-expand-b01-009",
+   "topic": "orbitals",
+   "q": "Which species has ground-state configuration [Ar]3d⁵ with no 4s electrons? Use Mn = [Ar]3d⁵4s².",
+   "options": [
+    "Mn²⁺",
+    "Mn⁺",
+    "Mn³⁺",
+    "Mn⁴⁺"
+   ],
+   "answer": 0,
+   "explanation": "Mn²⁺ forms by removal of both 4s electrons, leaving 3d⁵. Hund’s rule gives one electron in each of the five d orbitals, all unpaired."
+  },
+  {
+   "id": "ah-expand-b01-010",
+   "topic": "spectra",
+   "q": "Two emissions have wavelengths 420 nm and 630 nm. What is the ratio E₄₂₀:E₆₃₀?",
+   "options": [
+    "0.667:1",
+    "1.50:1",
+    "1:1",
+    "2.25:1"
+   ],
+   "answer": 1,
+   "explanation": "Photon energy is inversely proportional to wavelength. E₄₂₀/E₆₃₀ = 630/420 = 1.50; a shorter wavelength carries greater energy."
+  },
+  {
+   "id": "ah-expand-b01-011",
+   "topic": "tm",
+   "q": "What is the oxidation state of cobalt in [CoCl₄]²⁻?",
+   "options": [
+    "−2",
+    "+4",
+    "+2",
+    "−4"
+   ],
+   "answer": 2,
+   "explanation": "Let cobalt’s oxidation state be x. Four chlorido ligands contribute −4, so x − 4 = −2 and x = +2."
+  },
+  {
+   "id": "ah-expand-b01-012",
+   "topic": "tm",
+   "q": "A complex contains Pt⁴⁺, two neutral NH₃ ligands and four Cl⁻ ligands. What is its overall charge?",
+   "options": [
+    "4+",
+    "2+",
+    "2−",
+    "0"
+   ],
+   "answer": 3,
+   "explanation": "Ligand charges sum to −4 and the metal contributes +4. The complex [Pt(NH₃)₂Cl₄] is neutral; neutral ammine ligands do not change its charge."
+  },
+  {
+   "id": "ah-expand-b01-013",
+   "topic": "tm",
+   "q": "Three ethanedioate ligands bind bidentately to a metal ion. How many coordinate bonds connect ligands to the metal?",
+   "options": [
+    "6",
+    "3",
+    "9",
+    "12"
+   ],
+   "answer": 0,
+   "explanation": "A bidentate ligand donates two lone pairs from two donor atoms. Three such ligands make six metal–ligand coordinate bonds, giving coordination number six."
+  },
+  {
+   "id": "ah-expand-b01-014",
+   "topic": "tm",
+   "q": "Which ligand can bind through two nitrogen donor atoms to form a chelate ring?",
+   "options": [
+    "NH₃",
+    "H₂NCH₂CH₂NH₂",
+    "Cl⁻",
+    "H₂O"
+   ],
+   "answer": 1,
+   "explanation": "Ethane-1,2-diamine has two nitrogen atoms, each with a donor lone pair. Both can coordinate to the same metal, forming a chelate ring."
+  },
+  {
+   "id": "ah-expand-b01-015",
+   "topic": "tm",
+   "q": "In an octahedral ligand field, which orbitals form the higher-energy pair?",
+   "options": [
+    "dxy and dxz",
+    "dxy and dyz",
+    "dx²−y² and dz²",
+    "All five remain degenerate"
+   ],
+   "answer": 2,
+   "explanation": "The dx²−y² and dz² orbitals point towards ligands along the axes and experience greater repulsion. The other three orbitals lie between those directions and are lower in energy."
+  },
+  {
+   "id": "ah-expand-b01-016",
+   "topic": "tm",
+   "q": "A ligand substitution changes a complex’s absorption maximum from 650 nm to 520 nm. What happens to the corresponding d-orbital energy gap?",
+   "options": [
+    "It decreases by a factor of 1.25",
+    "It stays constant",
+    "It increases by a factor of 2.50",
+    "It increases by a factor of 1.25"
+   ],
+   "answer": 3,
+   "explanation": "ΔE = hc/λ, so the new-to-old gap ratio is 650/520 = 1.25. Shorter absorbed wavelength corresponds to a larger splitting energy."
+  },
+  {
+   "id": "ah-expand-b01-017",
+   "topic": "tm",
+   "q": "What is the systematic ligand name used for coordinated NH₃?",
+   "options": [
+    "Ammine",
+    "Amine",
+    "Ammonium",
+    "Nitrido"
+   ],
+   "answer": 0,
+   "explanation": "Coordinated NH₃ is named ammine, with a double m. Amine describes a class of organic compounds and ammonium is NH₄⁺, not the neutral ligand."
+  },
+  {
+   "id": "ah-expand-b01-018",
+   "topic": "tm",
+   "q": "What makes the metal–ligand bond a coordinate covalent bond?",
+   "options": [
+    "The metal must supply both bonding electrons",
+    "Both bonding electrons originate from a ligand lone pair",
+    "The ligand always transfers a proton",
+    "No electrons are shared"
+   ],
+   "answer": 1,
+   "explanation": "The ligand donates a lone pair into an available metal orbital. Once formed, the bond is covalent; “coordinate” identifies the origin of its electron pair."
+  },
+  {
+   "id": "ah-expand-b01-019",
+   "topic": "tm",
+   "q": "Why can a transition metal participate in a redox catalytic cycle?",
+   "options": [
+    "It cannot form any ions",
+    "It must be permanently consumed in the slow step",
+    "It can access different oxidation states and be regenerated through successive steps",
+    "Its nucleus changes into a different element at each step"
+   ],
+   "answer": 2,
+   "explanation": "Variable oxidation states let a metal accept and donate electrons in different stages. Regeneration of the original metal species allows catalytic turnover."
+  },
+  {
+   "id": "ah-expand-b01-020",
+   "topic": "tm",
+   "q": "What is the oxidation state and coordination number of chromium in [Cr(H₂O)₄Cl₂]⁺?",
+   "options": [
+    "+1 and 4",
+    "+2 and 6",
+    "+3 and 2",
+    "+3 and 6"
+   ],
+   "answer": 3,
+   "explanation": "The two Cl⁻ contribute −2 and water is neutral, so x − 2 = +1 gives Cr(III). Four water and two chlorido donor atoms give coordination number six."
+  },
+  {
+   "id": "ah-expand-b01-021",
+   "topic": "shapes",
+   "q": "What is the molecular shape of I₃⁻ around its central iodine?",
+   "options": [
+    "Linear",
+    "Bent",
+    "Trigonal planar",
+    "Tetrahedral"
+   ],
+   "answer": 0,
+   "explanation": "The central iodine has five electron regions: two bonding pairs and three lone pairs. The lone pairs occupy equatorial sites in a trigonal bipyramidal arrangement, leaving the two I–I bonds opposite each other."
+  },
+  {
+   "id": "ah-expand-b01-022",
+   "topic": "shapes",
+   "q": "How many electron regions surround the central atom in CO₂?",
+   "options": [
+    "3",
+    "2",
+    "4",
+    "6"
+   ],
+   "answer": 1,
+   "explanation": "Each C=O double bond counts as one electron region in VSEPR. Two such regions and no central lone pairs give a linear arrangement."
+  },
+  {
+   "id": "ah-expand-b01-023",
+   "topic": "shapes",
+   "q": "What are the electron-region geometry and molecular shape of ClF₃?",
+   "options": [
+    "Tetrahedral and trigonal pyramidal",
+    "Octahedral and square planar",
+    "Trigonal bipyramidal and T-shaped",
+    "Trigonal planar and bent"
+   ],
+   "answer": 2,
+   "explanation": "Chlorine has three bonding regions and two lone pairs, five regions total. Equatorial lone pairs leave a T-shaped arrangement of the three fluorine atoms."
+  },
+  {
+   "id": "ah-expand-b01-024",
+   "topic": "shapes",
+   "q": "A species has six electron regions, including one lone pair. What molecular shape is predicted?",
+   "options": [
+    "Trigonal bipyramidal",
+    "Seesaw",
+    "Trigonal pyramidal",
+    "Square pyramidal"
+   ],
+   "answer": 3,
+   "explanation": "Six regions adopt an octahedral arrangement. Replacing one bonded atom with a lone pair leaves five bonded atoms in a square pyramidal molecular shape."
+  },
+  {
+   "id": "ah-expand-b01-025",
+   "topic": "shapes",
+   "q": "Why do the three lone pairs in I₃⁻ prefer equatorial positions?",
+   "options": [
+    "These positions minimise the number of 90° lone-pair interactions",
+    "Equatorial positions remove the lone pairs from the molecule",
+    "Axial positions have no 90° interactions",
+    "Lone pairs attract each other most strongly at 90°"
+   ],
+   "answer": 0,
+   "explanation": "In a trigonal bipyramidal arrangement an equatorial site has fewer 90° neighbours than an axial site. Keeping lone pairs equatorial reduces strong repulsions."
+  },
+  {
+   "id": "ah-expand-b01-026",
+   "topic": "shapes",
+   "q": "Which molecule has a tetrahedral molecular shape and no lone pairs on its central atom?",
+   "options": [
+    "NH₃",
+    "SiCl₄",
+    "H₂O",
+    "SF₄"
+   ],
+   "answer": 1,
+   "explanation": "SiCl₄ has four bonding regions and no central lone pairs. NH₃ and H₂O have lone pairs; SF₄ has five electron regions and a seesaw molecular shape."
+  },
+  {
+   "id": "ah-expand-b01-027",
+   "topic": "shapes",
+   "q": "What changes when NH₃ donates its nitrogen lone pair to H⁺ to form NH₄⁺?",
+   "options": [
+    "Nitrogen gains an extra occupied electron shell",
+    "All N–H bonds become ionic",
+    "The nitrogen changes from three bonds and one lone pair to four bonds and no lone pair",
+    "The ion becomes trigonal planar"
+   ],
+   "answer": 2,
+   "explanation": "The lone pair becomes the electron pair in the new N–H bond. Four bonding regions then adopt a tetrahedral arrangement around nitrogen."
+  },
+  {
+   "id": "ah-expand-b01-028",
+   "topic": "shapes",
+   "q": "What is the approximate F–S–F angle between adjacent bonds in octahedral SF₆?",
+   "options": [
+    "60°",
+    "109.5°",
+    "120°",
+    "90°"
+   ],
+   "answer": 3,
+   "explanation": "An octahedral arrangement has adjacent bonds at 90° and opposite bonds at 180°. The question asks about adjacent, not opposite, bonds."
+  },
+  {
+   "id": "ah-expand-b01-029",
+   "topic": "shapes",
+   "q": "Which combination gives a non-polar molecule despite polar bonds?",
+   "options": [
+    "Six identical bonds arranged symmetrically in an octahedron",
+    "Three identical bonds and a lone pair in a trigonal pyramid",
+    "Two different bonds in a bent molecule",
+    "A strongly asymmetric molecule with one polar bond"
+   ],
+   "answer": 0,
+   "explanation": "For an octahedral molecule such as SF₆, the six bond dipoles cancel in opposite pairs. Polarity depends on both bond polarity and the symmetry of their arrangement."
+  },
+  {
+   "id": "ah-expand-b01-030",
+   "topic": "shapes",
+   "q": "What distinguishes molecular shape from electron-region geometry?",
+   "options": [
+    "They always have different names",
+    "Molecular shape describes atom positions; electron-region geometry also includes lone pairs",
+    "Molecular shape includes neutrons but electron geometry does not",
+    "Electron-region geometry counts a double bond as two separate regions"
+   ],
+   "answer": 1,
+   "explanation": "Lone pairs affect repulsions and the arrangement of all regions, but they are not atoms. This is why NH₃ has tetrahedral electron-region geometry and trigonal pyramidal molecular shape."
+  },
+  {
+   "id": "ah-expand-b01-031",
+   "topic": "equil",
+   "q": "For 2A(g) ⇌ B(g), equilibrium concentrations are [A] = 0.30 and [B] = 0.18 mol l⁻¹. What is Kc, including units?",
+   "options": [
+    "0.60 with no units",
+    "0.50 mol l⁻¹",
+    "2.0 l mol⁻¹",
+    "0.054 mol² l⁻²"
+   ],
+   "answer": 2,
+   "explanation": "Kc = [B]/[A]² = 0.18/(0.30)² = 2.0. Units are concentration divided by concentration squared, giving l mol⁻¹."
+  },
+  {
+   "id": "ah-expand-b01-032",
+   "topic": "equil",
+   "q": "For CaCO₃(s) ⇌ CaO(s) + CO₂(g), which expression is appropriate using concentration terms?",
+   "options": [
+    "Kc = [CaO][CO₂]/[CaCO₃]",
+    "Kc = 1/[CO₂]",
+    "Kc = [CaCO₃]/[CaO]",
+    "Kc = [CO₂]"
+   ],
+   "answer": 3,
+   "explanation": "Pure solids have constant activity and are omitted from the equilibrium expression. Only the variable gas concentration appears here."
+  },
+  {
+   "id": "ah-expand-b01-033",
+   "topic": "equil",
+   "q": "An equilibrium mixture for A ⇌ B contains 0.40 mol A and 0.20 mol B in the same vessel. What is the equilibrium constant Kc?",
+   "options": [
+    "0.50",
+    "2.0",
+    "0.080",
+    "0.60"
+   ],
+   "answer": 0,
+   "explanation": "Kc = [B]/[A]. Both concentrations have the same volume denominator, which cancels: Kc = 0.20/0.40 = 0.50."
+  },
+  {
+   "id": "ah-expand-b01-034",
+   "topic": "equil",
+   "q": "A weak monoprotic acid of concentration 0.050 mol l⁻¹ has pH 3.00. Assuming small dissociation, what is Ka?",
+   "options": [
+    "2.0 × 10⁻² mol l⁻¹",
+    "2.0 × 10⁻⁵ mol l⁻¹",
+    "5.0 × 10⁻⁵ mol l⁻¹",
+    "1.0 × 10⁻³ mol l⁻¹"
+   ],
+   "answer": 1,
+   "explanation": "[H⁺] = 10⁻³ mol l⁻¹. With [A⁻] ≈ [H⁺] and [HA] ≈ 0.050, Ka ≈ (10⁻³)²/0.050 = 2.0 × 10⁻⁵ mol l⁻¹. About 2% dissociation supports the approximation."
+  },
+  {
+   "id": "ah-expand-b01-035",
+   "topic": "equil",
+   "q": "A buffer has pKa = 4.80 and [A⁻]/[HA] = 10. What is its approximate pH?",
+   "options": [
+    "3.80",
+    "4.80",
+    "5.80",
+    "48.0"
+   ],
+   "answer": 2,
+   "explanation": "Use pH = pKa + log₁₀([A⁻]/[HA]). Since log₁₀10 = 1, pH = 4.80 + 1.00 = 5.80."
+  },
+  {
+   "id": "ah-expand-b01-036",
+   "topic": "equil",
+   "q": "A buffer contains HA and A⁻. Which reaction mainly removes a small addition of H⁺?",
+   "options": [
+    "HA + H⁺ → A⁻",
+    "H⁺ → H₂ + e⁻",
+    "A⁻ → H⁺ + HA",
+    "A⁻ + H⁺ → HA"
+   ],
+   "answer": 3,
+   "explanation": "The conjugate base A⁻ accepts added protons to form HA. This limits the increase in free hydrogen ion concentration and therefore limits the pH change."
+  },
+  {
+   "id": "ah-expand-b01-037",
+   "topic": "equil",
+   "q": "At 25 °C, [OH⁻] = 2.0 × 10⁻⁴ mol l⁻¹. What is pH? Use Kw = 1.0 × 10⁻¹⁴ mol² l⁻².",
+   "options": [
+    "10.30",
+    "3.70",
+    "9.70",
+    "4.30"
+   ],
+   "answer": 0,
+   "explanation": "[H⁺] = Kw/[OH⁻] = 5.0 × 10⁻¹¹ mol l⁻¹. Thus pH = −log₁₀(5.0 × 10⁻¹¹) = 10.30; 3.70 is pOH."
+  },
+  {
+   "id": "ah-expand-b01-038",
+   "topic": "equil",
+   "q": "Equal volumes of 0.100 mol l⁻¹ HA and 0.100 mol l⁻¹ NaOH react completely. Is the final mixture necessarily an HA/A⁻ buffer?",
+   "options": [
+    "Yes, because any acid–base mixture is a buffer",
+    "No, because the HA has been consumed completely",
+    "Yes, because neutralisation always gives pH 7",
+    "No, because sodium ions prevent all buffering"
+   ],
+   "answer": 1,
+   "explanation": "Equal amounts react 1:1, leaving conjugate base but no substantial unreacted weak acid. A buffer requires appreciable amounts of both HA and A⁻."
+  },
+  {
+   "id": "ah-expand-b01-039",
+   "topic": "equil",
+   "q": "An indicator follows HIn ⇌ H⁺ + In⁻. At pH = pKa, what is the ratio [In⁻]:[HIn]?",
+   "options": [
+    "10:1",
+    "1:10",
+    "1:1",
+    "100:1"
+   ],
+   "answer": 2,
+   "explanation": "Ka = [H⁺][In⁻]/[HIn]. At pH = pKa, [H⁺] = Ka, so [In⁻]/[HIn] = 1. Colour change still occurs over a range rather than at one exact pH."
+  },
+  {
+   "id": "ah-expand-b01-040",
+   "topic": "equil",
+   "q": "A weak acid’s Ka increases when temperature rises. What does this imply about its ionisation enthalpy?",
+   "options": [
+    "Ionisation is exothermic over that range",
+    "A catalyst must have been added",
+    "The acid has become a strong acid by definition",
+    "Ionisation is endothermic over that range"
+   ],
+   "answer": 3,
+   "explanation": "Heating favours the endothermic direction. An increase in Ka means greater product favouring for HA ⇌ H⁺ + A⁻, so ionisation is endothermic over the range considered."
+  },
+  {
+   "id": "ah-expand-b01-041",
+   "topic": "kinetics",
+   "q": "Tripling [A] at fixed [B] increases the initial rate ninefold. What is the order with respect to A?",
+   "options": [
+    "2",
+    "0",
+    "1",
+    "3"
+   ],
+   "answer": 0,
+   "explanation": "If rate is proportional to [A]ⁿ, tripling gives 3ⁿ = 9. Therefore n = 2; the order comes from concentration–rate measurements."
+  },
+  {
+   "id": "ah-expand-b01-042",
+   "topic": "kinetics",
+   "q": "Doubling [B] leaves the initial rate unchanged while other conditions are fixed. What does this show?",
+   "options": [
+    "B cannot appear in the overall reaction",
+    "The reaction is zero order with respect to B over the tested range",
+    "B must be the solvent",
+    "The rate constant has doubled"
+   ],
+   "answer": 1,
+   "explanation": "A zero-order factor is [B]⁰ = 1, so changing B does not affect the rate in the measured range. B can still be involved in the overall chemistry."
+  },
+  {
+   "id": "ah-expand-b01-043",
+   "topic": "kinetics",
+   "q": "For rate = k[A]², rate is 0.018 mol l⁻¹ s⁻¹ at [A] = 0.30 mol l⁻¹. What is k?",
+   "options": [
+    "0.060 s⁻¹",
+    "0.054 mol² l⁻² s⁻¹",
+    "0.20 l mol⁻¹ s⁻¹",
+    "2.0 l mol⁻¹ s⁻¹"
+   ],
+   "answer": 2,
+   "explanation": "k = rate/[A]² = 0.018/0.090 = 0.20. Dividing mol l⁻¹ s⁻¹ by mol² l⁻² gives l mol⁻¹ s⁻¹."
+  },
+  {
+   "id": "ah-expand-b01-044",
+   "topic": "kinetics",
+   "q": "What are the units of k for an overall third-order reaction if rate is in mol l⁻¹ s⁻¹?",
+   "options": [
+    "s⁻¹",
+    "l mol⁻¹ s⁻¹",
+    "mol l⁻¹ s⁻¹",
+    "l² mol⁻² s⁻¹"
+   ],
+   "answer": 3,
+   "explanation": "Divide rate units by concentration cubed: (mol l⁻¹ s⁻¹)/(mol³ l⁻³) = l² mol⁻² s⁻¹. The units depend on overall order."
+  },
+  {
+   "id": "ah-expand-b01-045",
+   "topic": "kinetics",
+   "q": "For rate = k[A][B], [A] is doubled and [B] is halved at fixed temperature. What is the new rate relative to the original?",
+   "options": [
+    "Unchanged",
+    "Twice as large",
+    "Half as large",
+    "Four times as large"
+   ],
+   "answer": 0,
+   "explanation": "The two factors multiply: 2 × 1/2 = 1. The effects cancel because the reaction is first order in each reactant and k is unchanged."
+  },
+  {
+   "id": "ah-expand-b01-046",
+   "topic": "kinetics",
+   "q": "A reaction has rate = k[A]² and stoichiometry 2A + B → products. What can be concluded about B?",
+   "options": [
+    "It is absent from the balanced equation",
+    "Its concentration does not affect the measured rate within the tested range",
+    "Its concentration must always equal [A]",
+    "It is necessarily the catalyst"
+   ],
+   "answer": 1,
+   "explanation": "The experimental rate law contains no B factor, indicating zero order in B in that range. Stoichiometric coefficients alone do not determine the rate law."
+  },
+  {
+   "id": "ah-expand-b01-047",
+   "topic": "kinetics",
+   "q": "Which statement about a proposed reaction mechanism is essential?",
+   "options": [
+    "Its slow step must contain every reactant",
+    "It can have any overall equation if one step is fast",
+    "It must sum to the overall reaction and be consistent with the experimental rate equation",
+    "It proves the rate equation from stoichiometry alone"
+   ],
+   "answer": 2,
+   "explanation": "A plausible mechanism needs both stoichiometric and kinetic consistency. Agreement does not uniquely prove it, because more than one mechanism can sometimes fit the same evidence."
+  },
+  {
+   "id": "ah-expand-b01-048",
+   "topic": "kinetics",
+   "q": "For a first-order dependence on A, what is the effect of reducing [A] from 0.80 to 0.20 mol l⁻¹ at fixed temperature?",
+   "options": [
+    "The rate becomes one sixteenth",
+    "The rate becomes four times greater",
+    "The rate stays unchanged",
+    "The rate becomes one quarter"
+   ],
+   "answer": 3,
+   "explanation": "First order means rate is directly proportional to [A]. The concentration ratio is 0.20/0.80 = 1/4, so the rate has the same ratio."
+  },
+  {
+   "id": "ah-expand-b01-049",
+   "topic": "kinetics",
+   "q": "At one temperature, rate = k[A][B]². What happens to the overall order if a catalyst changes the mechanism?",
+   "options": [
+    "It may change and must be determined experimentally for the catalysed reaction",
+    "It must remain three for every possible mechanism",
+    "It always becomes zero",
+    "It becomes equal to the catalyst’s oxidation state"
+   ],
+   "answer": 0,
+   "explanation": "The rate equation reflects the operative mechanism and experimental conditions. A different catalytic pathway can have a different rate law, so its order cannot be assumed unchanged."
+  },
+  {
+   "id": "ah-expand-b01-050",
+   "topic": "kinetics",
+   "q": "Initial data show that doubling A doubles rate, and doubling B at fixed A also doubles rate. What is the overall order?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 1,
+   "explanation": "The reaction is first order in A and first order in B, giving rate = k[A][B]. Overall order is the sum of these powers: 1 + 1 = 2."
+  },
+  {
+   "id": "ah-expand-b01-051",
+   "topic": "feasible",
+   "q": "A reaction has ΔG° = +12.0 kJ mol⁻¹ at 300 K and ΔS° = +80.0 J K⁻¹ mol⁻¹. What is ΔH°?",
+   "options": [
+    "−12.0 kJ mol⁻¹",
+    "+12.08 kJ mol⁻¹",
+    "+36.0 kJ mol⁻¹",
+    "−36.0 kJ mol⁻¹"
+   ],
+   "answer": 2,
+   "explanation": "Rearrange ΔG° = ΔH° − TΔS° to ΔH° = ΔG° + TΔS°. Convert entropy to 0.0800 kJ K⁻¹ mol⁻¹: 12.0 + 300 × 0.0800 = +36.0 kJ mol⁻¹."
+  },
+  {
+   "id": "ah-expand-b01-052",
+   "topic": "feasible",
+   "q": "Calculate ΔG° at 350 K for ΔH° = −60.0 kJ mol⁻¹ and ΔS° = −100 J K⁻¹ mol⁻¹.",
+   "options": [
+    "−95.0 kJ mol⁻¹",
+    "+25.0 kJ mol⁻¹",
+    "−35060 kJ mol⁻¹",
+    "−25.0 kJ mol⁻¹"
+   ],
+   "answer": 3,
+   "explanation": "Convert entropy to −0.100 kJ K⁻¹ mol⁻¹. ΔG° = ΔH° − TΔS° = −60.0 − 350(−0.100) = −25.0 kJ mol⁻¹."
+  },
+  {
+   "id": "ah-expand-b01-053",
+   "topic": "feasible",
+   "q": "Which entropy change is usually positive for the same substance?",
+   "options": [
+    "Vaporisation of a liquid",
+    "Freezing of a liquid",
+    "Condensation of a gas",
+    "Deposition of a gas into a solid"
+   ],
+   "answer": 0,
+   "explanation": "Gas particles have many more accessible arrangements than particles in a liquid. Vaporisation therefore usually increases entropy; the opposite changes listed decrease it."
+  },
+  {
+   "id": "ah-expand-b01-054",
+   "topic": "feasible",
+   "q": "For 2A(g) → B(g), S°(A) = 180 and S°(B) = 250 J K⁻¹ mol⁻¹. What is ΔS°?",
+   "options": [
+    "+70 J K⁻¹ mol⁻¹",
+    "−110 J K⁻¹ mol⁻¹",
+    "+110 J K⁻¹ mol⁻¹",
+    "−430 J K⁻¹ mol⁻¹"
+   ],
+   "answer": 1,
+   "explanation": "Use products minus reactants, including coefficients: ΔS° = 250 − 2 × 180 = −110 J K⁻¹ mol⁻¹. The factor of two is essential."
+  },
+  {
+   "id": "ah-expand-b01-055",
+   "topic": "feasible",
+   "q": "A process has ΔH° < 0 and ΔS° > 0. What does ΔG° = ΔH° − TΔS° predict for positive temperatures?",
+   "options": [
+    "ΔG° is positive at all temperatures",
+    "It is favourable only below a single threshold",
+    "ΔG° is negative at all positive temperatures if these signs persist",
+    "It is favourable only if a catalyst changes ΔH°"
+   ],
+   "answer": 2,
+   "explanation": "Both the negative enthalpy term and the negative −TΔS° term favour a negative ΔG°. The conclusion assumes the stated signs remain applicable over the temperature range."
+  },
+  {
+   "id": "ah-expand-b01-056",
+   "topic": "feasible",
+   "q": "A process has ΔH° > 0 and ΔS° < 0. Which statement follows from the standard free-energy equation?",
+   "options": [
+    "ΔG° must become negative at high temperature",
+    "The entropy term cancels at every temperature",
+    "A catalyst makes ΔG° negative",
+    "Both contributions make ΔG° positive at positive T"
+   ],
+   "answer": 3,
+   "explanation": "Positive ΔH° and negative ΔS° give ΔG° = positive + positive for T > 0. A catalyst affects rate rather than changing these state-function differences."
+  },
+  {
+   "id": "ah-expand-b01-057",
+   "topic": "feasible",
+   "q": "A thermodynamically favourable reaction is extremely slow at room temperature. What explains this?",
+   "options": [
+    "A large activation-energy barrier can limit its rate",
+    "Negative ΔG° guarantees a fast reaction",
+    "Its entropy must be exactly zero",
+    "It violates conservation of energy"
+   ],
+   "answer": 0,
+   "explanation": "Thermodynamic favourability and reaction rate are different questions. A negative free-energy change does not remove the kinetic barrier to reaching the products."
+  },
+  {
+   "id": "ah-expand-b01-058",
+   "topic": "feasible",
+   "q": "At equilibrium in a reacting mixture, which free-energy statement is correct?",
+   "options": [
+    "ΔG° must always be zero",
+    "The actual reaction ΔG is zero",
+    "ΔH° must always be zero",
+    "The mixture has no stored energy"
+   ],
+   "answer": 1,
+   "explanation": "At equilibrium there is no net driving force, so actual ΔG = 0. Standard ΔG° need not be zero because it refers to standard-state conditions rather than necessarily the equilibrium composition."
+  },
+  {
+   "id": "ah-expand-b01-059",
+   "topic": "feasible",
+   "q": "For a reaction with positive ΔS°, what happens to a graph of ΔG° against T if ΔH° and ΔS° are treated as constants?",
+   "options": [
+    "It is a straight line with positive gradient",
+    "It is always horizontal",
+    "It is a straight line with negative gradient",
+    "It must pass through the origin"
+   ],
+   "answer": 2,
+   "explanation": "ΔG° = ΔH° − TΔS° has intercept ΔH° and gradient −ΔS°. A positive entropy change gives a negative slope; the intercept need not be zero."
+  },
+  {
+   "id": "ah-expand-b01-060",
+   "topic": "feasible",
+   "q": "A reaction has ΔH° = +15.0 kJ mol⁻¹ and ΔG° = −5.0 kJ mol⁻¹ at 400 K. What is ΔS°?",
+   "options": [
+    "−50 J K⁻¹ mol⁻¹",
+    "+25 J K⁻¹ mol⁻¹",
+    "−25 J K⁻¹ mol⁻¹",
+    "+50 J K⁻¹ mol⁻¹"
+   ],
+   "answer": 3,
+   "explanation": "Rearrange to ΔS° = (ΔH° − ΔG°)/T. This gives (15.0 − (−5.0))/400 = 0.050 kJ K⁻¹ mol⁻¹ = +50 J K⁻¹ mol⁻¹."
+  },
+  {
+   "id": "ah-expand-b01-061",
+   "topic": "structure",
+   "q": "Which carbon atom is a stereogenic centre in CH₃CH(OH)CH₂CH₃?",
+   "options": [
+    "Carbon 2",
+    "Carbon 1",
+    "Carbon 3",
+    "Carbon 4"
+   ],
+   "answer": 0,
+   "explanation": "Carbon 2 is bonded to H, OH, CH₃ and CH₂CH₃, four different groups. The other carbons have repeated hydrogen substituents and are not stereogenic centres."
+  },
+  {
+   "id": "ah-expand-b01-062",
+   "topic": "structure",
+   "q": "What structural condition is required for geometric isomerism around a C=C bond?",
+   "options": [
+    "The molecule contains any two identical carbon atoms",
+    "Each double-bond carbon has two different substituents",
+    "One double-bond carbon has two hydrogens",
+    "The molecule rotates freely around the double bond"
+   ],
+   "answer": 1,
+   "explanation": "Restricted C=C rotation preserves two arrangements only when each carbon has two different groups. If one carbon has identical substituents, the arrangements are indistinguishable."
+  },
+  {
+   "id": "ah-expand-b01-063",
+   "topic": "mechanisms",
+   "q": "In an SN2 substitution, where does the nucleophile approach relative to the leaving group?",
+   "options": [
+    "From the same side as the leaving group only",
+    "At the nucleus of a remote hydrogen",
+    "From the opposite side of the carbon",
+    "At a metal catalyst without approaching carbon"
+   ],
+   "answer": 2,
+   "explanation": "Backside attack provides overlap with the C–leaving-group antibonding orbital and leads to inversion of configuration at a stereogenic reacting centre."
+  },
+  {
+   "id": "ah-expand-b01-064",
+   "topic": "mechanisms",
+   "q": "What is the origin of the electron pair at the tail of a curly arrow from OH⁻ attacking a halogenoalkane?",
+   "options": [
+    "A proton on oxygen",
+    "The nucleus of the reacting carbon",
+    "An empty orbital on hydroxide",
+    "A lone pair on oxygen"
+   ],
+   "answer": 3,
+   "explanation": "A curly arrow shows movement of an electron pair. The nucleophile donates an oxygen lone pair towards the electrophilic carbon; the arrow must start at that pair."
+  },
+  {
+   "id": "ah-expand-b01-065",
+   "topic": "mechanisms",
+   "q": "Which reagent converts a nitrile R–C≡N into a primary amine R–CH₂NH₂?",
+   "options": [
+    "LiAlH₄ followed by appropriate aqueous work-up",
+    "Acidified dichromate under reflux",
+    "Bromine water alone",
+    "Concentrated sulfuric acid alone"
+   ],
+   "answer": 0,
+   "explanation": "LiAlH₄ reduces the nitrile group to a primary amine. An appropriate work-up completes product formation; oxidising reagents do not carry out this reduction."
+  },
+  {
+   "id": "ah-expand-b01-066",
+   "topic": "mechanisms",
+   "q": "A halogenoalkane reacts with CN⁻ to form a nitrile. How does the carbon count change in the product?",
+   "options": [
+    "It decreases by one",
+    "It increases by one",
+    "It doubles in every case",
+    "It never changes"
+   ],
+   "answer": 1,
+   "explanation": "The carbon atom of the cyanide group becomes part of the organic product. Nucleophilic substitution therefore extends the carbon chain by one carbon."
+  },
+  {
+   "id": "ah-expand-b01-067",
+   "topic": "mechanisms",
+   "q": "Why does benzene generally undergo substitution rather than ordinary addition?",
+   "options": [
+    "Benzene contains only single bonds with no π electrons",
+    "Benzene is an ionic lattice",
+    "Substitution can restore its stabilised delocalised π system",
+    "Addition always increases aromatic stabilisation"
+   ],
+   "answer": 2,
+   "explanation": "Electrophilic substitution temporarily disrupts aromaticity, then loss of H⁺ restores it. Simple addition would remove aromatic stabilisation from the final product."
+  },
+  {
+   "id": "ah-expand-b01-068",
+   "topic": "mechanisms",
+   "q": "What organic product forms when ethanoyl chloride reacts with ethanol?",
+   "options": [
+    "Ethyl propanoate",
+    "Ethanoic anhydride",
+    "Ethanal",
+    "Ethyl ethanoate"
+   ],
+   "answer": 3,
+   "explanation": "Ethanol reacts at the acyl chloride carbonyl carbon, replacing Cl with an ethoxy group. The organic product is CH₃COOCH₂CH₃, ethyl ethanoate; HCl is also formed."
+  },
+  {
+   "id": "ah-expand-b01-069",
+   "topic": "structure",
+   "q": "Which pair are enantiomers?",
+   "options": [
+    "Two non-superimposable mirror images of the same chiral molecule",
+    "Two compounds with different molecular formulae",
+    "Two freely rotating conformations of ethane",
+    "A ketone and its corresponding aldehyde"
+   ],
+   "answer": 0,
+   "explanation": "Enantiomers have the same connectivity but opposite handedness as non-superimposable mirror images. Structural isomers differ in connectivity and are a different relationship."
+  },
+  {
+   "id": "ah-expand-b01-070",
+   "topic": "medicines",
+   "q": "Why can an antagonist prevent a natural agonist from acting at a receptor?",
+   "options": [
+    "It must always have a larger molecular mass than the agonist",
+    "It binds without activating the receptor and can block agonist binding",
+    "It necessarily destroys the receptor’s covalent structure",
+    "It is defined by having no affinity for the receptor"
+   ],
+   "answer": 1,
+   "explanation": "An antagonist has affinity but does not produce the agonist’s activation response. Occupying the site can prevent agonist binding; size alone does not define antagonism."
+  },
+  {
+   "id": "ah-expand-b01-071",
+   "topic": "spectro",
+   "q": "A compound’s molecular ion is at m/z 72 and a fragment is at m/z 57. What neutral mass loss does this imply for singly charged ions?",
+   "options": [
+    "129",
+    "1.26",
+    "15",
+    "57"
+   ],
+   "answer": 2,
+   "explanation": "The difference is 72 − 57 = 15 mass units, consistent with loss of CH₃• in a suitable fragmentation. A mass difference supports an assignment but does not uniquely determine the full structure."
+  },
+  {
+   "id": "ah-expand-b01-072",
+   "topic": "spectro",
+   "q": "A molecule has two chlorine isotopes with abundances 75% ³⁵Cl and 25% ³⁷Cl. For a molecular ion containing one Cl, what approximate M:M+2 ratio is expected?",
+   "options": [
+    "1:1",
+    "1:3",
+    "9:6",
+    "3:1"
+   ],
+   "answer": 3,
+   "explanation": "One chlorine atom gives two isotopic molecular-ion peaks separated by two mass units. Their intensities follow the isotope abundances, approximately 75:25 = 3:1."
+  },
+  {
+   "id": "ah-expand-b01-073",
+   "topic": "spectro",
+   "q": "Which combined IR evidence most strongly supports a carboxylic acid?",
+   "options": [
+    "A carbonyl absorption plus a very broad acidic O–H absorption",
+    "A C–H absorption alone",
+    "No absorption anywhere in the spectrum",
+    "A narrow N–H absorption with no carbonyl"
+   ],
+   "answer": 0,
+   "explanation": "A carboxyl group contains both C=O and O–H. The broad acidic OH feature plus carbonyl is more diagnostic than an ordinary C–H absorption alone."
+  },
+  {
+   "id": "ah-expand-b01-074",
+   "topic": "spectro",
+   "q": "Ignoring the exchangeable OH signal, how many proton environments are present in propan-1-ol, CH₃CH₂CH₂OH?",
+   "options": [
+    "1",
+    "3",
+    "2",
+    "6"
+   ],
+   "answer": 1,
+   "explanation": "The terminal CH₃, middle CH₂ and CH₂ next to oxygen are in three different environments. The OH proton would add another signal but is explicitly excluded."
+  },
+  {
+   "id": "ah-expand-b01-075",
+   "topic": "spectro",
+   "q": "In a simple first-order ¹H NMR spectrum, a CH₃ group next to CH₂ is split into what pattern by those two equivalent neighbours?",
+   "options": [
+    "Doublet",
+    "Quartet",
+    "Triplet",
+    "Singlet"
+   ],
+   "answer": 2,
+   "explanation": "The n + 1 rule gives 2 + 1 = 3 lines, a triplet. The three hydrogens in the observed CH₃ group determine integration, not their own splitting."
+  },
+  {
+   "id": "ah-expand-b01-076",
+   "topic": "spectro",
+   "q": "A ¹H NMR signal appears as a quartet. What does this splitting pattern show?",
+   "options": [
+    "The protons giving the signal have three equivalent neighbouring protons",
+    "There are four different proton environments in the molecule",
+    "The signal arises from four equivalent protons",
+    "The molecule contains four carbon atoms"
+   ],
+   "answer": 0,
+   "explanation": "A quartet is one signal split into four lines by coupling to three equivalent neighbouring protons (the n + 1 rule). Integration gives the relative number of protons in that environment, while the splitting gives the number of neighbouring protons."
+  },
+  {
+   "id": "ah-expand-b01-077",
+   "topic": "spectro",
+   "q": "A solution has absorbance 0.28 at 0.040 mmol l⁻¹. At the same path length, what absorbance is expected at 0.060 mmol l⁻¹ within the linear range?",
+   "options": [
+    "0.42",
+    "0.187",
+    "0.84",
+    "0.020"
+   ],
+   "answer": 0,
+   "explanation": "Beer–Lambert proportionality gives A₂ = 0.28 × 0.060/0.040 = 0.42. This assumes the same species, wavelength and optical path length."
+  },
+  {
+   "id": "ah-expand-b01-078",
+   "topic": "practical",
+   "q": "A TLC spot has Rf = 0.60 in a particular solvent. If the solvent front travels 7.0 cm under the same conditions, how far should the spot travel?",
+   "options": [
+    "11.7 cm",
+    "4.2 cm",
+    "6.4 cm",
+    "0.086 cm"
+   ],
+   "answer": 1,
+   "explanation": "Rearrange Rf = spot distance/front distance. Spot distance = 0.60 × 7.0 = 4.2 cm, measured from the same origin as the solvent front."
+  },
+  {
+   "id": "ah-expand-b01-079",
+   "topic": "spectro",
+   "q": "Which observation is expected for the ¹H NMR spectrum of propanone, CH₃COCH₃, in a simple interpretation?",
+   "options": [
+    "Two doublets each integrating to three hydrogens",
+    "One quartet integrating to six hydrogens",
+    "One singlet integrating to six hydrogens",
+    "Six separate singlets each integrating to one hydrogen"
+   ],
+   "answer": 2,
+   "explanation": "The two methyl groups are equivalent by symmetry, giving one environment. The neighbouring carbonyl carbon has no hydrogens, so the methyl signal is a singlet."
+  },
+  {
+   "id": "ah-expand-b01-080",
+   "topic": "spectro",
+   "q": "A sample contains only C, H and O, has molecular mass 60, and shows a broad alcohol O–H absorption without a carbonyl. Which candidate best fits?",
+   "options": [
+    "Ethanoic acid, C₂H₄O₂",
+    "Propanone, C₃H₆O",
+    "Ethyl ethanoate, C₄H₈O₂",
+    "Propan-1-ol, C₃H₈O"
+   ],
+   "answer": 3,
+   "explanation": "C₃H₈O has mass 3 × 12 + 8 × 1 + 16 = 60 and contains an alcohol OH without C=O. Ethanoic acid also has mass 60 but requires a carbonyl absorption."
+  },
+  {
+   "id": "ah-expand-b01-081",
+   "topic": "stoich",
+   "q": "A 250.0 cm³ standard solution requires 0.0500 mol l⁻¹ anhydrous Na₂CO₃. What mass is needed? GFM = 106.0 g.",
+   "options": [
+    "1.325 g",
+    "5.300 g",
+    "0.01325 g",
+    "1325 g"
+   ],
+   "answer": 0,
+   "explanation": "n = cV = 0.0500 × 0.2500 = 0.01250 mol. Mass = 0.01250 × 106.0 = 1.325 g. Make up to the final volume after dissolution and quantitative transfer."
+  },
+  {
+   "id": "ah-expand-b01-082",
+   "topic": "practical",
+   "q": "A solid is weighed by difference: container plus solid is 18.642 g before transfer and 17.913 g afterwards. What mass was removed?",
+   "options": [
+    "36.555 g",
+    "0.729 g",
+    "0.073 g",
+    "1.271 g"
+   ],
+   "answer": 1,
+   "explanation": "Mass removed = 18.642 − 17.913 = 0.729 g. This establishes mass leaving the container; it does not prove that none was lost on the way to the receiving flask."
+  },
+  {
+   "id": "ah-expand-b01-083",
+   "topic": "practical",
+   "q": "Why rinse a precipitate before drying it for gravimetric analysis?",
+   "options": [
+    "To increase its mass by adding more dissolved salt",
+    "To convert every precipitate into a gas",
+    "To remove soluble impurities adhering to the solid",
+    "To change the equation’s mole ratio"
+   ],
+   "answer": 2,
+   "explanation": "Washing removes residual mother liquor and dissolved impurities that could otherwise inflate the dried mass. The wash liquid must be chosen to avoid significant dissolution of the precipitate."
+  },
+  {
+   "id": "ah-expand-b01-084",
+   "topic": "stoich",
+   "q": "A precipitate contains 0.00300 mol BaSO₄. What mass of sulfate ions does this represent? GFM(SO₄²⁻) = 96.0 g.",
+   "options": [
+    "0.699 g",
+    "32.0 g",
+    "0.0288 g",
+    "0.288 g"
+   ],
+   "answer": 3,
+   "explanation": "Each BaSO₄ formula unit contains one sulfate ion, so n(SO₄²⁻) = 0.00300 mol. Mass = 0.00300 × 96.0 = 0.288 g, not the mass of the entire precipitate."
+  },
+  {
+   "id": "ah-expand-b01-085",
+   "topic": "practical",
+   "q": "Why cool a recrystallisation mixture slowly before final ice-bath cooling?",
+   "options": [
+    "To favour crystal growth while allowing impurities to remain in the mother liquor",
+    "To make all impurities crystallise first by definition",
+    "To prevent any crystals forming",
+    "To force the solvent to react with the product"
+   ],
+   "answer": 0,
+   "explanation": "Slow initial cooling promotes orderly crystal growth and can reduce impurity trapping. Final cooling improves recovery, although purification and yield must be balanced."
+  },
+  {
+   "id": "ah-expand-b01-086",
+   "topic": "practical",
+   "q": "A purified solid has a narrow melting range matching a reference. What does a mixed melting point without depression provide?",
+   "options": [
+    "Proof that the substance contains no atoms of oxygen",
+    "Additional support for identity, rather than absolute proof",
+    "A measurement of its molecular mass",
+    "Evidence that the material is definitely a mixture of unrelated solids"
+   ],
+   "answer": 1,
+   "explanation": "An unchanged mixed melting point supports the sample and reference being the same compound. It is useful alongside other evidence, but should not be presented as infallible proof."
+  },
+  {
+   "id": "ah-expand-b01-087",
+   "topic": "practical",
+   "q": "An organic product in a separating funnel forms the upper layer. What information is needed before deciding which layer to keep?",
+   "options": [
+    "Only the colour of the funnel tap",
+    "The boiling point of the glass",
+    "Which solvent contains the product and the relative densities of the layers",
+    "A rule that the upper layer is always aqueous"
+   ],
+   "answer": 2,
+   "explanation": "Layer position depends on density, and the product distribution depends on solubility. Some organic solvents are denser than water, so the organic layer is not always uppermost."
+  },
+  {
+   "id": "ah-expand-b01-088",
+   "topic": "stoich",
+   "q": "An aliquot of 20.0 cm³ is diluted to 100.0 cm³. The diluted solution contains 0.0120 mol l⁻¹ analyte. What was the original concentration?",
+   "options": [
+    "0.00240 mol l⁻¹",
+    "0.0120 mol l⁻¹",
+    "0.600 mol l⁻¹",
+    "0.0600 mol l⁻¹"
+   ],
+   "answer": 3,
+   "explanation": "The dilution factor is 100.0/20.0 = 5. Original concentration = 5 × 0.0120 = 0.0600 mol l⁻¹. Concentration falls on dilution while solute moles are conserved."
+  },
+  {
+   "id": "ah-expand-b01-089",
+   "topic": "practical",
+   "q": "Two students use the same burette with a constant reading offset. Why can the delivered titre still be correct?",
+   "options": [
+    "The same offset cancels when the initial reading is subtracted from the final reading",
+    "All burette errors cancel in every experiment",
+    "A constant offset changes the reaction ratio to compensate",
+    "The final reading alone is always the titre"
+   ],
+   "answer": 0,
+   "explanation": "If both readings have the same additive offset, (final + offset) − (initial + offset) equals final − initial. This does not cancel scale errors, air bubbles or different reading errors."
+  },
+  {
+   "id": "ah-expand-b01-090",
+   "topic": "practical",
+   "q": "A reaction mixture gives one TLC spot matching the desired product. What is the best interpretation?",
+   "options": [
+    "It proves 100% chemical purity",
+    "It supports the desired product’s presence, but co-eluting or undetected impurities remain possible",
+    "It gives the product’s molecular mass directly",
+    "It shows that the reaction yield is exactly 100%"
+   ],
+   "answer": 1,
+   "explanation": "TLC has finite resolving and detection power. A single matching spot is useful evidence, but another substance may have the same Rf or fail to appear with the chosen visualisation."
   }
  ]
 };

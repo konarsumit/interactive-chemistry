@@ -1321,6 +1321,1164 @@ unitLabel:"Area", topicLabel:"Topic",
   ],
   "answer": 1,
   "explanation": "Acid + metal carbonate → salt + water + carbon dioxide. The gas turns limewater milky."
+ },
+ // batch SQA additions b01 (89 questions)
+ {
+  "id": "n5-expand-b01-001",
+  "topic": "rates",
+  "q": "A tablet produces 18 cm³ gas by 15 s and 54 cm³ by 45 s. What is the average rate between these readings?",
+  "options": [
+   "1.2 cm³ s⁻¹",
+   "0.8 cm³ s⁻¹",
+   "1.8 cm³ s⁻¹",
+   "2.4 cm³ s⁻¹"
+  ],
+  "answer": 0,
+  "explanation": "Use changes in both measurements: rate = (54 − 18)/(45 − 15) = 36/30 = 1.2 cm³ s⁻¹. Using the final volume alone includes gas made before the interval."
+ },
+ {
+  "id": "n5-expand-b01-002",
+  "topic": "rates",
+  "q": "Two equal marble samples react with excess acid. Powder finishes first, but both produce the same final gas volume. What does this show?",
+  "options": [
+   "Powder contains more carbonate per gram",
+   "Surface area changes rate but not the amount produced from a fixed amount of marble",
+   "Powder lowers the amount of acid required per mole",
+   "Powder changes the balanced reaction equation"
+  ],
+  "answer": 1,
+  "explanation": "Powder exposes more surface to acid, increasing collisions per second. With acid in excess, equal carbonate amounts still produce equal amounts of carbon dioxide."
+ },
+ {
+  "id": "n5-expand-b01-003",
+  "topic": "rates",
+  "q": "An experiment loses 0.24 g in the first 30 s and another 0.12 g in the next 30 s. How do the average rates compare?",
+  "options": [
+   "The second rate is twice the first",
+   "Both rates are equal",
+   "The first rate is twice the second",
+   "The first rate is four times the second"
+  ],
+  "answer": 2,
+  "explanation": "The intervals are equal, so compare mass losses directly: 0.24/0.12 = 2. The average rates are 0.008 and 0.004 g s⁻¹."
+ },
+ {
+  "id": "n5-expand-b01-004",
+  "topic": "rates",
+  "q": "An acid reaction becomes slower even though some solid reactant remains. Which measurement could help explain this?",
+  "options": [
+   "The number of protons in each acid molecule increases",
+   "The remaining solid gains a new atomic number",
+   "The reaction produces additional acid of the same concentration",
+   "The concentration of acid decreases during reaction"
+  ],
+  "answer": 3,
+  "explanation": "Acid particles are used up, lowering their concentration. Fewer acid particles reach the solid surface each second, so successful collisions become less frequent."
+ },
+ {
+  "id": "n5-expand-b01-005",
+  "topic": "rates",
+  "q": "A gas syringe leaks during a reaction. Which result is most directly affected?",
+  "options": [
+   "The measured volume of gas is lower than the volume actually formed",
+   "The balanced equation needs fewer product molecules",
+   "The solid reactant becomes a catalyst",
+   "The gas has a smaller molecular mass"
+  ],
+  "answer": 0,
+  "explanation": "Some gas escapes instead of entering the syringe. Its recorded volume underestimates production; the chemical equation and molecular mass do not change."
+ },
+ {
+  "id": "n5-expand-b01-006",
+  "topic": "rates",
+  "q": "Three equal strips react separately with acid at 15 °C, 25 °C and 35 °C. Which comparison gives a fair temperature investigation?",
+  "options": [
+   "Increase acid concentration with temperature",
+   "Use the same acid concentration and strip dimensions in every run",
+   "Use a longer strip at each higher temperature",
+   "Change the metal used at each temperature"
+  ],
+  "answer": 1,
+  "explanation": "Only temperature should be deliberately varied. Acid concentration and the metal surface must be controlled so any rate difference can be linked to temperature."
+ },
+ {
+  "id": "n5-expand-b01-007",
+  "topic": "rates",
+  "q": "Gas volumes at 0, 20, 40 and 60 s are 0, 32, 48 and 56 cm³. During which interval is the average rate greatest?",
+  "options": [
+   "20–40 s",
+   "40–60 s",
+   "0–20 s",
+   "The rates are equal in every interval"
+  ],
+  "answer": 2,
+  "explanation": "The volume increases are 32, 16 and 8 cm³ in equal 20 s intervals. The first interval therefore has the greatest average rate: 32/20 = 1.6 cm³ s⁻¹."
+ },
+ {
+  "id": "n5-expand-b01-008",
+  "topic": "rates",
+  "q": "A catalyst is recovered after making oxygen from hydrogen peroxide. Which observation supports its classification as a catalyst?",
+  "options": [
+   "It is always a metal",
+   "It increases the mass of oxygen possible from a fixed sample",
+   "It supplies all the oxygen atoms in the product",
+   "It increases the rate and is not used up overall"
+  ],
+  "answer": 3,
+  "explanation": "A catalyst increases rate while being regenerated overall. It does not change the maximum product amount from fixed reactants and does not have to be a metal."
+ },
+ {
+  "id": "n5-expand-b01-009",
+  "topic": "rates",
+  "q": "A fixed cloudy end-point takes 75 s in one run and 25 s in another. Using 1/time as relative rate, how much faster is the second run?",
+  "options": [
+   "Three times",
+   "One third as fast",
+   "Fifty times",
+   "Twice"
+  ],
+  "answer": 0,
+  "explanation": "The rate ratio is (1/25)/(1/75) = 75/25 = 3. Shorter time means a larger relative rate when the same visible change is measured."
+ },
+ {
+  "id": "n5-expand-b01-010",
+  "topic": "rates",
+  "q": "Equal magnesium strips react with excess acid of equal concentration. One run uses twice the acid volume. At the same temperature, what is expected initially?",
+  "options": [
+   "Twice the initial rate because there are twice as many acid particles overall",
+   "Approximately the same initial rate",
+   "Half the initial rate because the acid is more spread out",
+   "No reaction in the larger volume"
+  ],
+  "answer": 1,
+  "explanation": "The concentration at the metal surface is unchanged, as are temperature and surface area. Extra volume provides more total acid but does not itself double the initial rate."
+ },
+ {
+  "id": "n5-expand-b01-011",
+  "topic": "bonding",
+  "q": "An ion has 12 protons and 10 electrons. What charge does it carry?",
+  "options": [
+   "2−",
+   "12+",
+   "2+",
+   "10−"
+  ],
+  "answer": 2,
+  "explanation": "Each proton contributes +1 and each electron −1. The net charge is 12 − 10 = +2; losing electrons does not change the number of protons."
+ },
+ {
+  "id": "n5-expand-b01-012",
+  "topic": "bonding",
+  "q": "An atom has atomic number 9 and mass number 19. How many neutrons does it contain?",
+  "options": [
+   "9",
+   "19",
+   "28",
+   "10"
+  ],
+  "answer": 3,
+  "explanation": "Mass number counts protons plus neutrons. Neutrons = 19 − 9 = 10; atomic number counts protons only."
+ },
+ {
+  "id": "n5-expand-b01-013",
+  "topic": "bonding",
+  "q": "Which description fits the bonding within a water molecule?",
+  "options": [
+   "Two shared electron pairs, one in each O–H bond",
+   "Two electrons transferred from oxygen to hydrogen",
+   "A lattice of freely moving positive ions",
+   "Two shared pairs between the hydrogen atoms"
+  ],
+  "answer": 0,
+  "explanation": "Each O–H single covalent bond contains one shared pair. There are two such bonds in a water molecule; it is not an ionic lattice."
+ },
+ {
+  "id": "n5-expand-b01-014",
+  "topic": "bonding",
+  "q": "A pure solid is insulating, becomes conducting on melting and has a high melting point. Which explanation best fits?",
+  "options": [
+   "Its molecules split into free protons on melting",
+   "It contains ions that become mobile when molten",
+   "It contains electrons that only exist above its melting point",
+   "All covalent substances behave this way"
+  ],
+  "answer": 1,
+  "explanation": "An ionic solid has charged particles fixed in a lattice. Melting frees the ions to move and carry charge; substantial energy is needed to overcome ionic attractions."
+ },
+ {
+  "id": "n5-expand-b01-015",
+  "topic": "bonding",
+  "q": "Why can an ionic compound be electrically neutral despite containing charged particles?",
+  "options": [
+   "Every ion loses its charge inside the lattice",
+   "Electrons stop carrying negative charge in compounds",
+   "Positive and negative charges balance in its formula",
+   "The compound contains equal masses of each element"
+  ],
+  "answer": 2,
+  "explanation": "The formula contains ions in a ratio giving zero total charge. Individual ions retain their charges; neutrality does not require equal numbers or equal masses of different ions."
+ },
+ {
+  "id": "n5-expand-b01-016",
+  "topic": "bonding",
+  "q": "Which formula follows from Ca²⁺ and N³⁻ ions?",
+  "options": [
+   "Ca₂N₃",
+   "CaN",
+   "Ca₃N₃",
+   "Ca₃N₂"
+  ],
+  "answer": 3,
+  "explanation": "Three Ca²⁺ ions give +6 and two N³⁻ ions give −6. Ca₃N₂ is the simplest ratio with no overall charge."
+ },
+ {
+  "id": "n5-expand-b01-017",
+  "topic": "bonding",
+  "q": "A molecule of oxygen contains an O=O bond. How many bonding electrons are shared between its atoms?",
+  "options": [
+   "4",
+   "1",
+   "2",
+   "8"
+  ],
+  "answer": 0,
+  "explanation": "A double bond contains two shared electron pairs. Two pairs contain four bonding electrons; lone pairs are not included in this count."
+ },
+ {
+  "id": "n5-expand-b01-018",
+  "topic": "bonding",
+  "q": "Which particle has the same electron arrangement as neon, 2,8?",
+  "options": [
+   "O⁺",
+   "O²⁻",
+   "Na²⁺",
+   "Mg⁺"
+  ],
+  "answer": 1,
+  "explanation": "Oxygen has eight electrons as an atom and gains two to form O²⁻, giving ten electrons arranged 2,8. Count electrons after applying the ion charge."
+ },
+ {
+  "id": "n5-expand-b01-019",
+  "topic": "bonding",
+  "q": "Which statement about a piece of copper best explains both its conductivity and its structure?",
+  "options": [
+   "It consists of separate neutral Cu₂ molecules",
+   "Its ions move freely through the solid",
+   "It has positive metal ions surrounded by delocalised electrons",
+   "It has alternating copper anions and copper cations"
+  ],
+  "answer": 2,
+  "explanation": "Metallic bonding involves positive ions attracted to delocalised electrons. These electrons move through the solid and carry electrical charge; the ions do not flow through it."
+ },
+ {
+  "id": "n5-expand-b01-020",
+  "topic": "bonding",
+  "q": "Diamond and a molecular solid both contain covalent bonds. Why can their melting points differ greatly?",
+  "options": [
+   "A molecular solid contains no electrons",
+   "Every bond in a molecular solid is ionic",
+   "Diamond consists of individual carbon molecules",
+   "Diamond has a network of strong covalent bonds, whereas melting a molecular solid mainly overcomes intermolecular attractions"
+  ],
+  "answer": 3,
+  "explanation": "The key difference is structure. Melting a network requires breaking strong bonds throughout it; separating molecules usually requires much less energy than breaking bonds within them."
+ },
+ {
+  "id": "n5-expand-b01-021",
+  "topic": "quantities",
+  "q": "What is the GFM of Mg(OH)₂? Use Mg = 24, O = 16 and H = 1.",
+  "options": [
+   "58 g",
+   "41 g",
+   "42 g",
+   "82 g"
+  ],
+  "answer": 0,
+  "explanation": "The brackets multiply both O and H by two: 24 + 2 × (16 + 1) = 58 g. Counting only one hydroxide group gives the wrong result."
+ },
+ {
+  "id": "n5-expand-b01-022",
+  "topic": "quantities",
+  "q": "A 0.080 mol sample of a compound has a mass of 6.40 g. What is its GFM?",
+  "options": [
+   "0.0125 g",
+   "80 g",
+   "6.48 g",
+   "512 g"
+  ],
+  "answer": 1,
+  "explanation": "GFM = mass/amount = 6.40/0.080 = 80 g. The mass of one mole is found by scaling the measured mass up to one mole."
+ },
+ {
+  "id": "n5-expand-b01-023",
+  "topic": "quantities",
+  "q": "How many moles of chloride ions are present in 0.030 mol MgCl₂ dissolved in water?",
+  "options": [
+   "0.015 mol",
+   "0.030 mol",
+   "0.060 mol",
+   "0.090 mol"
+  ],
+  "answer": 2,
+  "explanation": "Each MgCl₂ formula unit provides two chloride ions. Therefore 0.030 × 2 = 0.060 mol Cl⁻; the magnesium ions are counted separately."
+ },
+ {
+  "id": "n5-expand-b01-024",
+  "topic": "quantities",
+  "q": "A solution contains 0.018 mol solute in 150 cm³. What is its concentration?",
+  "options": [
+   "0.000120 mol l⁻¹",
+   "8.33 mol l⁻¹",
+   "2.70 mol l⁻¹",
+   "0.120 mol l⁻¹"
+  ],
+  "answer": 3,
+  "explanation": "Convert 150 cm³ to 0.150 litre. Concentration = n/V = 0.018/0.150 = 0.120 mol l⁻¹; using 150 without conversion gives a thousandfold error."
+ },
+ {
+  "id": "n5-expand-b01-025",
+  "topic": "quantities",
+  "q": "What mass of KOH is needed for 250 cm³ of 0.200 mol l⁻¹ solution? GFM(KOH) = 56 g.",
+  "options": [
+   "2.80 g",
+   "11.2 g",
+   "0.224 g",
+   "2800 g"
+  ],
+  "answer": 0,
+  "explanation": "n = cV = 0.200 × 0.250 = 0.0500 mol. Mass = n × GFM = 0.0500 × 56 = 2.80 g."
+ },
+ {
+  "id": "n5-expand-b01-026",
+  "topic": "quantities",
+  "q": "In 2Al + 3Cl₂ → 2AlCl₃, how many moles of AlCl₃ can form from 0.12 mol Al with excess chlorine?",
+  "options": [
+   "0.06 mol",
+   "0.12 mol",
+   "0.18 mol",
+   "0.24 mol"
+  ],
+  "answer": 1,
+  "explanation": "The coefficients of Al and AlCl₃ are both two, so their mole ratio is 1:1. Thus 0.12 mol aluminium produces 0.12 mol aluminium chloride."
+ },
+ {
+  "id": "n5-expand-b01-027",
+  "topic": "quantities",
+  "q": "What percentage by mass of MgO is oxygen? Use Mg = 24 and O = 16.",
+  "options": [
+   "16%",
+   "60%",
+   "40%",
+   "66.7%"
+  ],
+  "answer": 2,
+  "explanation": "GFM(MgO) = 24 + 16 = 40 g. Oxygen contributes 16 g per mole, so its percentage is 16/40 × 100 = 40%."
+ },
+ {
+  "id": "n5-expand-b01-028",
+  "topic": "quantities",
+  "q": "What mass of oxygen combines with 4.8 g magnesium to form MgO? Use Mg = 24 and O = 16; 2Mg + O₂ → 2MgO.",
+  "options": [
+   "1.6 g",
+   "4.8 g",
+   "6.4 g",
+   "3.2 g"
+  ],
+  "answer": 3,
+  "explanation": "n(Mg) = 4.8/24 = 0.20 mol. This requires 0.10 mol O₂, with mass 0.10 × 32 = 3.2 g. The 2:1 ratio refers to Mg atoms and O₂ molecules."
+ },
+ {
+  "id": "n5-expand-b01-029",
+  "topic": "quantities",
+  "q": "What coefficient goes before H₂O in the smallest whole-number equation Fe + H₂O → Fe₃O₄ + H₂?",
+  "options": [
+   "4",
+   "2",
+   "3",
+   "8"
+  ],
+  "answer": 0,
+  "explanation": "The balanced equation is 3Fe + 4H₂O → Fe₃O₄ + 4H₂. Four water molecules supply the four oxygen atoms and eight hydrogen atoms."
+ },
+ {
+  "id": "n5-expand-b01-030",
+  "topic": "quantities",
+  "q": "Calcium carbonate decomposes as CaCO₃ → CaO + CO₂. What mass of CO₂ forms from 7.50 g CaCO₃? GFMs: CaCO₃ = 100 g; CO₂ = 44 g.",
+  "options": [
+   "7.50 g",
+   "3.30 g",
+   "17.0 g",
+   "0.330 g"
+  ],
+  "answer": 1,
+  "explanation": "n(CaCO₃) = 7.50/100 = 0.0750 mol. The 1:1 ratio gives 0.0750 mol CO₂, with mass 0.0750 × 44 = 3.30 g."
+ },
+ {
+  "id": "n5-expand-b01-031",
+  "topic": "fuels",
+  "q": "A reaction cools its surroundings while occurring. Which energy statement is correct?",
+  "options": [
+   "The reaction releases energy to its surroundings",
+   "No energy is transferred",
+   "The reaction takes in energy from its surroundings",
+   "Energy disappears because mass is lost"
+  ],
+  "answer": 2,
+  "explanation": "Cooling shows energy flowing from the surroundings into the reaction. This is endothermic; the energy has been transferred rather than destroyed."
+ },
+ {
+  "id": "n5-expand-b01-032",
+  "topic": "fuels",
+  "q": "Water gains 3.344 kJ when heated by 8.0 °C. What mass of water is heated? Use c = 4.18 kJ kg⁻¹ °C⁻¹.",
+  "options": [
+   "1.00 kg",
+   "0.0100 kg",
+   "10.0 kg",
+   "0.100 kg"
+  ],
+  "answer": 3,
+  "explanation": "Rearrange E = cmΔT to m = E/(cΔT). Thus m = 3.344/(4.18 × 8.0) = 0.100 kg, equivalent to 100 g."
+ },
+ {
+  "id": "n5-expand-b01-033",
+  "topic": "fuels",
+  "q": "A heater transfers 5.016 kJ to 0.200 kg water. What is its temperature rise? Use c = 4.18 kJ kg⁻¹ °C⁻¹.",
+  "options": [
+   "6.0 °C",
+   "1.2 °C",
+   "24.0 °C",
+   "60.0 °C"
+  ],
+  "answer": 0,
+  "explanation": "ΔT = E/(cm) = 5.016/(4.18 × 0.200) = 6.0 °C. This is the rise in temperature, not the final temperature."
+ },
+ {
+  "id": "n5-expand-b01-034",
+  "topic": "fuels",
+  "q": "A spirit burner is weighed before and after heating water. Why is the difference in mass needed?",
+  "options": [
+   "It directly measures the water temperature",
+   "It measures how much fuel has been used",
+   "It gives the mass of oxygen from the air",
+   "It measures the mass of carbon dioxide dissolved in water"
+  ],
+  "answer": 1,
+  "explanation": "The burner loses mass as fuel leaves it. This loss is used to calculate fuel consumed, which is needed when comparing energy released per gram or per mole."
+ },
+ {
+  "id": "n5-expand-b01-035",
+  "topic": "fuels",
+  "q": "Which change best reduces heat lost from a beaker calorimetry experiment?",
+  "options": [
+   "Doubling the distance between flame and beaker",
+   "Leaving the water unstirred",
+   "Adding a suitable insulating jacket around the beaker",
+   "Using a much wider open beaker without a lid"
+  ],
+  "answer": 2,
+  "explanation": "Insulation reduces energy transfer to the surroundings. More of the energy released can then be measured as a temperature rise in the water."
+ },
+ {
+  "id": "n5-expand-b01-036",
+  "topic": "fuels",
+  "q": "A fuel provides 12 kJ from 0.50 g. What is its energy release per gram?",
+  "options": [
+   "6.0 kJ g⁻¹",
+   "0.042 kJ g⁻¹",
+   "12.5 kJ g⁻¹",
+   "24 kJ g⁻¹"
+  ],
+  "answer": 3,
+  "explanation": "Divide energy by fuel mass: 12/0.50 = 24 kJ g⁻¹. Multiplying by mass would not give energy per gram."
+ },
+ {
+  "id": "n5-expand-b01-037",
+  "topic": "fuels",
+  "q": "Equal masses of two fuels heat the same mass of water. Fuel P gives a 12 °C rise and Q gives an 18 °C rise. Assuming equal heat loss, what is the energy ratio Q:P?",
+  "options": [
+   "1.5:1",
+   "1:1.5",
+   "6:1",
+   "2:3"
+  ],
+  "answer": 0,
+  "explanation": "For the same water mass and heat capacity, energy is proportional to temperature rise. Q:P = 18:12 = 1.5:1."
+ },
+ {
+  "id": "n5-expand-b01-038",
+  "topic": "fuels",
+  "q": "A reaction mixture warms from 21 °C to 29 °C without external heating. What is the best conclusion?",
+  "options": [
+   "The reaction is endothermic",
+   "The reaction is exothermic",
+   "The products must be gases",
+   "The reactants must contain a metal"
+  ],
+  "answer": 1,
+  "explanation": "A temperature increase indicates energy released into the mixture. This supports an exothermic reaction but does not identify the types of substances present."
+ },
+ {
+  "id": "n5-expand-b01-039",
+  "topic": "fuels",
+  "q": "Why should the water be stirred before its temperature is recorded in a heating experiment?",
+  "options": [
+   "To increase the GFM of the fuel",
+   "To prevent all evaporation of fuel",
+   "To reduce temperature differences within the water",
+   "To make the chemical equation balance"
+  ],
+  "answer": 2,
+  "explanation": "Stirring distributes thermal energy throughout the water. The thermometer then gives a more representative reading rather than the temperature of a local hot region."
+ },
+ {
+  "id": "n5-expand-b01-040",
+  "topic": "fuels",
+  "q": "A fuel burns completely, but only 70% of its released energy reaches the water. If the water gains 14 kJ, how much energy did combustion release?",
+  "options": [
+   "9.8 kJ",
+   "14.7 kJ",
+   "70 kJ",
+   "20 kJ"
+  ],
+  "answer": 3,
+  "explanation": "The water receives 0.70 of the total: total energy = 14/0.70 = 20 kJ. The remaining 6 kJ is transferred elsewhere."
+ },
+ {
+  "id": "n5-expand-b01-041",
+  "topic": "homologous",
+  "q": "A hydrocarbon has eight carbon atoms and belongs to the alkene series with one C=C and no ring. What is its formula?",
+  "options": [
+   "C₈H₁₆",
+   "C₈H₁₈",
+   "C₈H₁₄",
+   "C₁₆H₈"
+  ],
+  "answer": 0,
+  "explanation": "For an acyclic alkene with one double bond, the formula is CₙH₂ₙ. With n = 8 this gives C₈H₁₆; C₈H₁₈ is the corresponding alkane formula."
+ },
+ {
+  "id": "n5-expand-b01-042",
+  "topic": "consumer",
+  "q": "Which condensed formula represents pentan-2-ol?",
+  "options": [
+   "CH₃CH₂CH₂CH₂CH₂OH",
+   "CH₃CH(OH)CH₂CH₂CH₃",
+   "CH₃CH₂CH₂CH₂COOH",
+   "CH₃OCH₂CH₂CH₂CH₃"
+  ],
+  "answer": 1,
+  "explanation": "Pentan- means a chain of five carbons and -2-ol places OH on carbon 2. Number from the end that gives the hydroxyl group its lower number."
+ },
+ {
+  "id": "n5-expand-b01-043",
+  "topic": "fuels",
+  "q": "A cracking reaction is C₁₀H₂₂ → C₆H₁₄ + xC₂H₄. What value of x balances the equation?",
+  "options": [
+   "1",
+   "3",
+   "2",
+   "4"
+  ],
+  "answer": 2,
+  "explanation": "The products need four more carbon atoms after C₆H₁₄, requiring two C₂H₄ molecules. Their eight hydrogens also balance the total: 14 + 8 = 22."
+ },
+ {
+  "id": "n5-expand-b01-044",
+  "topic": "consumer",
+  "q": "Which formula represents propanoic acid?",
+  "options": [
+   "CH₃CH₂CH₂OH",
+   "CH₃COOH",
+   "CH₃COCH₃",
+   "CH₃CH₂COOH"
+  ],
+  "answer": 3,
+  "explanation": "The carboxyl carbon counts as part of the three-carbon chain: CH₃–CH₂–COOH. The OH in an alcohol is not a carboxyl group."
+ },
+ {
+  "id": "n5-expand-b01-045",
+  "topic": "homologous",
+  "q": "Why do members of one homologous series have similar chemical reactions?",
+  "options": [
+   "They contain the same functional group",
+   "They all have the same molecular mass",
+   "They all have the same number of carbons",
+   "They all have identical boiling points"
+  ],
+  "answer": 0,
+  "explanation": "The functional group largely controls chemical reactions. Chain length can change physical properties such as boiling point without changing the homologous series."
+ },
+ {
+  "id": "n5-expand-b01-046",
+  "topic": "homologous",
+  "q": "Propene is converted into propane using hydrogen. What happens to the carbon–carbon bond?",
+  "options": [
+   "A single bond becomes a triple bond",
+   "A double bond becomes a single bond",
+   "The carbon chain loses one carbon",
+   "The double bond remains and hydrogen is removed"
+  ],
+  "answer": 1,
+  "explanation": "Hydrogen adds across C=C, producing a saturated molecule. The carbon skeleton is retained, while the double bond becomes a single bond."
+ },
+ {
+  "id": "n5-expand-b01-047",
+  "topic": "consumer",
+  "q": "What is the molecular formula of pentanol, an alcohol with five carbons and no ring or multiple carbon bond?",
+  "options": [
+   "C₅H₁₀O",
+   "C₅H₁₂O₂",
+   "C₅H₁₂O",
+   "C₅H₁₀O₂"
+  ],
+  "answer": 2,
+  "explanation": "A saturated monohydric alcohol has formula CₙH₂ₙ₊₂O. Five carbons give C₅H₁₂O; the OH hydrogen is included in the total twelve."
+ },
+ {
+  "id": "n5-expand-b01-048",
+  "topic": "plastics",
+  "q": "Which change occurs when many ethene molecules form poly(ethene)?",
+  "options": [
+   "Every monomer loses a molecule of carbon dioxide",
+   "The carbon atoms are converted into oxygen atoms",
+   "The product contains only separate ethene molecules",
+   "The C=C bonds open to form a chain with C–C links"
+  ],
+  "answer": 3,
+  "explanation": "Addition polymerisation links monomers by opening their carbon–carbon double bonds. No small molecule is eliminated in forming poly(ethene)."
+ },
+ {
+  "id": "n5-expand-b01-049",
+  "topic": "homologous",
+  "q": "Which pair belongs to the same homologous series but are not isomers?",
+  "options": [
+   "Ethanol and propan-1-ol",
+   "Butane and 2-methylpropane",
+   "Ethene and ethanol",
+   "Propanoic acid and propan-1-ol"
+  ],
+  "answer": 0,
+  "explanation": "Ethanol and propan-1-ol are alcohols differing by CH₂. They have different molecular formulae, so they are not isomers; isomers must share a molecular formula."
+ },
+ {
+  "id": "n5-expand-b01-050",
+  "topic": "homologous",
+  "q": "A hydrocarbon consumes bromine by addition. What changes in the bromine solution?",
+  "options": [
+   "It becomes purple",
+   "Its orange-brown colour disappears",
+   "It produces a brick-red precipitate",
+   "It becomes a black solid in every case"
+  ],
+  "answer": 1,
+  "explanation": "Bromine reacts at a carbon–carbon multiple bond and its colour is lost. A precipitate test for aldehydes is a different reaction and reagent."
+ },
+ {
+  "id": "n5-expand-b01-051",
+  "topic": "acids",
+  "q": "A solution contains equal concentrations of H⁺ and OH⁻ at room temperature. How is it classified?",
+  "options": [
+   "Acidic",
+   "Alkaline",
+   "Neutral",
+   "Always a concentrated salt solution"
+  ],
+  "answer": 2,
+  "explanation": "Neutrality means hydrogen and hydroxide ion concentrations are equal. It does not mean that neither type of ion is present."
+ },
+ {
+  "id": "n5-expand-b01-052",
+  "topic": "acids",
+  "q": "Which equation shows neutralisation at the ion level?",
+  "options": [
+   "H⁺ + H⁺ → H₂",
+   "Na⁺ + Cl⁻ → H₂O",
+   "OH⁻ → O₂ + H⁺",
+   "H⁺ + OH⁻ → H₂O"
+  ],
+  "answer": 3,
+  "explanation": "Hydrogen ions react with hydroxide ions to form water. Other ions may remain dissolved as spectator ions in the salt solution."
+ },
+ {
+  "id": "n5-expand-b01-053",
+  "topic": "acids",
+  "q": "Sulfuric acid reacts with copper(II) oxide. Which salt is formed?",
+  "options": [
+   "Copper(II) sulfate",
+   "Copper(II) sulfide",
+   "Copper(II) nitrate",
+   "Copper(II) chloride"
+  ],
+  "answer": 0,
+  "explanation": "The acid supplies the sulfate part of the salt and the oxide supplies copper. The other product is water: CuO + H₂SO₄ → CuSO₄ + H₂O."
+ },
+ {
+  "id": "n5-expand-b01-054",
+  "topic": "acids",
+  "q": "An alkaline solution is diluted with pure water and remains alkaline. How does its pH change?",
+  "options": [
+   "It increases away from 7",
+   "It decreases towards 7",
+   "It becomes negative",
+   "It must become exactly 7 immediately"
+  ],
+  "answer": 1,
+  "explanation": "Dilution reduces hydroxide ion concentration, bringing pH closer to neutral. An alkaline solution does not become acidic just because water is added."
+ },
+ {
+  "id": "n5-expand-b01-055",
+  "topic": "acids",
+  "q": "A solution changes from pH 6 to pH 4. How does its hydrogen ion concentration change?",
+  "options": [
+   "It decreases by a factor of 100",
+   "It doubles",
+   "It increases by a factor of 100",
+   "It increases by a factor of 2"
+  ],
+  "answer": 2,
+  "explanation": "Each pH unit corresponds to a tenfold change in hydrogen ion concentration. A decrease of two units gives 10 × 10 = 100 times greater concentration."
+ },
+ {
+  "id": "n5-expand-b01-056",
+  "topic": "acids",
+  "q": "Which products form when hydrochloric acid reacts with sodium carbonate?",
+  "options": [
+   "Sodium hydroxide and hydrogen",
+   "Sodium sulfate and oxygen",
+   "Sodium chloride and oxygen only",
+   "Sodium chloride, water and carbon dioxide"
+  ],
+  "answer": 3,
+  "explanation": "Acid plus carbonate gives a salt, water and CO₂. Hydrochloric acid forms a chloride salt; hydrogen gas is characteristic of some acid–metal reactions instead."
+ },
+ {
+  "id": "n5-expand-b01-057",
+  "topic": "acids",
+  "q": "What volume of 0.150 mol l⁻¹ HCl neutralises 0.0030 mol NaOH? The ratio is 1:1.",
+  "options": [
+   "20 cm³",
+   "2.0 cm³",
+   "45 cm³",
+   "200 cm³"
+  ],
+  "answer": 0,
+  "explanation": "The required HCl amount is 0.0030 mol. V = n/c = 0.0030/0.150 = 0.020 litre = 20 cm³."
+ },
+ {
+  "id": "n5-expand-b01-058",
+  "topic": "acids",
+  "q": "Why is excess copper(II) oxide added when making copper(II) sulfate from dilute sulfuric acid?",
+  "options": [
+   "To make copper(II) sulfate insoluble",
+   "To ensure all the acid reacts before excess solid is filtered off",
+   "To remove water by reacting it into hydrogen",
+   "To change sulfate ions into chloride ions"
+  ],
+  "answer": 1,
+  "explanation": "An excess of insoluble oxide ensures complete use of the acid. Unreacted oxide can then be filtered away, leaving the salt solution for crystallisation."
+ },
+ {
+  "id": "n5-expand-b01-059",
+  "topic": "acids",
+  "q": "Which pair of oxides is most likely to form alkaline solutions on dissolving in water?",
+  "options": [
+   "CO₂ and SO₂",
+   "SiO₂ and CO₂",
+   "Na₂O and K₂O",
+   "SO₂ and SO₃"
+  ],
+  "answer": 2,
+  "explanation": "Sodium and potassium oxides react with water to form hydroxides. Many non-metal oxides form acidic solutions instead; silicon dioxide is insoluble in water."
+ },
+ {
+  "id": "n5-expand-b01-060",
+  "topic": "acids",
+  "q": "A student adds acid to an alkali until the mixture is neutral. What happens to the excess hydroxide ions?",
+  "options": [
+   "They become neutral hydroxide atoms",
+   "They are converted directly into chloride atoms",
+   "They all escape as oxygen gas",
+   "They react with hydrogen ions to form water"
+  ],
+  "answer": 3,
+  "explanation": "Neutralisation removes excess OH⁻ through H⁺ + OH⁻ → H₂O. The ions are used in a chemical reaction rather than simply losing their charges independently."
+ },
+ {
+  "id": "n5-expand-b01-061",
+  "topic": "metals",
+  "q": "A metal X displaces copper from copper sulfate but cannot displace magnesium from magnesium sulfate. Which conclusion follows?",
+  "options": [
+   "X is more reactive than copper but less reactive than magnesium",
+   "X is less reactive than both metals",
+   "X is more reactive than both metals",
+   "Copper is more reactive than magnesium"
+  ],
+  "answer": 0,
+  "explanation": "A more reactive metal displaces a less reactive one from its compound. The two observations place X between magnesium and copper in reactivity."
+ },
+ {
+  "id": "n5-expand-b01-062",
+  "topic": "metals",
+  "q": "Which change is oxidation in a metal reaction?",
+  "options": [
+   "Cu²⁺ + 2e⁻ → Cu",
+   "Al → Al³⁺ + 3e⁻",
+   "Cl₂ + 2e⁻ → 2Cl⁻",
+   "Ag⁺ + e⁻ → Ag"
+  ],
+  "answer": 1,
+  "explanation": "Oxidation is loss of electrons. Aluminium loses three electrons here, whereas all the other equations show electron gain and therefore reduction."
+ },
+ {
+  "id": "n5-expand-b01-063",
+  "topic": "metals",
+  "q": "Molten lead(II) bromide is electrolysed. What forms at the negative electrode?",
+  "options": [
+   "Bromine",
+   "Oxygen",
+   "Lead metal",
+   "Hydrogen"
+  ],
+  "answer": 2,
+  "explanation": "Pb²⁺ ions move to the negative electrode and gain electrons: Pb²⁺ + 2e⁻ → Pb. There is no water in the molten salt to supply hydrogen."
+ },
+ {
+  "id": "n5-expand-b01-064",
+  "topic": "metals",
+  "q": "Why must both water and oxygen be considered when investigating iron rusting?",
+  "options": [
+   "Only oxygen is required and water always prevents rusting",
+   "Only pure water is required and oxygen prevents rusting",
+   "Both are products of rusting rather than reactants",
+   "Both are needed for rusting under ordinary conditions"
+  ],
+  "answer": 3,
+  "explanation": "Ordinary rusting requires iron exposed to both oxygen and water. Controlling these separately helps show their roles rather than assuming air alone is enough."
+ },
+ {
+  "id": "n5-expand-b01-065",
+  "topic": "metals",
+  "q": "An iron nail is attached to magnesium in damp air. Which metal is preferentially oxidised?",
+  "options": [
+   "Magnesium",
+   "Iron",
+   "Both must oxidise at exactly the same rate",
+   "Neither can lose electrons"
+  ],
+  "answer": 0,
+  "explanation": "Magnesium is more reactive and loses electrons more readily. It acts as a sacrificial metal, helping protect the iron from oxidation."
+ },
+ {
+  "id": "n5-expand-b01-066",
+  "topic": "metals",
+  "q": "Carbon cannot extract aluminium from aluminium oxide in the usual furnace process. Why?",
+  "options": [
+   "Aluminium oxide contains no oxygen",
+   "Aluminium is above carbon in the reactivity series",
+   "Aluminium is a non-metal",
+   "Carbon is more reactive than every metal"
+  ],
+  "answer": 1,
+  "explanation": "Aluminium binds oxygen too strongly for carbon reduction under the usual conditions. Its position above carbon explains the need for electrolysis instead."
+ },
+ {
+  "id": "n5-expand-b01-067",
+  "topic": "metals",
+  "q": "In a simple magnesium–copper cell, electrons flow through the wire from magnesium to copper. Which electrode loses metal atoms as ions?",
+  "options": [
+   "Copper",
+   "Both lose atoms equally",
+   "Magnesium",
+   "Neither because electrons carry metal atoms through the wire"
+  ],
+  "answer": 2,
+  "explanation": "Magnesium atoms lose electrons to form Mg²⁺, supplying the electron flow. The electrons move through the wire; metal ions do not travel inside the wire."
+ },
+ {
+  "id": "n5-expand-b01-068",
+  "topic": "metals",
+  "q": "A metal carbonate is heated and forms an oxide plus a gas that turns limewater milky. What is the gas?",
+  "options": [
+   "Hydrogen",
+   "Oxygen",
+   "Nitrogen",
+   "Carbon dioxide"
+  ],
+  "answer": 3,
+  "explanation": "Thermal decomposition of a metal carbonate produces CO₂. It forms an insoluble calcium carbonate precipitate in limewater, giving the milky appearance."
+ },
+ {
+  "id": "n5-expand-b01-069",
+  "topic": "metals",
+  "q": "Which coating protects iron mainly by acting as a physical barrier, provided the coating stays intact?",
+  "options": [
+   "Paint",
+   "A piece of magnesium wired to the iron",
+   "A copper ion solution",
+   "Dilute hydrochloric acid"
+  ],
+  "answer": 0,
+  "explanation": "Paint prevents oxygen and water reaching the iron while intact. Sacrificial protection by magnesium works by a different mechanism involving preferential oxidation."
+ },
+ {
+  "id": "n5-expand-b01-070",
+  "topic": "metals",
+  "q": "A student balances Zn → Zn²⁺ + e⁻. What correction is needed?",
+  "options": [
+   "Change Zn²⁺ to Zn²⁻",
+   "Put 2 before e⁻",
+   "Put 2 before Zn only",
+   "Move one electron to the left without changing anything else"
+  ],
+  "answer": 1,
+  "explanation": "A zinc atom forms a 2+ ion by losing two electrons. Zn → Zn²⁺ + 2e⁻ balances charge as well as zinc atoms."
+ },
+ {
+  "id": "n5-expand-b01-071",
+  "topic": "bonding",
+  "q": "An element has electron arrangement 2,8,3. Which prediction is most reasonable?",
+  "options": [
+   "It forms a 3− ion by gaining three electrons",
+   "It is a noble gas",
+   "It forms a 3+ ion by losing three outer electrons",
+   "It has three occupied electron shells and no outer electrons"
+  ],
+  "answer": 2,
+  "explanation": "The three outer electrons can be lost to leave the stable 2,8 arrangement. The resulting ion has three fewer electrons than protons, giving charge 3+."
+ },
+ {
+  "id": "n5-expand-b01-072",
+  "topic": "bonding",
+  "q": "Two atoms contain 16 protons each but have 16 and 18 neutrons. Which statement is correct?",
+  "options": [
+   "They belong to different elements",
+   "They both have mass number 16",
+   "One must have a 2+ charge",
+   "They are isotopes with mass numbers 32 and 34"
+  ],
+  "answer": 3,
+  "explanation": "The same proton number means the same element. Their mass numbers are 16 + 16 = 32 and 16 + 18 = 34; neutron number does not determine ion charge."
+ },
+ {
+  "id": "n5-expand-b01-073",
+  "topic": "bonding",
+  "q": "Which electron arrangement places an atom in the same group as fluorine, 2,7?",
+  "options": [
+   "2,8,7",
+   "2,8,2",
+   "2,8,8",
+   "2,1"
+  ],
+  "answer": 0,
+  "explanation": "Elements in the same main group have the same number of outer electrons. Both 2,7 and 2,8,7 have seven outer electrons."
+ },
+ {
+  "id": "n5-expand-b01-074",
+  "topic": "nuclear",
+  "q": "A sample contains 96 mg of a radioisotope with a half-life of 4 days. What mass of that radioisotope remains after 8 days?",
+  "options": [
+   "48 mg",
+   "24 mg",
+   "12 mg",
+   "0 mg"
+  ],
+  "answer": 1,
+  "explanation": "Eight days is two half-lives. The remaining radioactive isotope decreases 96 → 48 → 24 mg; it does not disappear completely after two half-lives."
+ },
+ {
+  "id": "n5-expand-b01-075",
+  "topic": "nuclear",
+  "q": "A radioisotope falls from 160 mg to 20 mg in 18 hours. What is its half-life?",
+  "options": [
+   "3 hours",
+   "9 hours",
+   "6 hours",
+   "12 hours"
+  ],
+  "answer": 2,
+  "explanation": "The decrease 160 → 80 → 40 → 20 requires three half-lives. Each half-life is 18/3 = 6 hours."
+ },
+ {
+  "id": "n5-expand-b01-076",
+  "topic": "nuclear",
+  "q": "During beta-minus decay, what happens to mass number and atomic number?",
+  "options": [
+   "Mass number decreases by 4; atomic number decreases by 2",
+   "Both numbers increase by 1",
+   "Mass number increases by 1; atomic number is unchanged",
+   "Mass number is unchanged; atomic number increases by 1"
+  ],
+  "answer": 3,
+  "explanation": "A neutron becomes a proton and emits an electron. The total number of nucleons is unchanged, but the number of protons increases by one."
+ },
+ {
+  "id": "n5-expand-b01-077",
+  "topic": "bonding",
+  "q": "An atom has electron arrangement 2,8,8,2. How many occupied shells does it have?",
+  "options": [
+   "4",
+   "2",
+   "8",
+   "20"
+  ],
+  "answer": 0,
+  "explanation": "Each number in the electron arrangement represents one occupied shell. There are four entries, even though the last shell contains only two electrons."
+ },
+ {
+  "id": "n5-expand-b01-079",
+  "topic": "nuclear",
+  "q": "A radioactive tracer must be detectable outside a pipe through a thick covering. Which property is especially useful?",
+  "options": [
+   "Emission of only easily absorbed alpha particles",
+   "An inability to emit any radiation",
+   "Emission of penetrating gamma radiation",
+   "A half-life of exactly zero"
+  ],
+  "answer": 2,
+  "explanation": "Gamma radiation can pass through material to reach an external detector. Suitability also depends on half-life and safety, but low-penetration alpha radiation would be blocked."
+ },
+ {
+  "id": "n5-expand-b01-080",
+  "topic": "bonding",
+  "q": "Chlorine has relative atomic mass 35.5. What does this indicate?",
+  "options": [
+   "Every chlorine atom has 35.5 nucleons",
+   "Every chlorine atom has 35.5 electrons",
+   "Chlorine atoms contain half a neutron",
+   "Its naturally occurring isotopes have a weighted average mass near 35.5"
+  ],
+  "answer": 3,
+  "explanation": "Relative atomic mass is an isotope-abundance-weighted average. Each individual atom has a whole-number count of protons and neutrons, not fractional nucleons."
+ },
+ {
+  "id": "n5-expand-b01-081",
+  "topic": "analysis",
+  "q": "A mixture contains sand and dissolved salt in water. Which sequence can recover the sand and then the salt?",
+  "options": [
+   "Filter, then evaporate water from the filtrate",
+   "Evaporate first, then use a magnet",
+   "Distil the sand, then filter the vapour",
+   "Add more sand, then decant the salt crystals immediately"
+  ],
+  "answer": 0,
+  "explanation": "Filtration collects insoluble sand as residue. The dissolved salt passes into the filtrate and can be recovered by evaporating water and allowing crystallisation."
+ },
+ {
+  "id": "n5-expand-b01-082",
+  "topic": "analysis",
+  "q": "A chromatogram of a food dye gives three separated spots. What does this demonstrate?",
+  "options": [
+   "The sample is a pure element",
+   "The sample contains at least three substances separated under these conditions",
+   "All three spots must have identical molecules",
+   "The sample contains exactly three carbon atoms"
+  ],
+  "answer": 1,
+  "explanation": "Different spots indicate substances moving differently in the chromatographic system. There could be additional substances that do not separate or are not detected."
+ },
+ {
+  "id": "n5-expand-b01-083",
+  "topic": "analysis",
+  "q": "Two inks share one spot at the same height under identical chromatographic conditions. What is the safest conclusion?",
+  "options": [
+   "The inks must be identical mixtures",
+   "They must have the same concentration",
+   "They may contain a common component",
+   "Every substance in either ink is pure"
+  ],
+  "answer": 2,
+  "explanation": "Matching spots support the presence of a shared component but do not prove that the entire mixtures are identical. Different substances can also coincide under one set of conditions."
+ },
+ {
+  "id": "n5-expand-b01-084",
+  "topic": "analysis",
+  "q": "What is the purpose of a condenser in simple distillation?",
+  "options": [
+   "To turn the dissolved solid into a gas",
+   "To supply oxygen to the flask",
+   "To measure the pH of the vapour",
+   "To cool vapour back into liquid"
+  ],
+  "answer": 3,
+  "explanation": "Vapour formed by boiling enters the cooler condenser and loses heat, changing back to liquid. This allows collection of the distilled liquid."
+ },
+ {
+  "id": "n5-expand-b01-085",
+  "topic": "fertilisers",
+  "q": "Which nutrient can be supplied by ammonium nitrate fertiliser?",
+  "options": [
+   "Nitrogen",
+   "Helium",
+   "Chlorine only",
+   "Carbon only"
+  ],
+  "answer": 0,
+  "explanation": "Both ammonium and nitrate ions contain nitrogen, a nutrient needed by plants. The formula NH₄NO₃ shows nitrogen in both ions."
+ },
+ {
+  "id": "n5-expand-b01-086",
+  "topic": "fertilisers",
+  "q": "Why can ammonia be recovered and reused in an industrial cycle?",
+  "options": [
+   "Recycling creates new nitrogen atoms",
+   "Recycling reduces the need for fresh raw material",
+   "A reused substance must have a different formula",
+   "Recycling guarantees no energy is required"
+  ],
+  "answer": 1,
+  "explanation": "Recovering and returning ammonia reduces fresh feedstock demand and waste. It conserves atoms but does not create matter or eliminate all energy costs."
+ },
+ {
+  "id": "n5-expand-b01-087",
+  "topic": "analysis",
+  "q": "A sample is heated, cooled and weighed repeatedly until its mass stops changing. Why use this procedure?",
+  "options": [
+   "To ensure every atom becomes radioactive",
+   "To give the balance a larger zero reading",
+   "To check that the mass-changing process is complete",
+   "To force all solids to become gases"
+  ],
+  "answer": 2,
+  "explanation": "Constant mass suggests that further heating no longer removes the substance being lost, such as water. Cooling before weighing also avoids errors from weighing a hot container."
+ },
+ {
+  "id": "n5-expand-b01-088",
+  "topic": "analysis",
+  "q": "Which apparatus measures a fixed 25.0 cm³ portion more accurately than a measuring cylinder?",
+  "options": [
+   "A large beaker",
+   "A conical flask with no calibration mark",
+   "A filter funnel",
+   "A 25.0 cm³ volumetric pipette"
+  ],
+  "answer": 3,
+  "explanation": "A volumetric pipette is calibrated to deliver one precise volume. Beakers, uncalibrated flasks and funnels are not designed for accurate volume delivery."
+ },
+ {
+  "id": "n5-expand-b01-089",
+  "topic": "analysis",
+  "q": "Why is a white tile placed under a conical flask during a colour-change titration?",
+  "options": [
+   "To make a faint colour change easier to see",
+   "To change the concentration of the titrant",
+   "To neutralise excess acid",
+   "To increase the number of moles in the flask"
+  ],
+  "answer": 0,
+  "explanation": "The white background improves visual contrast at the end-point. It does not participate in the reaction or alter the amounts of the chemicals."
+ },
+ {
+  "id": "n5-expand-b01-090",
+  "topic": "analysis",
+  "q": "A product label states that 2.0 g of a substance is present in each 100 cm³. What mass is present in 350 cm³?",
+  "options": [
+   "0.57 g",
+   "7.0 g",
+   "3.5 g",
+   "70 g"
+  ],
+  "answer": 1,
+  "explanation": "Scale the mass by the volume ratio: 2.0 × 350/100 = 7.0 g. The concentration stays the same while the total amount increases with volume."
  }
  ]
 };
